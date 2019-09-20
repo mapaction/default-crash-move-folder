@@ -1,0 +1,103 @@
+General notes
+-------------
+
+"1. When creating a new map, start by adjusting the coordinate system to the relevant UTM zone."
+
+"2. When revising the MXD files, check that these steps are taken first in order to avoid file size increases due to geoprocessing results being stored:"
+http://support.esri.com/index.cfm?fa=knowledgebase.techArticles.articleShow&d=33187
+
+"3. For details of map file naming, see:"
+http://www.mapaction.org/wiki/index.php/Map_Document_Naming
+A summary of this page is given here:
+
+
+Map document naming summary
+---------------------------
+
+Format: MAnnn_TnnCnnPnn_freetext
+
+"MA  - Producer, MapAction"
+nnn - map number
+Tnn - Time series number (default: T00)
+Cnn - Correction number (default: C00)
+Pnn - Page series number. Generally used for products (e.g. .jpg and .pdf files)
+      rather than .mxd files. (Default: P00)
+Freetext - a concise descriptive title
+"      May include the paper size (e.g. A3, A1) as a suffix"
+
+
+MXD template revision record
+----------------------------
+Matt 05 Jan 2016
+MXDs revised for 2016. 
+
+ASmith 25 March 2015
+Added arcgis10_2 templates created by Kirsty, Mel and Kat at the Dev Day 21 March 2015
+
+
+Matt 4 January 2013
+MXDs updated for 2013
+CrashMoveFolder Template Updated for 2013
+
+Matt 21 September 2012 - 
+Addition of MAnnn_T00C00P00_MapTitleA3(Landscape_Bottom) mxd to folder 32_MXD Templates. This template has the marginalia at the bottom of the page. Useful for wide thin countries.
+Renamed Filename - MAnnn_T00C00P00_MapTitleA3 to FilenameExample- MAnnn_T00C00P00_MapTitleA3.
+
+Matt 7 Feb 2012
+MapAction Logo file reduced in size and reinserted to both maps to reduce overall file size of mxd
+Example dates updated to 2012
+
+Nick 9 Aug 2011
+"Bring inset map forward in drawing order, over main map"
+Replace MapAction logo with new version
+"New map ref name place-holder text (""MAnnn_TnnPnnCnn"")"
+"Add red ""MAnnn"" to top right corner"
+"Move legend upward, above disclaimer and maps details panel"
+
+Nick 4 Aug 2011
+"- NOTE We seem to have lost the revision record between Feb 2010 and Aug 2011. During this time, numerous small layout changes have been made and the new DFID (UK Aid) logo has been added."
+
+Nick 23 Feb 2010
+#NAME?
+#NAME?
+
+Emese 09 Dec 2009
+#NAME?
+#NAME?
+
+Nick 21 Oct 2009
+- Export code version 2.2 added (from Mike H) to add JPG quality setting
+#NAME?
+"- Some 'blank' texts modified to be clearer (e.g. patterns for date, document name)."
+
+Nick 19 May 2009
+"- Changed UTM grid origin to 0,0 (irregular numbers were appearing)"
+"- Changed title to template format: ""Location: Emergency – Subject (Date)"" rather than an example title (to avoid the example being left in by accident)"
+
+Nick 16 Apr 2009
+"- Added UTM grid, with 10 km line spacing, intended mainly for larger scale, navigational maps"
+#NAME?
+
+Nick 8 Apr 2009
+"- Replaced ""Nominal Scale..."" with ""Scale..."""
+#NAME?
+- Tidied up alignment & positioning of left panel stuff; most positions rounded to closest mm
+"- Renamed the two data frames to ""Main map"" and ""Location map"""
+- Set scale of main map to 1:3M and location map to 1:50M (i.e. likely MA001)
+- Graticule: switched off intersection crosses; smaller ticks; labels closer to edge; 1 deg intervals; 1 pt instead of 1.5 point border.
+"- Adjusted size of 'neatline' box to fit HP deskjet 1280 print margins, and adjusted elements to fit within it."
+#NAME?
+#NAME?
+- Inserted scalebar as a 'starter': anchored to centre point; adjust division value when re-sizing
+"- Title, and Description, and Data sources changed to rectangle text boxes (better format control & text flow than straight text)"
+#NAME?
+- Make 'Main map' frame active
+
+Nigel 8 Apr 2009
+#NAME?
+"- Title: have set up as example, using Reliefweb titling convention. May sometimes need 4 lines for longer titles."
+"- Description: in place of sub-title, now shown as an 'abstract' to help users understand what the map depicts. NOTE: some may say the description text should be column-justified, I tried this but it can look a bit ugly, so I reverted to left-justified."
+"- Other marginalia:  have just done a minor tidy up, including:"
+- 'Map Doc Num' now 'Map document'
+#NAME?
+#NAME?

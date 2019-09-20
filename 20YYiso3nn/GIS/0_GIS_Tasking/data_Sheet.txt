@@ -1,0 +1,3 @@
+The data scramble Google spreadsheet should be downloaded after the data scramble.
+This should be used for logging any field data collected.
+At the end of mission this should be synched back to HQ.

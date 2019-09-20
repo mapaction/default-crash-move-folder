@@ -1,0 +1,50 @@
+By using the following convention the photos and folders will remain chronological
+and the mission of the indiviual photo(s) or folder(s) can be identified regardless 
+of its location on the laptop/ storage device. 
+
+Additional tags may be added to the exif (metadata) file.
+
+Keep the folder structure to two levels - Top Level and Level One.
+
+
+------------------------------------------------------------------------------------
+
+TOP LEVEL
+
+The mission photo folder is called the following:
+
+YYYY-MM-DD - COUNTRY/ MISSION NAME
+
+------------------------------------------------------------------------------------
+
+LEVEL ONE
+
+For each photo folder name the folder as the following:
+
+EITHER: 
+
+YYYY-MM-DD - COUNTRY/ MISSION NAME - [ORGANISATION] - [SUBJECT] - [PERSON]
+
+
+Example: 
+
+2010-03-13 - Haiti
+2010-03-13 - Haiti - OSM
+2010-03-13 - Haiti - OSM - Chris P
+
+------------------------------------------------------------------------------------
+
+PHOTOS
+
+Name photos as:
+
+YYYY-MM-DD - COUNTRY - [ORGANISATION] - [SUBJECT] - [PERSON] - NUMBER
+
+
+Example: 
+
+2010-01-29 Haiti 1 - Chris Phillips 001
+
+...
+
+2010-01-29 Haiti 1 - Chris Phillips 103

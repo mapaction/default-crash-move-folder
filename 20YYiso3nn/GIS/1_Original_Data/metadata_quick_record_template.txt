@@ -1,0 +1,25 @@
+
+Filenames:
+
+Description:
+
+Source / date:
+
+Format: 
+Shapefile
+
+Coordinate system: 
+WGS 1984 UTM, Zone XX North, metres
+
+Extent (decimal degrees):
+North: 
+South: 
+ East: 
+ West: 
+
+Processing (what / who / when):
+
+Restrictions, map credits and copyright notices:
+
+Contact:
+...@mapaction.org
