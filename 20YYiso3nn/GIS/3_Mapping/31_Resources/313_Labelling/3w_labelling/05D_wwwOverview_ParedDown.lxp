@@ -1,0 +1,11 @@
+Function FindLabel ([Prov_3w$.CCCM] , [Prov_3w$.ChildProt] , [Prov_3w$.EarlyRecovery] )
+if ( [Prov_3w$.CCCM] <> 0) then
+FindLabel = FindLabel & "CCCM: " & [Prov_3w$.CCCM] &vbNewline
+end if
+if ( [Prov_3w$.ChildProt] <> 0) then
+FindLabel = FindLabel & "Child Protection: " & [Prov_3w$.ChildProt]  &vbNewline
+end if
+if ( [Prov_3w$.EarlyRecovery]  <> 0) then
+FindLabel = FindLabel & "Early Recovery: " & [Prov_3w$.EarlyRecovery] &vbNewline
+end if
+End Function

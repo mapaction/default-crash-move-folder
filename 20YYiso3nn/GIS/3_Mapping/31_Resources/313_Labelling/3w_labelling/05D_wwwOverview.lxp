@@ -1,0 +1,41 @@
+Function FindLabel ([Prov_3w$.CCCM] , [Prov_3w$.ChildProt] , [Prov_3w$.EarlyRecovery] , [Prov_3w$.Education] , [Prov_3w$.EmerShelter] , [Prov_3w$.EmerTele] , [Prov_3w$.Food] , [Prov_3w$.Health] , [Prov_3w$.Livelihood] , [Prov_3w$.Logistics] , [Prov_3w$.Nutrition] , [Prov_3w$.Protection] , [Prov_3w$.WASH] )
+if ( [Prov_3w$.CCCM] <> 0) then
+FindLabel = FindLabel & "CCCM: " & [Prov_3w$.CCCM] &vbNewline
+end if
+if ( [Prov_3w$.ChildProt] <> 0) then
+FindLabel = FindLabel & "Child Protection: " & [Prov_3w$.ChildProt]  &vbNewline
+end if
+if ( [Prov_3w$.EarlyRecovery]  <> 0) then
+FindLabel = FindLabel & "Early Recovery: " & [Prov_3w$.EarlyRecovery] &vbNewline
+end if
+if ( [Prov_3w$.Education]  <> 0) then
+FindLabel = FindLabel & "Education: " & [Prov_3w$.Education] &vbNewline
+end if
+if ( [Prov_3w$.EmerShelter]  <> 0) then
+FindLabel = FindLabel & "Emergency Shelter: " & [Prov_3w$.EmerShelter] &vbNewline
+end if
+if ( [Prov_3w$.EmerTele]  <> 0) then
+FindLabel = FindLabel & "Emergency Telecomms: " & [Prov_3w$.EmerTele] &vbNewline
+end if
+if ( [Prov_3w$.Food] <> 0) then
+FindLabel = FindLabel & "FSA: " & [Prov_3w$.Food] &vbNewline
+end if
+if ( [Prov_3w$.Health] <> 0) then
+FindLabel = FindLabel & "Health: " & [Prov_3w$.Health] &vbNewline
+end if
+if ( [Prov_3w$.Livelihood] <> 0) then
+FindLabel = FindLabel & "Livelihood: " & [Prov_3w$.Livelihood] &vbNewline
+end if
+if ( [Prov_3w$.Logistics] <> 0) then
+FindLabel = FindLabel & "Logistics: " & [Prov_3w$.Logistics] &vbNewline
+end if
+if ( [Prov_3w$.Nutrition] <> 0) then
+FindLabel = FindLabel & "Nutrition: " & [Prov_3w$.Nutrition] &vbNewline
+end if
+if ( [Prov_3w$.Protection] <> 0) then
+FindLabel = FindLabel & "Protection: " & [Prov_3w$.Protection] &vbNewline
+end if
+if ( [Prov_3w$.WASH] <> 0) then
+FindLabel = FindLabel & "WASH: " & [Prov_3w$.WASH] &vbNewline
+end if
+End Function
