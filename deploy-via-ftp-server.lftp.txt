@@ -1,0 +1,4 @@
+set ssl:ca-file "~/.lftp/ftp-cert.crt"
+set ftp:ssl-force true
+open --user gocd-agent --env-password ftps://ftp.mapaction.org
+mirror --reverse --directory=default-cmf --target-directory=/github-mirror --exclude=.git* --continue --parallel=5 -vv
