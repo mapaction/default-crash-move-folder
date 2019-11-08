@@ -1,0 +1,4 @@
+.git*
+deploy-via-ftp-server.lftp.txt
+exclude-from-deploy-list.txt
+ftp.mapaction.org.crt
