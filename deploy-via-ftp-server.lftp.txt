@@ -1,4 +1,4 @@
-set ssl:ca-file "./ftp.mapaction.org.crt"
+set ssl:ca-file "./default-cmf/ftp.mapaction.org.crt"
 set ftp:ssl-force true
 set ftp:ssl-protect-data true
 set ssl:check-hostname true
