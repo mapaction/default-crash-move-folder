@@ -3,4 +3,4 @@ set ftp:ssl-force true
 set ftp:ssl-protect-data true
 set ssl:check-hostname true
 open --user gocd-agent --env-password ftps://ftp.mapaction.org
-mirror --reverse --directory=default-cmf --target-directory=/github-mirror --exclude-glob-from=exclude-from-deploy-list.txt --continue --parallel=5 -vvv
+mirror --reverse --directory=default-cmf --target-directory=/github-mirror --exclude-glob-from=default-cmf/exclude-from-deploy-list.txt --continue --parallel=5 -vvv
