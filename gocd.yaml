@@ -29,9 +29,6 @@ pipelines:
             environment_variables: []
             resources: []
             tasks:
-              - type: exec
-                attributes:
-                  run_if:
-                    - passed
-                  command: pwd
-                  args: ''
+              exec:
+                command: pwd
+                args: ''
