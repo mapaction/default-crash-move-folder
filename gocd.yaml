@@ -31,6 +31,4 @@ pipelines:
             tasks:
               - type: exec
                 attributes:
-                  run_if: passed
                   command: pwd
-                  args: ''
