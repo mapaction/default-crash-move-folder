@@ -12,26 +12,26 @@ pipelines:
         scm: 7b37b961-6310-45e4-9968-25a17397b6a3
         destination: mapy-controller
     stages:
-    - name: stage-pull-test-and-deploy
-      fetch_materials: true
-      clean_working_directory: false
-      never_cleanup_artifacts: true
-      approval:
-        type: success
-        authorization:
-          roles: []
-          users: []
-      environment_variables: []
-      jobs:
-      - name: job-pull-test-and-deploy
-        run_instance_count: 
-        timeout: 
+      - name: stage-pull-test-and-deploy
+        fetch_materials: true
+        clean_working_directory: false
+        never_cleanup_artifacts: true
+        approval:
+          type: success
+          authorization:
+            roles: []
+            users: []
         environment_variables: []
-        resources: []
-        tasks:
-        - type: exec
-          attributes:
-            run_if:
-            - passed
-            command: pwd
-            args: ''
+        jobs:
+          - name: job-pull-test-and-deploy
+            run_instance_count: 
+            timeout: 
+            environment_variables: []
+            resources: []
+            tasks:
+              - type: exec
+                attributes:
+                  run_if:
+                    - passed
+                    command: pwd
+                    args: ''
