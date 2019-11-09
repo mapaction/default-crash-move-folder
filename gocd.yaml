@@ -1,10 +1,9 @@
 format_version: 3
 pipelines:
-  "default-crash-move-folder2":
+  default-crash-move-folder:
     group: defaultGroup
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
-    display_order: -1
     materials:
       default-cmf:
         scm: 4a8cf7af-9170-4379-bb84-7b75a204118c
