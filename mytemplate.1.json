@@ -1,0 +1,198 @@
+{
+  "_links" : {
+    "self" : {
+      "href" : "http://gocd.mapaction.org/go/api/admin/templates/mytemplate"
+    },
+    "doc" : {
+      "href" : "https://api.gocd.org/19.10.0/#template-config"
+    },
+    "find" : {
+      "href" : "http://gocd.mapaction.org/go/api/admin/templates/:template_name"
+    }
+  },
+  "name" : "mytemplate",
+  "parameters" : [ ],
+  "stages" : [ {
+    "name" : "get-changes",
+    "fetch_materials" : true,
+    "clean_working_directory" : false,
+    "never_cleanup_artifacts" : true,
+    "approval" : {
+      "type" : "success",
+      "authorization" : {
+        "roles" : [ ],
+        "users" : [ ]
+      }
+    },
+    "environment_variables" : [ ],
+    "jobs" : [ {
+      "name" : "git-lfs-pull",
+      "run_instance_count" : null,
+      "timeout" : null,
+      "environment_variables" : [ ],
+      "resources" : [ ],
+      "tasks" : [ {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "git",
+          "arguments" : [ "-C", "default-cmf", "lfs", "pull" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "echo",
+          "arguments" : [ "$PR_BRANCH" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "echo",
+          "arguments" : [ "$PR_URL", "$PR_DESCRIPTION" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "virtualenv",
+          "arguments" : [ "--python=python3", "env" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "ls",
+          "arguments" : [ "-l", "/var/lib/go-agent/pipelines/default-crash-move-folder/default-cmf/20YYiso3nn/Operations/Travel/MapAction_Team_Movements_Log.xlsx" ]
+        }
+      } ],
+      "tabs" : [ ],
+      "artifacts" : [ ]
+    } ]
+  }, {
+    "name" : "testing",
+    "fetch_materials" : true,
+    "clean_working_directory" : false,
+    "never_cleanup_artifacts" : true,
+    "approval" : {
+      "type" : "success",
+      "authorization" : {
+        "roles" : [ ],
+        "users" : [ ]
+      }
+    },
+    "environment_variables" : [ ],
+    "jobs" : [ {
+      "name" : "check-sub-dirs",
+      "run_instance_count" : null,
+      "timeout" : null,
+      "environment_variables" : [ ],
+      "resources" : [ ],
+      "tasks" : [ {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "pwd",
+          "args" : ""
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ ],
+          "command" : "ls",
+          "args" : ""
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "virtualenv",
+          "arguments" : [ "--python=python3", "env" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "./env/bin/python3",
+          "arguments" : [ "-m", "pip", "install", "-e", "mapy-controller" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "./env/bin/python3",
+          "arguments" : [ "-m", "mapactionpy_controller.check_naming_convention", "default-cmf/20YYiso3nn/cmf_description.json" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "ls",
+          "arguments" : [ "-l", "/var/lib/go-agent/pipelines/default-crash-move-folder/default-cmf/20YYiso3nn/Operations/Travel/MapAction_Team_Movements_Log.xlsx" ]
+        }
+      } ],
+      "tabs" : [ ],
+      "artifacts" : [ ]
+    } ]
+  }, {
+    "name" : "clone-to-ftp",
+    "fetch_materials" : true,
+    "clean_working_directory" : false,
+    "never_cleanup_artifacts" : false,
+    "approval" : {
+      "type" : "success",
+      "authorization" : {
+        "roles" : [ ],
+        "users" : [ ]
+      }
+    },
+    "environment_variables" : [ ],
+    "jobs" : [ {
+      "name" : "clone-script",
+      "run_instance_count" : null,
+      "timeout" : null,
+      "environment_variables" : [ {
+        "secure" : true,
+        "name" : "LFTP_PASSWORD",
+        "encrypted_value" : "AES:MqCuCm+56dnVR0ugNM5uaA==:4pO/g3WlyMcI4V5NMVdeM/93Ez2Fj/BiAtft2dFCIzU7Kq8Gg4DMvm3/54B7QROf"
+      } ],
+      "resources" : [ ],
+      "tasks" : [ {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ ],
+          "command" : "pwd",
+          "args" : ""
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ ],
+          "command" : "echo",
+          "arguments" : [ "$LFTP_PASSWORD" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "lftp",
+          "arguments" : [ "-f", "default-cmf/deploy-via-ftp-server.lftp.txt" ]
+        }
+      }, {
+        "type" : "exec",
+        "attributes" : {
+          "run_if" : [ "passed" ],
+          "command" : "ls",
+          "arguments" : [ "-l", "/var/lib/go-agent/pipelines/default-crash-move-folder/default-cmf/20YYiso3nn/Operations/Travel/MapAction_Team_Movements_Log.xlsx" ]
+        }
+      } ],
+      "tabs" : [ ],
+      "artifacts" : [ {
+        "type" : "build",
+        "source" : "*",
+        "destination" : ""
+      } ]
+    } ]
+  } ]
+}
