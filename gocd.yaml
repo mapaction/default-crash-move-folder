@@ -17,10 +17,6 @@ pipelines:
             job-pull-test-and-deploy:
               tasks:
                 - exec:
-                    command: pwd
-                - exec:
-                    command: ls
-                - exec:
                     command: git
                     arguments:
                     - "-C"
@@ -28,56 +24,26 @@ pipelines:
                     - lfs
                     - pull
                 - exec:
-                    command: echo
-                    arguments:
-                    - "$GO_SCM_DEFAULT_CMF_PR_BRANCH"
-                - exec:
                     command: virtualenv
                     arguments:
                       - "--python=python3"
                       - env
+                - exec:
+                    command: "./env/bin/python3"
+                    arguments:
+                    - "-m"
+                    - pip
+                    - install
+                    - "-e"
+                    - mapy-controller
+                - exec:
+                    command: "./env/bin/python3"
+                    arguments:
+                    - "-m"
+                    - mapactionpy_controller.check_naming_convention
+                    - default-cmf/20YYiso3nn/cmf_description.json
 
-
-#     - type: exec
-#       attributes:
-#         run_if:
-#         - passed
-#         command: pwd
-#         args: ''
-#     - type: exec
-#       attributes:
-#         run_if: []
-#         command: ls
-#         args: ''
-#     - type: exec
-#       attributes:
-#         run_if:
-#         - passed
-#         command: virtualenv
-#         arguments:
-#         - "--python=python3"
-#         - env
-#     - type: exec
-#       attributes:
-#         run_if:
-#         - passed
-#         command: "./env/bin/python3"
-#         arguments:
-#         - "-m"
-#         - pip
-#         - install
-#         - "-e"
-#         - mapy-controller
-#     - type: exec
-#       attributes:
-#         run_if:
-#         - passed
-#         command: "./env/bin/python3"
-#         arguments:
-#         - "-m"
-#         - mapactionpy_controller.check_naming_convention
-#         - default-cmf/20YYiso3nn/cmf_description.json
-#     - type: exec
+         #     - type: exec
 #       attributes:
 #         run_if:
 #         - passed
