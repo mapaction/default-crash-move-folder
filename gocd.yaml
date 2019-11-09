@@ -12,9 +12,11 @@ pipelines:
         scm: 7b37b961-6310-45e4-9968-25a17397b6a3
         destination: mapy-controller
     stages:
-      - stage-pull-test-and-deploy:
+      - stage-pull-and-test:
           jobs:
-            job-pull-test-and-deploy:
+            job-pull-and-test:
+              secure_variables:
+                LFTP_PASSWORD: AES:MqCuCm+56dnVR0ugNM5uaA==:4pO/g3WlyMcI4V5NMVdeM/93Ez2Fj/BiAtft2dFCIzU7Kq8Gg4DMvm3/54B7QROf
               tasks:
                 - exec:
                     command: git
@@ -42,6 +44,7 @@ pipelines:
                     - "-m"
                     - mapactionpy_controller.check_naming_convention
                     - default-cmf/20YYiso3nn/cmf_description.json
+                - script: deploy-via-ftp-server.sh
 
          #     - type: exec
 #       attributes:
