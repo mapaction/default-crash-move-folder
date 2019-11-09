@@ -31,4 +31,4 @@ pipelines:
             tasks:
               - exec:
                   command: pwd
-                  args: ''
+                  args: []
