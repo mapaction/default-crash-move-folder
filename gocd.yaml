@@ -1,4 +1,4 @@
-format_version: 3
+format_version: 9
 pipelines:
   default-crash-move-folder:
     group: defaultGroup
@@ -29,5 +29,5 @@ pipelines:
             environment_variables: []
             resources: []
             tasks:
-              - type: exec
+              - exec:
                   command: pwd
