@@ -18,3 +18,10 @@ pipelines:
               tasks:
                 - exec:
                     command: pwd
+                - exec:
+                    command: ls
+                - exec:
+                    command: virtualenv
+                    arguments:
+                      - "--python=python3"
+                      - env
