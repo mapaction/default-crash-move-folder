@@ -1,6 +1,6 @@
 format_version: 3
 pipelines:
-  default-crash-move-folder2:
+  "default-crash-move-folder2":
     group: defaultGroup
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
@@ -27,10 +27,7 @@ pipelines:
       - name: job-pull-test-and-deploy
         run_instance_count: 
         timeout: 
-        environment_variables:
-        - secure: true
-          name: LFTP_PASSWORD
-          encrypted_value: AES:MqCuCm+56dnVR0ugNM5uaA==:4pO/g3WlyMcI4V5NMVdeM/93Ez2Fj/BiAtft2dFCIzU7Kq8Gg4DMvm3/54B7QROf
+        environment_variables: []
         resources: []
         tasks:
         - type: exec
