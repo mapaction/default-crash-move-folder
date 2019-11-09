@@ -32,6 +32,6 @@ pipelines:
               - type: exec
                 attributes:
                   run_if:
-                    - passed
-                    command: pwd
-                    args: ''
+                  - passed
+                  command: pwd
+                  args: ''
