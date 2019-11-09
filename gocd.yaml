@@ -30,8 +30,8 @@ pipelines:
             resources: []
             tasks:
               - type: exec
-                  attributes:
-                    run_if:
-                      - passed
-                      command: pwd
-                      args: ''
+                attributes:
+                  run_if:
+                    - passed
+                    command: pwd
+                    args: ''
