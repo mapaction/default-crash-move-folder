@@ -29,6 +29,6 @@ pipelines:
             environment_variables: []
             resources: []
             tasks:
-              exec:
-                command: pwd
-                args: ''
+              - exec:
+                  command: pwd
+                  args: ''
