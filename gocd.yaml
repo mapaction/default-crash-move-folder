@@ -44,7 +44,10 @@ pipelines:
                     - "-m"
                     - mapactionpy_controller.check_naming_convention
                     - default-cmf/20YYiso3nn/cmf_description.json
-                - script: deploy-via-ftp-server.sh
+                - exec:
+                    command: "sh"
+                    arguments:
+                    - default-cmf/deploy-via-ftp-server.sh
 
          #     - type: exec
 #       attributes:
