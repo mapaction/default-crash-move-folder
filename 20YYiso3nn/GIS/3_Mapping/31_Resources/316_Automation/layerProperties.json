@@ -313,7 +313,13 @@
       "DefinitionQuery": "\"ADM0_NAME\" <> '{COUNTRY_NAME}'",
       "Display": true,
       "AddToLegend": false,
-      "LabelClasses": []
+      "LabelClasses": [
+        {
+          "className": "Default",
+          "expression": "[ADM0_NAME]",
+          "SQLQuery": "(\"ADM0_NAME\" <> '{COUNTRY_NAME}')"
+        }
+	  ]
     },
     {
       "MapFrame": "Main Map",
@@ -348,7 +354,7 @@
       "RegExp": "^[a-z]{3}_popu_pop_ras_(.*?)_(.*?)_([phm][phm])(.*?).tif$",
       "DefinitionQuery": "",
       "Display": true,
-      "AddToLegend": true,
+      "AddToLegend": false,
       "LabelClasses": []
     },
     {
@@ -366,7 +372,7 @@
       "RegExp": "^[a-z]{3}_elev_hsh_ras_(.*?)_(.*?)_([phm][phm])(.*?).tif$",
       "DefinitionQuery": "",
       "Display": true,
-      "AddToLegend": true,
+      "AddToLegend": false,
       "LabelClasses": []
     },
     {
@@ -375,7 +381,7 @@
       "RegExp": "^[a-z]{3}_elev_cur_ras_(.*?)_(.*?)_([phm][phm])(.*?).tif$",
       "DefinitionQuery": "",
       "Display": true,
-      "AddToLegend": true,
+      "AddToLegend": false,
       "LabelClasses": []
     },
     {
@@ -390,7 +396,7 @@
     {
       "MapFrame": "Location Map",
       "LayerName": "locationmap-s0-ln-coastline",
-      "RegExp": "^[a-z]{3}_elev_cst_ln_s0_(.*?)_([phm][phm])(.*?).shp$",
+      "RegExp": "^[a-z]{3}_elev_cst_ln_s1_(.*?)_([phm][phm])(.*?).shp$",
       "DefinitionQuery": "",
       "Display": true,
       "AddToLegend": false,
@@ -399,7 +405,7 @@
     {
       "MapFrame": "Location Map",
       "LayerName": "locationmap-s0-ln-admin1",
-      "RegExp": "^[a-z]{3}_admn_ad1_ln_s0_(.*?)_([phm][phm])(.*?).shp$",
+      "RegExp": "^[a-z]{3}_admn_ad0_ln_s0_(.*?)_([phm][phm])(.*?).shp$",
       "DefinitionQuery": "",
       "Display": true,
       "AddToLegend": true,
@@ -430,7 +436,13 @@
       "DefinitionQuery": "\"ADM0_NAME\" <> '{COUNTRY_NAME}'",
       "Display": true,
       "AddToLegend": true,
-      "LabelClasses": []
+      "LabelClasses": [
+	    {
+          "className": "Default",
+          "expression": "[ADM0_NAME]",
+          "SQLQuery": "(\"ADM0_NAME\" <> '{COUNTRY_NAME}')"
+	    }
+	  ]
     }
   ]
 }

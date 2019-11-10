@@ -11,14 +11,14 @@
             "mainmap-s0-ln-admin1",
             "mainmap-s0-ln-coastline",
             "mainmap-s0-py-feather",
-            "mainmap-s0-py-surroundingcountries",
             "mainmap-s0-py-admin1",
             "mainmap-s0-py-sea",
             "locationmap-s0-ln-admin1",
             "locationmap-s0-ln-affectedcountry",
             "locationmap-s0-ln-coastline",
             "locationmap-s0-py-surroundingcountries"
-         ]
+         ],
+         "summary":"Country overview"
       },
       { 
          "mapnumber":"MA002",
@@ -32,7 +32,6 @@
             "mainmap-s0-ln-admin2",
             "mainmap-s0-ln-coastline",
             "mainmap-s0-py-feather",
-            "mainmap-s0-py-surroundingcountries",
             "mainmap-s0-py-admin1",
             "mainmap-s0-py-admin2",
             "mainmap-s0-py-sea",
@@ -40,7 +39,8 @@
             "locationmap-s0-ln-affectedcountry",
             "locationmap-s0-ln-coastline",
             "locationmap-s0-py-surroundingcountries"
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA003",
@@ -58,13 +58,13 @@
             "mainmap-s0-ln-rail",
             "mainmap-s0-py-admin1",
             "mainmap-s0-py-feather",
-            "mainmap-s0-py-surroundingcountries",
             "mainmap-s0-py-sea",
             "locationmap-s0-ln-admin1",
             "locationmap-s0-ln-affectedcountry",
             "locationmap-s0-ln-coastline",
             "locationmap-s0-py-surroundingcountries"
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA004",
@@ -79,7 +79,6 @@
             "mainmap-s0-ln-rivers",
             "mainmap-s0-py-admin1",
             "mainmap-s0-py-feather",
-            "mainmap-s0-py-surroundingcountries",
             "mainmap-s0-py-sea",
             "mainmap-s0-ras-dem",
             "mainmap-s0-ras-hillshade",
@@ -87,7 +86,8 @@
             "locationmap-s0-ln-affectedcountry",
             "locationmap-s0-ln-coastline",
             "locationmap-s0-py-surroundingcountries"
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA005",
@@ -101,7 +101,6 @@
             "mainmap-s1-ln-admin2",
             "mainmap-s0-ln-coastline",
             "mainmap-s0-py-feather",
-            "mainmap-s0-py-surroundingcountries",
             "mainmap-s1-py-admin1",
             "mainmap-s1-py-admin2",
             "mainmap-s0-py-sea",
@@ -110,7 +109,8 @@
             "locationmap-s0-ln-affectedcountry",
             "locationmap-s0-ln-coastline",
             "locationmap-s0-py-surroundingcountries"
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA006",
@@ -124,7 +124,6 @@
             "mainmap-s1-ln-admin2",
             "mainmap-s0-ln-coastline",
             "mainmap-s0-py-feather",
-            "mainmap-s0-py-surroundingcountries",
             "mainmap-s1-py-admin1",
             "mainmap-s1-py-admin2",
             "mainmap-s0-py-sea",
@@ -133,7 +132,8 @@
             "locationmap-s0-ln-affectedcountry",
             "locationmap-s0-ln-coastline",
             "locationmap-s0-py-surroundingcountries"
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA007",
@@ -147,7 +147,6 @@
             "mainmap-s1-ln-admin2",
             "mainmap-s0-ln-coastline",
             "mainmap-s0-py-feather",
-            "mainmap-s0-py-surroundingcountries",
             "mainmap-s1-py-admin1",
             "mainmap-s1-py-admin2",
             "mainmap-s0-py-sea",
@@ -156,7 +155,8 @@
             "locationmap-s0-ln-affectedcountry",
             "locationmap-s0-ln-coastline",
             "locationmap-s0-py-surroundingcountries"
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MAnnn",
@@ -192,7 +192,8 @@
           "locationmap-s0-ln-admin1",
           "locationmap-s0-ln-affectedcountry",
           "locationmap-s0-py-surroundingcountries"
-        ]
+        ],
+         "summary":""
       },
       { 
          "mapnumber":"MA011",
@@ -205,14 +206,14 @@
             "mainmap-s0-py-surroundingcountries",
             "mainmap-s0-py-admin1",
             "mainmap-s0-py-feather",
-            "mainmap-s0-py-surroundingcountries",
             "mainmap-s0-py-sea",
             "mainmap-s0-ras-population",
             "locationmap-s0-ln-admin1",
             "locationmap-s0-ln-coastline",
             "locationmap-s0-ln-affectedcountry",
             "locationmap-s0-py-surroundingcountries"
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA012",
@@ -221,7 +222,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA013",
@@ -230,7 +232,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA014",
@@ -239,7 +242,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA015",
@@ -248,7 +252,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA016",
@@ -257,7 +262,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA021",
@@ -266,7 +272,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA022",
@@ -275,7 +282,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA023",
@@ -284,7 +292,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA024",
@@ -293,7 +302,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA025",
@@ -302,7 +312,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA026",
@@ -311,7 +322,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA027",
@@ -320,7 +332,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA028",
@@ -329,7 +342,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA029",
@@ -338,7 +352,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA041",
@@ -347,7 +362,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA042",
@@ -356,7 +372,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA043",
@@ -365,7 +382,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA044",
@@ -374,7 +392,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA045",
@@ -383,7 +402,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA046",
@@ -392,7 +412,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA047",
@@ -401,7 +422,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA048",
@@ -410,7 +432,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA049",
@@ -419,7 +442,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA050",
@@ -428,7 +452,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA051",
@@ -437,7 +462,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA052",
@@ -446,7 +472,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA053",
@@ -455,7 +482,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA054",
@@ -464,7 +492,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA055",
@@ -473,7 +502,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA056",
@@ -482,7 +512,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       },
       { 
          "mapnumber":"MA057",
@@ -491,7 +522,8 @@
          "export":"Yes",
          "layers":[ 
 
-         ]
+         ],
+         "summary":""
       }
    ]
 }
