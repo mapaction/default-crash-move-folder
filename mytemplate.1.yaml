@@ -1,13 +1,3 @@
----
-_links:
-  self:
-    href: http://gocd.mapaction.org/go/api/admin/templates/mytemplate
-  doc:
-    href: https://api.gocd.org/19.10.0/#template-config
-  find:
-    href: http://gocd.mapaction.org/go/api/admin/templates/:template_name
-name: mytemplate
-parameters: []
 stages:
 - name: get-changes
   fetch_materials: true
