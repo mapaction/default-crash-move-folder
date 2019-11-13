@@ -1,7 +1,70 @@
 format_version: 9
+common:
+  testing_stages: &testing_stages
+    - stage-pull-and-test:
+        jobs:
+          job-pull-and-test:
+            tasks:
+              - exec:
+                  command: git
+                  arguments:
+                  - "-C"
+                  - default-cmf
+                  - lfs
+                  - pull
+              - exec:
+                  command: virtualenv
+                  arguments:
+                    - "--python=python3"
+                    - env
+              - exec:
+                  command: "./env/bin/python3"
+                  arguments:
+                  - "-m"
+                  - pip
+                  - install
+                  - "-e"
+                  - mapy-controller
+              - exec:
+                  command: "./env/bin/python3"
+                  arguments:
+                  - "-m"
+                  - mapactionpy_controller.check_naming_convention
+                  - default-cmf/20YYiso3nn/cmf_description.json
+
 pipelines:
-  default-crash-move-folder2:
-    group: defaultGroup
+  test-default-cmf-PRs:
+    group: Default_CMF_Group
+    label_template: ${COUNT}
+    lock_behavior: unlockWhenFinished
+    materials:
+      default-cmf:
+        scm: 4a8cf7af-9170-4379-bb84-7b75a204118c
+        destination: default-cmf
+      mapy-controller:
+        git: https://github.com/mapaction/mapactionpy_controller.git
+        destination: mapy-controller
+        branch: master
+    stages:
+      - *testing_stages
+
+  test-controller-PRs:
+    group: Default_CMF_Group
+    label_template: ${COUNT}
+    lock_behavior: unlockWhenFinished
+    materials:
+      default-cmf:
+        git: https://github.com/mapaction/default-crash-move-folder.git
+        destination: default-cmf
+        branch: master
+      mapy-controller:
+        scm: 7b37b961-6310-45e4-9968-25a17397b6a3
+        destination: mapy-controller
+    stages:
+      - *testing_stages
+
+  test-PRs-in-combination:
+    group: Default_CMF_Group
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
     materials:
@@ -12,42 +75,33 @@ pipelines:
         scm: 7b37b961-6310-45e4-9968-25a17397b6a3
         destination: mapy-controller
     stages:
-      - stage-pull-and-test:
-          jobs:
-            job-pull-and-test:
-              secure_variables:
-                LFTP_PASSWORD: AES:MqCuCm+56dnVR0ugNM5uaA==:4pO/g3WlyMcI4V5NMVdeM/93Ez2Fj/BiAtft2dFCIzU7Kq8Gg4DMvm3/54B7QROf
-              tasks:
-                - exec:
-                    command: git
-                    arguments:
-                    - "-C"
-                    - default-cmf
-                    - lfs
-                    - pull
-                - exec:
-                    command: virtualenv
-                    arguments:
-                      - "--python=python3"
-                      - env
-                - exec:
-                    command: "./env/bin/python3"
-                    arguments:
-                    - "-m"
-                    - pip
-                    - install
-                    - "-e"
-                    - mapy-controller
-                - exec:
-                    command: "./env/bin/python3"
-                    arguments:
-                    - "-m"
-                    - mapactionpy_controller.check_naming_convention
-                    - default-cmf/20YYiso3nn/cmf_description.json
-                - exec:
-                    command: "sh"
-                    arguments:
-                    - default-cmf/deploy-via-ftp-server.sh
+      - *testing_stages
+
+
+  test-and-deploy-master-branches-only:
+    group: Default_CMF_Group
+    label_template: ${COUNT}
+    lock_behavior: unlockWhenFinished
+    materials:
+      default-cmf:
+        git: https://github.com/mapaction/default-crash-move-folder.git
+        destination: default-cmf
+        branch: master
+      mapy-controller:
+        git: https://github.com/mapaction/mapactionpy_controller.git
+        destination: mapy-controller
+        branch: master
+    stages:
+      - *testing_stages
+      - deploy:
+          secure_variables:
+            LFTP_PASSWORD: AES:MqCuCm+56dnVR0ugNM5uaA==:4pO/g3WlyMcI4V5NMVdeM/93Ez2Fj/BiAtft2dFCIzU7Kq8Gg4DMvm3/54B7QROf
+          tasks:
+            - exec:
+                command: "sh"
+                arguments:
+                - default-cmf/deploy-via-ftp-server.sh
+
 
          #     - type: exec
 #       attributes:
