@@ -34,7 +34,7 @@ common:
 
 pipelines:
   test-default-cmf-PRs:
-    group: Default_CMF_Group
+    group: Default-CMF-Group
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
     materials:
@@ -49,7 +49,7 @@ pipelines:
       - *testing_stages
 
   test-controller-PRs:
-    group: Default_CMF_Group
+    group: Default-CMF-Group
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
     materials:
@@ -64,7 +64,7 @@ pipelines:
       - *testing_stages
 
   test-PRs-in-combination:
-    group: Default_CMF_Group
+    group: Default-CMF-Group
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
     materials:
@@ -79,7 +79,7 @@ pipelines:
 
 
   test-and-deploy-master-branches-only:
-    group: Default_CMF_Group
+    group: Default-CMF-Group
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
     materials:
