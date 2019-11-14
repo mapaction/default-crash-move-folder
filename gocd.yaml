@@ -90,9 +90,10 @@ pipelines:
         username: mapaction-ci-servers
         encryptedPassword: AES:b+SlJTNnsN7wGIdoASR3FA==:ZW9IRYfksVgHg4ulh7/c2X1m/lyh9PAhgQyEui1YCxgWrlcPUT+lSxVRNEqRv6pI
       mapy-controller:
-        git: https://github.com/mapaction/mapactionpy_controller.git
+        scm: 7b37b961-6310-45e4-9968-25a17397b6a3
         destination: mapy-controller
-        branch: master
+        whitelist:
+          - master
     stages:
       - *testing_stages
       - deploy:
