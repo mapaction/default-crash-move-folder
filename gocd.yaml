@@ -45,6 +45,9 @@ pipelines:
         git: https://github.com/mapaction/mapactionpy_controller.git
         destination: mapy-controller
         branch: master
+        username: mapaction-ci-servers
+        encryptedPassword : AES:/tL+kSfanw1Vz+YhfX+C7g==:3UFicQJU9iJAH7ITgi/0MsBRs0Al81OIIkwq9Qru0NPsuXsTT+tFOtKAf4JhZXI7
+        # encryptedPassword: AES:P64XHtFnsBVjQjZJa3zPSQ==:CRuAo83q9AqxycQNaUynM6J6SQVD4lozsoRU3SypglTtg6pTRQsCYCRX4mcixO/Y
     stages:
       - *testing_stages
 
@@ -57,6 +60,9 @@ pipelines:
         git: https://github.com/mapaction/default-crash-move-folder.git
         destination: default-cmf
         branch: master
+        username: mapaction-ci-servers
+        encryptedPassword : AES:/tL+kSfanw1Vz+YhfX+C7g==:3UFicQJU9iJAH7ITgi/0MsBRs0Al81OIIkwq9Qru0NPsuXsTT+tFOtKAf4JhZXI7
+        # encryptedPassword: AES:P64XHtFnsBVjQjZJa3zPSQ==:CRuAo83q9AqxycQNaUynM6J6SQVD4lozsoRU3SypglTtg6pTRQsCYCRX4mcixO/Y
       mapy-controller:
         scm: 7b37b961-6310-45e4-9968-25a17397b6a3
         destination: mapy-controller
@@ -88,7 +94,8 @@ pipelines:
         destination: default-cmf
         branch: master
         username: mapaction-ci-servers
-        encryptedPassword: AES:P64XHtFnsBVjQjZJa3zPSQ==:CRuAo83q9AqxycQNaUynM6J6SQVD4lozsoRU3SypglTtg6pTRQsCYCRX4mcixO/Y
+        encryptedPassword : AES:/tL+kSfanw1Vz+YhfX+C7g==:3UFicQJU9iJAH7ITgi/0MsBRs0Al81OIIkwq9Qru0NPsuXsTT+tFOtKAf4JhZXI7
+        # encryptedPassword: AES:P64XHtFnsBVjQjZJa3zPSQ==:CRuAo83q9AqxycQNaUynM6J6SQVD4lozsoRU3SypglTtg6pTRQsCYCRX4mcixO/Y
       mapy-controller:
         git: https://github.com/mapaction/mapactionpy_controller.git
         destination: mapy-controller
