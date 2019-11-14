@@ -42,10 +42,9 @@ pipelines:
         scm: 4a8cf7af-9170-4379-bb84-7b75a204118c
         destination: default-cmf
       mapy-controller:
-        scm: 7b37b961-6310-45e4-9968-25a17397b6a3
+        git: https://github.com/mapaction/mapactionpy_controller.git
         destination: mapy-controller
-        whitelist:
-          - master
+        branch: master
     stages:
       - *testing_stages
 
@@ -55,10 +54,9 @@ pipelines:
     lock_behavior: unlockWhenFinished
     materials:
       default-cmf:
-        scm: 4a8cf7af-9170-4379-bb84-7b75a204118c
+        git: https://github.com/mapaction/default-crash-move-folder.git
         destination: default-cmf
-        whitelist:
-          - master
+        branch: master
       mapy-controller:
         scm: 7b37b961-6310-45e4-9968-25a17397b6a3
         destination: mapy-controller
@@ -86,15 +84,15 @@ pipelines:
     lock_behavior: unlockWhenFinished
     materials:
       default-cmf:
-        scm: 4a8cf7af-9170-4379-bb84-7b75a204118c
+        git: https://github.com/mapaction/default-crash-move-folder.git
         destination: default-cmf
-        whitelist:
-          - master
+        branch: master
+        username: mapaction-ci-servers
+        encryptedPassword: AES:P64XHtFnsBVjQjZJa3zPSQ==:CRuAo83q9AqxycQNaUynM6J6SQVD4lozsoRU3SypglTtg6pTRQsCYCRX4mcixO/Y
       mapy-controller:
-        scm: 7b37b961-6310-45e4-9968-25a17397b6a3
+        git: https://github.com/mapaction/mapactionpy_controller.git
         destination: mapy-controller
-        whitelist:
-          - master
+        branch: master
     stages:
       - *testing_stages
       - deploy:
