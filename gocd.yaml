@@ -87,8 +87,8 @@ pipelines:
         git: https://github.com/mapaction/default-crash-move-folder.git
         destination: default-cmf
         branch: master
-        username: "mapaction-ci-servers"
-        encryptedPassword: "AES:b+SlJTNnsN7wGIdoASR3FA==:ZW9IRYfksVgHg4ulh7/c2X1m/lyh9PAhgQyEui1YCxgWrlcPUT+lSxVRNEqRv6pI"
+        username: mapaction-ci-servers
+        encryptedPassword: AES:b+SlJTNnsN7wGIdoASR3FA==:ZW9IRYfksVgHg4ulh7/c2X1m/lyh9PAhgQyEui1YCxgWrlcPUT+lSxVRNEqRv6pI
       mapy-controller:
         git: https://github.com/mapaction/mapactionpy_controller.git
         destination: mapy-controller
