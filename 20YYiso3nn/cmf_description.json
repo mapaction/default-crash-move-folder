@@ -11,6 +11,5 @@
    "layer_nc_definition": "GIS/2_Active_Data/200_data_name_lookup/layer_file_naming_convention.json",
    "mxd_nc_definition": "GIS/2_Active_Data/200_data_name_lookup/mxd_naming_convention.json",
    "map_definitions": "GIS/3_Mapping/31_Resources/316_Automation/mapCookbook.json",
-   "layer_properties": "GIS/3_Mapping/31_Resources/316_Automation/layerProperties.json",
-   "categories": ["thematic", "reference"]
+   "layer_properties": "GIS/3_Mapping/31_Resources/316_Automation/layerProperties.json"
 }
