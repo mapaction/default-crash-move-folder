@@ -59,7 +59,7 @@
     {
       "mapnumber": "MA002",
       "category": "Reference",
-      "product": "Country Overview with Admin 1 & 2 Boundaries & P-Codes",
+      "product": "Country Overview with Admin 1 & 2 Boundaries",
       "export": true,
       "layers": [
         {
@@ -72,23 +72,26 @@
           "name": "mainmap-s0-ln-coastline"
         },
         {
-          "name": "mainmap-s1-ln-surroundingcountries"
-        },
-        {
-          "name": "mainmap-s0-ln-admin1-black"
+          "name": "mainmap-s0-ln-admin0-black"
         },
         {
           "name": "mainmap-s0-ln-admin2-black"
+        },		
+        {
+          "name": "mainmap-s0-py-surroundingcountries"
         },
         {
-          "name": "mainmap-s0-py-admin2-grey-text"
-        },
-        {
-          "name": "mainmap-s0-py-admin1",
+          "name": "mainmap-s0-ln-admin1",
           "zoomMultiplier": 0.2
         },
         {
-          "name": "mainmap-s0-py-surroundingcountries"
+          "name": "mainmap-s0-py-admin2-grey-text"
+        },		
+        {
+          "name": "mainmap-s0-py-admin1-purple-text-only"
+        },
+        {
+          "name": "mainmap-s0-py-admin1"
         },
         {
           "name": "mainmap-s0-py-sea"
@@ -104,12 +107,15 @@
           "name": "locationmap-s0-ln-coastline"
         },
         {
+          "name": "locationmap-s0-py-affectedcountry"
+        },
+        {
           "name": "locationmap-s0-py-surroundingcountries"
         },
         {
           "name": "locationmap-s0-py-sea"
         }
-      ],
+		],
       "summary": ""
     },
     {
