@@ -3,7 +3,7 @@
     {
       "mapnumber": "MA001",
       "category": "Reference",
-      "product": "Country Overview with Admin 1 Boundaries & P-Codes",
+      "product": "Country Overview with Admin 1 Boundaries",
       "export": true,
       "layers": [
         {
@@ -11,12 +11,6 @@
         },
         {
           "name": "mainmap-s0-py-feather"
-        },
-        {
-          "name": "mainmap-s0-pt-airports"
-        },
-        {
-          "name": "mainmap-s0-pt-seaports"
         },
         {
           "name": "mainmap-s0-ln-coastline"
@@ -28,26 +22,8 @@
           "name": "mainmap-s0-py-surroundingcountries"
         },
         {
-          "name": "mainmap-s0-ln-admin1"
-        },
-        {
-          "name": "mainmap-s0-ln-admin2",
+          "name": "mainmap-s0-ln-admin1",
           "zoomMultiplier": 0.2
-        },
-        {
-          "name": "mainmap-s0-ln-rail"
-        },
-        {
-          "name": "mainmap-s0-ln-roads"
-        },
-        {
-          "name": "mainmap-s0-py-waterbodies"
-        },
-        {
-          "name": "mainmap-s0-ln-rivers"
-        },
-        {
-          "name": "mainmap-s0-py-admin2-purple-text-only"
         },
         {
           "name": "mainmap-s0-py-admin1-purple-text-only"
@@ -57,9 +33,6 @@
         },
         {
           "name": "mainmap-s0-py-sea"
-        },
-        {
-          "name": "mainmap-s0-ras-dem"
         },
         {
           "name": "locationmap-s0-ln-admin1"
@@ -76,6 +49,9 @@
         },
         {
           "name": "locationmap-s0-py-surroundingcountries"
+        },
+        {
+          "name": "locationmap-s0-py-sea"
         }
       ],
       "summary": "Country overview"
