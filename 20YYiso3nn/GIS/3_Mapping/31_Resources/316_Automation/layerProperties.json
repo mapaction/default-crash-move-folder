@@ -49,6 +49,17 @@
 		},
 		{
 			"MapFrame": "Main map",
+			"LayerName": "mainmap-s0-pt-pois",
+			"RegExp": "^[a-z]{3}_pois_poi_pt_(.*?)_(.*?)_([phm][phm])_(.*?).shp$",
+			"DefinitionQuery": "",
+			"Display": true,
+			"AddToLegend": true,
+			"LabelClasses": [
+
+			]
+		},
+		{
+			"MapFrame": "Main map",
 			"LayerName": "mainmap-s0-pt-seaports",
 			"RegExp": "^[a-z]{3}_tran_sea_pt_(.*?)_(.*?)_([phm][phm])_(.*?).shp$",
 			"DefinitionQuery": "",
@@ -234,6 +245,17 @@
 
 			]
 		},
+		{
+			"MapFrame": "Main map",
+			"LayerName": "legend-s0-ras-elevation",
+			"RegExp": "^[a-z]{3}_elev_dem_ras_(.*?)_(.*?)_([phm][phm])(.*?).tif$",
+			"DefinitionQuery": "",
+			"Display": true,
+			"AddToLegend": true,
+			"LabelClasses": [
+
+			]
+		},		
 		{
 			"MapFrame": "Main map",
 			"LayerName": "legend-s0-ln-road",
