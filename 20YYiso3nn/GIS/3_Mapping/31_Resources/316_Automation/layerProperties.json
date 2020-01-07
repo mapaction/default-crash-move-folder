@@ -559,6 +559,17 @@
 
 			]
 		},
+		{ 
+			"MapFrame": "Location map",
+			"LayerName": "locationmap-s0-ln-admin0",
+			"RegExp": "^[a-z]{3}_admn_ad0_ln_s0_(.*?)_([phm][phm])(.*?).shp$",
+			"DefinitionQuery": "",
+			"Display": true,
+			"AddToLegend": false,
+			"LabelClasses": [
+
+			]
+		},
 		{
 			"MapFrame": "Location map",
 			"LayerName": "locationmap-s0-ln-admin1",
@@ -609,11 +620,33 @@
 			"Display": true,
 			"AddToLegend": true,
 			"LabelClasses": []
+		},		
+		{
+			"MapFrame": "Location map",
+			"LayerName": "locationmap-s0-py-admin1",
+			"RegExp": "^[a-z]{3}_admn_ad1_py_s0_(.*?)_([phm][phm])(.*?).shp$",
+			"DefinitionQuery": "",
+			"Display": true,
+			"AddToLegend": false,
+			"LabelClasses": [
+
+			]
 		},
 		{
 			"MapFrame": "Location map",
 			"LayerName": "locationmap-s0-py-sea",
 			"RegExp": "^[a-z]{3}_phys_ocn_py_s0_(.*?)_([phm][phm])(.*?).shp$",
+			"DefinitionQuery": "",
+			"Display": true,
+			"AddToLegend": false,
+			"LabelClasses": [
+
+			]
+		},
+		{
+			"MapFrame": "Location map",
+			"LayerName": "locationmap-s0-py-extent",
+			"RegExp": "",
 			"DefinitionQuery": "",
 			"Display": true,
 			"AddToLegend": false,
