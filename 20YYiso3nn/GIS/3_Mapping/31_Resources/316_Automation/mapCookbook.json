@@ -165,10 +165,11 @@
         },
         {
           "name": "mainmap-s0-py-admin1-purple-text-only",
-		      "columnName": "NAME_1"
+		  "columnName": "NAME_1"
         },
         {
-          "name": "mainmap-s0-py-affectedcountry"
+          "name": "mainmap-s0-py-affectedcountry",
+          "zoomMultiplier": 0.2
         },
         {
           "name": "mainmap-s0-py-surroundingcountries"
