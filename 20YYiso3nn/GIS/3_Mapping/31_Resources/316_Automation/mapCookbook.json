@@ -7,51 +7,81 @@
       "export": true,
       "layers": [
         {
-          "name": "mainmap-s0-pt-settlements"
+          "name": "mainmap_stle_stl_pt_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-py-feather"
+          "name": "mainmap_carto_fea_py_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-ln-coastline"
+          "name": "mainmap_tran_por_pt_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-ln-admin0-black"
+          "name": "mainmap_tran_air_pt_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-py-surroundingcountries"
+          "name": "mainmap_elev_cst_ln_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-ln-admin1",
+          "name": "mainmap_admin_ad0_ln_s0_allmaps"
+        },
+        {
+          "name": "mainmap_admin_ad1_ln_s0_reference",
           "zoomMultiplier": 0.2
         },
         {
-          "name": "mainmap-s0-py-admin1-purple-text-only"
+          "name": "mainmap_tran_rrd_ln_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-py-admin1"
+          "name": "mainmap_tran_rds_ln_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-py-sea"
+          "name": "mainmap_phys_wat_py_s0_allmaps"
         },
         {
-          "name": "locationmap-s0-ln-admin1"
+          "name": "mainmap_phys_riv_ln_s0_reference"
         },
         {
-          "name": "locationmap-s0-ln-affectedcountry",
+          "name": "mainmap_admin_ad1_py_s0_reference"
+        },
+        {
+          "name": "mainmap_admin_ad0_py_s0_reference"
+        },
+        {
+          "name": "mainmap_phys_sea_py_s0_allmaps"
+        },
+        {
+          "name": "mainmap_elev_dem_ras_s0_reference"
+        },
+        {
+          "name": "mainmap_elev_hsh_ras_s0_reference"
+        },
+        {
+          "name": "legend_phys_wat_py_s0_reference"
+        },
+        {
+          "name": "legend_tran_rds_ln_s0_allmaps"
+        },
+        {
+          "name": "legend_elev_dem_ras_s0_reference"
+        },
+        {
+          "name": "locationmap_stle_stl_pt_s0_locationmaps"
+        },
+        {
+          "name": "locationmap_admin_ad0_ln_s0_locationmaps",
           "zoomMultiplier": 2
         },
         {
-          "name": "locationmap-s0-ln-coastline"
+          "name": "locationmap_elev_cst_ln_s0_locationmaps"
         },
         {
-          "name": "locationmap-s0-py-affectedcountry"
+          "name": "mainmap_admin_ad1_py_s0_thematic"
         },
         {
-          "name": "locationmap-s0-py-surroundingcountries"
+          "name": "locationmap_admin_ad0_py_s0_locationmaps"
         },
         {
-          "name": "locationmap-s0-py-sea"
+          "name": "locationmap_phys_sea_py_s0_locationmaps"
         }
       ],
       "summary": "Country overview"
@@ -63,57 +93,48 @@
       "export": true,
       "layers": [
         {
-          "name": "mainmap-s0-pt-settlements"
+          "name": "mainmap_stle_stl_pt_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-py-feather"
+          "name": "mainmap_carto_fea_py_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-ln-coastline"
+          "name": "mainmap_elev_cst_ln_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-ln-admin0-black"
+          "name": "mainmap_admin_ad0_ln_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-ln-admin2-black"
+          "name": "mainmap_admin_ad1_ln_s0_thematic"
         },		
         {
-          "name": "mainmap-s0-py-surroundingcountries"
+          "name": "mainmap_admin_ad1_py_s0_thematic"
         },
         {
-          "name": "mainmap-s0-ln-admin1",
+          "name": "mainmap_admin_ad0_py_s0_thematic",
           "zoomMultiplier": 0.2
         },
         {
-          "name": "mainmap-s0-py-admin2-grey-text"
+          "name": "mainmap_phys_sea_py_s0_allmaps"
         },		
         {
-          "name": "mainmap-s0-py-admin1-purple-text-only"
+          "name": "locationmap_stle_stl_pt_s0_locationmaps"
         },
         {
-          "name": "mainmap-s0-py-admin1"
+          "name": "locationmap_admin_ad0_ln_s0_locationmaps"
         },
         {
-          "name": "mainmap-s0-py-sea"
+          "name": "locationmap_elev_cst_ln_s0_locationmaps"
         },
         {
-          "name": "locationmap-s0-ln-admin1"
+          "name": "mainmap_admin_ad1_py_s0_thematic"
         },
         {
-          "name": "locationmap-s0-ln-affectedcountry",
+          "name": "locationmap_admin_ad0_py_s0_locationmaps",
           "zoomMultiplier": 2
         },
         {
-          "name": "locationmap-s0-ln-coastline"
-        },
-        {
-          "name": "locationmap-s0-py-affectedcountry"
-        },
-        {
-          "name": "locationmap-s0-py-surroundingcountries"
-        },
-        {
-          "name": "locationmap-s0-py-sea"
+          "name": "locationmap_phys_sea_py_s0_locationmaps"
         }
 		],
       "summary": ""
@@ -125,91 +146,57 @@
       "export": true,
       "layers": [
         {
-          "name": "mainmap-s0-pt-settlements"
+          "name": "mainmap_stle_stl_pt_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-pt-airports"
+          "name": "mainmap_carto_fea_py_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-pt-seaports"
+          "name": "mainmap_elev_cst_ln_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-pt-pois"
+          "name": "mainmap_admin_ad0_ln_s0_allmaps"
         },
         {
-          "name": "mainmap-s0-ln-coastline"
+          "name": "mainmap_admin_ad1_ln_s0_thematic"
+        },		
+        {
+          "name": "mainmap_admin_ad1_py_s0_thematic"
         },
         {
-          "name": "mainmap-s0-ln-admin0-black"
+          "name": "mainmap_admin_ad0_py_s0_thematic"
         },
         {
-          "name": "mainmap-s0-ln-admin1"
-        },
+          "name": "mainmap_phys_sea_py_s0_allmaps"
+        },		
         {
-          "name": "mainmap-s0-ln-admin2"
-        },
-        {
-          "name": "mainmap-s0-ln-rail"
-        },
-        {
-          "name": "mainmap-s0-ln-roads"
-        },
-        {
-          "name": "mainmap-s0-py-waterbodies"
-        },
-        {
-          "name": "mainmap-s0-ln-rivers"
-        },
-        {
-          "name": "mainmap-s0-py-admin2-purple-text-only"
-        },
-        {
-          "name": "mainmap-s0-py-admin1-purple-text-only",
-		  "columnName": "NAME_1"
-        },
-        {
-          "name": "mainmap-s0-py-affectedcountry",
+          "name": "mainmap_admin_ad1_ln_s0_reference",
           "zoomMultiplier": 0.2
+        },		
+        {
+          "name": "mainmap_admin_ad1_py_s0_reference"
+        },		
+        {
+          "name": "mainmap_admin_ad0_py_s0_allmaps"
+        },				
+        {
+          "name": "locationmap_stle_stl_pt_s0_locationmaps"
         },
         {
-          "name": "mainmap-s0-py-surroundingcountries"
+          "name": "locationmap_admin_ad0_ln_s0_locationmaps"
         },
         {
-          "name": "mainmap-s0-py-feather"
+          "name": "locationmap_elev_cst_ln_s0_locationmaps"
         },
         {
-          "name": "mainmap-s0-ras-dem"
+          "name": "mainmap_admin_ad1_py_s0_thematic"
         },
         {
-          "name": "mainmap-s0-ras-hillshade"
-        },
-        {
-          "name": "mainmap-s0-py-sea"
-        },
-        {
-          "name": "legend-s0-ras-elevation"
-        },
-        {
-          "name": "locationmap-s0-py-extent"
-        },
-        {
-          "name": "locationmap-s0-ln-coastline"
-        },
-        {
-          "name": "locationmap-s0-ln-admin0"
-        },
-        {
-          "name": "locationmap-s0-py-admin1"
-        },
-        {
-          "name": "locationmap-s0-py-sea"
-        },
-        {
-          "name": "locationmap-s0-py-surroundingcountries"
-        },
-        {
-          "name": "locationmap-s0-py-affectedcountry",
+          "name": "locationmap_admin_ad0_py_s0_locationmaps",
           "zoomMultiplier": 2
+        },
+        {
+          "name": "locationmap_phys_sea_py_s0_locationmaps"
         }
       ],
       "summary": ""

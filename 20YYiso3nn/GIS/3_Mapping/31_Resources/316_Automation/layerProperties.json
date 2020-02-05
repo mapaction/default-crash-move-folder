@@ -1,7 +1,8 @@
 {
-	"layerProperties": [{
+	"layerProperties": [
+		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-pt-settlements",
+			"LayerName": "mainmap_stle_stl_pt_s0_allmaps",
 			"RegExp": "^[a-z]{3}_stle_ste_pt_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "fclass IN ('national_capital', 'city', 'capital', 'town')",
 			"Display": true,
@@ -21,28 +22,16 @@
 			]
 		},
 		{
-			"MapFrame": "Main map",
-			"LayerName": "mainmap-s1-pt-settlements",
+			"MapFrame": "Location map",
+			"LayerName": "locationmap_stle_stl_pt_s0_locationmaps",
 			"RegExp": "^[a-z]{3}_stle_ste_pt_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
-			"DefinitionQuery": "fclass IN ('national_capital', 'city', 'capital')",
+			"DefinitionQuery": "fclass IN ('national_capital', 'capital')",
 			"Display": true,
 			"AddToLegend": true,
 			"LabelClasses": [{
 					"className": "National Capital",
 					"expression": "[name]",
 					"SQLQuery": "(\"fclass\" = 'national_capital')",
-					"showClassLabels": true
-				},
-				{
-					"className": "Admin 1 Capital",
-					"expression": "[name]",
-					"SQLQuery": "(\"fclass\" = 'town')",
-					"showClassLabels": true
-				},
-				{
-					"className": "Admin 2 Capital",
-					"expression": "[name]",
-					"SQLQuery": "(\"fclass\" = 'town')",
 					"showClassLabels": true
 				}
 			]
@@ -60,7 +49,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-pt-seaports",
+			"LayerName": "mainmap_tran_por_pt_s0_allmaps",
 			"RegExp": "^[a-z]{3}_tran_sea_pt_(.*?)_(.*?)_([phm][phm])_(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -71,7 +60,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-pt-airports",
+			"LayerName": "mainmap_tran_air_pt_s0_allmaps",
 			"RegExp": "^[a-z]{3}_tran_air_pt_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "type IN ('medium_airport', 'large_airport')",
 			"Display": true,
@@ -104,7 +93,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-ln-admin1",
+			"LayerName": "mainmap_admin_ad1_ln_s0_reference",
 			"RegExp": "^[a-z]{3}_admn_ad1_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -115,7 +104,18 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-ln-admin0-black",
+			"LayerName": "mainmap_admin_ad1_ln_s0_thematic",
+			"RegExp": "^[a-z]{3}_admn_ad1_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
+			"DefinitionQuery": "",
+			"Display": true,
+			"AddToLegend": true,
+			"LabelClasses": [
+
+			]
+		},
+		{
+			"MapFrame": "Main map",
+			"LayerName": "mainmap_admin_ad0_ln_s0_allmaps",
 			"RegExp": "^[a-z]{3}_admn_ad0_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -192,7 +192,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-ln-roads",
+			"LayerName": "mainmap_tran_rds_ln_s0_allmaps",
 			"RegExp": "^[a-z]{3}_tran_rds_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "fclass = 'primary'",
 			"Display": true,
@@ -203,7 +203,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-ln-rail",
+			"LayerName": "mainmap_tran_rrd_ln_s0_allmaps",
 			"RegExp": "^[a-z]{3}_tran_rrd_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -214,9 +214,10 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-ln-rivers",
+			"LayerName": "mainmap_phys_riv_ln_s0_reference",
 			"RegExp": "^[a-z]{3}_phys_riv_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "fclass IN ('river')",
+			"Display": true,
 			"Display": true,
 			"AddToLegend": true,
 			"LabelClasses": [
@@ -225,7 +226,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-ln-coastline",
+			"LayerName": "mainmap_elev_cst_ln_s0_allmaps",
 			"RegExp": "^[a-z]{3}_elev_cst_ln_(.*?)_(.*?)_([phm][phm])_(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -236,18 +237,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s1-ln-coastline",
-			"RegExp": "^[a-z]{3}_elev_cst_ln_(.*?)_(.*?)_([phm][phm])_(.*?).shp$",
-			"DefinitionQuery": "",
-			"Display": true,
-			"AddToLegend": false,
-			"LabelClasses": [
-
-			]
-		},
-		{
-			"MapFrame": "Main map",
-			"LayerName": "legend-s0-ras-elevation",
+			"LayerName": "legend_elev_dem_ras_s0_reference",
 			"RegExp": "^[a-z]{3}_elev_dem_ras_(.*?)_(.*?)_([phm][phm])(.*?).tif$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -258,7 +248,7 @@
 		},		
 		{
 			"MapFrame": "Main map",
-			"LayerName": "legend-s0-ln-road",
+			"LayerName": "legend_tran_rds_ln_s0_allmaps",
 			"RegExp": "^[a-z]{3}_tran_rds_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": false,
@@ -269,7 +259,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "legend-s0-py-waterbodies",
+			"LayerName": "legend_phys_wat_py_s0_reference",
 			"RegExp": "^[a-z]{3}_phys_wat_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": false,
@@ -308,7 +298,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s1-py-admin1",
+			"LayerName": "mainmap_admin_ad1_py_s0_reference",
 			"RegExp": "^[a-z]{3}_admn_ad1_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -408,7 +398,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-py-sea",
+			"LayerName": "mainmap_phys_sea_py_s0_allmaps",
 			"RegExp": "^[a-z]{3}_phys_sea_py_(.*?)_(.*?)_pp(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -419,7 +409,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-py-feather",
+			"LayerName": "mainmap_carto_fea_py_s0_allmaps",
 			"RegExp": "^[a-z]{3}_carto_fea_py_(.*?)_(.*?)_pp(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -430,10 +420,32 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-py-waterbodies",
+			"LayerName": "mainmap_phys_wat_py_s0_allmaps",
 			"RegExp": "^[a-z]{3}_phys_wat_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
+			"AddToLegend": false,
+			"LabelClasses": [
+
+			]
+		},
+		{
+			"MapFrame": "Main map",
+			"LayerName": "mainmap_admin_ad0_py_s0_reference",
+			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
+			"DefinitionQuery": "\"NAME_0\" = '{COUNTRY_NAME}'",
+			"Display": false,
+			"AddToLegend": false,
+			"LabelClasses": [
+
+			]
+		},
+		{
+			"MapFrame": "Main map",
+			"LayerName": "mainmap_admin_ad0_py_s0_thematic",
+			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
+			"DefinitionQuery": "\"NAME_0\" = '{COUNTRY_NAME}'",
+			"Display": false,
 			"AddToLegend": false,
 			"LabelClasses": [
 
@@ -473,7 +485,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-py-sea",
+			"LayerName": "mainmap_phys_sea_py_s0_allmaps",
 			"RegExp": "^[a-z]{3}_phys_ocn_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -506,7 +518,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-ras-dem",
+			"LayerName": "mainmap_elev_dem_ras_s0_reference",
 			"RegExp": "^[a-z]{3}_elev_dem_ras_(.*?)_(.*?)_([phm][phm])(.*?).tif$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -517,7 +529,7 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-s0-ras-hillshade",
+			"LayerName": "mainmap_elev_hsh_ras_s0_reference",
 			"RegExp": "^[a-z]{3}_elev_hsh_ras_(.*?)_(.*?)_([phm][phm])(.*?).tif$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -550,7 +562,7 @@
 		},
 		{
 			"MapFrame": "Location map",
-			"LayerName": "locationmap-s0-ln-coastline",
+			"LayerName": "locationmap_elev_cst_ln_s0_locationmaps",
 			"RegExp": "^[a-z]{3}_elev_cst_ln_(.*?)_(.*?)_([phm][phm])_(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -594,7 +606,7 @@
 		},
 		{
 			"MapFrame": "Location map",
-			"LayerName": "locationmap-s0-ln-affectedcountry",
+			"LayerName": "locationmap_admin_ad0_ln_s0_locationmaps",
 			"RegExp": "^[a-z]{3}_admn_ad0_ln_s0_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -614,7 +626,7 @@
 		},
 		{
 			"MapFrame": "Location map",
-			"LayerName": "locationmap-s0-py-affectedcountry",
+			"LayerName": "locationmap_admin_ad0_py_s0_locationmaps",
 			"RegExp": "^[a-z]{3}_admn_ad0_py_s0_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "\"NAME_0\" = '{COUNTRY_NAME}'",
 			"Display": true,
@@ -623,7 +635,7 @@
 		},		
 		{
 			"MapFrame": "Location map",
-			"LayerName": "locationmap-s0-py-admin1",
+			"LayerName": "mainmap_admin_ad1_py_s0_thematic",
 			"RegExp": "^[a-z]{3}_admn_ad1_py_s0_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -634,7 +646,7 @@
 		},
 		{
 			"MapFrame": "Location map",
-			"LayerName": "locationmap-s0-py-sea",
+			"LayerName": "locationmap_phys_sea_py_s0_locationmaps",
 			"RegExp": "^[a-z]{3}_phys_ocn_py_s0_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
