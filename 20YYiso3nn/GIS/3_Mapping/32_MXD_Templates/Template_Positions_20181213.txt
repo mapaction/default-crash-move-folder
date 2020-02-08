@@ -1,0 +1,100 @@
+ISOA3_Portrait.mxd
+height,width
+297.011260689 419.98983998
+name,height,width,positionx,poistiony
+map_version , 287.0 , 414.2117 , 4.7294 , 6.8254
+create_date , 222.75 , 41.0721 , 7.1953 , 61.1604
+map_producer , 222.75 , 60.0 , 20.0 , 61.1604
+map_no , 277.0 , 414.2117 , 4.7294 , 23.2916
+legend , 274.9918 , 399.5204 , 13.1761 , 30.7189
+summary , 113.875 , 10.0 , 50.9828 , 58.2662
+CDC_logo , 183.12505 , 35.00005 , 36.4293 , 36.4293
+data_sources , 222.75 , 10.0 , 21.586 , 61.1604
+mapaction_logo , 44.625 , 60.0 , 14.6336 , 35.985
+title , 44.625 , 10.0 , 36.4164 , 53.9651
+inset_map , 15.9592 , 71.8443 , 100.7348 , 100.7349
+north_arrow , 274.9917 , 79.0396 , 10.1184 , 4.958
+main_map , 15.0 , 70.0 , 335.0 , 272.0
+metadata_horizontal_bottom , 10.0 , 65.0 , 0.0 , 277.0
+metadata_horizontal_centre , 10.0 , 65.0 , 0.0 , 277.0
+metadata_horizontal_centre , 10.0 , 65.0 , 0.0 , 277.0
+metadata_vertical_left , 79.25 , 10.0 , 50.0 , 0.0
+metadata_vertical_centre , 148.5 , 10.0 , 50.0 , 0.0
+metadata_vertical_right , 217.75 , 10.0 , 50.0 , 0.0
+
+ISOA4_Landscape.mxd
+height,width
+297.011260689 210.016086699
+name,height,width,positionx,poistiony
+map_version , 287.0 , 205.0 , 3.153 , 4.5503
+map_no , 281.0 , 205.0 , 3.153 , 15.5278
+create_date , 10.0 , 39.5 , 5.0 , 45.0
+map_producer , 10.0 , 52.5 , 12.0 , 45.0
+legend , 282.0 , 195.0 , 6.5886 , 15.3608
+summary , 32.5 , 128.75 , 30.0 , 45.0
+CDC_logo , 32.50005 , 81.25005 , 18.2165 , 18.2165
+data_sources_label , 110.1125 , 11.1011 , 2.6426 , 35.9732
+data_sources , 10.0 , 10.0 , 16.0 , 45.0
+mapaction_logo , 32.5 , 200.0 , 10.1688130825 , 25.0059
+title , 32.5 , 185.0 , 30.0 , 45.0
+inset_map , 75.0 , 20.0 , 50.0 , 50.0
+north_arrow , 211.755 , 39.5239 , 5.0597 , 2.4793
+main_map , 70.0 , 15.0 , 185.0 , 217.0
+metadata_horizontal_bottom , 10.0 , 152.5 , 0.0 , 45.0
+metadata_horizontal_centre , 10.0 , 105.0 , 0.0 , 45.0
+metadata_horizontal_centre , 10.0 , 57.5 , 0.0 , 45.0
+metadata_vertical_left , 60.0 , 10.0 , 190.0 , 0.0
+metadata_vertical_centre , 60.0 , 10.0 , 190.0 , 0.0
+metadata_vertical_right , 60.0 , 10.0 , 190.0 , 0.0
+
+ISOA4_Portrait.mxd
+height,width
+210.016086699 297.011260689
+name,height,width,positionx,poistiony
+map_version , 200.0 , 292.0 , 3.153 , 4.5503
+map_no , 194.0 , 292.0 , 3.153 , 15.5278
+create_date , 157.5 , 33.6166 , 5.0 , 42.5
+map_producer , 157.5 , 45.0 , 12.0 , 42.5
+legend , 195.0 , 282.7 , 9.1559 , 21.3465
+summary , 81.25 , 10.0 , 35.4276 , 40.4887
+CDC_logo , 128.75 , 27.5 , 25.3145 , 25.3145
+data_sources_label , 53.7528 , 20.5024 , 3.6723 , 49.99
+data_sources , 157.5 , 10.0 , 15.0 , 42.5
+mapaction_logo , 33.75 , 45.0 , 10.1688 , 25.0059
+title , 33.75 , 10.0 , 25.3055 , 37.5
+inset_map , 15.0 , 55.0 , 70.0 , 70.0
+north_arrow , 195.0 , 60.0 , 7.0312 , 3.4453
+main_map , 15.0 , 55.0 , 232.0 , 185.0
+metadata_horizontal_bottom , 10.0 , 50.0 , 0.0 , 190.0
+metadata_horizontal_centre , 10.0 , 50.0 , 0.0 , 190.0
+metadata_horizontal_centre , 10.0 , 50.0 , 0.0 , 190.0
+metadata_vertical_left , 57.5 , 10.0 , 35.0 , 0.0
+metadata_vertical_centre , 105.0 , 10.0 , 35.0 , 0.0
+metadata_vertical_right , 152.5 , 10.0 , 35.0 , 0.0
+
+USLetter_Portrait.mxd
+height,width
+215.9 279.4
+name,height,width,positionx,poistiony
+map_version , 205.9 , 274.4 , 3.153 , 4.5503
+create_date , 165.9 , 35.0 , 6.0 , 40.0
+map_no , 199.9 , 274.4 , 3.153 , 16.3119
+legend , 200.9 , 264.41 , 8.7552 , 20.412
+summary , 85.45 , 45.0 , 35.0 , 40.0
+create_date_time_label , 156.2489 , 29.4139 , 3.4515 , 17.257
+map_producer , 165.9 , 45.0 , 12.0 , 40.0
+CDC_logo , 135.675 , 27.5 , 24.2064 , 24.2064
+create_date_time_label , 156.1206 , 29.4139 , 3.4515 , 17.257
+data_sources_label , 60.5185 , 17.2944 , 3.5116 , 47.8018
+data_sources , 165.9 , 10.0 , 15.0 , 38.7165
+mapaction_logo , 35.225 , 45.0 , 9.7237 , 23.9112
+title , 35.225 , 10.0 , 24.1978 , 48.3954
+inset_map , 15.0 , 55.0 , 70.0 , 70.0
+north_arrow , 200.9 , 60.0 , 6.8055 , 3.3347
+main_map , 15.0 , 55.0 , 214.4 , 190.9
+metadata_horizontal_top , 10.0 , 50.0 , 0.0 , 195.9
+metadata_horizontal_bottom , 10.0 , 50.0 , 0.0 , 195.9
+metadata_horizontal_centre , 10.0 , 50.0 , 0.0 , 195.9
+metadata_vertical_left , 60.45 , 10.0 , 35.0 , 0.0
+metadata_vertical_centre , 110.45 , 10.0 , 35.0 , 0.0
+metadata_vertical_right , 160.9 , 10.0 , 35.0 , 0.0
