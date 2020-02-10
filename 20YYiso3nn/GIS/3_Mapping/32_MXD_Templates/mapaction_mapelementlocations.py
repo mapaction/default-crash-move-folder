@@ -24,7 +24,7 @@ mxdList = arcpy.ListFiles("*.mxd")
 print "Template,Element,PositionX,PositionY,Height,Width"
 ##mapframedetails = []
 for mxdfile in mxdList:
-    mapframedetails.append(mxdfile)
+##    mapframedetails.append(mxdfile)
     mxd = arcpy.mapping.MapDocument(root + sep + mxdfile)
     df = arcpy.mapping.ListDataFrames(mxd, "*")
     # run through the elements within the map and print
