@@ -100,14 +100,16 @@ pipelines:
     stages:
       - *testing_stages
       - deploy:
-          secure_variables:
-            LFTP_PASSWORD: AES:MqCuCm+56dnVR0ugNM5uaA==:4pO/g3WlyMcI4V5NMVdeM/93Ez2Fj/BiAtft2dFCIzU7Kq8Gg4DMvm3/54B7QROf
+          resources:
+            - hq
+            - windows
           tasks:
             - exec:
-                command: lftp
+                command: robocopy
                 arguments:
-                - "-f"
-                - default-cmf/deploy-via-ftp-server.lftp.txt
+                - "/mir"
+                - default-cmf
+                - \\192.168.106.24\SYSAdmin\testing\github-mirror\default-cmf
 
 
 # - name: clone-to-ftp
