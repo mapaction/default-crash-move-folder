@@ -2,6 +2,10 @@ format_version: 9
 common:
   testing_stages: &testing_stages
     - stage-pull-and-test:
+        resources:
+          - hq
+          - windows
+          - arcmap10-6
         jobs:
           job-pull-and-test:
             tasks:
@@ -13,12 +17,15 @@ common:
                   - lfs
                   - pull
               - exec:
-                  command: virtualenv
+                  command: cmd
                   arguments:
-                    - "--python=python3"
+                    - "/c"
+                    - "C:/py27arcgis106/ArcGIS10.6/python.exe"
+                    - "-m"
+                    - virtualenv
                     - env
               - exec:
-                  command: "./env/bin/python3"
+                  command: "env/Scripts/python.exe"
                   arguments:
                   - "-m"
                   - pip
@@ -26,7 +33,7 @@ common:
                   - "-e"
                   - mapy-controller
               - exec:
-                  command: "./env/bin/python3"
+                  command: "env/Scripts/python.exe"
                   arguments:
                   - "-m"
                   - mapactionpy_controller.check_naming_convention
