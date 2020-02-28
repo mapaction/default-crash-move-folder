@@ -2,35 +2,40 @@ format_version: 9
 common:
   testing_stages: &testing_stages
     - stage-pull-and-test:
-        jobs:
-          job-pull-and-test:
-            tasks:
-              - exec:
-                  command: git
-                  arguments:
-                  - "-C"
-                  - default-cmf
-                  - lfs
-                  - pull
-              - exec:
-                  command: virtualenv
-                  arguments:
-                    - "--python=python3"
-                    - env
-              - exec:
-                  command: "./env/bin/python3"
-                  arguments:
-                  - "-m"
-                  - pip
-                  - install
-                  - "-e"
-                  - mapy-controller
-              - exec:
-                  command: "./env/bin/python3"
-                  arguments:
-                  - "-m"
-                  - mapactionpy_controller.check_naming_convention
-                  - default-cmf/20YYiso3nn/cmf_description.json
+        resources:
+          - hq
+          - windows
+          - arcmap10-6
+        tasks:
+          - exec:
+              command: git
+              arguments:
+              - "-C"
+              - default-cmf
+              - lfs
+              - pull
+          - exec:
+              command: cmd
+              arguments:
+                - "/c"
+                - "C:/py27arcgis106/ArcGIS10.6/python.exe"
+                - "-m"
+                - virtualenv
+                - env
+          - exec:
+              command: "env/Scripts/python.exe"
+              arguments:
+              - "-m"
+              - pip
+              - install
+              - "-e"
+              - mapy-controller
+          - exec:
+              command: "env/Scripts/python.exe"
+              arguments:
+              - "-m"
+              - mapactionpy_controller.check_naming_convention
+              - default-cmf/20YYiso3nn/cmf_description.json
 
 pipelines:
   test-default-cmf-PRs:
