@@ -110,6 +110,8 @@ pipelines:
                 - "/mir"
                 - default-cmf
                 - \\192.168.106.24\SYSAdmin\testing\github-mirror\default-cmf
+                - "/xd"
+                - .git
 
 
 # - name: clone-to-ftp
