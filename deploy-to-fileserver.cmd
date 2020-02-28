@@ -15,8 +15,7 @@ robocopy ^
 :: Greater or equal to 8 is a fail)
 if %errorlevel% lss 8 goto finish
 
-echo Something failed 
-exit /b 8
+exit /b %errorlevel%
 
 :finish
 exit /b 0
