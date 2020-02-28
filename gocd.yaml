@@ -108,15 +108,12 @@ pipelines:
           resources:
             - hq
             - windows
+          artifacts:
+            - build:
+                source: deploy-to-fileserver.log
           tasks:
             - exec:
-                command: robocopy
-                arguments:
-                - "/mir"
-                - default-cmf
-                - \\192.168.106.24\SYSAdmin\testing\github-mirror\default-cmf
-                - "/xd"
-                - .git
+                command: deploy-to-fileserver.cmd
 
 
 # - name: clone-to-ftp
