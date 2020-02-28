@@ -1,14 +1,15 @@
 :: Copy the files
-robocopy 
+robocopy ^ 
 	%~dp0 ^
 	\\192.168.106.24\SYSAdmin\testing\github-mirror\default-cmf ^
 	/mir
-	/log:deploy-to-fileserver.log
+	/log:%~dp0deploy-to-fileserver.log
 	/xd .git ^
 	/xf .gitattributes ^
     /xf .gitignore ^
 	/xf ftp.mapaction.org.crt ^
 	/xf gocd.yaml ^
+	/xf deploy-to-fileserver.log
 
 :: Check the error code (anything less than 8 is OK.
 :: Greater or equal to 8 is a fail)

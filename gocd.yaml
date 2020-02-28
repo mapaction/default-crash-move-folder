@@ -110,10 +110,10 @@ pipelines:
             - windows
           artifacts:
             - build:
-                source: deploy-to-fileserver.log
+                source: default-cmf/deploy-to-fileserver.log
           tasks:
             - exec:
-                command: deploy-to-fileserver.cmd
+                command: default-cmf/deploy-to-fileserver.cmd
 
 
 # - name: clone-to-ftp
