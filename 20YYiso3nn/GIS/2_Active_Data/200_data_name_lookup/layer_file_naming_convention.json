@@ -1,5 +1,5 @@
 {
-    "pattern": "^(?P<mapframe>.*?)-(?P<scale>.*?)-(?P<geom>.*?)-(?P<cartographicuse>.+)",
+    "pattern": "^(?P<mapframe>.*?)-(?P<category>.*?)-(?P<theme>.*?)-(?P<geom>.*?)-(?P<scale>.*?)-(?P<cartographicuse>.+)",
     "clauses":[
         {
             "name": "mapframe",
@@ -7,15 +7,27 @@
             "alias": "Value"
         },
         {
-            "name": "scale",
+            "name": "category",
             "validator": "mapactionpy_controller.name_clause_validators.NamingLookupClause",
-            "filename": "05_scale.csv",
+            "filename": "02_category.csv",
+            "lookup_field": "Value"
+        },
+        {
+            "name": "theme",
+            "validator": "mapactionpy_controller.name_clause_validators.NamingLookupClause",
+            "filename": "03_theme.csv",
             "lookup_field": "Value"
         },
         {
             "name": "geom",
             "validator": "mapactionpy_controller.name_clause_validators.NamingLookupClause",
             "filename": "04_geometry.csv",
+            "lookup_field": "Value"
+        },
+        {
+            "name": "scale",
+            "validator": "mapactionpy_controller.name_clause_validators.NamingLookupClause",
+            "filename": "05_scale.csv",
             "lookup_field": "Value"
         },
         {
