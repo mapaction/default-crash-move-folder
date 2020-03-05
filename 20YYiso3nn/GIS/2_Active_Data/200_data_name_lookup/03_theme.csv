@@ -3,6 +3,7 @@ hub,UN Centres,3www
 ngo,NGO offices,3www
 www,Who / What / Where location,3www
 ad,Administrative boundary (various levels),admn
+adx,Surrounding countries,admn
 ad0,Administrative boundary (level 0 national),admn
 ad1,Administrative boundary (level 1),admn
 ad2,Administrative boundary (level 2),admn
@@ -99,7 +100,7 @@ mar,Marsh / swamp,phys
 nat,Natural,phys
 nun,Nunatak,phys
 oas,Oasis,phys
-ocn,Ocean,phys
+ocn,Ocean / sea,phys
 pla,Plains / open expanses,phys
 ree,Reef,phys
 rid,Ridge,phys
