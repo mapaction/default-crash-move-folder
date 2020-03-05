@@ -121,10 +121,11 @@ lod,Lodgings / hotels / guest houses,pois
 mon,Monument,pois
 nav,Navigational markers,pois
 off,Offices,pois
-rel,Religeous buildings,pois
+rel,Religous buildings,pois
 ser,Services / post offices,pois
 sit,Sites of interest,pois
 spt,Sport facilities,pois
+poi,General points of interest,pois
 twr,Towers,pois
 vet,Veterinary Facilities,pois
 wei,Weir,pois
