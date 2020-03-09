@@ -6,6 +6,7 @@
 			"RegExp": "^[a-z]{3}_stle_stl_pt_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
+			"Display": true,
 			"AddToLegend": true,
 			"LabelClasses": [{
 					"className": "National Capital",
@@ -51,7 +52,7 @@
 		{
 			"MapFrame": "Main map",
 			"LayerName": "mainmap-admn-adx-ln-s0-reference",
-			"RegExp": "^[a-z]{3}_admn_adx_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
+			"RegExp": "^[a-z]{3}_admn_ad0_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
 			"AddToLegend": true,
@@ -123,7 +124,7 @@
 		{
 			"MapFrame": "Location map",
 			"LayerName": "locationmap-admn-adx-ln-s0-locationmaps",
-			"RegExp": "^[a-z]{3}_admn_adx_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
+			"RegExp": "^[a-z]{3}_admn_ad0_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
 			"AddToLegend": true,
@@ -239,18 +240,18 @@
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-admn-ad0-py-s0-reference",
+			"LayerName": "mainmap-admn-adx-py-s0-surroundingcountries",
 			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
-			"DefinitionQuery": "",
+			"DefinitionQuery": "\"NAME_0\" <> '{COUNTRY_NAME}'",
 			"Display": false,
 			"AddToLegend": false,
 			"LabelClasses": []
 		},
 		{
 			"MapFrame": "Main map",
-			"LayerName": "mainmap-admn-adx-py-s0-reference",
-			"RegExp": "^[a-z]{3}_admn_adx_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
-			"DefinitionQuery": "\"NAME_0\" <> '{COUNTRY_NAME}'",
+			"LayerName": "mainmap-admn-ad0-py-s0-reference",
+			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
+			"DefinitionQuery": "\"NAME_0\" = '{COUNTRY_NAME}'",
 			"Display": false,
 			"AddToLegend": false,
 			"LabelClasses": []
@@ -302,7 +303,7 @@
 		},
 		{
 			"MapFrame": "Location map",
-			"LayerName": "locationmap-admn-ad0-ln-s0-locationmaps",
+			"LayerName": "locationmap-admn-adx-ln-s0-locationmaps",
 			"RegExp": "^[a-z]{3}_admn_ad0_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "",
 			"Display": true,
@@ -320,8 +321,8 @@
 		},
 		{
 			"MapFrame": "Location map",
-			"LayerName": "locationmap-admn-adx-py-s0-locationmaps",
-			"RegExp": "^[a-z]{3}_admn_adx_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
+			"LayerName": "locationmap-admn-adx-py-s0-surroundingcountries",
+			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
 			"DefinitionQuery": "\"NAME_0\" <> '{COUNTRY_NAME}'",
 			"Display": true,
 			"AddToLegend": true,
@@ -331,7 +332,7 @@
 			"MapFrame": "Location map",
 			"LayerName": "locationmap-admn-ad0-py-s0-locationmaps",
 			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
-			"DefinitionQuery": "",
+			"DefinitionQuery": "\"NAME_0\" = '{COUNTRY_NAME}'",
 			"Display": true,
 			"AddToLegend": true,
 			"LabelClasses": []
