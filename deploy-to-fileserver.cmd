@@ -6,9 +6,9 @@ robocopy %~dp0 ^
  /xd .git ^
  /xf .gitattributes ^
  /xf .gitignore ^
- /xf ftp.mapaction.org.crt ^
  /xf gocd.yaml ^
  /xf enable-empty-dir-in-github.txt ^
+ /xd deploy-to-fileserver.cmd ^
  /xf deploy-to-fileserver.log
 
 :: Check the error code (anything less than 8 is OK.
