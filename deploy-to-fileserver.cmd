@@ -8,6 +8,7 @@ robocopy %~dp0 ^
  /xf .gitignore ^
  /xf ftp.mapaction.org.crt ^
  /xf gocd.yaml ^
+ /xf enable-empty-dir-in-github.txt ^
  /xf deploy-to-fileserver.log
 
 :: Check the error code (anything less than 8 is OK.
