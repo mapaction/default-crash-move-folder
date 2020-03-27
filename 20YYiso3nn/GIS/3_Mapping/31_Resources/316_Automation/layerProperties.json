@@ -8,7 +8,8 @@
 			"Display": true,
 			"Display": true,
 			"AddToLegend": true,
-			"LabelClasses": [{
+			"LabelClasses": [
+				{
 					"className": "National Capital",
 					"expression": "[name]",
 					"SQLQuery": "(\"fclass\" = 'national_capital')",
@@ -174,7 +175,7 @@
 			"Display": true,
 			"AddToLegend": true,
 			"LabelClasses": []
-		},		
+		},
 		{
 			"MapFrame": "Main map",
 			"LayerName": "legend-tran-rds-ln-s0-allmaps",
@@ -327,7 +328,7 @@
 			"Display": true,
 			"AddToLegend": true,
 			"LabelClasses": []
-		},		
+		},
 		{
 			"MapFrame": "Location map",
 			"LayerName": "locationmap-admn-ad0-py-s0-locationmaps",
@@ -336,7 +337,7 @@
 			"Display": true,
 			"AddToLegend": true,
 			"LabelClasses": []
-		},		
+		},
 		{
 			"MapFrame": "Location map",
 			"LayerName": "mainmap-admn-ad1-py-s0-thematic",
