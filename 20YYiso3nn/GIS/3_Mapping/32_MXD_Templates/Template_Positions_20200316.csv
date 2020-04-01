@@ -1,0 +1,181 @@
+Template,Element,PositionX,PositionY,Height,Width
+arcgis_10_6_reference_landscape_bottom.mxd, mapaction_logo, 1.0, 5.0, 2.0, 4.92
+arcgis_10_6_reference_landscape_bottom.mxd, country, 1.0, 4.2, 0.799999999999, 5.5
+arcgis_10_6_reference_landscape_bottom.mxd, summary, -7.0, 1.0, 4.0, 6.35
+arcgis_10_6_reference_landscape_bottom.mxd, title, 1.0, 1.0, 2.75, 5.5
+arcgis_10_6_reference_landscape_bottom.mxd, data_sources, 7.3, 1.0, 0.5, 14.8
+arcgis_10_6_reference_landscape_bottom.mxd, legend_jpg, 9.25, 2.0, 5.0, 10.8824
+arcgis_10_6_reference_landscape_bottom.mxd, Location map, 22.7, 1.0, 6.0, 11.5
+arcgis_10_6_reference_landscape_bottom.mxd, scale_bar, 35.19, 6.1729, 0.806700000001, 1.6749
+arcgis_10_6_reference_landscape_bottom.mxd, scale, 36.6448, 5.75, 0.3153, 2.5104
+arcgis_10_6_reference_landscape_bottom.mxd, create_date_time_label, 34.8, 4.95, 0.4, 2.0
+arcgis_10_6_reference_landscape_bottom.mxd, create_date_time, 37.0, 4.95, 0.4, 4.0
+arcgis_10_6_reference_landscape_bottom.mxd, spatial_reference_label, 34.8, 4.25, 0.700000000001, 2.0
+arcgis_10_6_reference_landscape_bottom.mxd, spatial_reference, 37.0, 4.45, 0.4, 4.0
+arcgis_10_6_reference_landscape_bottom.mxd, glide_no_label, 34.8, 3.85, 0.4, 2.0
+arcgis_10_6_reference_landscape_bottom.mxd, glide_no, 37.0, 3.85, 0.4, 4.0
+arcgis_10_6_reference_landscape_bottom.mxd, map_producer, 34.8, 3.05, 0.700000000001, 6.2
+arcgis_10_6_reference_landscape_bottom.mxd, donor_credit, 34.8, 1.9, 1.05, 6.2
+arcgis_10_6_reference_landscape_bottom.mxd, disclaimer, 34.8, 1.0, 1.0, 6.2
+arcgis_10_6_reference_landscape_bottom.mxd, mxd_name_label, 43.0, 5.3, 0.400000000001, 2.25
+arcgis_10_6_reference_landscape_bottom.mxd, mxd_name, 43.0, 4.9, 0.412200000001, 7.5917
+arcgis_10_6_reference_landscape_bottom.mxd, timezone, 43.0, 4.5, 0.3153, 1.451
+arcgis_10_6_reference_landscape_bottom.mxd, legend, 43.0, 7.0, 0.788200000001, 2.2738
+arcgis_10_6_reference_landscape_bottom.mxd, map_no, 38.6, 28.2, 0.5, 1.4
+arcgis_10_6_reference_landscape_bottom.mxd, map_version, 40.25, 28.2, 0.5, 0.75
+arcgis_10_6_reference_landscape_bottom.mxd, map_name, 43.0, 5.7, 0.412199999999, 7.5917
+arcgis_10_6_reference_landscape_bottom.mxd, map_name_label, 43.0, 6.1, 0.4, 2.25
+arcgis_10_6_reference_landscape_bottom.mxd, horizontal_divide2, 34.8, 5.5, 0.0351999999984, 6.2
+arcgis_10_6_reference_landscape_bottom.mxd, vertical_divide3, 34.5, 1.0, 6.0, 0.0351999999984
+arcgis_10_6_reference_landscape_bottom.mxd, north_arrow, 2.0, 8.0, 1.0, 0.49
+arcgis_10_6_reference_landscape_bottom.mxd, horizontal_divide1, 7.3, 1.7, 0.0, 14.8
+arcgis_10_6_reference_landscape_bottom.mxd, vertical_divide1, 7.0, 1.0, 6.0, 0.0
+arcgis_10_6_reference_landscape_bottom.mxd, Main map, 1.5, 7.5, 20.7, 39.5
+arcgis_10_6_reference_landscape_bottom.mxd, vertical_divide2, 22.4, 1.0, 6.0, 0.0
+arcgis_10_6_reference_landscape_bottom.mxd, working_space, 1.0, 1.0, 27.7, 40.0
+
+
+arcgis_10_6_reference_landscape_side.mxd, mapaction_logo, 1.0, 26.7, 2.0, 4.92
+arcgis_10_6_reference_landscape_side.mxd, map_no, 38.6, 28.2, 0.5, 1.4
+arcgis_10_6_reference_landscape_side.mxd, map_version, 40.25, 28.2, 0.5, 0.75
+arcgis_10_6_reference_landscape_side.mxd, country, 1.0, 25.7, 0.799999999999, 6.2
+arcgis_10_6_reference_landscape_side.mxd, title, 1.0, 22.65, 2.75, 6.2
+arcgis_10_6_reference_landscape_side.mxd, summary, -7.0, 16.6, 4.9, 6.0
+arcgis_10_6_reference_landscape_side.mxd, legend_jpg, 1.0, 16.05, 4.8162, 6.2
+arcgis_10_6_reference_landscape_side.mxd, Location map, 1.0, 9.3, 5.0, 6.2
+arcgis_10_6_reference_landscape_side.mxd, scale_bar, 2.1993, 7.9, 0.812, 3.928
+arcgis_10_6_reference_landscape_side.mxd, scale, 2.8462, 7.384, 0.3153, 2.275
+arcgis_10_6_reference_landscape_side.mxd, data_sources, 1.0, 6.1, 0.699999999999, 6.2
+arcgis_10_6_reference_landscape_side.mxd, create_date_time_label, 1.0, 5.1, 0.4, 2.25
+arcgis_10_6_reference_landscape_side.mxd, create_date_time, 3.3, 5.1, 0.4, 4.0
+arcgis_10_6_reference_landscape_side.mxd, spatial_reference_label, 1.0, 4.4, 0.700000000001, 2.25
+arcgis_10_6_reference_landscape_side.mxd, spatial_reference, 3.3, 4.55, 0.400000000001, 4.0
+arcgis_10_6_reference_landscape_side.mxd, glide_no_label, 1.0, 4.0, 0.4, 2.25
+arcgis_10_6_reference_landscape_side.mxd, glide_no, 3.3, 4.0, 0.4, 4.0
+arcgis_10_6_reference_landscape_side.mxd, map_producer, 1.0, 3.05, 0.700000000001, 6.2
+arcgis_10_6_reference_landscape_side.mxd, donor_credit, 1.0, 1.9, 1.05, 6.2
+arcgis_10_6_reference_landscape_side.mxd, disclaimer, 1.0, 1.0, 1.0, 6.2
+arcgis_10_6_reference_landscape_side.mxd, north_arrow, 40.0, 2.0, 1.0, 0.49
+arcgis_10_6_reference_landscape_side.mxd, mxd_name_label, 43.0, 1.8, 0.400000000001, 2.25
+arcgis_10_6_reference_landscape_side.mxd, mxd_name, 43.0, 1.4, 0.412200000001, 7.5917
+arcgis_10_6_reference_landscape_side.mxd, timezone, 43.0, 1.0, 0.3153, 1.451
+arcgis_10_6_reference_landscape_side.mxd, legend, 43.0, 3.5, 0.788200000001, 2.2738
+arcgis_10_6_reference_landscape_side.mxd, map_name, 43.0, 2.2, 0.412199999999, 7.5917
+arcgis_10_6_reference_landscape_side.mxd, map_name_label, 43.0, 2.6, 0.4, 2.25
+arcgis_10_6_reference_landscape_side.mxd, Main map, 7.7, 1.5, 26.7, 33.3
+arcgis_10_6_reference_landscape_side.mxd, working_space, 0.9678, 1.0, 27.7, 40.0
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide5, 1.0, 5.8, 0.0352000000003, 6.2
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide4, 1.0, 7.1, 0.0352000000003, 6.2
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide3, 1.0, 9.0, 0.0351999999984, 6.2
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide2, 1.0, 14.6, 0.0352000000003, 6.2
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide1, 1.0, 22.35, 0.0352000000003, 6.2
+
+
+arcgis_10_6_reference_portrait_bottom.mxd, map_no, 26.3, 40.5, 0.5, 1.4
+arcgis_10_6_reference_portrait_bottom.mxd, map_version, 27.95, 40.5, 0.5, 0.75
+arcgis_10_6_reference_portrait_bottom.mxd, north_arrow, 2.0, 39.0, 1.0, 0.49
+arcgis_10_6_reference_portrait_bottom.mxd, mapaction_logo, 1.0, 5.0, 2.0, 4.92
+arcgis_10_6_reference_portrait_bottom.mxd, country, 1.0, 4.2, 0.799999999999, 5.5
+arcgis_10_6_reference_portrait_bottom.mxd, summary, -7.0, 2.0, 4.0, 6.35
+arcgis_10_6_reference_portrait_bottom.mxd, title, 1.0, 1.0, 2.9, 5.5
+arcgis_10_6_reference_portrait_bottom.mxd, data_sources, 7.3, 1.0, 0.5, 9.0
+arcgis_10_6_reference_portrait_bottom.mxd, legend_jpg, 7.3, 2.5, 4.0089, 9.0
+arcgis_10_6_reference_portrait_bottom.mxd, Location map, 16.9, 1.0, 6.0, 5.0
+arcgis_10_6_reference_portrait_bottom.mxd, scale_bar, 23.5059, 6.12, 0.8115, 4.1841
+arcgis_10_6_reference_portrait_bottom.mxd, scale, 24.4625, 5.7541, 0.3153, 2.275
+arcgis_10_6_reference_portrait_bottom.mxd, create_date_time_label, 22.5, 4.95, 0.4, 2.0
+arcgis_10_6_reference_portrait_bottom.mxd, create_date_time, 24.7, 4.95, 0.4, 4.0
+arcgis_10_6_reference_portrait_bottom.mxd, spatial_reference_label, 22.5, 4.25, 0.700000000001, 2.0
+arcgis_10_6_reference_portrait_bottom.mxd, spatial_reference, 24.7, 4.4, 0.4, 4.0
+arcgis_10_6_reference_portrait_bottom.mxd, glide_no_label, 22.5, 3.85, 0.4, 2.0
+arcgis_10_6_reference_portrait_bottom.mxd, glide_no, 24.7, 3.85, 0.4, 4.0
+arcgis_10_6_reference_portrait_bottom.mxd, map_producer, 22.5, 3.05, 0.700000000001, 6.2
+arcgis_10_6_reference_portrait_bottom.mxd, donor_credit, 22.5, 1.9, 1.05, 6.2
+arcgis_10_6_reference_portrait_bottom.mxd, disclaimer, 22.5, 1.0, 1.0, 6.2
+arcgis_10_6_reference_portrait_bottom.mxd, legend, 30.7, 4.5354, 0.788199999999, 2.2738
+arcgis_10_6_reference_portrait_bottom.mxd, map_name_label, 30.7, 3.2626, 0.4, 2.25
+arcgis_10_6_reference_portrait_bottom.mxd, map_name, 30.7, 2.697, 0.412200000001, 7.5917
+arcgis_10_6_reference_portrait_bottom.mxd, mxd_name_label, 30.7, 2.1313, 0.400000000001, 2.25
+arcgis_10_6_reference_portrait_bottom.mxd, mxd_name, 30.7, 1.5657, 0.412200000001, 7.5917
+arcgis_10_6_reference_portrait_bottom.mxd, timezone, 30.7, 1.0, 0.3153, 1.451
+arcgis_10_6_reference_portrait_bottom.mxd, Main map, 1.5, 7.5, 33.0, 27.2
+arcgis_10_6_reference_portrait_bottom.mxd, working_space, 1.0, 1.0, 40.0, 27.7
+arcgis_10_6_reference_portrait_bottom.mxd, horizontal_divide2, 22.5, 5.5, 0.0351999999984, 6.2
+arcgis_10_6_reference_portrait_bottom.mxd, vertical_divide3, 22.2, 1.0, 6.0, 0.0352000000003
+arcgis_10_6_reference_portrait_bottom.mxd, vertical_divide2, 16.6, 1.0, 6.0, 0.0352000000003
+arcgis_10_6_reference_portrait_bottom.mxd, horizontal_divide1, 7.3, 1.7, 0.0352000000003, 9.0
+arcgis_10_6_reference_portrait_bottom.mxd, vertical_divide1, 7.0, 1.0, 6.0, 0.0351999999984
+
+
+arcgis_10_6_thematic_landscape.mxd, map_no, 38.5, 28.7, 0.5, 1.4003
+arcgis_10_6_thematic_landscape.mxd, map_version, 40.2, 28.7, 0.5, 0.7502
+arcgis_10_6_thematic_landscape.mxd, country, 1.0, 28.0, 0.7, 10.0
+arcgis_10_6_thematic_landscape.mxd, title, 1.0, 27.3, 0.7, 36.0
+arcgis_10_6_thematic_landscape.mxd, mapaction_logo, 37.3, 27.2, 1.5, 3.69
+arcgis_10_6_thematic_landscape.mxd, summary_label, -18.0, 18.9, 0.472899999999, 2.0704
+arcgis_10_6_thematic_landscape.mxd, summary, -12.0, 16.2, 3.2, 10.3
+arcgis_10_6_thematic_landscape.mxd, data_sources_label, -18.0, 12.5271, 0.472900000001, 2.8468
+arcgis_10_6_thematic_landscape.mxd, data_sources, -12.0, 11.6, 1.4, 10.0
+arcgis_10_6_thematic_landscape.mxd, create_date_time_label, -18.0, 11.0, 0.5, 2.5
+arcgis_10_6_thematic_landscape.mxd, create_date_time, -12.0, 11.0, 0.5, 5.0
+arcgis_10_6_thematic_landscape.mxd, timezone, -5.465, 11.0, 0.472900000001, 2.1766
+arcgis_10_6_thematic_landscape.mxd, map_name_label, -18.0, 9.9781, 0.4729, 3.1279
+arcgis_10_6_thematic_landscape.mxd, map_name, -11.9826, 9.9768, 0.4729, 6.3072
+arcgis_10_6_thematic_landscape.mxd, mxd_name_label, -18.0, 9.5271, 0.472900000001, 3.1279
+arcgis_10_6_thematic_landscape.mxd, mxd_name, -12.0, 9.5, 0.472900000001, 6.3072
+arcgis_10_6_thematic_landscape.mxd, spatial_reference_label, -18.0, 8.5271, 0.472900000001, 3.8338
+arcgis_10_6_thematic_landscape.mxd, spatial_reference, -12.0, 8.5, 0.472900000001, 2.0706
+arcgis_10_6_thematic_landscape.mxd, scale_label, -18.0, 7.5271, 0.472900000001, 1.2473
+arcgis_10_6_thematic_landscape.mxd, scale, -12.0, 7.5, 0.472900000001, 3.7656
+arcgis_10_6_thematic_landscape.mxd, map_producer_label, -18.0, 5.5271, 0.472900000001, 2.9638
+arcgis_10_6_thematic_landscape.mxd, map_producer, -12.0, 4.9, 1.1, 10.0
+arcgis_10_6_thematic_landscape.mxd, donor_credit_label, -18.0, 4.0271, 0.472900000001, 2.6576
+arcgis_10_6_thematic_landscape.mxd, donor_credit, -12.0, 3.4, 1.1, 10.0
+arcgis_10_6_thematic_landscape.mxd, glide_no_label, -18.0, 2.5271, 0.472900000001, 2.8695
+arcgis_10_6_thematic_landscape.mxd, glide_no, -12.0, 2.5, 0.5, 4.8014
+arcgis_10_6_thematic_landscape.mxd, disclaimer, -18.0, 1.0, 1.0, 16.0
+arcgis_10_6_thematic_landscape.mxd, source_production_info, 1.0, 1.0, 1.0, 6.5273
+arcgis_10_6_thematic_landscape.mxd, legend, 42.4, 1.0, 0.7882, 2.2738
+arcgis_10_6_thematic_landscape.mxd, legend_image, 1.0, 2.3, 7.0115, 6.7468
+arcgis_10_6_thematic_landscape.mxd, scale_bar, 38.5, 1.0, 1.1087, 2.5
+arcgis_10_6_thematic_landscape.mxd, north_arrow, 39.5, 2.25, 1.1616, 0.5692
+arcgis_10_6_thematic_landscape.mxd, Main map, 1.0, 1.0, 27.7, 40.0
+arcgis_10_6_thematic_landscape.mxd, unused_map_elements, -17.7946, 26.9467, 1.7533, 15.5893
+arcgis_10_6_thematic_landscape.mxd, unused_elements, -19.0, 0.0, 29.7, 18.0
+
+
+arcgis_10_6_thematic_portrait.mxd, map_no, 26.31, 40.9, 0.5, 1.4003
+arcgis_10_6_thematic_portrait.mxd, map_version, 27.96, 40.9, 0.5, 0.7502
+arcgis_10_6_thematic_portrait.mxd, country, 1.0, 40.3, 0.7, 10.0
+arcgis_10_6_thematic_portrait.mxd, title, 1.0, 39.6, 0.7, 23.7
+arcgis_10_6_thematic_portrait.mxd, mapaction_logo, 25.0, 39.5, 1.5, 3.69
+arcgis_10_6_thematic_portrait.mxd, summary_label, -19.2928, 25.6449, 0.4729, 2.0704
+arcgis_10_6_thematic_portrait.mxd, summary, -15.0491, 22.9178, 3.2, 10.3
+arcgis_10_6_thematic_portrait.mxd, data_sources_label, -19.2928, 17.7218, 0.4729, 2.8468
+arcgis_10_6_thematic_portrait.mxd, data_sources, -15.0491, 16.4103, 1.4, 10.0
+arcgis_10_6_thematic_portrait.mxd, create_date_time_label, -19.2928, 15.5615, 0.5, 2.5
+arcgis_10_6_thematic_portrait.mxd, create_date_time, -15.0491, 15.5615, 0.5, 5.0
+arcgis_10_6_thematic_portrait.mxd, timezone, -10.4271, 15.5614, 0.4729, 2.1766
+arcgis_10_6_thematic_portrait.mxd, map_name_label, -19.2928, 14.1158, 0.4729, 3.1279
+arcgis_10_6_thematic_portrait.mxd, map_name, -15.0491, 14.1139, 0.4729, 6.3072
+arcgis_10_6_thematic_portrait.mxd, mxd_name_label, -19.2928, 13.4778, 0.4729, 3.1279
+arcgis_10_6_thematic_portrait.mxd, mxd_name, -15.0491, 13.4394, 0.4729, 6.3072
+arcgis_10_6_thematic_portrait.mxd, spatial_reference_label, -19.2928, 12.0631, 0.4729, 3.8338
+arcgis_10_6_thematic_portrait.mxd, spatial_reference, -15.0491, 12.0247, 0.4729, 2.0706
+arcgis_10_6_thematic_portrait.mxd, scale_label, -19.2928, 10.6484, 0.4729, 1.2473
+arcgis_10_6_thematic_portrait.mxd, scale, -15.0491, 10.6101, 0.4729, 3.7656
+arcgis_10_6_thematic_portrait.mxd, map_producer_label, -19.2928, 7.819, 0.4729, 2.9638
+arcgis_10_6_thematic_portrait.mxd, map_producer, -15.0491, 6.9319, 1.1, 10.0
+arcgis_10_6_thematic_portrait.mxd, donor_credit_label, -19.2928, 5.697, 0.4729, 2.6576
+arcgis_10_6_thematic_portrait.mxd, donor_credit, -15.0491, 4.8099, 1.1, 10.0
+arcgis_10_6_thematic_portrait.mxd, glide_no_label, -19.2928, 3.575, 0.4729, 2.8695
+arcgis_10_6_thematic_portrait.mxd, glide_no, -15.0491, 3.5367, 0.5, 4.8014
+arcgis_10_6_thematic_portrait.mxd, disclaimer, -19.2928, 1.4147, 1.0, 16.0
+arcgis_10_6_thematic_portrait.mxd, unused_map_elements, -18.7946, 27.3168, 1.7533, 15.5893
+arcgis_10_6_thematic_portrait.mxd, unused_elements, -20.0, 0.0, 29.7, 18.0
+arcgis_10_6_thematic_portrait.mxd, legend, 30.7544, 1.2712, 0.5518, 1.7561
+arcgis_10_6_thematic_portrait.mxd, scale_bar, 27.0, 0.75, 0.944299999999, 1.8182
+arcgis_10_6_thematic_portrait.mxd, north_arrow, 27.75, 2.0, 0.84, 0.4172
+arcgis_10_6_thematic_portrait.mxd, source_production_info, 1.0, 0.75, 1.0, 6.5
+arcgis_10_6_thematic_portrait.mxd, legend_image, 1.2972, 2.8234, 7.0114, 6.7469
+arcgis_10_6_thematic_portrait.mxd, Main map, 1.0, 1.0, 40.0, 27.7
