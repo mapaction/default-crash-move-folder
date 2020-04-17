@@ -1,6 +1,6 @@
 :: Copy the files
 robocopy %~dp0 ^
- \\192.168.106.24\SYSAdmin\testing\github-mirror\default-cmf ^
+ \\192.168.106.24\Reference-files\Default_Crash_Move_Folder ^
  /mir ^
  /log:%~dp0deploy-to-fileserver.log ^
  /xd .git ^
