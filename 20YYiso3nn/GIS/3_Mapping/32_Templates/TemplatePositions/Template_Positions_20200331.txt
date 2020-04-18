@@ -1,0 +1,174 @@
+Template,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
+arcgis_10_6_reference_landscape_bottom.mxd, legend_jpg, PICTURE_ELEMENT, 92.5, 20.0, 50.0, 108.823739947
+arcgis_10_6_reference_landscape_bottom.mxd, horizontal_divide1, GRAPHIC_ELEMENT, 73.0, 17.0, 0.0, 148.0
+arcgis_10_6_reference_landscape_bottom.mxd, mxd_name, TEXT_ELEMENT, 430.0074, 50.1299, 4.1216, 75.9171 , 8.0, arcgis_10_6_reference_landscape_bottom.mxd
+arcgis_10_6_reference_landscape_bottom.mxd, timezone, TEXT_ELEMENT, 429.5232, 46.15, 3.153, 14.5108 , 8.0, UTC+02:00
+arcgis_10_6_reference_landscape_bottom.mxd, legend, LEGEND_ELEMENT, 425.8789, 80.9991, 142.4618, 92.2378
+arcgis_10_6_reference_landscape_bottom.mxd, map_no, TEXT_ELEMENT, 386.0, 282.0, 5.0, 14.0 , 12.0, MA001
+arcgis_10_6_reference_landscape_bottom.mxd, map_version, TEXT_ELEMENT, 402.5, 282.0, 5.0, 7.5 , 12.0, v01
+arcgis_10_6_reference_landscape_bottom.mxd, vertical_divide3, GRAPHIC_ELEMENT, 345.0, 10.0, 60.0, 0.3528
+arcgis_10_6_reference_landscape_bottom.mxd, glide_no, TEXT_ELEMENT, 370.0, 38.5, 4.0, 40.0 , 8.0, HU-2019-123456-BHS
+arcgis_10_6_reference_landscape_bottom.mxd, glide_no_label, TEXT_ELEMENT, 368.0, 38.5, 4.0, 20.0 , 8.0, Glide Number
+arcgis_10_6_reference_landscape_bottom.mxd, spatial_reference, TEXT_ELEMENT, 370.0, 44.5, 4.0, 40.0 , 8.0, WGS 1984
+arcgis_10_6_reference_landscape_bottom.mxd, spatial_reference_label, TEXT_ELEMENT, 348.0, 42.5, 7.0, 20.0 , 8.0, Projection & Datum
+arcgis_10_6_reference_landscape_bottom.mxd, map_name, TEXT_ELEMENT, 430.0, 55.0, 4.1216, 75.9171 , 8.0, arcgis_10_6_reference_landscape_bottom.mxd
+arcgis_10_6_reference_landscape_bottom.mxd, mxd_name_label, TEXT_ELEMENT, 430.0, 60.0, 4.0, 22.5 , 8.0, Map Document
+arcgis_10_6_reference_landscape_bottom.mxd, create_date_time, TEXT_ELEMENT, 370.0, 49.5, 4.0, 40.0 , 8.0, 26-Feb-2020 09:13
+arcgis_10_6_reference_landscape_bottom.mxd, create_date_time_label, TEXT_ELEMENT, 348.0, 49.5, 4.0, 20.0 , 8.0, Created
+arcgis_10_6_reference_landscape_bottom.mxd, horizontal_divide2, GRAPHIC_ELEMENT, 348.0, 55.0, 0.3528, 62.0
+arcgis_10_6_reference_landscape_bottom.mxd, donor_credit, TEXT_ELEMENT, 348.0, 19.0, 10.5, 62.0 , 8.0, Supported by the Bernard Sunley Charitable Foundation, DFID, the Dulverton Trust and the Hans K Rausing Trust
+arcgis_10_6_reference_landscape_bottom.mxd, disclaimer, TEXT_ELEMENT, 348.0, 10.0, 10.0, 62.0 , 8.0, The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcgis_10_6_reference_landscape_bottom.mxd, map_producer, TEXT_ELEMENT, 348.0, 30.5, 7.0, 62.0 , 8.0, Produced by MapAction info@mapaction.org https://mapaction.org
+arcgis_10_6_reference_landscape_bottom.mxd, scale, TEXT_ELEMENT, 366.4481, 57.5, 3.153, 25.1038 , 8.0, 1: 4,172,930 (At A3)
+arcgis_10_6_reference_landscape_bottom.mxd, scale_bar, MAPSURROUND_ELEMENT, 351.9004, 61.7292, 8.0095, 16.7328
+arcgis_10_6_reference_landscape_bottom.mxd, vertical_divide2, GRAPHIC_ELEMENT, 224.0, 10.0, 60.0, 0.3528
+arcgis_10_6_reference_landscape_bottom.mxd, country, TEXT_ELEMENT, 10.0, 42.0, 8.0, 55.0 , 18.0, Bahamas
+arcgis_10_6_reference_landscape_bottom.mxd, title, TEXT_ELEMENT, 10.0, 10.0, 27.5, 55.0 , 16.0, Country Overview with Admin 1 Boundaries and Topography
+arcgis_10_6_reference_landscape_bottom.mxd, mapaction_logo, PICTURE_ELEMENT, 10.0, 50.0, 20.0, 49.2
+arcgis_10_6_reference_landscape_bottom.mxd, vertical_divide1, GRAPHIC_ELEMENT, 70.0, 10.0, 60.0, 0.0
+arcgis_10_6_reference_landscape_bottom.mxd, data_sources, TEXT_ELEMENT, 73.0, 10.0, 5.0, 148.0 , 8.0, <BOL>Data Sources:</BOL>
+arcgis_10_6_reference_landscape_bottom.mxd, north_arrow, MAPSURROUND_ELEMENT, 20.0, 80.0, 10.0, 4.9
+arcgis_10_6_reference_landscape_bottom.mxd, Location map, DATAFRAME_ELEMENT, 227.0, 10.0, 60.0, 115.0
+arcgis_10_6_reference_landscape_bottom.mxd, Main map, DATAFRAME_ELEMENT, 15.0, 75.0, 207.0, 395.0
+arcgis_10_6_reference_landscape_bottom.mxd, summary, TEXT_ELEMENT, -70.0, 10.0, 60.0, 63.5 , 14.0, Country overview with topography displayed
+
+arcgis_10_6_reference_landscape_bottom.mxd, working_space, GRAPHIC_ELEMENT, 10.0, 10.0, 277.0, 400.0 
+arcgis_10_6_reference_landscape_side.mxd, legend_jpg, PICTURE_ELEMENT, 10.0, 160.5, 48.1619375231, 62.0
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide2, GRAPHIC_ELEMENT, 10.0, 146.0, 0.3528, 62.0
+arcgis_10_6_reference_landscape_side.mxd, map_name, TEXT_ELEMENT, -73.2529, 36.15, 4.0, 67.7886 , 8.0, arcgis_10_6_reference_landscape_side.mxd
+arcgis_10_6_reference_landscape_side.mxd, scale, TEXT_ELEMENT, 28.4617, 73.8402, 3.153, 22.75 , 8.0, 1: 900,000 (At A3)
+arcgis_10_6_reference_landscape_side.mxd, timezone, TEXT_ELEMENT, -58.746, 52.684, 3.153, 14.5108 , 8.0, UTC+03:00
+arcgis_10_6_reference_landscape_side.mxd, legend, LEGEND_ELEMENT, 426.3129, 16.654, 7.8824, 22.7377
+arcgis_10_6_reference_landscape_side.mxd, glide_no, TEXT_ELEMENT, 33.0, 40.0, 4.0, 40.0 , 8.0, FL-2019-123456-DJI
+arcgis_10_6_reference_landscape_side.mxd, glide_no_label, TEXT_ELEMENT, 10.0, 40.0, 4.0, 22.5 , 8.0, Glide Number
+arcgis_10_6_reference_landscape_side.mxd, spatial_reference, TEXT_ELEMENT, 33.0, 45.5, 4.0, 40.0 , 8.0, WGS 1984
+arcgis_10_6_reference_landscape_side.mxd, spatial_reference_label, TEXT_ELEMENT, 10.0, 44.0, 7.0, 22.5 , 8.0, Projection & Datum
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide5, GRAPHIC_ELEMENT, 10.0, 58.0, 0.3528, 62.0
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide4, GRAPHIC_ELEMENT, 10.0, 71.0, 0.3528, 62.0
+arcgis_10_6_reference_landscape_side.mxd, scale_bar, MAPSURROUND_ELEMENT, 21.9928, 79.0, 8.0442, 35.6877
+arcgis_10_6_reference_landscape_side.mxd, mxd_name, TEXT_ELEMENT, -73.2529, 42.5, 4.0, 67.7886 , 8.0, arcgis_10_6_reference_landscape_side.mxd
+arcgis_10_6_reference_landscape_side.mxd, mxd_name_label, TEXT_ELEMENT, -60.0, 47.5, 4.0, 22.5 , 8.0, Map Document
+arcgis_10_6_reference_landscape_side.mxd, create_date_time, TEXT_ELEMENT, 33.0, 51.0, 4.0, 40.0 , 8.0, 24-Feb-2020 16:13
+arcgis_10_6_reference_landscape_side.mxd, create_date_time_label, TEXT_ELEMENT, 10.0, 51.0, 4.0, 22.5 , 8.0, Created
+arcgis_10_6_reference_landscape_side.mxd, donor_credit, TEXT_ELEMENT, 10.0, 19.0, 10.5, 62.0 , 8.0, Supported by DFID and the Hans K Rausing Trust
+arcgis_10_6_reference_landscape_side.mxd, disclaimer, TEXT_ELEMENT, 10.0, 10.0, 10.0, 62.0 , 8.0, The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcgis_10_6_reference_landscape_side.mxd, map_producer, TEXT_ELEMENT, 10.0, 30.5, 7.0, 62.0 , 8.0, Produced by MapAction https://mapaction.org info@mapaction.org
+arcgis_10_6_reference_landscape_side.mxd, Location map, DATAFRAME_ELEMENT, 10.0, 93.0, 50.0, 62.0
+arcgis_10_6_reference_landscape_side.mxd, country, TEXT_ELEMENT, 10.0, 257.0, 8.0, 62.0 , 18.0, Djibouti
+arcgis_10_6_reference_landscape_side.mxd, data_sources, TEXT_ELEMENT, 10.0, 61.0, 7.0, 62.0 , 8.0, <BOL>Data Sources:</BOL>
+arcgis_10_6_reference_landscape_side.mxd, mapaction_logo, PICTURE_ELEMENT, 10.0, 267.0, 20.0, 49.2
+arcgis_10_6_reference_landscape_side.mxd, map_no, TEXT_ELEMENT, 386.0, 282.0, 5.0, 14.0 , 12.0, MA001 v1
+arcgis_10_6_reference_landscape_side.mxd, map_version, TEXT_ELEMENT, 402.5, 282.0, 5.0, 7.5 , 12.0, v01
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide1, GRAPHIC_ELEMENT, 10.0, 223.5, 0.3528, 62.0
+arcgis_10_6_reference_landscape_side.mxd, horizontal_divide3, GRAPHIC_ELEMENT, 10.0, 90.0, 0.3528, 62.0
+arcgis_10_6_reference_landscape_side.mxd, title, TEXT_ELEMENT, 10.0, 226.5, 27.5, 62.0 , 16.0, Country Overview with Admin 1 Boundaries and Topography
+arcgis_10_6_reference_landscape_side.mxd, north_arrow, MAPSURROUND_ELEMENT, 400.0, 20.0, 10.0, 4.9
+arcgis_10_6_reference_landscape_side.mxd, Main map, DATAFRAME_ELEMENT, 77.0, 15.0, 267.0, 333.0
+arcgis_10_6_reference_landscape_side.mxd, summary, TEXT_ELEMENT, -70.0, 166.0, 49.0, 60.0 , 14.0, Country overview with detail of Admin 1 boundaries and major cities
+arcgis_10_6_reference_landscape_side.mxd, working_space, GRAPHIC_ELEMENT, 9.6782, 10.0, 277.0, 400.0 
+
+arcgis_10_6_reference_portrait_bottom.mxd, legend_jpg, PICTURE_ELEMENT, 73.0, 25.0, 40.0893324995, 90.0
+arcgis_10_6_reference_portrait_bottom.mxd, glide_no, TEXT_ELEMENT, 247.0, 38.5, 4.0, 40.0 , 8.0, FL-2019-123456-DJI
+arcgis_10_6_reference_portrait_bottom.mxd, glide_no_label, TEXT_ELEMENT, 225.0, 38.5, 4.0, 20.0 , 8.0, Glide Number
+arcgis_10_6_reference_portrait_bottom.mxd, spatial_reference, TEXT_ELEMENT, 247.0, 44.0, 4.0, 40.0 , 8.0, WGS 1984
+arcgis_10_6_reference_portrait_bottom.mxd, spatial_reference_label, TEXT_ELEMENT, 225.0, 42.5, 7.0, 20.0 , 8.0, Projection & Datum
+arcgis_10_6_reference_portrait_bottom.mxd, create_date_time, TEXT_ELEMENT, 247.0, 49.5, 4.0, 40.0 , 8.0, 25-Feb-2020 09:25
+arcgis_10_6_reference_portrait_bottom.mxd, create_date_time_label, TEXT_ELEMENT, 225.0, 49.5, 4.0, 20.0 , 8.0, Created
+arcgis_10_6_reference_portrait_bottom.mxd, donor_credit, TEXT_ELEMENT, 225.0, 19.0, 10.5, 62.0 , 8.0, Supported by DFID and the Hans K Rausing Trust
+arcgis_10_6_reference_portrait_bottom.mxd, map_producer, TEXT_ELEMENT, 225.0, 30.5, 7.0, 62.0 , 8.0, Produced by MapAction info@mapaction.org https://mapaction.org
+arcgis_10_6_reference_portrait_bottom.mxd, map_name, TEXT_ELEMENT, 302.0, 36.1451, 4.0, 69.0884 , 8.0, arcgis_10_6_reference_portrait_bottom.mxd
+arcgis_10_6_reference_portrait_bottom.mxd, scale, TEXT_ELEMENT, 244.625, 57.5411, 3.153, 22.75 , 8.0, 1: 759,222 (At A3)
+arcgis_10_6_reference_portrait_bottom.mxd, timezone, TEXT_ELEMENT, 303.7343, 65.2626, 3.153, 14.5108 , 8.0, UTC+03:00
+arcgis_10_6_reference_portrait_bottom.mxd, legend, LEGEND_ELEMENT, 307.68, 77.98, 7.8824, 22.7377
+arcgis_10_6_reference_portrait_bottom.mxd, horizontal_divide1, GRAPHIC_ELEMENT, 73.0, 17.0, 0.0, 90.0
+arcgis_10_6_reference_portrait_bottom.mxd, map_no, TEXT_ELEMENT, 263.0, 405.0, 5.0, 14.0 , 12.0, MA001
+arcgis_10_6_reference_portrait_bottom.mxd, map_version, TEXT_ELEMENT, 279.5, 405.0, 5.0, 7.5 , 12.0, v01
+arcgis_10_6_reference_portrait_bottom.mxd, vertical_divide3, GRAPHIC_ELEMENT, 222.0, 10.0, 60.0, 0.0
+arcgis_10_6_reference_portrait_bottom.mxd, vertical_divide2, GRAPHIC_ELEMENT, 166.0, 10.0, 60.0, 0.0
+arcgis_10_6_reference_portrait_bottom.mxd, vertical_divide1, GRAPHIC_ELEMENT, 70.0, 10.0, 60.0, 0.0
+arcgis_10_6_reference_portrait_bottom.mxd, title, TEXT_ELEMENT, 10.0, 10.0, 29.0, 55.0 , 16.0, Country Overview with Admin 1 Boundaries and Topography
+arcgis_10_6_reference_portrait_bottom.mxd, mapaction_logo, PICTURE_ELEMENT, 10.0, 50.0, 20.0, 49.2
+arcgis_10_6_reference_portrait_bottom.mxd, country, TEXT_ELEMENT, 10.0, 42.0, 8.0, 55.0 , 18.0, Djibouti
+arcgis_10_6_reference_portrait_bottom.mxd, mxd_name, TEXT_ELEMENT, 302.0, 42.4951, 4.0, 67.682 , 8.0, arcgis_10_6_reference_portrait_bottom.mxd
+arcgis_10_6_reference_portrait_bottom.mxd, mxd_name_label, TEXT_ELEMENT, 302.0, 47.5, 4.0, 22.5 , 8.0, Map Document
+arcgis_10_6_reference_portrait_bottom.mxd, horizontal_divide2, GRAPHIC_ELEMENT, 225.0, 55.0, 0.0, 62.0
+arcgis_10_6_reference_portrait_bottom.mxd, disclaimer, TEXT_ELEMENT, 225.0, 10.0, 10.0, 62.0 , 8.0, The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcgis_10_6_reference_portrait_bottom.mxd, data_sources, TEXT_ELEMENT, 73.0, 10.0, 5.0, 90.0 , 8.0, <BOL>Data Sources:</BOL>
+arcgis_10_6_reference_portrait_bottom.mxd, Location map, DATAFRAME_ELEMENT, 169.0, 10.0, 60.0, 50.0
+arcgis_10_6_reference_portrait_bottom.mxd, scale_bar, MAPSURROUND_ELEMENT, 235.0593, 61.2, 8.1681, 41.841
+arcgis_10_6_reference_portrait_bottom.mxd, north_arrow, MAPSURROUND_ELEMENT, 20.0, 390.0, 10.0, 4.9
+arcgis_10_6_reference_portrait_bottom.mxd, Main map, DATAFRAME_ELEMENT, 15.0, 75.0, 330.0, 272.0
+arcgis_10_6_reference_portrait_bottom.mxd, summary, TEXT_ELEMENT, -70.0, 30.0, 40.0, 63.5 , 14.0, Country overview with topography displayed
+arcgis_10_6_reference_portrait_bottom.mxd, working_space, GRAPHIC_ELEMENT, 10.0, 10.0, 400.0, 277.0 
+
+arcgis_10_6_thematic_landscape.mxd, legend_image, PICTURE_ELEMENT, 1.1201, 3.2285, 7.0115, 6.7468
+arcgis_10_6_thematic_landscape.mxd, map_name, TEXT_ELEMENT, -11.9826, 9.9768, 0.4729, 6.3072, 12.0, arcgis_10_6_thematic_landscape.mxd
+arcgis_10_6_thematic_landscape.mxd, create_date_time, TEXT_ELEMENT, -12.0, 11.0, 0.5, 5.0 , 12.0, 1 Jan 2016 / 12:00
+arcgis_10_6_thematic_landscape.mxd, create_date_time_label, TEXT_ELEMENT, -18.0, 11.0, 0.5, 2.5 , 12.0, Created
+arcgis_10_6_thematic_landscape.mxd, timezone, TEXT_ELEMENT, -5.465, 11.0, 0.472900000001, 2.1766 , 12.0, UTC+02:00
+arcgis_10_6_thematic_landscape.mxd, map_no, TEXT_ELEMENT, 38.5, 28.7, 0.5, 1.4003 , 12.0, MA010 v1
+arcgis_10_6_thematic_landscape.mxd, map_version, TEXT_ELEMENT, 40.2, 28.7, 0.5, 0.7502 , 12.0, v01
+arcgis_10_6_thematic_landscape.mxd, summary_label, TEXT_ELEMENT, -18.0, 18.9, 0.472899999999, 2.0704 , 12.0, Summary:
+arcgis_10_6_thematic_landscape.mxd, data_sources_label, TEXT_ELEMENT, -18.0, 12.5271, 0.472900000001, 2.8468 , 12.0, Data Sources:
+arcgis_10_6_thematic_landscape.mxd, mxd_name, TEXT_ELEMENT, -12.0, 9.5, 0.472900000001, 6.3072 , 12.0, arcgis_10_6_thematic_landscape.mxd
+arcgis_10_6_thematic_landscape.mxd, mxd_name_label, TEXT_ELEMENT, -18.0, 9.5271, 0.472900000001, 3.1279 , 12.0, Map document:
+arcgis_10_6_thematic_landscape.mxd, spatial_reference, TEXT_ELEMENT, -12.0, 8.5, 0.472900000001, 2.0706 , 12.0, WGS 1984
+arcgis_10_6_thematic_landscape.mxd, spatial_reference_label, TEXT_ELEMENT, -18.0, 8.5271, 0.472900000001, 3.8338 , 12.0, Projection / datum:
+arcgis_10_6_thematic_landscape.mxd, scale, TEXT_ELEMENT, -12.0, 7.5, 0.472900000001, 3.7656 , 12.0, 1: 4,000,000 (At A3)
+arcgis_10_6_thematic_landscape.mxd, scale_label, TEXT_ELEMENT, -18.0, 7.5271, 0.472900000001, 1.2473 , 12.0, Scale:
+arcgis_10_6_thematic_landscape.mxd, map_producer, TEXT_ELEMENT, -12.0, 4.9, 1.1, 10.0 , 12.0, Produced by MapAction https://mapaction.org mozambique@mapaction.org
+arcgis_10_6_thematic_landscape.mxd, map_producer_label, TEXT_ELEMENT, -18.0, 5.5271, 0.472900000001, 2.9638 , 12.0, Map Producer:
+arcgis_10_6_thematic_landscape.mxd, donor_credit_label, TEXT_ELEMENT, -18.0, 4.0271, 0.472900000001, 2.6576 , 12.0, Donor credit:
+arcgis_10_6_thematic_landscape.mxd, title, TEXT_ELEMENT, 1.0, 27.3, 0.7, 36.0 , 16.0, Title
+arcgis_10_6_thematic_landscape.mxd, data_sources, TEXT_ELEMENT, -12.0, 11.6, 1.4, 10.0 , 12.0, These are my data sources
+arcgis_10_6_thematic_landscape.mxd, summary, TEXT_ELEMENT, -12.0, 16.2, 3.2, 10.3 , 12.0, Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012. Affected population figures are from Government of Vulgaria Ministry of Health reports. Planned rapid assessment routes by UNDAC teams for the coming two days are shown.
+arcgis_10_6_thematic_landscape.mxd, disclaimer, TEXT_ELEMENT, -18.0, 1.0, 1.0, 16.0 , 12.0, The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcgis_10_6_thematic_landscape.mxd, glide_no, TEXT_ELEMENT, -12.0, 2.5, 0.5, 4.8014 , 12.6877, TYP-2019-123456-MOZ
+arcgis_10_6_thematic_landscape.mxd, glide_no_label, TEXT_ELEMENT, -18.0, 2.5271, 0.472900000001, 2.8695 , 12.0, Glide number:
+arcgis_10_6_thematic_landscape.mxd, donor_credit, TEXT_ELEMENT, -12.0, 3.4, 1.1, 10.0 , 12.0, Supported by DFID and the Hans K Rausing Trust
+arcgis_10_6_thematic_landscape.mxd, unused_map_elements, TEXT_ELEMENT, -17.7946, 26.9467, 1.7533, 15.5893 , 16.0, These map elements are not used in this template but can be used as metadata in the map export tool.
+arcgis_10_6_thematic_landscape.mxd, unused_elements, GRAPHIC_ELEMENT, -19.0, 0.0, 29.7, 18.0
+arcgis_10_6_thematic_landscape.mxd, source_production_info, TEXT_ELEMENT, 1.0, 1.0, 1.0, 6.5273 , 10.0, <bol>Data Sources:</bol> Insert Here
+Map created by MapAction (dd/mm/2017)
+arcgis_10_6_thematic_landscape.mxd, country, TEXT_ELEMENT, 1.0, 28.0, 0.7, 10.0 , 16.0, Country
+arcgis_10_6_thematic_landscape.mxd, north_arrow, MAPSURROUND_ELEMENT, 39.5, 2.25, 1.1616, 0.5692
+arcgis_10_6_thematic_landscape.mxd, scale_bar, MAPSURROUND_ELEMENT, 38.5, 1.0, 1.1171, 2.5
+arcgis_10_6_thematic_landscape.mxd, legend, LEGEND_ELEMENT, 42.453, 1.2645, 0.5518, 1.7561
+arcgis_10_6_thematic_landscape.mxd, mapaction_logo, PICTURE_ELEMENT, 37.3, 27.2, 1.5, 3.69
+arcgis_10_6_thematic_landscape.mxd, Main map, DATAFRAME_ELEMENT, 1.0, 1.0, 27.7, 40.0
+
+arcgis_10_6_thematic_portrait.mxd, legend_image, PICTURE_ELEMENT, 1.2972, 2.8234, 7.0114, 6.7469
+arcgis_10_6_thematic_portrait.mxd, map_name, TEXT_ELEMENT, -12.1367, 16.4084, 0.6306, 7.593 , 16.0, arcgis_10_6_thematic_portrait.mxd
+arcgis_10_6_thematic_portrait.mxd, timezone, TEXT_ELEMENT, -5.0, 19.5, 0.4729, 2.1766 , 12.0, UTC+02:00
+arcgis_10_6_thematic_portrait.mxd, create_date_time, TEXT_ELEMENT, -12.0, 19.5, 0.5, 5.0 , 12.0, 1 Jan 2016 / 12:00
+arcgis_10_6_thematic_portrait.mxd, create_date_time_label, TEXT_ELEMENT, -18.0, 19.5, 0.7, 4.4079 , 16.97, Created
+arcgis_10_6_thematic_portrait.mxd, map_no, TEXT_ELEMENT, 26.31, 40.9, 0.5, 1.4003 , 12.0, MA010 v1
+arcgis_10_6_thematic_portrait.mxd, map_version, TEXT_ELEMENT, 27.96, 40.9, 0.5, 0.7502 , 12.0, v01
+arcgis_10_6_thematic_portrait.mxd, title, TEXT_ELEMENT, 1.0, 39.6, 0.7, 23.7 , 16.0, Title
+arcgis_10_6_thematic_portrait.mxd, country, TEXT_ELEMENT, 1.0, 40.3, 0.7, 10.0 , 16.0, Sri Lanka
+arcgis_10_6_thematic_portrait.mxd, summary_label, TEXT_ELEMENT, -18.0, 24.9, 0.6687, 2.9273 , 16.9667, Summary:
+arcgis_10_6_thematic_portrait.mxd, data_sources_label, TEXT_ELEMENT, -18.0, 17.8, 0.6687, 4.025 , 16.9667, Data Sources:
+arcgis_10_6_thematic_portrait.mxd, mxd_name, TEXT_ELEMENT, -12.0, 15.5, 0.6306, 7.593 , 16.0, arcgis_10_6_thematic_portrait.mxd
+arcgis_10_6_thematic_portrait.mxd, map_name_label, TEXT_ELEMENT, -18.0, 15.4, 0.6687, 4.4225 , 16.9667, Map document:
+arcgis_10_6_thematic_portrait.mxd, spatial_reference, TEXT_ELEMENT, -12.0, 14.5, 0.6306, 2.7608 , 16.0, WGS 1984
+arcgis_10_6_thematic_portrait.mxd, spatial_reference_label, TEXT_ELEMENT, -18.0, 14.4, 0.6687, 5.4205 , 16.9667, Projection / datum:
+arcgis_10_6_thematic_portrait.mxd, scale, TEXT_ELEMENT, -12.0, 13.5, 0.6306, 6.3062 , 16.0, 1: 1,100,000 (At Custom)
+arcgis_10_6_thematic_portrait.mxd, scale_label, TEXT_ELEMENT, -18.0, 13.4, 0.6687, 1.7635 , 16.9667, Scale:
+arcgis_10_6_thematic_portrait.mxd, map_producer, TEXT_ELEMENT, -12.0, 11.0, 1.1, 10.0 , 12.0, Produced by MapAction https://mapaction.org mozambique@mapaction.org
+arcgis_10_6_thematic_portrait.mxd, map_producer_label, TEXT_ELEMENT, -18.0, 11.0, 0.6687, 4.1904 , 16.9667, Map Producer:
+arcgis_10_6_thematic_portrait.mxd, donor_credit_label, TEXT_ELEMENT, -18.0, 9.5, 0.6687, 3.7576 , 16.9667, Donor credit:
+arcgis_10_6_thematic_portrait.mxd, data_sources, TEXT_ELEMENT, -12.0, 17.8, 1.3737, 9.9915 , 12.0, These are my data sources
+arcgis_10_6_thematic_portrait.mxd, summary, TEXT_ELEMENT, -12.0, 22.4, 3.2, 10.4 , 12.0, Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012. Affected population figures are from Government of Vulgaria Ministry of Health reports. Planned rapid assessment routes by UNDAC teams for the coming two days are shown.
+arcgis_10_6_thematic_portrait.mxd, disclaimer, TEXT_ELEMENT, -18.0, 7.15, 0.9999, 16.0001 , 12.0, The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcgis_10_6_thematic_portrait.mxd, glide_no, TEXT_ELEMENT, -12.0, 8.4, 0.6687, 6.4207 , 16.9667, TYP-2019-123456-MOZ
+arcgis_10_6_thematic_portrait.mxd, glide_no_label, TEXT_ELEMENT, -18.0, 8.4, 0.6687, 4.0572 , 16.9667, Glide number:
+arcgis_10_6_thematic_portrait.mxd, donor_credit, TEXT_ELEMENT, -12.0, 9.5, 1.1, 10.0 , 12.0, Supported by DFID and the Hans K Rausing Trust
+arcgis_10_6_thematic_portrait.mxd, unused_map_elements, TEXT_ELEMENT, -18.0, 33.0, 1.7534, 15.5895 , 16.0, These map elements are not used in this template but can be used as metadata in the map export tool.
+arcgis_10_6_thematic_portrait.mxd, unused_elements, GRAPHIC_ELEMENT, -19.0, 6.15, 29.7, 18.0
+arcgis_10_6_thematic_portrait.mxd, north_arrow, MAPSURROUND_ELEMENT, 27.75, 2.0, 0.84, 0.4172
+arcgis_10_6_thematic_portrait.mxd, scale_bar, MAPSURROUND_ELEMENT, 27.0, 0.75, 0.9478, 1.8182
+arcgis_10_6_thematic_portrait.mxd, source_production_info, TEXT_ELEMENT, 1.0, 0.75, 1.0, 6.5 , 10.0, <bol>Data Sources:</bol> Insert Here
+Map created by MapAction (dd/mm/2017)
+arcgis_10_6_thematic_portrait.mxd, legend, LEGEND_ELEMENT, -14.1769, 1.3569, 0.5518, 1.7561
+arcgis_10_6_thematic_portrait.mxd, mapaction_logo, PICTURE_ELEMENT, 25.0, 39.5, 1.5, 3.69
+arcgis_10_6_thematic_portrait.mxd, Main map, DATAFRAME_ELEMENT, 1.0, 1.0, 40.0, 27.7

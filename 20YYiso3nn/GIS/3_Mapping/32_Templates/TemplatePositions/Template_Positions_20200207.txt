@@ -1,0 +1,176 @@
+arcgis_10_6_reference_landscape_bottom.mxd
+element,position x,position y,height,width
+Legend, 7.8824, 25.0872, 241.5613, 63.0948
+map_no, 5.0, 14.0, 400.0, 287.0
+map_version, 5.0, 7.5, 410.0, 287.0
+vertical_divide4, 60.0, 0.0, 280.0, 10.0
+vertical_divide5, 60.0, 0.0, 340.0, 10.0
+glide_no, 4.0, 44.5, 365.5, 52.5
+glide_no_label, 4.0, 22.5, 342.5, 52.5
+spatial_reference, 4.0, 44.5, 365.5, 60.0
+spatial_reference_label, 7.0, 22.5, 342.5, 58.5
+mxd_name, 4.0, 44.5, 430.0, 55.0
+map_name_label, 4.0, 22.5, 430.0, 60.0
+create_date_time, 4.0, 44.5, 365.5, 70.0
+create_date_time_label, 4.0, 22.5, 342.5, 70.0
+horizontal_divide1, 0.0, 55.0, 282.5, 50.0
+donor_credit, 7.0, 67.5, 342.5, 37.5
+disclaimer, 10.0, 67.5, 342.5, 10.0
+map_producer, 7.0, 67.5, 342.5, 47.5
+scale, 3.153, 25.1038, 310.0, 52.5
+Scale Bar, 8.0207, 51.1586, 309.4, 61.2
+vertical_divide3, 60.0, 0.0, 217.0, 10.0
+vertical_divide2, 60.0, 0.0, 148.5, 10.0
+country, 8.0, 65.0, 10.0, 50.0
+title, 27.5, 67.5, 10.0, 10.0
+mapaction_logo, 20.0, 49.2, 10.0, 70.0
+vertical_divide1, 60.0, 0.0, 80.0, 10.0
+data_sources, 37.5, 55.0, 282.5, 47.5
+north_arrow, 10.0000215983, 4.9, 405.0, 85.0
+Location map, 60.0, 60.0, 182.75, 40.0
+Main map, 207.0, 395.0, 15.0, 75.0
+summary, 60.0, 63.5, 82.5, 70.0
+working_space, 277.0, 400.0, 10.0, 10.0
+
+
+arcgis_10_6_reference_landscape_side.mxd
+element,position x,position y,height,width
+glide_no, 4.0, 37.0, 33.0, 40.0
+glide_no_label, 4.0, 22.5, 10.0, 40.0
+spatial_reference, 4.0, 37.0, 33.0, 45.5
+spatial_reference_label, 7.0, 22.5, 10.0, 44.0
+Scale Text, 3.153, 16.4786, 53.5214, 85.0
+scale_label, 3.153, 31.531, 10.0, 85.0
+horizontal_divide5, 0.0, 60.0, 10.0, 57.5
+horizontal_divide4, 0.0, 60.0, 10.0, 82.5
+Scale Bar, 8.0441, 48.6993, 40.0, 98.0
+mxd_name, 4.0, 37.0, -47.0, 42.5
+mxd_name_label, 4.0, 22.5, -10.0, 47.5
+create_date_time, 4.0, 37.0, 33.0, 51.0
+create_date_time_label, 4.0, 22.5, 10.0, 51.0
+donor_credit, 10.5, 60.0, 10.0, 21.0
+disclaimer, 10.0, 60.0, 10.0, 20.0
+map_producer, 7.0, 60.0, 10.0, 33.0
+location map, 58.0, 58.0, 40.0, 132.25
+country, 8.0, 60.0, 10.0, 265.0
+data_sources, 20.0, 60.0, 10.0, 60.0
+organisation_logo, 20.0, 49.2, 10.0, 287.0
+map_no, 5.0, 14.0, 400.0, 287.0
+map_version, 5.0, 7.5, 410.0, 287.0
+horizontal_divide1, 0.0, 60.0, 10.0, 217.3236
+horizontal_divide2, 0.0, 60.0, 10.0, 163.5
+horizontal_divide3, 0.0, 60.0, 10.0, 101.0
+title, 33.0, 60.0, 10.0, 220.0
+Insert Legend Here, 19.2871, 21.638, 405.0, 277.0
+north_arrow, 10.0000215983, 4.9, 405.0, 20.0
+main_map, 267.0, 335.0, 75.0, 15.0
+summary, 49.0, 60.0, 10.0, 166.0
+working_space, 277.0, 400.0, 10.0, 10.0
+
+
+arcgis_10_6_reference_portrait_bottom.mxd
+element,position x,position y,height,width
+scale, 3.153, 14.909, 287.0, 57.5
+scale_label, 3.153, 31.531, 219.5, 57.5
+horizontal_divide1, 0.0, 63.5, 82.5, 29.0
+map_no, 5.0, 14.0, 277.0, 410.0
+map_version, 5.0, 7.5, 287.0, 405.0
+vertical_divide3, 60.0, 0.0, 217.0, 10.0
+vertical_divide2, 60.0, 0.0, 148.5, 10.0
+vertical_divide1, 60.0, 0.0, 80.0, 10.0
+title, 27.5, 65.0, 10.0, 10.0
+organisation_logo, 20.0, 49.2, 10.0, 70.0
+country, 8.0, 65.0, 10.0, 50.0
+glide_no, 4.0, 44.5, 242.5, 40.0
+glide_no_label, 4.0, 22.5, 219.5, 40.0
+spatial_reference, 4.0, 44.5, 242.5, 45.5
+spatial_reference_label, 7.0, 22.5, 219.5, 44.0
+mxd_name, 4.0, 44.5, 302.0, 42.4951
+mxd_name_label, 4.0, 22.5, 302.0, 47.5
+timezone, 5.0, 17.5, 300.0, 51.0
+create_date_time, 4.0, 44.5, 242.5, 51.0
+create_date_time_label, 4.0, 22.5, 219.5, 51.0
+horizontal_divide2, 0.0, 67.5, 287.0, 56.3086
+donor_credit, 10.5, 67.5, 219.5, 31.0
+disclaimer, 10.0, 67.5, 219.5, 10.0
+map_producer, 7.0, 67.5, 219.5, 32.0
+data_sources, 16.5, 63.5, 82.5, 10.0
+location_map, 60.0, 60.0, 212.75, 70.0
+Insert Legend Here, 19.2871, 21.638, 282.0, 395.0
+Scale Bar, 8.0655, 50.8028, 257.1476, 61.4097
+North Arrow, 10.0, 4.89996584552, 281.999965846, 82.5
+Main map, 330.0, 272.0, 15.0, 75.0
+summary, 40.0, 63.5, 82.5, 70.0
+working_space, 400.0, 277.0, 10.0, 10.0
+
+
+arcgis_10_6_thematic_landscape.mxd
+element,position x,position y,height,width
+summary_label, 0.472899999999, 2.0704, -18.0, 19.0676
+data_sources_label, 0.472900000001, 2.8468, -18.0, 12.5271
+map_no, 0.472899999999, 1.3647, -3.3647, 10.5271
+map_no_label, 0.472899999999, 2.7047, -18.0, 10.5271
+mxd_name, 0.472900000001, 4.0457, -6.0457, 9.5271
+mxd_name_label, 0.472900000001, 3.1279, -18.0, 9.5271
+spatial_reference, 0.472900000001, 1.4821, -3.4821, 8.5271
+spatial_reference_label, 0.472900000001, 3.8338, -18.0, 8.5271
+scale, 0.472900000001, 3.8666, -5.8666, 7.5271
+scale_label, 0.472900000001, 1.2473, -18.0, 7.5271
+timezone, 0.472900000001, 2.2, -4.2, 6.5271
+time_zone_label, 0.472900000001, 2.2502, -18.0, 6.5271
+map_producer, 1.1, 10.0, -12.0, 4.9
+map_producer_label, 0.472900000001, 2.9638, -18.0, 5.5271
+donor_credit_label, 0.472900000001, 2.6576, -18.0, 4.0271
+title, 0.7, 36.0, 1.0, 28.0
+data_sources, 1.3738, 9.9914, -11.9914, 11.6262
+summary, 3.258, 10.3969, -12.3969, 16.2825
+disclaimer, 1.0, 16.0, -18.0, 1.0
+glide_no, 0.472900000001, 5.2942, -7.2942, 2.5271
+glide_no_label, 0.472900000001, 2.8695, -18.0, 2.5271
+donor_credit, 1.1, 10.0, -12.0, 3.4
+unused_map_elements, 1.7533, 15.5893, -17.7946, 26.9467
+unused_elements, 29.7, 18.0, -19.0, 0.0
+, 1.0, 6.5273, 41.0, 1.0
+title, 0.7, 10.0, 1.0, 28.0
+north_arrow, 1.1616, 0.5692, 1.95, 2.25
+single_division_scale_bar, 1.1031, 2.4691, 1.0, 1.0
+Legend, 0.5518, 1.7561, 41.0, 2.0
+mapaction_300px, 1.5, 3.69, 41.0, 28.7
+Main map, 27.7, 40.0, 1.0, 1.0
+
+
+arcgis_10_6_thematic_portrait.mxd
+element,position x,position y,height,width
+map_no, 0.5001, 1.4003, 27.7086, 41.4148
+map_version, 0.5001, 0.7502, 28.7088, 40.9147
+title, 0.7, 23.7, 1.0, 40.3
+title, 0.7, 10.0, 1.0, 41.0
+summary_label, 0.6687, 2.9273, -15.0727, 25.0218
+data_sources_label, 0.6687, 4.025, -13.975, 18.4813
+map_no, 0.6687, 1.9295, -1.9999, 16.4814
+map_no_label, 0.6687, 3.8242, -14.1758, 16.4814
+mxd_name, 0.6687, 5.7201, -1.9999, 15.4813
+mxd_name_label, 0.6687, 4.4225, -13.5775, 15.4813
+spatial_reference, 0.6687, 2.0955, -1.9999, 14.4813
+spatial_reference_label, 0.6687, 5.4205, -12.5795, 14.4813
+scale, 0.6687, 5.467, -1.9999, 13.4814
+scale_label, 0.6687, 1.7635, -16.2365, 13.4814
+timezone, 0.6687, 3.1105, -1.9999, 12.4813
+time_zone_label, 0.6687, 3.1815, -14.8185, 12.4813
+map_producer, 1.1, 10.0, -1.9999, 11.05
+map_producer_label, 0.6687, 4.1904, -13.8096, 11.4813
+donor_credit_label, 0.6687, 3.7576, -14.2424, 9.9813
+data_sources, 1.3737, 9.9915, -1.9999, 17.7763
+summary, 3.258, 10.397, -1.9999, 22.4325
+disclaimer, 0.9999, 16.0001, -1.9999, 7.15
+glide_no, 0.6687, 7.4854, -1.9999, 8.4813
+glide_no_label, 0.6687, 4.0572, -13.9428, 8.4813
+donor_credit, 1.1, 10.0, -1.9999, 9.55
+unused_map_elements, 1.7534, 15.5895, -2.2052, 33.0967
+unused_elements, 29.7, 17.9999, -1.0, 6.15
+north_arrow, 0.8396, 0.4172, 1.8375, 2.25
+Single Division Scale Bar, 0.9475, 1.6749, 1.0, 1.0
+, 1.0, 6.5, 27.6012, 0.7472
+Legend, 0.5518, 1.7561, 27.5591, 2.0
+mapaction_300px, 1.5, 3.69, 28.7, 41.0
+Main map, 40.0, 27.7, 1.0, 1.0
