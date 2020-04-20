@@ -62,6 +62,14 @@ common:
               command: "env/Scripts/python.exe"
               arguments:
               - "-m"
+              - mapactionpy_controller.config_verify
+              - "-c"
+              - default-cmf/20YYiso3nn/cmf_description.json
+              - lp-vs-cb 
+          - exec:
+              command: "env/Scripts/python.exe"
+              arguments:
+              - "-m"
               - mapactionpy_controller.check_naming_convention
               - default-cmf/20YYiso3nn/cmf_description.json
 
