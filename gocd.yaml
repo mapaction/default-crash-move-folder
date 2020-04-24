@@ -45,6 +45,14 @@ common:
               - mapactionpy_controller.config_verify
               - "-c"
               - default-cmf/20YYiso3nn/cmf_description.json
+              - check-schemas 
+          - exec:
+              command: "env/Scripts/python.exe"
+              arguments:
+              - "-m"
+              - mapactionpy_controller.config_verify
+              - "-c"
+              - default-cmf/20YYiso3nn/cmf_description.json
               - lp-vs-rendering 
               - "-e"
               - '.lyr'
