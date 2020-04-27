@@ -217,6 +217,60 @@
 				}
 			],
 			"summary": "Shows country overview with transport information such as airports and ports"
+		},
+		{
+			"mapnumber": "MA006",
+			"category": "Reference",
+			"product": "Atlas Admin 1 Boundaries & P-Codes plus Admin 2 Boundaries",
+			"export": true,
+			"layers": [
+				{
+					"name": "mainmap-stle-stl-pt-s0-allmaps"
+				},
+				{
+					"name": "mainmap-carto-fea-py-s0-allmaps"
+				},
+				{
+					"name": "mainmap-elev-cst-ln-s0-allmaps"
+				},
+				{
+					"name": "mainmap-admn-adx-ln-s0-reference"
+				},
+				{
+					"name": "mainmap-admn-ad1-ln-s0-reference"
+				},
+				{
+					"name": "mainmap-admn-ad2-ln-s0-reference"
+				},
+				{
+					"name": "mainmap-admn-ad1-py-s0-reference",
+					"columnName": "NAME_1",
+					"zoomMultiplier": 0.2
+				},
+				{
+					"name": "mainmap-admn-ad2-py-s0-reference"
+				},
+				{
+					"name": "mainmap-admn-adx-py-s0-reference"
+				},
+				{
+					"name": "mainmap-admn-ad1-py-s1-ddpadmin1"
+				},
+				{
+					"name": "locationmap-admn-adx-ln-s0-locationmaps"
+				},
+				{
+					"name": "locationmap-admn-ad0-py-s0-locationmaps",
+					"zoomMultiplier": 1.5
+				},
+				{
+					"name": "locationmap-elev-cst-ln-s0-locationmaps"
+				},
+				{
+					"name": "locationmap-admn-adx-py-s0-locationmaps"
+				}
+			],
+			"summary": "Atlas Admin 1 Boundaries & P-Codes plus Admin 2 Boundaries & PCodes"
 		}
 	]
 }

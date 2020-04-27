@@ -10,6 +10,24 @@
 			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
+			"MapFrame": "Location map",
+			"LayerName": "locationmap-admn-adx-py-s0-locationmaps",
+			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$",
+			"DefinitionQuery": "\"NAME_0\" <> '{COUNTRY_NAME}'",
+			"Display": true,
+			"AddToLegend": true,
+			"LabelClasses": []
+		},
+		{
+			"AddToLegend": false,
+			"DefinitionQuery": "",
+			"Display": false,
+			"LabelClasses": [],
+			"LayerName": "mainmap-admn-ad1-py-s1-ddpadmin1",
+			"MapFrame": "Main map",
+			"RegExp": "^[a-z]{3}_admn_ad1_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$"
+		},
+		{
 			"AddToLegend": true,
 			"DefinitionQuery": "",
 			"Display": true,
@@ -26,6 +44,15 @@
 			"LayerName": "mainmap-elev-cst-ln-s0-allmaps",
 			"MapFrame": "Main map",
 			"RegExp": "^[a-z]{3}_elev_cst_ln_(.*?)_(.*?)_([phm][phm])(.*?).shp$"
+		},
+		{
+			"AddToLegend": false,
+			"DefinitionQuery": "\"NAME_0\" = '{COUNTRY_NAME}'",
+			"Display": false,
+			"LabelClasses": [],
+			"LayerName": "mainmap-admn-adx-py-s0-reference",
+			"MapFrame": "Main map",
+			"RegExp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"AddToLegend": true,
