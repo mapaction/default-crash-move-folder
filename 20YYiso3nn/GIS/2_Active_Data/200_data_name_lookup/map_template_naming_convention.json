@@ -1,20 +1,40 @@
 {
-    "pattern": "^(?P<gissoftware>.*?)_(?P<templatestyle>(reference|thematic|all[-_]templates))_(?P<orientation>(landscape|portrait|.*?))",
-    "clauses":[
-        {
-            "name": "gissoftware",
-            "validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
-            "alias": "Value"
-        },
-        {
-            "name": "templatestyle",
-            "validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
-            "alias": "Value"
-        },
-        {
-            "name": "orientation",
-            "validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
-            "alias": "Value"
-        }
-    ]
+	"pattern": "^(?P<software>(?P<qg>qgis-3\\.4)|(?P<pr>pro-2\\.5)|(?P<am>arcmap-10\\.6))[-_](?P<templatestyle>(reference|thematic|all[-_]templates))_(?P<orientation>(landscape|portrait|.*?))\\.(?P<ex>(?(qg)qgs)|(?(pr)pagx)|(?(am)mxd))$",
+	"clauses": [
+		{
+			"name": "software",
+			"validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
+			"alias": "Value"
+		},
+		{
+			"name": "qg",
+			"validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
+			"alias": "Value"
+		},
+		{
+			"name": "pr",
+			"validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
+			"alias": "Value"
+		},
+		{
+			"name": "am",
+			"validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
+			"alias": "Value"
+		},
+		{
+			"name": "templatestyle",
+			"validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
+			"alias": "Value"
+		},
+		{
+			"name": "orientation",
+			"validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
+			"alias": "Value"
+		},
+		{
+			"name": "ex",
+			"validator": "mapactionpy_controller.name_clause_validators.NamingFreeTextClause",
+			"alias": "Value"
+		}
+	]
 }
