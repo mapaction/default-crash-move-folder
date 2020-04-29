@@ -269,9 +269,7 @@
 							"name": "mainmap-admn-ad2-ln-s0-reference"
 						},
 						{
-							"name": "mainmap-admn-ad1-py-s0-reference",
-							"columnName": "NAME_1",
-							"zoomMultiplier": 0.2
+							"name": "mainmap-admn-ad1-py-s0-reference"
 						},
 						{
 							"name": "mainmap-admn-ad2-py-s0-reference"
@@ -291,8 +289,7 @@
 							"name": "locationmap-admn-ad0-ln-s0-locationmaps"
 						},
 						{
-							"name": "locationmap-admn-ad0-py-s0-locationmaps",
-							"zoomMultiplier": 1.5
+							"name": "locationmap-admn-ad0-py-s0-locationmaps"
 						},
 						{
 							"name": "locationmap-elev-cst-ln-s0-locationmaps"
