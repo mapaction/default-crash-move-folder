@@ -244,6 +244,11 @@
 			"product": "Atlas Admin 1 Boundaries and P-Codes plus Admin 2 Boundaries",
 			"export": true,
 			"template": "reference",
+			"atlas": {
+				"map_frame": "Main map",
+				"layer_name": "mainmap-admn-ad1-py-s0-reference",
+				"column_name": "ADM1_EN"
+			},
 			"map_frames": [
 				{
 					"name": "Main map",
@@ -293,9 +298,6 @@
 						},
 						{
 							"name": "locationmap-elev-cst-ln-s0-locationmaps"
-						},
-						{
-							"name": "locationmap-admn-ad0-py-s0-locationmaps"
 						}
 					]
 				}
