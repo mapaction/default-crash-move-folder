@@ -1,17 +1,17 @@
 {
 	"active_data": "GIS/2_Active_Data",
 	"arcgis_version": "arcmap-10.6",
-	"data_nc_definition": "GIS/2_Active_Data/200_data_name_lookup/data_naming_convention.json",
-	"data_schemas": "GIS/5_Data_schemas",
+	"data_nc_definition": "GIS/2_Active_Data/200_naming_conventions/data_naming_convention.json",
+	"data_schemas": "GIS/2_Active_Data/201_data_schemas",
 	"export_dir": "GIS/3_Mapping/34_Map_Products_MapAction",
-	"layer_nc_definition": "GIS/2_Active_Data/200_data_name_lookup/layer_file_naming_convention.json",
+	"layer_nc_definition": "GIS/2_Active_Data/200_naming_conventions/layer_file_naming_convention.json",
 	"layer_properties": "GIS/3_Mapping/31_Resources/316_Automation/layerProperties.json",
 	"layer_rendering": "GIS/3_Mapping/31_Resources/312_Layer_files",
 	"legend_images": "GIS/3_Mapping/31_Resources/317_Legends",
 	"map_definitions": "GIS/3_Mapping/31_Resources/316_Automation/mapCookbook.json",
 	"map_projects": "GIS/3_Mapping/33_Map_Projects",
-	"map_projects_nc_definition": "GIS/2_Active_Data/200_data_name_lookup/map_project_naming_convention.json",
-	"map_template_nc_definition": "GIS/2_Active_Data/200_data_name_lookup/map_template_naming_convention.json",
+	"map_projects_nc_definition": "GIS/2_Active_Data/200_naming_conventions/map_project_naming_convention.json",
+	"map_template_nc_definition": "GIS/2_Active_Data/200_naming_conventions/map_template_naming_convention.json",
 	"map_templates": "GIS/3_Mapping/32_Map_Templates",
 	"original_data": "GIS/1_Original_Data"
 }
