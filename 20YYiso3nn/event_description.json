@@ -1,9 +1,9 @@
 {
   "cmf_descriptor_path": "cmf_description.json",
-  "operation_name": "Automation_Test",
-  "glide_number": "",
-  "affected_country_iso3": "DJI",
-  "time_zone": "UTC+03:00",
+  "operation_name": "Replace-me-with-Operation-Name",
+  "glide_number": "n/a",
+  "affected_country_iso3": "AAA",
+  "time_zone": "UTC+00:00",
   "language_iso2": "en",
   "operation_id": "",
   "default_source_organisation": "MapAction",
@@ -11,11 +11,12 @@
   "default_publishing_base_url": "https://maps.mapaction.org/dataset/",
   "deployment_primary_email": "info@mapaction.org",
   "default_disclaimer_text": "The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.",
-  "default_donor_credits": "Supported by DFID",
+  "default_donor_credits": "Supported by DONOR-NAME1 and DONOR-NAME2",
   "default_jpeg_res_dpi": "300",
   "default_pdf_res_dpi": "300",
   "default_emf_res_dpi": "300",
   "donors": [
-    "DFID"
+    "DONOR-NAME1",
+    "DONOR-NAME2",
   ]
 }
