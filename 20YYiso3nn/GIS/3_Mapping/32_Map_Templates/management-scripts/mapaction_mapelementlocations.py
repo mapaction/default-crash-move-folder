@@ -1,6 +1,11 @@
 """ This scripts brings together all data and maps for the report """
 
 import sys
+sys.path.append("C:\\py27arcgis106\\ArcGIS10.6\\Lib\\site-packages")
+sys.path.append(r'C:\Program Files (x86)\ArcGIS\Desktop10.6\arcpy')
+sys.path.append(r'C:\Program Files (x86)\ArcGIS\Desktop10.6\ArcToolbox\Scripts')
+sys.path.append(r'C:\Program Files (x86)\ArcGIS\Desktop10.6\bin')
+sys.path.append("C:\\py27arcgis106\\ArcGIS10.6\\Lib")
 import arcpy
 from arcpy import env
 
@@ -26,7 +31,7 @@ mxdList = arcpy.ListFiles("*.mxd")
 element_final = ''
 
 # loop through the elements and record the values
-header = "MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue\n"
+header = "MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue"
 
 for mxdfile in mxdList:
     mxd = arcpy.mapping.MapDocument(rootauto[:-19] + sep + mxdfile)
@@ -71,6 +76,8 @@ for mxdfile in mxdList:
     mxd.saveACopy(mxd9_3, "9.3")
 
     finaljpg = rootauto[:-19] + sep + "example-outputs" + sep + mxdfile[:-4] + ".jpg"
+    print finaljpg
+    os.remove(finaljpg)
     arcpy.mapping.ExportToJPEG(mxd, finaljpg, resolution = 300)
 
 # open template_positions_yyyymmdd.txt
