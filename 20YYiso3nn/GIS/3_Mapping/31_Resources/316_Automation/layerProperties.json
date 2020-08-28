@@ -125,7 +125,7 @@
 			"display": false,
 			"add_to_legend": false,
 			"schema_definition": "null-schema.yml",
-			"definition_query": "\"NAME_0\" = '{COUNTRY_NAME}'",
+			"definition_query": "\"adm_0\" = '{COUNTRY_NAME}'",
 			"label_classes": [],
 			"name": "mainmap-admn-ad0-py-s0-reference",
 			"reg_exp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])(.*?).shp$"
@@ -188,7 +188,7 @@
 			"display": false,
 			"add_to_legend": false,
 			"schema_definition": "null-schema.yml",
-			"definition_query": "\"NAME_0\" <> '{COUNTRY_NAME}'",
+			"definition_query": "\"adm_0\" <> '{COUNTRY_NAME}'",
 			"label_classes": [],
 			"name": "mainmap-admn-ad0-py-s0-surroundingcountries",
 			"reg_exp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])_surroundingcountries.shp$"
@@ -224,7 +224,7 @@
 			"display": true,
 			"add_to_legend": false,
 			"schema_definition": "null-schema.yml",
-			"definition_query": "\"NAME_0\" <> '{COUNTRY_NAME}'",
+			"definition_query": "\"adm_0\" <> '{COUNTRY_NAME}'",
 			"label_classes": [],
 			"name": "locationmap-admn-ad0-ln-s0-surroundingcountries",
 			"reg_exp": "^[a-z]{3}_admn_ad0_ln_(.*?)_(.*?)_([phm][phm])_surroundingcountries.shp$"
@@ -251,7 +251,7 @@
 			"display": true,
 			"add_to_legend": false,
 			"schema_definition": "null-schema.yml",
-			"definition_query": "\"NAME_0\" <> '{COUNTRY_NAME}'",
+			"definition_query": "\"adm_0\" <> '{COUNTRY_NAME}'",
 			"label_classes": [],
 			"name": "locationmap-admn-ad0-py-s0-surroundingcountries",
 			"reg_exp": "^[a-z]{3}_admn_ad0_py_(.*?)_(.*?)_([phm][phm])_surroundingcountries.shp$"
