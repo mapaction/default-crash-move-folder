@@ -1,0 +1,15 @@
+required:
+    - name_en
+    - name_local
+    - fclass
+properties:
+    geometry_type:
+        items:
+            enum:
+                - Point
+        additionalItems: false
+    crs:
+        items:
+            enum:
+                - EPSG:4326
+        additionalItems: false

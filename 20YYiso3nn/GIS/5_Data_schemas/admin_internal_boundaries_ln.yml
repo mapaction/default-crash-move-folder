@@ -1,0 +1,16 @@
+required:
+    - name_1_en
+    - name_2_en
+    - name_1_loc
+    - name_2_loc
+properties:
+    geometry_type:
+        items:
+            enum:
+                - LineString 
+        additionalItems: false
+    crs:
+        items:
+            enum:
+                - EPSG:4326
+        additionalItems: false

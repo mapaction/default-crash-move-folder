@@ -1,5 +1,5 @@
 required:
-    - admin1Name
+    - name_en
 properties:
     geometry_type:
         items:
@@ -7,4 +7,8 @@ properties:
                 - MultiPolygon
                 - Polygon
         additionalItems: false
-
+    crs:
+        items:
+            enum:
+                - EPSG:2090
+        additionalItems: false

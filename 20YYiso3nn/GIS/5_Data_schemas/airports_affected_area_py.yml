@@ -1,0 +1,14 @@
+required:
+    - NAME
+properties:
+    geometry_type:
+        items:
+            enum:
+                - MultiPoint
+                - Point
+        additionalItems: false
+    crs:
+        items:
+            enum:
+                - EPSG:2090
+        additionalItems: false

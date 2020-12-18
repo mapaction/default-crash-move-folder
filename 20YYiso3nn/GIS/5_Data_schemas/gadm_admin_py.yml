@@ -1,5 +1,8 @@
 required:
-    - admin1Name
+    - name_en
+    - name_local
+    - pcode
+    - par_pcode
 properties:
     geometry_type:
         items:
@@ -7,4 +10,8 @@ properties:
                 - MultiPolygon
                 - Polygon
         additionalItems: false
-
+    crs:
+        items:
+            enum:
+                - EPSG:4326
+        additionalItems: false
