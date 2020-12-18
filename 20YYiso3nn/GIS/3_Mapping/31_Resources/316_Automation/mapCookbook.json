@@ -1,7 +1,7 @@
 {
 	"recipes": [
 		{
-			"mapnumber": "MA001",
+			"mapnumber": "MA9001",
 			"category": "Reference",
 			"product": "Country Overview with Admin 1 Boundaries and Topography",
 			"export": true,
@@ -89,7 +89,7 @@
 			"summary": "Country overview with topography displayed"
 		},
 		{
-			"mapnumber": "MA002",
+			"mapnumber": "MA9002",
 			"category": "Reference",
 			"product": "Country Overview with Admin 1 Boundaries",
 			"template": "reference",
@@ -153,7 +153,7 @@
 			"summary": "Country overview with detail of Admin 1 boundaries and major cities"
 		},
 		{
-			"mapnumber": "MA003",
+			"mapnumber": "MA9003",
 			"category": "Reference",
 			"product": "Country Overview with Admin 1 and 2 Boundaries",
 			"template": "reference",
@@ -223,7 +223,7 @@
 			"summary": "Country overview with detail of Admin 1 and 2 boundaries and major cities"
 		},
 		{
-			"mapnumber": "MA004",
+			"mapnumber": "MA9004",
 			"category": "Reference",
 			"product": "Country Overview with Transport",
 			"template": "reference",
@@ -302,7 +302,7 @@
 			"summary": "Shows country overview with transport information such as airports and ports"
 		},
 		{
-			"mapnumber": "MA006",
+			"mapnumber": "MA9006",
 			"category": "Reference",
 			"product": "Atlas Admin 1 Boundaries and P-Codes plus Admin 2 Boundaries",
 			"export": true,
