@@ -16,6 +16,7 @@
 				{
 					"name": "Main map",
 					"scale_text_element": "scale",
+					"crs": "epsg:4326",
 					"spatial_ref_text_element": "spatial_reference",
 					"layers": [
 						{
@@ -28,16 +29,19 @@
 							"name": "mainmap-tran-por-pt-s0-allmaps"
 						},
 						{
-							"name": "mainmap-tran-air-pt-s0-allmaps"
+							"name": "mainmap-tran-air-pt-s0-allmaps",
+							"use_for_frame_extent": false
 						},
 						{
-							"name": "mainmap-elev-cst-ln-s0-allmaps"
+							"name": "mainmap-elev-cst-ln-s0-allmaps",
+							"use_for_frame_extent": false
 						},
 						{
 							"name": "mainmap-admn-ad1-ln-s0-reference"
 						},
 						{
-							"name": "mainmap-phys-riv-ln-s0-reference"
+							"name": "mainmap-phys-riv-ln-s0-reference",
+							"use_for_frame_extent": true
 						},
 						{
 							"name": "mainmap-phys-wat-py-s0-allmaps"
@@ -55,7 +59,8 @@
 							"name": "mainmap-admn-ad1-py-s0-reference"
 						},
 						{
-							"name": "mainmap-carto-fea-py-s0-allmaps"
+							"name": "mainmap-carto-fea-py-s0-allmaps",
+							"use_for_frame_extent": false
 						},
 						{
 							"name": "mainmap-admn-ad0-py-s0-surroundingcountries"
@@ -64,12 +69,14 @@
 				},
 				{
 					"name": "Location map",
+					"crs": "epsg:4326",
 					"layers": [
 						{
 							"name": "locationmap-carto-fea-py-s0-locationmaps"
 						},
 						{
-							"name": "locationmap-elev-cst-ln-s0-locationmaps"
+							"name": "locationmap-elev-cst-ln-s0-locationmaps",
+							"use_for_frame_extent": "True"
 						},
 						{
 							"name": "locationmap-admn-ad0-ln-s0-locationmaps"
@@ -98,6 +105,7 @@
 				{
 					"name": "Main map",
 					"scale_text_element": "scale",
+					"crs": "epsg:3857",
 					"spatial_ref_text_element": "spatial_reference",
 					"layers": [
 						{
@@ -119,7 +127,8 @@
 							"name": "mainmap-admn-ad0-ln-s0-surroundingcountries"
 						},
 						{
-							"name": "mainmap-carto-fea-py-s0-allmaps"
+							"name": "mainmap-carto-fea-py-s0-allmaps",
+							"use_for_frame_extent": "True"
 						},
 						{
 							"name": "mainmap-admn-ad0-py-s0-surroundingcountries"
@@ -128,12 +137,14 @@
 				},
 				{
 					"name": "Location map",
+					"crs": "epsg:3857",
 					"layers": [
 						{
 							"name": "locationmap-carto-fea-py-s0-locationmaps"
 						},
 						{
-							"name": "locationmap-elev-cst-ln-s0-locationmaps"
+							"name": "locationmap-elev-cst-ln-s0-locationmaps",
+							"use_for_frame_extent": "True"
 						},
 						{
 							"name": "locationmap-admn-ad0-ln-s0-surroundingcountries"
@@ -162,6 +173,7 @@
 				{
 					"name": "Main map",
 					"scale_text_element": "scale",
+					"crs": "epsg:3857",
 					"spatial_ref_text_element": "spatial_reference",
 					"layers": [
 						{
@@ -189,7 +201,8 @@
 							"name": "mainmap-admn-ad2-py-s0-reference"
 						},
 						{
-							"name": "mainmap-carto-fea-py-s0-allmaps"
+							"name": "mainmap-carto-fea-py-s0-allmaps",
+							"use_for_frame_extent": "True"
 						},
 						{
 							"name": "mainmap-admn-ad0-py-s0-surroundingcountries"
@@ -198,6 +211,7 @@
 				},
 				{
 					"name": "Location map",
+					"crs": "epsg:3857",
 					"layers": [
 						{
 							"name": "locationmap-carto-fea-py-s0-locationmaps"
@@ -232,6 +246,7 @@
 				{
 					"name": "Main map",
 					"scale_text_element": "scale",
+					"crs": "epsg:3857",
 					"spatial_ref_text_element": "spatial_reference",
 					"layers": [
 						{
@@ -268,7 +283,8 @@
 							"name": "mainmap-admn-ad1-py-s0-reference"
 						},
 						{
-							"name": "mainmap-carto-fea-py-s0-allmaps"
+							"name": "mainmap-carto-fea-py-s0-allmaps",
+							"use_for_frame_extent": "True"
 						},
 						{
 							"name": "mainmap-admn-ad0-py-s0-surroundingcountries"
@@ -277,12 +293,14 @@
 				},
 				{
 					"name": "Location map",
+					"crs": "epsg:3857",
 					"layers": [
 						{
 							"name": "locationmap-carto-fea-py-s0-locationmaps"
 						},
 						{
-							"name": "locationmap-elev-cst-ln-s0-locationmaps"
+							"name": "locationmap-elev-cst-ln-s0-locationmaps",
+							"use_for_frame_extent": "True"
 						},
 						{
 							"name": "locationmap-admn-ad0-ln-s0-locationmaps"
@@ -310,19 +328,21 @@
 			"atlas": {
 				"map_frame": "Main map",
 				"layer_name": "mainmap-admn-ad1-py-s0-reference",
-				"column_name": "ADM1_EN"
+				"column_name": "admin1Name"
 			},
 			"map_frames": [
 				{
 					"name": "Main map",
 					"scale_text_element": "scale",
+					"crs": "epsg:3857",
 					"spatial_ref_text_element": "spatial_reference",
 					"layers": [
 						{
 							"name": "mainmap-stle-stl-pt-s0-allmaps"
 						},
 						{
-							"name": "mainmap-carto-fea-py-s0-allmaps"
+							"name": "mainmap-carto-fea-py-s0-allmaps",
+							"use_for_frame_extent": "True"
 						},
 						{
 							"name": "mainmap-elev-cst-ln-s0-allmaps"
@@ -352,12 +372,14 @@
 				},
 				{
 					"name": "Location map",
+					"crs": "epsg:3857",
 					"layers": [
 						{
 							"name": "locationmap-carto-fea-py-s0-locationmaps"
 						},
 						{
-							"name": "locationmap-elev-cst-ln-s0-locationmaps"
+							"name": "locationmap-elev-cst-ln-s0-locationmaps",
+							"use_for_frame_extent": "True"
 						},
 						{
 							"name": "locationmap-admn-ad0-ln-s0-locationmaps"
