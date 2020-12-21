@@ -9,8 +9,4 @@ properties:
             enum:
                 - LineString 
         additionalItems: false
-    crs:
-        items:
-            enum:
-                - EPSG:2090
-        additionalItems: false
+

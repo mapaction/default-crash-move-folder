@@ -9,8 +9,4 @@ properties:
                 - Polygon
                 - MultiPolygon
         additionalItems: false
-    crs:
-        items:
-            enum:
-                - EPSG:4326
-        additionalItems: false
+
