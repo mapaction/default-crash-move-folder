@@ -7,7 +7,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-tran-por-pt-s0-allmaps",
-			"reg_exp": "^{e.affected_country_iso3}_tran_sea_pt_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_tran_por_pt_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -16,7 +16,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-tran-air-pt-s0-allmaps",
-			"reg_exp": "^{e.affected_country_iso3}_tran_air_pt_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_tran_air_pt_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -38,7 +38,7 @@
 				}
 			],
 			"name": "mainmap-stle-stl-pt-s0-allmaps",
-			"reg_exp": "^{e.affected_country_iso3}_stle_stl_pt_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_stle_stl_pt_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -47,7 +47,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-elev-cst-ln-s0-allmaps",
-			"reg_exp": "^{e.affected_country_iso3}_elev_cst_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_elev_cst_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -56,7 +56,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad0-ln-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -65,7 +65,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-tran-rds-ln-s0-allmaps",
-			"reg_exp": "^{e.affected_country_iso3}_tran_rds_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_tran_rds_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -74,7 +74,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad1-ln-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -83,7 +83,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-tran-rrd-ln-s0-allmaps",
-			"reg_exp": "^{e.affected_country_iso3}_tran_rrd_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_tran_rrd_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -92,7 +92,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-phys-riv-ln-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_phys_riv_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_phys_riv_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -101,7 +101,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad2-ln-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad2_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad2_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -110,7 +110,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad0-ln-s0-surroundingcountries",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_ln_s0_(.*?)_([phm][phm])_surrounding_countries.shp$"
+			"reg_exp": "^(.*?)(?!({e.affected_country_iso3}))_admn_ad0_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": false,
@@ -119,7 +119,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad1-py-s1-ddpadmin1",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_py_s1_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": false,
@@ -128,7 +128,7 @@
 			"definition_query": "\"adm_0\" = '{e.country_name}'",
 			"label_classes": [],
 			"name": "mainmap-admn-ad0-py-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_py_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -137,7 +137,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-elev-hsh-ras-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_elev_hsh_ras_s0_(.*?)_([phm][phm])(.*?).(tif|img)$"
+			"reg_exp": "^{e.affected_country_iso3}_elev_hsh_ras_s(u|[0-5])_(.*?)_([phm][phm])(.*?).(tif|img)$"
 		},
 		{
 			"display": true,
@@ -146,7 +146,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-elev-dem-ras-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_elev_dem_ras_s0_(.*?)_([phm][phm])(.*?).(tif|img)$"
+			"reg_exp": "^{e.affected_country_iso3}_elev_dem_ras_s(u|[0-5])_(.*?)_([phm][phm])(.*?).(tif|img)$"
 		},
 		{
 			"display": true,
@@ -155,7 +155,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad1-py-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_py_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -164,7 +164,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad2-py-s0-reference",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad2_py_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad2_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -173,7 +173,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-carto-fea-py-s0-allmaps",
-			"reg_exp": "^{e.affected_country_iso3}_carto_fea_py_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_carto_fea_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -182,7 +182,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-phys-wat-py-s0-allmaps",
-			"reg_exp": "^{e.affected_country_iso3}_phys_wat_py_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_phys_wat_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": false,
@@ -191,7 +191,7 @@
 			"definition_query": "\"adm_0\" <> '{e.country_name}'",
 			"label_classes": [],
 			"name": "mainmap-admn-ad0-py-s0-surroundingcountries",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_py_s0_(.*?)_([phm][phm])_surrounding_countries.shp$"
+			"reg_exp": "^(.*?)(?!({e.affected_country_iso3}))_admn_ad0_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -200,7 +200,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad1-py-s0-scaling",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_py_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -209,7 +209,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "locationmap-carto-fea-py-s0-locationmaps",
-			"reg_exp": "^{e.affected_country_iso3}_carto_fea_py_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_carto_fea_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -218,7 +218,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "locationmap-elev-cst-ln-s0-locationmaps",
-			"reg_exp": "^{e.affected_country_iso3}_elev_cst_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_elev_cst_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -227,7 +227,7 @@
 			"definition_query": "\"adm_0\" <> '{e.country_name}'",
 			"label_classes": [],
 			"name": "locationmap-admn-ad0-ln-s0-surroundingcountries",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_ln_s0_(.*?)_([phm][phm])_surrounding_countries.shp$"
+			"reg_exp": "^(.*?)(?!({e.affected_country_iso3}))_admn_ad0_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -236,7 +236,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "locationmap-admn-ad0-ln-s0-locationmaps",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_ln_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -245,7 +245,7 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "locationmap-admn-ad1-py-s0-locationmaps",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_py_s0_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^{e.affected_country_iso3}_admn_ad1_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -254,7 +254,7 @@
 			"definition_query": "\"adm_0\" <> '{e.country_name}'",
 			"label_classes": [],
 			"name": "locationmap-admn-ad0-py-s0-surroundingcountries",
-			"reg_exp": "^{e.affected_country_iso3}_admn_ad0_py_s0_(.*?)_([phm][phm])_surrounding_countries.shp$"
+			"reg_exp": "^(.*?)(?!({e.affected_country_iso3}))_admn_ad0_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		}
 	]
 }
