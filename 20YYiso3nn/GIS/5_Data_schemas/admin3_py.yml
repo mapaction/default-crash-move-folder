@@ -1,5 +1,12 @@
 required:
-    - admin1Name
+    - ADM0_EN
+    - ADM0_PCODE
+    - ADM1_EN
+    - ADM1_PCODE
+    - ADM2_EN
+    - ADM2_PCODE
+    - ADM3_EN
+    - ADM3_PCODE    
 properties:
     geometry_type:
         items:

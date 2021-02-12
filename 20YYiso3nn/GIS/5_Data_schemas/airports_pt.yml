@@ -1,11 +1,10 @@
 required:
-    - name_1_en
-    - name_2_en
-    - name_1_loc
-    - name_2_loc
+    - type
+    - name
 properties:
     geometry_type:
         items:
             enum:
-                - LineString 
+                - MultiPoint
+                - Point
         additionalItems: false

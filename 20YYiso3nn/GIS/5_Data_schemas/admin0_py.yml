@@ -1,9 +1,10 @@
 required:
-    - NAME
+    - ADM0_EN
+    - ADM0_PCODE
 properties:
     geometry_type:
         items:
             enum:
-                - MultiPoint
-                - Point
+                - MultiPolygon
+                - Polygon
         additionalItems: false

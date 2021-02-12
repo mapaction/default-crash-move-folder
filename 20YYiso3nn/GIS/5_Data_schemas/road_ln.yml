@@ -1,9 +1,10 @@
 required:
-    - NAME
+    - name
+    - fclass
 properties:
     geometry_type:
         items:
             enum:
-                - MultiPoint
-                - Point
+                - MultiLineString
+                - LineString
         additionalItems: false

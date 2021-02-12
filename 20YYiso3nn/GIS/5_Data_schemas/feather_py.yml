@@ -1,8 +1,5 @@
 required:
-    - name_en
-    - name_local
-    - pcode
-    - par_pcode
+    - xpar
 properties:
     geometry_type:
         items:

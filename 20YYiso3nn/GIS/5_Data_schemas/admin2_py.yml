@@ -1,5 +1,10 @@
 required:
-    - name_en
+    - ADM0_EN
+    - ADM0_PCODE
+    - ADM1_EN
+    - ADM1_PCODE
+    - ADM2_EN
+    - ADM2_PCODE
 properties:
     geometry_type:
         items:
@@ -7,3 +12,4 @@ properties:
                 - MultiPolygon
                 - Polygon
         additionalItems: false
+
