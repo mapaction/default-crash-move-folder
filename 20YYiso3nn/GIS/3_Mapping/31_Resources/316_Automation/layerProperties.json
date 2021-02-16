@@ -110,12 +110,12 @@
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad0-ln-s0-surroundingcountries",
-			"reg_exp": "^(.*?)(?!({e.affected_country_iso3}))_admn_ad0_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^(?!({e.affected_country_iso3}))(.*?)_admn_ad0_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": false,
 			"add_to_legend": false,
-			"schema_definition": "admin1_py",
+			"schema_definition": "admin1_py.yml",
 			"definition_query": "",
 			"label_classes": [],
 			"name": "mainmap-admn-ad1-py-s1-ddpadmin1",
@@ -191,7 +191,7 @@
 			"definition_query": "\"adm_0\" <> '{e.country_name}'",
 			"label_classes": [],
 			"name": "mainmap-admn-ad0-py-s0-surroundingcountries",
-			"reg_exp": "^(.*?)(?!({e.affected_country_iso3}))_admn_ad0_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^(?!({e.affected_country_iso3}))(.*?)_admn_ad0_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -227,7 +227,7 @@
 			"definition_query": "\"adm_0\" <> '{e.country_name}'",
 			"label_classes": [],
 			"name": "locationmap-admn-ad0-ln-s0-surroundingcountries",
-			"reg_exp": "^(.*?)(?!({e.affected_country_iso3}))_admn_ad0_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^(?!({e.affected_country_iso3}))(.*?)_admn_ad0_ln_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		},
 		{
 			"display": true,
@@ -254,7 +254,7 @@
 			"definition_query": "\"adm_0\" <> '{e.country_name}'",
 			"label_classes": [],
 			"name": "locationmap-admn-ad0-py-s0-surroundingcountries",
-			"reg_exp": "^(.*?)(?!({e.affected_country_iso3}))_admn_ad0_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
+			"reg_exp": "^(?!({e.affected_country_iso3}))(.*?)_admn_ad0_py_s(u|[0-5])_(.*?)_([phm][phm])(.*?).shp$"
 		}
 	]
 }
