@@ -329,7 +329,7 @@
 			"atlas": {
 				"map_frame": "Main map",
 				"layer_name": "mainmap-admn-ad1-py-s0-reference",
-				"column_name": "admin1Name"
+				"column_name": "ADM1_EN"
 			},
 			"map_frames": [
 				{
