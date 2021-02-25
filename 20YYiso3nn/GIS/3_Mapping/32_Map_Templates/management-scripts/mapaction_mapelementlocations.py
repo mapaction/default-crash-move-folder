@@ -68,15 +68,16 @@ for mxdfile in mxdList:
     element_final = element_final + element_alphabetic + "\n"
 
     # Saving 10.1, 10.0 and 9.3 copies of mxd's in correct location and name
-    mxd10_1 = rootauto[:-19] + sep + "previous_versions" + sep + "arcmap_10_1" + sep + mxdfile[:7] + "10_1" + mxdfile[11:]
+    mxd_alt_root = rootauto[:-19] + sep + "previous_versions" + sep
+    print mxdfile[:7] + mxdfile[11:]
+    mxd10_1 = mxd_alt_root + "arcmap_10_1" + sep + mxdfile[:7] + "10_1" + mxdfile[11:]
     mxd.saveACopy(mxd10_1, "10.1")
-    mxd10_0 = rootauto[:-19] + sep + "previous_versions" + sep + "arcmap_10_0" + sep + mxdfile[:7] + "10_0" + mxdfile[11:]
+    mxd10_0 = mxd_alt_root + "arcmap_10_0" + sep + mxdfile[:7] + "10_0" + mxdfile[11:]
     mxd.saveACopy(mxd10_0, "10.0")
-    mxd9_3 = rootauto[:-19] + sep + "previous_versions" + sep + "arcmap_9_3" + sep + mxdfile[:7] + "9_3" + mxdfile[11:]
+    mxd9_3 = mxd_alt_root + "arcmap_9_3" + sep + mxdfile[:7] + "9_3" + mxdfile[11:]
     mxd.saveACopy(mxd9_3, "9.3")
 
     finaljpg = rootauto[:-19] + sep + "example-outputs" + sep + mxdfile[:-4] + ".jpg"
-    print finaljpg
     os.remove(finaljpg)
     arcpy.mapping.ExportToJPEG(mxd, finaljpg, resolution = 300)
 
@@ -86,3 +87,7 @@ file_object = open(mapfile, "w+")
 element_final = header + element_final
 file_object.write(element_final)
 file_object.close()
+
+del sep, rootauto, mapfile, mxdList, element_final, header, mxd, elemmxd, element, df
+del elemname, elemtype, elemposx, elemposy, elemheight, elemwidth, testLst
+del element_alphabetic, mxd10_1, mxd10_0, mxd9_3, finaljpg, file_object

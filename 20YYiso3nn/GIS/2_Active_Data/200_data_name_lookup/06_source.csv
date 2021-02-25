@@ -7,6 +7,8 @@ cccm,CCCM Cluster
 ciesin,Center for International Earth Science Information Network
 bart,Collins Bartholomew
 ceger,Early Recovery Cluster
+conred,Coordinadora Nacional Para La Reducción De Desastres
+dominode,Dominode
 etc,Emergency Communications Cluster
 escltr,Emergency Shelter Cluster
 esri,ESRI
@@ -42,6 +44,7 @@ ma,MapAction
 msf,Medicins Sans Frontieres
 merlin,Merlin
 mag,Mines Advisory Group
+mimu,Myanmar Information Mananagement Unit
 mix,Mix of data sources
 modis,Moderate Resolution Imaging Spectroradiometer
 civdef,National civil defence source
@@ -92,4 +95,5 @@ washcltr,WASH Cluster
 wiki,Wikipedia
 wdpa,Word Database of Protected Areas
 wfp,World Food Program
+worldpop,World Pop
 worldports,World Port Index
