@@ -35,6 +35,7 @@ ddp,Data driven pages index grid,carto
 fea,Feather / vignette for shoreline,carto
 grd,Grid,carto
 lat,Lat/Long Grid,carto
+msk,Mask,carto
 tim,Time Zone,carto
 utm,UTM,carto
 atm,Automated teller machine,cash
@@ -163,7 +164,7 @@ rds,Road,tran
 rrd,Railway / railroad,tran
 rst,Railway station,tran
 tun,Tunnel,tran
-chn,Channels,trans
+chn,Channels,tran
 frd,Fords / crossings,tran
 gat,Gates / barriers,tran
 trx,Tracks,tran
