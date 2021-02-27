@@ -1,5 +1,5 @@
 required:
-    - xpar
+    - Xpar
 properties:
     geometry_type:
         items:
