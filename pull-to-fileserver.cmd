@@ -1,6 +1,6 @@
 :: Copy the files
-robocopy %~dp0 ^
- ./default-crash-move-folder ^
+robocopy %~dp020YYiso3nn ^
+ . ^
  /mir ^
  /log:%~dp0deploy-to-fileserver.log ^
  /xd .git ^
