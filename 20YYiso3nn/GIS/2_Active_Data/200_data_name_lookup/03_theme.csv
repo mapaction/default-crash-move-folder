@@ -40,6 +40,8 @@ utm,UTM,carto
 atm,Automated teller machine,cash
 bnk,Bank,cash
 ref,Refugee location,cccm
+uni,University,educ
+nur,Nursery School,educ
 edu,School,educ
 con,Contour,elev
 cst,Coastline,elev
@@ -121,7 +123,7 @@ lod,Lodgings / hotels / guest houses,pois
 mon,Monument,pois
 nav,Navigational markers,pois
 off,Offices,pois
-rel,Religous buildings,pois
+rel,Religious buildings,pois
 ser,Services / post offices,pois
 sit,Sites of interest,pois
 spt,Sport facilities,pois
@@ -163,7 +165,7 @@ rds,Road,tran
 rrd,Railway / railroad,tran
 rst,Railway station,tran
 tun,Tunnel,tran
-chn,Channels,trans
+chn,Channels,tran
 frd,Fords / crossings,tran
 gat,Gates / barriers,tran
 trx,Tracks,tran
