@@ -58,6 +58,7 @@ fir,Fire location,evnt
 flo,Flood extent,evnt
 shk,Earthquake shake intensity,evnt
 str,Storm track,evnt
+sta,"Status (loose term, needs more detail)",fsec
 ecl,Emergency clinic,heal
 epd,Epidemic,heal
 hea,Health facility (generic),heal
