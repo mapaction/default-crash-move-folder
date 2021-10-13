@@ -12,6 +12,7 @@ ad5,Administrative boundary (level 5),admn
 ad6,Administrative boundary (level 6),admn
 adx,Surrounding countries,admn
 cnt,Continent boundary,admn
+dis,Disputed Borders,admn
 pco,Pcode list,admn
 reg,Region,admn
 aff,Affected area,affd
@@ -79,8 +80,8 @@ urb,Urban,land
 veg,Vegetation,land
 wal,Wall,land
 wwf,WWF,land
-dis,Warehouses / Distribution Centres,logs
 del,Aid delivery points,logs
+dis,Warehouses / Distribution Centres,logs
 log,Logistics,logs
 bas,River Basin,phys
 bay,Bay,phys
@@ -143,9 +144,9 @@ pop,Population distribution,popu
 cem,Cemetery,rcvy
 sca,Map scan,scan
 bat,Battle / Conflict point,scty
+cfl,Conflict,scty
 erw,Explosive Remnants of War,scty
 haz,Hazards,scty
-cfl,Conflict,scty
 min,Mine fields,scty
 mts,Mine threat status (roads),scty
 sbu,Security buffer,scty
