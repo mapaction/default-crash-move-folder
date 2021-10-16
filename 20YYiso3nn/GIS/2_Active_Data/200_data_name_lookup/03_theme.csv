@@ -11,6 +11,7 @@ ad4,Administrative boundary (level 4),admn
 ad5,Administrative boundary (level 5),admn
 ad6,Administrative boundary (level 6),admn
 adx,Surrounding countries,admn
+dis,Disputed Border,admn
 cnt,Continent boundary,admn
 pco,Pcode list,admn
 reg,Region,admn
