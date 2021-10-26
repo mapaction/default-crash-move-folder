@@ -11,8 +11,8 @@ ad4,Administrative boundary (level 4),admn
 ad5,Administrative boundary (level 5),admn
 ad6,Administrative boundary (level 6),admn
 adx,Surrounding countries,admn
-dis,Disputed Border,admn
 cnt,Continent boundary,admn
+dis,Disputed Border,admn
 pco,Pcode list,admn
 reg,Region,admn
 aff,Affected area,affd
@@ -33,7 +33,7 @@ res,Residential building,bldg
 aoi,Area of interest,carto
 cli,Clipping polygon,carto
 ddp,Data driven pages index grid,carto
-ext,Feaather extent,carto
+ext,Feather extent,carto
 fea,Feather / vignette for shoreline,carto
 grd,Grid,carto
 lat,Lat/Long Grid,carto
@@ -80,9 +80,9 @@ urb,Urban,land
 veg,Vegetation,land
 wal,Wall,land
 wwf,WWF,land
-dis,Warehouses / Distribution Centres,logs
 del,Aid delivery points,logs
 log,Logistics,logs
+war,Warehouses / Distribution Centres,logs
 bas,River Basin,phys
 bay,Bay,phys
 cav,Cave,phys
@@ -91,9 +91,9 @@ des,Desert,phys
 drn,Drainage,phys
 esc,Escapment,phys
 flt,Flat ground,phys
-geol,Geology,phys
-geophys,Geophysical,phys
+geo,Geology,phys
 gey,Geyser,phys
+gph,Geophysical,phys
 gul,Gulf,phys
 hed,Headland / promontory / point,phys
 hil,Hill features,phys
@@ -144,9 +144,9 @@ pop,Population distribution,popu
 cem,Cemetery,rcvy
 sca,Map scan,scan
 bat,Battle / Conflict point,scty
+cfl,Conflict,scty
 erw,Explosive Remnants of War,scty
 haz,Hazards,scty
-cfl,Conflict,scty
 min,Mine fields,scty
 mts,Mine threat status (roads),scty
 sbu,Security buffer,scty
