@@ -1,0 +1,733 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "2.8.0",
+  "build" : 29751,
+  "layers" : [
+    "CIMPATH=main_map/mainmap_elev_dem_ras_s0_reference.xml"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "mainmap-elev-dem-ras-s0-reference",
+      "uRI" : "CIMPATH=main_map/mainmap_elev_dem_ras_s0_reference.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "metadataURI" : "CIMPATH=Metadata/fa0d90bf8fdde7a2b6e7670dc0dfca80.xml",
+      "useSourceMetadata" : false,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "transparency" : 60,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=G:\\Shared drives\\prepared-country-data\\bangladesh\\GIS\\2_Active_Data\\211_elev\\",
+        "workspaceFactory" : "Raster",
+        "dataset" : "bgd_elev_dem_ras_s1_srtm_pp_90m.tif",
+        "datasetType" : "esriDTRasterDataset"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterClassifyColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "normalizationField" : "<None>",
+        "normalizationType" : "Nothing",
+        "classBreaks" : [
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 700,
+            "label" : "621 - 700",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                175,
+                46,
+                86,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 800,
+            "label" : "700.0000001 - 800",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                155,
+                41,
+                88,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 900,
+            "label" : "800.0000001 - 900",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                134,
+                37,
+                90,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1000,
+            "label" : "900.0000001 - 1,000",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                113,
+                33,
+                93,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1100,
+            "label" : "1,000.000001 - 1,100",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                92,
+                28,
+                96,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1200,
+            "label" : "1,100.000001 - 1,200",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                71,
+                24,
+                98,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1300,
+            "label" : "1,200.000001 - 1,300",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                60,
+                23,
+                100,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1400,
+            "label" : "1,300.000001 - 1,400",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                60,
+                29,
+                100,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1500,
+            "label" : "1,400.000001 - 1,500",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                60,
+                34,
+                100,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1600,
+            "label" : "1,500.000001 - 1,600",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                60,
+                39,
+                100,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1700,
+            "label" : "1,600.000001 - 1,700",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                60,
+                44,
+                100,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1800,
+            "label" : "1,700.000001 - 1,800",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                60,
+                49,
+                100,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 1900,
+            "label" : "1,800.000001 - 1,900",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                58,
+                49,
+                98,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2000,
+            "label" : "1,900.000001 - 2,000",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                56,
+                48,
+                95,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2100,
+            "label" : "2,000.000001 - 2,100",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                54,
+                47,
+                92,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2200,
+            "label" : "2,100.000001 - 2,200",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                51,
+                46,
+                90,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2300,
+            "label" : "2,200.000001 - 2,300",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                48,
+                45,
+                87,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2400,
+            "label" : "2,300.000001 - 2,400",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                45,
+                45,
+                84,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2500,
+            "label" : "2,400.000001 - 2,500",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                43,
+                49,
+                78,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2600,
+            "label" : "2,500.000001 - 2,600",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                41,
+                54,
+                72,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2700,
+            "label" : "2,600.000001 - 2,700",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                39,
+                59,
+                66,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2800,
+            "label" : "2,700.000001 - 2,800",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                38,
+                64,
+                60,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 2900,
+            "label" : "2,800.000001 - 2,900",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                36,
+                70,
+                55,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3000,
+            "label" : "2,900.000001 - 3,000",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                34,
+                62,
+                55,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3100,
+            "label" : "3,000.000001 - 3,100",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                31,
+                47,
+                57,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3200,
+            "label" : "3,100.000001 - 3,200",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                25,
+                32,
+                58,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3300,
+            "label" : "3,200.000001 - 3,300",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                11,
+                16,
+                59,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3400,
+            "label" : "3,300.000001 - 3,400",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                286,
+                9,
+                61,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3500,
+            "label" : "3,400.000001 - 3,500",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                241,
+                17,
+                71,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3600,
+            "label" : "3,500.000001 - 3,600",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                252,
+                17,
+                71,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3700,
+            "label" : "3,600.000001 - 3,700",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                262,
+                17,
+                71,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3800,
+            "label" : "3,700.000001 - 3,800",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                273,
+                17,
+                71,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 3900,
+            "label" : "3,800.000001 - 3,900",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                284,
+                17,
+                71,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 4000,
+            "label" : "3,900.000001 - 4,000",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                295,
+                17,
+                71,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 4100,
+            "label" : "4,000.000001 - 4,100",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                300,
+                15,
+                74,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 4200,
+            "label" : "4,100.000001 - 4,200",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                300,
+                12,
+                79,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 4300,
+            "label" : "4,200.000001 - 4,300",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                300,
+                9,
+                84,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 4400,
+            "label" : "4,300.000001 - 4,400",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                301,
+                6,
+                89,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 4500,
+            "label" : "4,400.000001 - 4,500",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                301,
+                4,
+                94,
+                100
+              ]
+            }
+          },
+          {
+            "type" : "CIMRasterClassBreak",
+            "upperBound" : 4600,
+            "label" : "4,500.000001 - 4,600",
+            "color" : {
+              "type" : "CIMHSVColor",
+              "values" : [
+                300,
+                1,
+                100,
+                100
+              ]
+            }
+          }
+        ],
+        "classificationMethod" : "DefinedInterval",
+        "colorRamp" : {
+          "type" : "CIMPolarContinuousColorRamp",
+          "colorSpace" : {
+            "type" : "CIMICCColorSpace",
+            "url" : "Default RGB"
+          },
+          "fromColor" : {
+            "type" : "CIMHSVColor",
+            "values" : [
+              -1,
+              0,
+              0,
+              100
+            ]
+          },
+          "toColor" : {
+            "type" : "CIMHSVColor",
+            "values" : [
+              -1,
+              0,
+              100,
+              100
+            ]
+          },
+          "interpolationSpace" : "HSV",
+          "polarDirection" : "Auto"
+        },
+        "exclusionColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "field" : "<VALUE>",
+        "hillshadeZFactor" : 1,
+        "minimumBreak" : 621,
+        "showInAscendingOrder" : true,
+        "numberFormat" : {
+          "type" : "CIMNumericFormat",
+          "alignmentOption" : "esriAlignLeft",
+          "alignmentWidth" : 12,
+          "roundingOption" : "esriRoundNumberOfSignificantDigits",
+          "roundingValue" : 10,
+          "useSeparator" : true
+        },
+        "heading" : "<VALUE>"
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true,
+        "fieldDescriptions" : [
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "OID",
+            "fieldName" : "OID",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Value",
+            "fieldName" : "Value",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Count",
+            "fieldName" : "Count",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 6
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          }
+        ]
+      },
+      "timeDisplayDefinition" : {
+        "type" : "CIMTimeDisplayDefinition",
+        "timeInterval" : 0,
+        "timeIntervalUnits" : "esriTimeUnitsHours",
+        "timeOffsetUnits" : "esriTimeUnitsYears"
+      },
+      "timeDefinition" : {
+        "type" : "CIMTimeDataDefinition"
+      }
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/fa0d90bf8fdde7a2b6e7670dc0dfca80.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>14453100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-elev-dem-ras-s0-reference</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+}
