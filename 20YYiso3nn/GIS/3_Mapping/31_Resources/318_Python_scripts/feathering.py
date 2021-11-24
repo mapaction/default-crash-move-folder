@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
 """==============================================================================
   
- Title              :feathering.py
- Description        :Creating feathering for a polygon - shp or feature class
- Author             :LF Velasquez & Darren Connaghan - MapAction
- Date               :Nov 15 2021
- Version            :2.2
- Usage              :python feathering.py
- Notes              :If running python 3 the raw_input needs to be changed to input()
-                         Creating the AOI before running the script.
-                             1. In Layout view, double click the data frame to "focus" it.
-                             2. Using the New Rectangle tool on the Draw toolbar, draw a graphic that fills the extent of the page.
-                             3. Switch to Data view and make the rectangle a little larger than the page extent using the handles to pull box out on opposite corners.
-                             4. Switch back to Layout view.
-                             5. Right click the data frame in the table of contents and click Convert Graphics to Features.
+ Title          :feathering.py
+ Description    :Creating feathering for a polygon - shp or feature class
+ Author         :LF Velasquez & Darren Connaghan - MapAction
+ Date           :Nov 15 2021
+ Version        :2.2
+ Usage          :python feathering.py
+ Notes          :If running python 3 the raw_input needs to be changed to input()
+                    Creating the AOI before running the script.
+                        1. In Layout view, double click the data frame to "focus" it.
+                        2. Using the New Rectangle tool on the Draw toolbar, draw a
+                            graphic that fills the extent of the page.
+                        3. Switch to Data view and make the rectangle a little larger
+                            than the page extent using the handles to pull box out on
+                            opposite corners.
+                        4. Switch back to Layout view.
+                        5. Right click the data frame in the table of contents and
+                            click Convert Graphics to Features.
 python version  :2.7.14
  
 =============================================================================="""
@@ -21,7 +25,8 @@ python version  :2.7.14
 # Modules - Libraries
 # =============================================================================
 import sys
-# these are the python environments for ma-laptop92, further documentation required to set for non standard mapaction laptop
+# these are the python environments for ma-laptop92
+# further documentation required to set for non standard mapaction laptop
 sys.path.append("C:\\py27arcgis106\\ArcGIS10.6\\Lib\\site-packages")
 sys.path.append("C:\\Program Files (x86)\\ArcGIS\\Desktop10.6\\arcpy")
 sys.path.append("C:\\Program Files (x86)\\ArcGIS\\Desktop10.6\\ArcToolbox\\Scripts")
@@ -88,7 +93,7 @@ try:
         i += 1
     print('-----')
 
-    # Catching error on the user input - First catch if either text or number with comas are entered
+    # Catching error on the user input - First catch if either text or number with commas are entered
     usr_inp = _input("Select the file to be used in the feathering by entering either 1,2,3...etc: ", int)
     # Catching error on the user input - Second catch if a number that does not exist is entered
     flag = False
@@ -107,11 +112,10 @@ try:
     # Setting the files to be used in the main process
     # #############################################################################
     admn_shp = str(lst_shp[shp_idx])
-    fth_name = lst_shp[shp_idx].name.split('_')[0] + '_carto_ext_py_s0_mapaction_pp.shp'
+    fth_name = lst_shp[shp_idx].name.split('_')[0] + '_carto_ext_py_s0_ma_pp.shp'
     feathaoi = str(Path(cartopath, fth_name))
     # Getting information for the rings
     distanceNumber = 10
-    # distanceNumber = _input('Please enter the number of rings you would like (use 10 -> 20 buffers): ', int)
     bufferDistance = _input('Please enter how wide in metres you would like the rings: ', int)
     distancesList = []
       
@@ -128,8 +132,8 @@ try:
     print ('... creating the buffer')
     
     # Set feather output name
-    featherSimple = lst_shp[shp_idx].name.split('_')[0] + '_carto_fea_py_s0_mapaction_simple.shp'
-    featherBoundingBox = lst_shp[shp_idx].name.split('_')[0]+ '_carto_fea_py_s0_mapaction.shp'
+    featherSimple = lst_shp[shp_idx].name.split('_')[0] + '_carto_fea_py_s0_ma_simple.shp'
+    featherBoundingBox = lst_shp[shp_idx].name.split('_')[0]+ '_carto_fea_py_s0_ma.shp'
     
     # Set local variables for feathering - check if exist and delete if they do - in case of re-run
     inFeatures = admn_shp
@@ -143,10 +147,7 @@ try:
     if arcpy.Exists(finalFeathering):
         arcpy.Delete_management(finalFeathering)
 
-    NotMapChef = str(cartopath) + sep + "notseenbymapchef"
-    if os.path.isdir(NotMapChef) is False:
-        os.mkdir(NotMapChef)
-    outFeatureClass = str(cartopath) + sep + "notseenbymapchef" + sep + featherSimple
+    outFeatureClass = str(cartopath) + sep + featherSimple#"notseenbymapchef" + sep + featherSimple
     # Check for existence of data before deleting
     if arcpy.Exists(outFeatureClass):
         arcpy.Delete_management(outFeatureClass)
@@ -212,7 +213,7 @@ try:
 
     # Delete temp file
     arcpy.Delete_management(temp)
-    arcpy.Delete_management(featherSimple)
+    arcpy.Delete_management(outFeatureClass)
 
     print ('--------------------------')
     print ('... creating readme file for feather display in arcmap')
