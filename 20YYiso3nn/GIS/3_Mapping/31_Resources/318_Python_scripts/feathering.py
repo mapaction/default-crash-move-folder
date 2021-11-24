@@ -147,7 +147,7 @@ try:
     if arcpy.Exists(finalFeathering):
         arcpy.Delete_management(finalFeathering)
 
-    outFeatureClass = str(cartopath) + sep + featherSimple#"notseenbymapchef" + sep + featherSimple
+    outFeatureClass = str(cartopath) + sep + featherSimple
     # Check for existence of data before deleting
     if arcpy.Exists(outFeatureClass):
         arcpy.Delete_management(outFeatureClass)
@@ -182,28 +182,25 @@ try:
     arcpy.SelectLayerByAttribute_management("feather_bndbox", "NEW_SELECTION", "distance = 0")
     arcpy.CalculateField_management("feather_bndbox", "InvXPar", 100, "PYTHON_9.3")
 
-    try:
-        arcpy.DeleteField_management(outFeatureClass, ["lg_dist"])
-    except:
-        print ("failure to delete lg_dist")
-    
+    # stick these fields in an array when time allows:
+    #(['lg_dist', 'field_name_ad', 'field_name_ca', 'field_name_1', 'Id'])
     try:
         arcpy.DeleteField_management(finalFeathering, ["lg_dist"])
     except:
         print ("failure to delete lg_dist")
     try:
-        field_name = "FID_" + lst_shp[shp_idx].name.split('_')[0] + "_ad"
-        arcpy.DeleteField_management(finalFeathering, [field_name])
+        field_name_ad = "FID_" + lst_shp[shp_idx].name.split('_')[0] + "_ad"
+        arcpy.DeleteField_management(finalFeathering, [field_name_ad])
     except:
         print ("failure to delete {}").format(field_name)
     try:
-        field_name = "FID_" + lst_shp[shp_idx].name.split('_')[0] + "_ca"
-        arcpy.DeleteField_management(finalFeathering, [field_name])
+        field_name_ca = "FID_" + lst_shp[shp_idx].name.split('_')[0] + "_ca"
+        arcpy.DeleteField_management(finalFeathering, [field_name_ca])
     except:
         print ("failure to delete {}").format(field_name)
     try:
-        field_name = "FID_" + lst_shp[shp_idx].name.split('_')[0] + "__1"
-        arcpy.DeleteField_management(finalFeathering, [field_name])
+        field_name_1 = "FID_" + lst_shp[shp_idx].name.split('_')[0] + "__1"
+        arcpy.DeleteField_management(finalFeathering, [field_name_1])
     except:
         print ("failure to delete {}").format(field_name)
     try:
@@ -221,7 +218,7 @@ try:
     my_file = str(cartopath) + sep + 'feather_readme.txt'
     file = open(my_file, "w")
     file.write("The script has produced one feather options: \n"
-                   "a. <fileName> - this is a feather using the AOI to create a masking option\n\n"
+                   "a. '<iso3n>_carto_fea_py_s0_ma.shp' - this is a feather using the AOI to create a masking option\n\n"
                "To symbolise the feather in arcmap: \n"
                    "1. On the Symbology tab, show the features using a single symbol with a white colour fill and no outline\n"
                    "2. Click the Advanced button and click Transparency\n"
