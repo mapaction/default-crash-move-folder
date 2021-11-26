@@ -69,7 +69,6 @@ for mxdfile in mxdList:
 
     # Saving 10.1, 10.0 and 9.3 copies of mxd's in correct location and name
     mxd_alt_root = rootauto[:-19] + sep + "previous_versions" + sep
-    print mxdfile[:7] + mxdfile[11:]
     mxd10_1 = mxd_alt_root + "arcmap_10_1" + sep + mxdfile[:7] + "10_1" + mxdfile[11:]
     mxd.saveACopy(mxd10_1, "10.1")
     mxd10_0 = mxd_alt_root + "arcmap_10_0" + sep + mxdfile[:7] + "10_0" + mxdfile[11:]
@@ -78,8 +77,14 @@ for mxdfile in mxdList:
     mxd.saveACopy(mxd9_3, "9.3")
 
     finaljpg = rootauto[:-19] + sep + "example-outputs" + sep + mxdfile[:-4] + ".jpg"
-    os.remove(finaljpg)
-    arcpy.mapping.ExportToJPEG(mxd, finaljpg, resolution = 300)
+    if os.path.isfile(finaljpg) == True:
+        os.remove(finaljpg)
+    else:
+        print "no file exists " + mxdfile[:-4] + ".jpg"
+    try:
+        arcpy.mapping.ExportToJPEG(mxd, finaljpg, resolution = 300)
+    except:
+        print "failed to export " + mxdfile[:-4] + ".jpg"
 
 # open template_positions_yyyymmdd.txt
 file_object = open(mapfile, "w+")
