@@ -57,7 +57,9 @@ ebu,Earthquake buffer,evnt
 epi,Earthquake epicentre,evnt
 fir,Fire location,evnt
 flo,Flood extent,evnt
+ppt,Precipitation,evnt
 shk,Earthquake shake intensity,evnt
+win,Wind speed cones,evnt
 str,Storm track,evnt
 sta,"Status (loose term, needs more detail)",fsec
 ecl,Emergency clinic,heal
@@ -140,6 +142,7 @@ zoo,Zoo,pois
 cul,Cultural region,popu
 eth,Ethnic group,popu
 lan,Language distribution,popu
+dis,Displaced population,popu
 pop,Population distribution,popu
 cem,Cemetery,rcvy
 sca,Map scan,scan
