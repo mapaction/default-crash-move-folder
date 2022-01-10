@@ -1,0 +1,1 @@
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
