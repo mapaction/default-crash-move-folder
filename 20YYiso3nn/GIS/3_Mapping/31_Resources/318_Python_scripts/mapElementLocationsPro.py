@@ -10,7 +10,7 @@ from arcpy import env
 from datetime import date
 
 def getAprxFiles(directory):
-    print "directory: " + directory
+    print("directory: " + directory)
     aprxFiles = [];
     for root, dirs, files, in os.walk(directory):
         for file in files:
@@ -60,20 +60,19 @@ def lookForElements(layout, aprxFileName):
 def writeToOutputFile():
     today = str(date.today())
     root = os.getcwd()
-    print root[:-31]
+    print(root[:-31])
     file = os.path.join(root[:-31], '32_Map_Templates', "template_positions_" + today + ".txt")
     return open(file, 'a+')
 
 def createMapTemplateLocations():
     crashMoveDirectory = os.getcwd()
-    print "crashMoveDirectory: " + crashMoveDirectory[:-31]
+    print("crashMoveDirectory: " + crashMoveDirectory[:-31])
     arcpy.env.workspace = crashMoveDirectory[:-31]
 
     writeOutputFileHeadings()
 
     for aprxFile in getAprxFiles(crashMoveDirectory[:-31]):
-        print aprxFile
+        print(aprxFile)
         getLayoutsInAPRXFile(aprxFile)
     
 createMapTemplateLocations()
- 
