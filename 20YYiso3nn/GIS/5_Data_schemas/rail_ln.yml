@@ -1,0 +1,10 @@
+required:
+    - name
+    - fclass
+properties:
+    geometry_type:
+        items:
+            enum:
+                - MultiLineString
+                - LineString
+        additionalItems: false

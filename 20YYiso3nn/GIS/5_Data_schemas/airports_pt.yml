@@ -1,9 +1,10 @@
 required:
-    - name_en
+    - type
+    - name
 properties:
     geometry_type:
         items:
             enum:
-                - MultiPolygon
-                - Polygon
+                - MultiPoint
+                - Point
         additionalItems: false

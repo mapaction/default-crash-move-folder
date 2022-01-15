@@ -1,0 +1,10 @@
+required:
+    - ADM0_EN
+    - ADM0_PCODE
+properties:
+    geometry_type:
+        items:
+            enum:
+                - MultiPolygon
+                - Polygon
+        additionalItems: false

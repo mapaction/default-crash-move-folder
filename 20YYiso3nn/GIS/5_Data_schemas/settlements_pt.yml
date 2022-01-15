@@ -1,0 +1,10 @@
+required:
+    - name
+    - fclass
+properties:
+    geometry_type:
+        items:
+            enum:
+                - MultiPoint
+                - Point
+        additionalItems: false

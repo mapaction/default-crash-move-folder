@@ -1,0 +1,9 @@
+required:
+    - Xpar
+properties:
+    geometry_type:
+        items:
+            enum:
+                - MultiPolygon
+                - Polygon
+        additionalItems: false

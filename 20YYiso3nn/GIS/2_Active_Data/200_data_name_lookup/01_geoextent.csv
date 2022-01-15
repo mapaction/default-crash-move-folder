@@ -1,6 +1,6 @@
 Value,Description,Geography
-reg,Regional,Covers the affected country and the surrounding area.
 aoi,Area of Interest,Area of Interest
+reg,Regional,Covers the affected country and the surrounding area.
 afr,Africa,Continent
 ama,Americas,Continent
 asi,Asia,Continent

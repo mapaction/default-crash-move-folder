@@ -1,6 +1,8 @@
 {
 	"cmf_descriptor_path": "cmf_description.json",
 	"operation_name": "Replace-me-with-Operation-Name",
+	"country_name": "A country name is only required for fictional countries",
+	"glide_number": "n/a",
 	"glide_number": "Replace-me-with-GLIDE-Number",
 	"affected_country_iso3": "AAA",
 	"time_zone": "UTC+00:00",
