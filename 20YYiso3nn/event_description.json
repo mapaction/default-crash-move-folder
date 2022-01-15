@@ -3,6 +3,7 @@
 	"operation_name": "Replace-me-with-Operation-Name",
 	"country_name": "A country name is only required for fictional countries",
 	"glide_number": "n/a",
+	"glide_number": "Replace-me-with-GLIDE-Number",
 	"affected_country_iso3": "AAA",
 	"time_zone": "UTC+00:00",
 	"language_iso2": "en",
@@ -15,7 +16,7 @@
 	"default_donor_credits": "Supported by DONOR-NAME1 and DONOR-NAME2",
 	"default_jpeg_res_dpi": "300",
 	"default_pdf_res_dpi": "300",
-	"default_emf_res_dpi": "300",
+	"default_emf_res_dpi": "200",
 	"donors": [
 		"DONOR-NAME1",
 		"DONOR-NAME2"
