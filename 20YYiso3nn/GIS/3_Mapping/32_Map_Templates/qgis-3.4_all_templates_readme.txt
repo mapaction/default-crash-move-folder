@@ -1,1 +1,0 @@
-Open up the document in QGIS and then choose "composer manager". All 6 templates are in there.
