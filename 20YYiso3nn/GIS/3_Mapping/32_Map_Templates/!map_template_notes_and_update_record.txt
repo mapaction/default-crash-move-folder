@@ -10,21 +10,16 @@ http://support.esri.com/index.cfm?fa=knowledgebase.techArticles.articleShow&d=33
 http://www.mapaction.org/wiki/index.php/Map_Document_Naming
 A summary of this page is given here:
 
-
 Map document naming summary
 ---------------------------
 
 Format: MAnnn_TnnCnnPnn_freetext
 
 "MA  - Producer, MapAction"
-nnn - map number
-Tnn - Time series number (default: T00)
-Cnn - Correction number (default: C00)
+vnn - map number
 Pnn - Page series number. Generally used for products (e.g. .jpg and .pdf files)
       rather than .mxd files. (Default: P00)
 Freetext - a concise descriptive title
-"      May include the paper size (e.g. A3, A1) as a suffix"
-
 
 MXD template revision record
 ----------------------------
@@ -33,7 +28,6 @@ MXDs revised for 2016.
 
 ASmith 25 March 2015
 Added arcgis10_2 templates created by Kirsty, Mel and Kat at the Dev Day 21 March 2015
-
 
 Matt 4 January 2013
 MXDs updated for 2013

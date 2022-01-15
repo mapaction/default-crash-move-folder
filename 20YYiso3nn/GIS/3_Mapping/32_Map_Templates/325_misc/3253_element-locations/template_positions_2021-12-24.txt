@@ -1,0 +1,7 @@
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
