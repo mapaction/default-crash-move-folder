@@ -20,38 +20,43 @@ def getLayoutsInAPRXFile(aprxFile):
         lookForElements(layout, aprxFileName)
 
 def writeOutputFileHeadings():
-    elements = ['APRXFile', 'LayoutName', 'MapName', 'Type', 'ElementName', 'PositionX', 'PositionY', 'Height', 'Width', 'FontSize', 'TextValue']
-    with writeToOutputFile() as outputFile:
+   elements = ['TemplateName', 'LayoutName', 'ElementName', 'Type', 'PositionX', 'PositionY', 'Height', 'Width', 'FontSize', 'TextValue']
+   with writeToOutputFile() as outputFile:
         outputFile.write(','.join(elements))
         outputFile.write('\n')
         outputFile.close()
-        
+
+def wrapElementInQuotes(value):
+    return '"{}"'.format(str(value))
+
+def removeAPRXVersionNumber(aprxFileName):
+    nameParts = aprxFileName.split('_')
+    return '-'.join(nameParts[2:])
 
 def lookForElements(layout, aprxFileName):
     with writeToOutputFile() as outputFile:
-    
+        print(removeAPRXVersionNumber(aprxFileName[:-5]))
         for element in layout.listElements(wildcard='*'):
             elementFragments = []
-            elementFragments.append(aprxFileName)
-            elementFragments.append(layout.name) 
-            elementFragments.append(str(element.name)) 
-            elementFragments.append(str(element.type)) 
-            elementFragments.append(str(element.elementPositionX))
-            elementFragments.append(str(element.elementPositionY)) 
-            elementFragments.append(str(element.elementHeight))
-            elementFragments.append(str(element.elementWidth))
+            elementFragments.append(wrapElementInQuotes(removeAPRXVersionNumber(aprxFileName[:-5])))
+            elementFragments.append(wrapElementInQuotes(layout.name)) 
+            elementFragments.append(wrapElementInQuotes(element.name)) 
+            elementFragments.append(wrapElementInQuotes(element.type)) 
+            elementFragments.append(wrapElementInQuotes(element.elementPositionX))
+            elementFragments.append(wrapElementInQuotes(element.elementPositionY)) 
+            elementFragments.append(wrapElementInQuotes(element.elementHeight))
+            elementFragments.append(wrapElementInQuotes(element.elementWidth))
 
             if element.type == 'TEXT_ELEMENT':
-                elementFragments.append(str(element.textSize))
-                elementFragments.append(str(element.text))
-        
+                elementFragments.append(wrapElementInQuotes(element.textSize))
+                elementFragments.append(wrapElementInQuotes(element.text))
+
             outputFile.write(','.join(elementFragments))
             outputFile.write('\n')
         
-
 def writeToOutputFile():
     today = str(date.today())
-    file = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS','3_Mapping', '32_Map_Templates', "template_positions_" + today + ".txt")
+    file = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS','3_Mapping', '32_Map_Templates', '325_Misc', '3253_element-locations', "template_positions_" + today + ".txt")
     return open(file, 'a+')
 
 def createMapTemplateLocations():

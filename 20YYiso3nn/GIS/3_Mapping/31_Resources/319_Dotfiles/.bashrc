@@ -1,9 +1,9 @@
 mapaction_code_directory="~/Documents/code"
 
 # alias for ArcGIS propy python script location
-alias propy='/c/Program\ Files/ArcGIS/Pro/bin/Python/Scripts/propy.bat'
+alias propy='/d/Program\ Files/ArcGIS/Pro/bin/Python/Scripts/propy.bat'
 # alias for ArcGIS proenv python script location
-alias proenv='/c/Program\ Files/ArcGIS/Pro/bin/Python/Scripts/proenv.bat'
+alias proenv='/d/Program\ Files/ArcGIS/Pro/bin/Python/Scripts/proenv.bat'
 # bash alias to move to mapaction code directory
 alias mtma="cd $mapaction_code_directory"
 
