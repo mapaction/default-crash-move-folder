@@ -1,0 +1,785 @@
+APRXFile,LayoutName,MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,Marginalia,GRAPHIC_ELEMENT,-19.0,0.0,30.9,60.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,Text 1,TEXT_ELEMENT,16.95,15.84,0.32,0.91,9.0,Ghazni
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,Text,TEXT_ELEMENT,1.13,7.5,0.78,15.83,11.0, Number of people newly displaced due to conflict between 1 January and 31 July 2021
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,Picture,PICTURE_ELEMENT,1.13,7.68,5.91,29.94
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,Chart Frame 2,MAPSURROUND_ELEMENT,30.61,26.78,24.28,10.39
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,map_no,TEXT_ELEMENT,38.39,30.4,0.5,1.4,12.0,MA010 v1
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,map_version,TEXT_ELEMENT,40.09,30.4,0.5,0.75,12.0,v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,country,TEXT_ELEMENT,5.16,27.71,0.7,5.84,16.0,Afghanistan
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,title,TEXT_ELEMENT,5.16,26.91,0.7,31.84,16.0,Conflict induced displacements between 1 January and 31 July 2021 
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,mapaction_logo,PICTURE_ELEMENT,1.0,27.06,1.5,3.69
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,summary_label,TEXT_ELEMENT,-18.0,18.9,0.47,2.07,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,summary,TEXT_ELEMENT,-12.0,16.2,3.2,10.3,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012. Affected population figures are from Government of Vulgaria Ministry of Health reports. Planned rapid assessment routes by UNDAC teams for the coming two days are shown.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,data_sources_label,TEXT_ELEMENT,-18.0,12.5,0.47,2.85,12.0,Data Sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,data_sources,TEXT_ELEMENT,-12.0,11.6,1.4,10.0,12.0,These are my data sources
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,create_date_time_label,TEXT_ELEMENT,-18.0,11.0,0.5,2.5,12.0,Created
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,create_date_time,TEXT_ELEMENT,-12.0,11.0,0.5,5.0,12.0,1 Jan 2016 / 12:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,timezone,TEXT_ELEMENT,-5.5,11.0,0.47,2.18,12.0,UTC+02:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,map_name_label,TEXT_ELEMENT,-18.0,10.0,0.47,3.13,12.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,map_name,TEXT_ELEMENT,-12.0,10.0,0.47,6.31,12.0,arcgis_10_6_thematic_landscape
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,mxd_name_label,TEXT_ELEMENT,-18.0,9.5,0.47,3.13,12.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,mxd_name,TEXT_ELEMENT,-12.0,9.5,0.47,6.31,12.0,arcgis_10_6_thematic_landscape
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,spatial_reference_label,TEXT_ELEMENT,-18.0,8.5,0.47,3.83,12.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,spatial_reference,TEXT_ELEMENT,-12.0,8.5,0.47,2.07,12.0,WGS 1984
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,scale_label,TEXT_ELEMENT,-18.0,7.5,0.47,1.25,12.0,Scale:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,scale,TEXT_ELEMENT,-12.0,7.5,0.47,3.77,12.0,1: 4,000,000 (At A3)
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,map_producer_label,TEXT_ELEMENT,-18.0,5.5,0.47,2.96,12.0,Map Producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,map_producer,TEXT_ELEMENT,-12.0,4.9,1.1,10.0,12.0,Produced by MapAction https://mapaction.org
+mozambique@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,donor_credit_label,TEXT_ELEMENT,-18.0,4.0,0.47,2.66,12.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,donor_credit,TEXT_ELEMENT,-12.0,3.4,1.1,10.0,12.0,Supported by DFID and the Hans K Rausing Trust
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,glide_no_label,TEXT_ELEMENT,-18.0,2.5,0.47,2.87,12.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,glide_no,TEXT_ELEMENT,-12.0,2.5,0.5,4.8,12.6877000000004,TYP-2019-123456-MOZ
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,disclaimer,TEXT_ELEMENT,-18.0,1.0,1.0,16.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,source_production_info,TEXT_ELEMENT,1.0,1.0,0.5,23.39,10.0,<FNT style="Bold">Data Sources:</FNT> OpenStreetMap,National Bureau of Statistics, Natural Earth Data, OCHA. Map created by MapAction for ACAPS (23/08/2021)
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,legend,LEGEND_ELEMENT,1.0,8.5,3.52,4.05
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,scale_bar,MAPSURROUND_ELEMENT,26.54,8.99,1.11,3.24
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,north_arrow,MAPSURROUND_ELEMENT,27.88,10.38,1.17,0.58
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,unused_map_elements,TEXT_ELEMENT,-17.81,26.78,1.75,15.59,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,unused_elements,GRAPHIC_ELEMENT,-19.0,0.0,29.7,18.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps002-afghanistan-displacement,Main map Map Frame,MAPFRAME_ELEMENT,1.0,7.74,19.16,28.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,scale_dynamic,TEXT_ELEMENT,425.0,89.29,3.53,16.53,10.0,<dyn type="mapFrame" name="Main map Map Frame" property="scale" preStr="1:"/>
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,map_version,TEXT_ELEMENT,410.0,282.0,5.0,10.0,12.0,v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,map_no,TEXT_ELEMENT,380.0,282.0,5.0,20.0,12.0,MA010
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,title,TEXT_ELEMENT,80.0,271.0,8.0,200.0,16.0,Title example - Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,scale_label,TEXT_ELEMENT,425.0,100.0,4.5,40.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,scale,TEXT_ELEMENT,425.0,80.0,4.5,30.0,10.0,1:13,000,000
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,legend_text,TEXT_ELEMENT,10.0,134.75,35.0,63.5,16.0,insert legend (jpg)          located: 317_Legends    currently off page
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,horizontal_divide2,GRAPHIC_ELEMENT,10.0,125.0,0.0,63.5
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,data_sources,TEXT_ELEMENT,10.0,87.5,12.0,63.5,10.0,<ITA>add data sources here (concise list)</ITA>
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,time_zone,TEXT_ELEMENT,35.0,74.0,4.5,20.0,10.0,UTC+01:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,language_label,TEXT_ELEMENT,425.0,50.0,4.5,20.0,10.0,Language
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,language,TEXT_ELEMENT,425.0,40.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,map_name,TEXT_ELEMENT,425.0,10.0,4.5,40.0,10.0,(map_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,mxd_name,TEXT_ELEMENT,425.0,20.0,4.5,40.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,qr_text,TEXT_ELEMENT,387.5,272.0,10.0,22.5,12.0,Scan for latest maps
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,glide_no,TEXT_ELEMENT,35.0,58.0,4.5,40.0,10.0,EP-2020-000012-LBY
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,glide_no_label,TEXT_ELEMENT,10.0,58.0,4.5,25.0,10.0,GLIDE Number
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,spatial_reference,TEXT_ELEMENT,35.0,63.0,9.0,30.0,10.0,WGS 1984
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,spatial_reference_label,TEXT_ELEMENT,10.0,63.0,9.0,25.0,10.0,Projection & Datum
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,create_date_time,TEXT_ELEMENT,35.0,78.0,4.5,40.0,10.0,1 Jan 2016 / 12:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,create_date_time_label,TEXT_ELEMENT,10.0,78.0,4.5,25.0,10.0,Created
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,donor_credit,TEXT_ELEMENT,10.0,29.0,15.0,65.0,9.0,Supported by DFID and the Hans K Rausing Trust
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,disclaimer,TEXT_ELEMENT,10.0,15.0,15.0,63.5,9.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,map_producer,TEXT_ELEMENT,10.0,44.0,12.0,50.0,9.0,Produced by MapAction https://mapaction.org
+info@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,data_sources_label,TEXT_ELEMENT,10.0,99.0,4.5,40.0,10.0,<bol>Data Sources</bol>
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,summary,TEXT_ELEMENT,10.0,181.5,40.0,63.5,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2019.
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,country,TEXT_ELEMENT,80.0,278.0,9.0,90.0,18.0,Country: Emergency name
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,mapaction_logo,PICTURE_ELEMENT,10.0,272.0,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,legend,LEGEND_ELEMENT,425.0,155.0,7.63,53.36
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,horizontal_divide4,GRAPHIC_ELEMENT,10.0,85.0,0.0,63.5
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,horizontal_divide3,GRAPHIC_ELEMENT,10.0,106.0,0.0,63.5
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,scale_bar,MAPSURROUND_ELEMENT,26.75,112.0,6.81,30.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,horizontal_divide1,GRAPHIC_ELEMENT,10.0,179.5,0.0,63.5
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,north_arrow,MAPSURROUND_ELEMENT,402.59,25.0,10.04,4.99
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,Location map Map Frame,MAPFRAME_ELEMENT,10.0,224.0,46.0,63.5
+pro-2.8_thematic_landscape_3wtemplate.aprx,arcmap-10.6_reference_landscape_side,Main map Map Frame,MAPFRAME_ELEMENT,80.0,15.0,255.0,330.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,Legend,LEGEND_ELEMENT,287.0,26.0,93.38,51.7
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,297.0,477.08
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,mapaction_logo,PICTURE_ELEMENT,12.08,185.0,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,country,TEXT_ELEMENT,52.08,192.5,6.5,90.0,16.0,Afghanistan
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,title,TEXT_ELEMENT,52.08,185.0,5.0,200.0,12.0,Control of Provinces plus numbers of IDPs into each District
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,qr_code,PICTURE_ELEMENT,244.58,217.38,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,map_no,TEXT_ELEMENT,277.08,232.38,5.0,20.0,12.0,MA010 v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,map_version,TEXT_ELEMENT,287.08,232.38,5.0,10.0,12.0,v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,qr_text,TEXT_ELEMENT,264.08,217.38,10.0,22.5,12.0,Scan for latest maps
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,north_arrow,MAPSURROUND_ELEMENT,14.97,29.17,11.66,5.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,scale_bar,MAPSURROUND_ELEMENT,10.0,10.0,11.19,15.72
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,data_sources_label,TEXT_ELEMENT,257.0,20.0,4.5,30.0,10.0,Data sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,data_sources,TEXT_ELEMENT,207.0,15.59,4.5,80.0,10.0,AGCHO, OCHA, ACAPS, OpenStreetMap, GADM
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,source_production_info,TEXT_ELEMENT,192.4,10.59,4.5,94.6,10.0,Map created by MapAction for ACAPS (22/09/2021)
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,summary_label,TEXT_ELEMENT,-180.0,185.0,5.0,30.0,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,summary,TEXT_ELEMENT,-120.0,190.0,25.0,103.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,language_label,TEXT_ELEMENT,-180.0,110.0,4.5,30.0,10.0,Language:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,language,TEXT_ELEMENT,-120.0,110.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,map_document_label,TEXT_ELEMENT,-180.0,100.0,4.5,30.0,10.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,map_name,TEXT_ELEMENT,-120.0,100.0,4.5,60.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,mxd_name,TEXT_ELEMENT,-120.0,95.0,4.5,60.0,10.0,(map_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,spatial_reference_label,TEXT_ELEMENT,-180.0,90.0,4.5,40.0,10.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,spatial_reference,TEXT_ELEMENT,-120.0,90.0,4.5,20.0,10.0,WGS84
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,scale_label,TEXT_ELEMENT,-180.0,80.0,4.5,30.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,scale,TEXT_ELEMENT,-120.0,80.0,4.5,40.0,10.0,1: 5,000,000
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,time_zone_label,TEXT_ELEMENT,-180.0,70.0,4.5,30.0,10.0,Time zone:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,time_zone,TEXT_ELEMENT,-120.0,70.0,4.5,40.0,10.0,UTC+00.00
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,map_producer_label,TEXT_ELEMENT,-180.0,60.0,4.5,30.0,10.0,Map producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,map_producer,TEXT_ELEMENT,-120.0,50.0,15.0,60.0,10.0,Produced by MapAction / www.mapaction.org  / country@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,donor_credit_label,TEXT_ELEMENT,-180.0,43.0,4.5,30.0,10.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,donor_credit,TEXT_ELEMENT,-120.0,32.5,15.0,100.0,10.0,Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,glide_no_label,TEXT_ELEMENT,-180.0,25.0,4.5,30.0,10.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,glide_no,TEXT_ELEMENT,-120.0,25.0,4.5,50.0,10.0,XX_YYYY_XXXXXXX_CCC
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,disclaimer,TEXT_ELEMENT,-180.0,10.0,15.0,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,Main map Elements,GRAPHIC_ELEMENT,nan,nan,0.0,0.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,Main map Map Frame,MAPFRAME_ELEMENT,10.0,10.0,190.0,277.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps003-afghanistan,Location map Map Frame,MAPFRAME_ELEMENT,-150.0,200.0,55.4,80.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,309.76,600.03
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,data_sources_label,TEXT_ELEMENT,380.0,15.0,4.5,30.0,10.0,Data sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,data_sources,TEXT_ELEMENT,312.5,10.0,4.5,97.5,10.0,<FNT style="RomanItalic">WorldPop, OpenStreetMap, GADM</FNT>
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,source_production_info,TEXT_ELEMENT,308.36,5.0,4.5,101.64,10.0,Map created by MapAction for GIMAC  (25/06/2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,legend,LEGEND_ELEMENT,382.5,21.53,45.9,27.53
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,mapaction_logo,PICTURE_ELEMENT,10.0,272.0,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,Location map Map Frame,MAPFRAME_ELEMENT,-150.0,200.0,55.4,80.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,language_label,TEXT_ELEMENT,-180.0,110.0,4.5,30.0,10.0,Language:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,map_document_label,TEXT_ELEMENT,-180.0,100.0,4.5,30.0,10.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,spatial_reference_label,TEXT_ELEMENT,-180.0,90.0,4.5,40.0,10.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,scale_label,TEXT_ELEMENT,-180.0,80.0,4.5,30.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,time_zone_label,TEXT_ELEMENT,-180.0,70.0,4.5,30.0,10.0,Time zone:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,time_zone,TEXT_ELEMENT,-120.0,70.0,4.5,40.0,10.0,UTC+00.00
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,scale,TEXT_ELEMENT,-120.0,80.0,4.5,40.0,10.0,1: 5,000,000
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,spatial_reference,TEXT_ELEMENT,-120.0,90.0,4.5,20.0,10.0,WGS84
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,mxd_name,TEXT_ELEMENT,-120.0,95.0,4.5,60.0,10.0,(map_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,map_name,TEXT_ELEMENT,-120.0,100.0,4.5,60.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,language,TEXT_ELEMENT,-120.0,110.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,summary_label,TEXT_ELEMENT,-180.0,185.0,5.0,30.0,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,map_producer_label,TEXT_ELEMENT,-180.0,60.0,4.5,30.0,10.0,Map producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,donor_credit_label,TEXT_ELEMENT,-180.0,40.0,4.5,30.0,10.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,glide_no_label,TEXT_ELEMENT,-180.0,25.0,4.5,30.0,10.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,glide_no,TEXT_ELEMENT,-120.0,25.0,4.5,50.0,10.0,XX_YYYY_XXXXXXX_CCC
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,map_producer,TEXT_ELEMENT,-120.0,50.0,15.0,60.0,10.0,Produced by MapAction / www.mapaction.org  / country@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,map_no,TEXT_ELEMENT,382.5,304.76,5.0,22.5,12.0,MA010 v1
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,country,TEXT_ELEMENT,50.0,278.0,9.0,90.0,18.0,Afghanistan
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,title,TEXT_ELEMENT,50.0,270.5,8.0,269.94,16.0,Population density (2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,summary,TEXT_ELEMENT,-120.0,190.0,25.0,103.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,disclaimer,TEXT_ELEMENT,-180.0,10.0,15.0,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,donor_credit,TEXT_ELEMENT,-120.0,35.0,15.0,100.0,10.0,Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma005-afghanistan-population-density,Population,MAPFRAME_ELEMENT,10.0,9.5,260.5,400.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,Location map Map Frame,MAPFRAME_ELEMENT,-130.0,148.5,80.0,55.4
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,410.0,477.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,Legend Group,GRAPHIC_ELEMENT,46.9,10.0,26.29,141.6
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,Text 5,TEXT_ELEMENT,46.9,18.85,17.49,23.37,10.0,<FNT name='OCHA Icons Bounded' size='24'><CLR red='60' green='96' blue='173'>"</CLR></FNT> Logistica
+<FNT name='OCHA Icons Bounded' size='24'><CLR red='60' green='96' blue='173'>+</CLR></FNT> Salud
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,Text 4,TEXT_ELEMENT,140.62,23.14,26.29,47.88,10.0,<FNT name='OCHA Icons Bounded' size='24'><CLR red='60' green='96' blue='173'>(</CLR></FNT> Alojamientos temporales
+<FNT name='OCHA Icons Bounded' size='24'><CLR red='60' green='96' blue='173'>%</CLR></FNT> Educación
+<FNT name='OCHA Icons Bounded' size='24'><CLR red='60' green='96' blue='173'>&amp;</CLR></FNT> Protección
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,Text 3,TEXT_ELEMENT,73.27,23.14,26.29,64.35,10.0,<FNT name='OCHA Icons Bounded' size='24'><CLR red='60' green='96' blue='173'>*</CLR></FNT> Agua, Saneamiento e Higiene
+<FNT name='OCHA Icons Bounded' size='24'><CLR red='60' green='96' blue='173'>)</CLR></FNT> Seguridad Alimentaria y Nutricional
+<FNT name='OCHA Icons Bounded' size='24'><CLR red='60' green='96' blue='173'>.</CLR></FNT> Coordinación / Información
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,mapaction_logo,PICTURE_ELEMENT,10.0,395.0,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,country,TEXT_ELEMENT,55.0,401.0,9.0,90.0,18.0,Country: Emergency name
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,title,TEXT_ELEMENT,55.0,394.0,8.0,180.0,16.0,Title example: Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,qr_code,PICTURE_ELEMENT,244.5,395.0,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,qr_text,TEXT_ELEMENT,264.5,395.0,10.0,22.5,12.0,Scan for latest maps
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,map_no,TEXT_ELEMENT,287.0,410.0,5.0,30.0,12.0,MA010 v1
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,north_arrow,MAPSURROUND_ELEMENT,17.04,26.64,8.32,4.14
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,scale_bar,MAPSURROUND_ELEMENT,10.0,10.0,9.46,7.14
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,legend,LEGEND_ELEMENT,249.65,35.0,5.34,37.35
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,data_sources_label,TEXT_ELEMENT,257.0,20.0,4.5,30.0,10.0,Data sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,data_sources,TEXT_ELEMENT,207.0,15.0,4.5,80.0,10.0,<ITA>add data sources here (concise list)</ITA>
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,source_production_info,TEXT_ELEMENT,287.0,10.0,4.5,70.0,10.0,Map created by MapAction (dd/mm/2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,summary_label,TEXT_ELEMENT,-180.0,250.0,4.5,30.0,10.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,summary,TEXT_ELEMENT,-140.0,230.0,25.0,103.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,language_label,TEXT_ELEMENT,-180.0,120.0,4.5,30.0,10.0,Language:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,language,TEXT_ELEMENT,-140.0,120.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,map_document_label,TEXT_ELEMENT,-180.0,110.0,4.5,30.0,10.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,map_name,TEXT_ELEMENT,-140.0,110.0,4.5,60.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,mxd_name,TEXT_ELEMENT,-140.0,105.0,4.5,60.0,10.0,(map_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,spatial_reference_label,TEXT_ELEMENT,-180.0,100.0,4.5,40.0,10.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,spatial_reference,TEXT_ELEMENT,-140.0,100.0,4.5,20.0,10.0,WGS84
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,scale_label,TEXT_ELEMENT,-180.0,90.0,4.5,30.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,scale,TEXT_ELEMENT,-140.0,90.0,4.5,40.0,10.0,1: 5,000,000
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,time_zone_label,TEXT_ELEMENT,-180.0,80.0,4.5,30.0,10.0,Time zone:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,time_zone,TEXT_ELEMENT,-140.0,80.0,4.5,40.0,10.0,UTC+00.00
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,map_producer_label,TEXT_ELEMENT,-180.0,70.0,4.5,30.0,10.0,Map producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,map_producer,TEXT_ELEMENT,-140.0,60.0,15.0,50.0,10.0,Produced by MapAction / www.mapaction.org  / country@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,donor_credit_label,TEXT_ELEMENT,-180.0,55.0,4.5,30.0,10.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,donor_credit,TEXT_ELEMENT,-140.0,45.0,15.0,100.0,10.0,Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,glide_no_label,TEXT_ELEMENT,-180.0,35.0,4.5,30.0,10.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,glide_no,TEXT_ELEMENT,-140.0,35.0,4.5,50.0,10.0,XX_YYYY_XXXXXXX_CCC
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,disclaimer,TEXT_ELEMENT,-180.0,15.0,15.0,160.0,10.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitrian_Agencies_per_Admin1,Main map Map Frame,MAPFRAME_ELEMENT,10.0,10.0,400.0,277.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,309.76,600.48
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,country,TEXT_ELEMENT,46.9,280.03,9.0,90.0,18.0,Afghanistan
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,Text,TEXT_ELEMENT,158.47,42.94,7.06,27.92,10.0,Population P3 + 
+9,462,351 people
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,Table Frame,MAPSURROUND_ELEMENT,241.51,11.86,28.14,48.52
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,Total IPC Chart,MAPSURROUND_ELEMENT,63.01,50.0,38.14,135.61
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,Admin 1 IPC Chart,MAPSURROUND_ELEMENT,246.77,287.0,259.75,163.71
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,data_sources_label,TEXT_ELEMENT,380.0,18.28,3.72,30.0,10.0,Data sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,data_sources,TEXT_ELEMENT,312.5,14.14,3.72,97.5,10.0,<FNT style="RomanItalic">IPC, OpenStreetMap,GADM, OCHA</FNT>
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,source_production_info,TEXT_ELEMENT,308.36,10.0,3.72,101.64,10.0,Map created by MapAction for GIMAC  (28/06/2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,Legend,LEGEND_ELEMENT,10.0,10.0,39.47,79.86
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,mapaction_logo,PICTURE_ELEMENT,10.0,272.53,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,Location map Map Frame,MAPFRAME_ELEMENT,-150.0,200.0,55.4,80.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,language_label,TEXT_ELEMENT,-180.0,110.0,4.5,30.0,10.0,Language:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,map_document_label,TEXT_ELEMENT,-180.0,100.0,4.5,30.0,10.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,spatial_reference_label,TEXT_ELEMENT,-180.0,90.0,4.5,40.0,10.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,scale_label,TEXT_ELEMENT,-180.0,80.0,4.5,30.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,time_zone_label,TEXT_ELEMENT,-180.0,70.0,4.5,30.0,10.0,Time zone:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,time_zone,TEXT_ELEMENT,-120.0,70.0,4.5,40.0,10.0,UTC+00.00
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,scale,TEXT_ELEMENT,-120.0,80.0,4.5,40.0,10.0,1: 5,000,000
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,spatial_reference,TEXT_ELEMENT,-120.0,90.0,4.5,20.0,10.0,WGS84
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,mxd_name,TEXT_ELEMENT,-120.0,95.0,4.5,60.0,10.0,(map_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,map_name,TEXT_ELEMENT,-120.0,100.0,4.5,60.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,language,TEXT_ELEMENT,-120.0,110.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,summary_label,TEXT_ELEMENT,-180.0,185.0,5.0,30.0,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,map_producer_label,TEXT_ELEMENT,-180.0,60.0,4.5,30.0,10.0,Map producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,donor_credit_label,TEXT_ELEMENT,-180.0,40.0,4.5,30.0,10.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,glide_no_label,TEXT_ELEMENT,-180.0,25.0,4.5,30.0,10.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,glide_no,TEXT_ELEMENT,-120.0,25.0,4.5,50.0,10.0,XX_YYYY_XXXXXXX_CCC
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,map_producer,TEXT_ELEMENT,-120.0,50.0,15.0,60.0,10.0,Produced by MapAction / www.mapaction.org  / country@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,map_no,TEXT_ELEMENT,382.5,304.76,5.0,22.5,12.0,MA010 v1
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,title,TEXT_ELEMENT,46.9,272.53,8.0,234.1,16.0,Projected food insecurity (June to November 2021)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,summary,TEXT_ELEMENT,-120.0,190.0,25.0,103.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,disclaimer,TEXT_ELEMENT,-180.0,10.0,15.0,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,donor_credit,TEXT_ELEMENT,-120.0,35.0,15.0,100.0,10.0,Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma002-afghanistan-food-security-june-november-2021,Current,MAPFRAME_ELEMENT,10.0,39.99,234.26,255.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,309.76,600.48
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,Text,TEXT_ELEMENT,157.99,42.25,7.06,30.13,10.0,Population P3 + 
+10,938,928 people
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,Table Frame,MAPSURROUND_ELEMENT,241.51,11.86,28.14,48.52
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,Total IPC Chart,MAPSURROUND_ELEMENT,63.01,50.0,38.14,135.61
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,Admin 1 IPC Chart,MAPSURROUND_ELEMENT,246.77,287.0,259.75,163.71
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,data_sources_label,TEXT_ELEMENT,380.0,18.28,3.72,30.0,10.0,Data sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,data_sources,TEXT_ELEMENT,312.5,14.14,3.72,97.5,10.0,<FNT style="RomanItalic">IPC, OpenStreetMap,GADM, OCHA</FNT>
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,source_production_info,TEXT_ELEMENT,308.36,10.0,3.72,101.64,10.0,Map created by MapAction for GIMAC  (28/06/2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,Legend,LEGEND_ELEMENT,10.0,10.0,39.47,79.86
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,mapaction_logo,PICTURE_ELEMENT,10.0,272.53,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,Location map Map Frame,MAPFRAME_ELEMENT,-150.0,200.0,55.4,80.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,language_label,TEXT_ELEMENT,-180.0,110.0,4.5,30.0,10.0,Language:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,map_document_label,TEXT_ELEMENT,-180.0,100.0,4.5,30.0,10.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,spatial_reference_label,TEXT_ELEMENT,-180.0,90.0,4.5,40.0,10.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,scale_label,TEXT_ELEMENT,-180.0,80.0,4.5,30.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,time_zone_label,TEXT_ELEMENT,-180.0,70.0,4.5,30.0,10.0,Time zone:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,time_zone,TEXT_ELEMENT,-120.0,70.0,4.5,40.0,10.0,UTC+00.00
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,scale,TEXT_ELEMENT,-120.0,80.0,4.5,40.0,10.0,1: 5,000,000
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,spatial_reference,TEXT_ELEMENT,-120.0,90.0,4.5,20.0,10.0,WGS84
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,mxd_name,TEXT_ELEMENT,-120.0,95.0,4.5,60.0,10.0,(map_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,map_name,TEXT_ELEMENT,-120.0,100.0,4.5,60.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,language,TEXT_ELEMENT,-120.0,110.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,summary_label,TEXT_ELEMENT,-180.0,185.0,5.0,30.0,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,map_producer_label,TEXT_ELEMENT,-180.0,60.0,4.5,30.0,10.0,Map producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,donor_credit_label,TEXT_ELEMENT,-180.0,40.0,4.5,30.0,10.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,glide_no_label,TEXT_ELEMENT,-180.0,25.0,4.5,30.0,10.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,glide_no,TEXT_ELEMENT,-120.0,25.0,4.5,50.0,10.0,XX_YYYY_XXXXXXX_CCC
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,map_producer,TEXT_ELEMENT,-120.0,50.0,15.0,60.0,10.0,Produced by MapAction / www.mapaction.org  / country@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,map_no,TEXT_ELEMENT,382.5,304.76,5.0,22.5,12.0,MA010 v1
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,country,TEXT_ELEMENT,46.9,280.03,9.0,90.0,18.0,Afghanistan
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,title,TEXT_ELEMENT,46.9,272.53,8.0,234.1,16.0,Food insecurity (March to May 2021)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,summary,TEXT_ELEMENT,-120.0,190.0,25.0,103.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,disclaimer,TEXT_ELEMENT,-180.0,10.0,15.0,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,donor_credit,TEXT_ELEMENT,-120.0,35.0,15.0,100.0,10.0,Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma001-afghanistan-food-security-march-may-2021,Current,MAPFRAME_ELEMENT,10.0,39.99,234.26,255.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,Picture,PICTURE_ELEMENT,1.0,1.5,6.03,29.83
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,Text,TEXT_ELEMENT,11.8,7.5,0.78,8.41,11.0,Number of fatalities over time per event type
+
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,Chart Frame 1,MAPSURROUND_ELEMENT,30.61,18.28,17.28,10.39
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,Chart Frame,MAPSURROUND_ELEMENT,29.78,26.9,7.69,11.06
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,map_no,TEXT_ELEMENT,38.39,30.4,0.5,1.4,12.0,MA010 v1
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,map_version,TEXT_ELEMENT,40.09,30.4,0.5,0.75,12.0,v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,country,TEXT_ELEMENT,5.16,27.71,0.7,5.84,16.0,Afghanistan
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,title,TEXT_ELEMENT,5.16,26.91,0.7,31.84,16.0,Number of fatalities per event type (June 2018 to June 2021)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,mapaction_logo,PICTURE_ELEMENT,1.0,27.06,1.5,3.69
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,summary_label,TEXT_ELEMENT,-18.0,18.9,0.47,2.07,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,summary,TEXT_ELEMENT,-12.0,16.2,3.2,10.3,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012. Affected population figures are from Government of Vulgaria Ministry of Health reports. Planned rapid assessment routes by UNDAC teams for the coming two days are shown.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,data_sources_label,TEXT_ELEMENT,-18.0,12.5,0.47,2.85,12.0,Data Sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,data_sources,TEXT_ELEMENT,-12.0,11.6,1.4,10.0,12.0,These are my data sources
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,create_date_time_label,TEXT_ELEMENT,-18.0,11.0,0.5,2.5,12.0,Created
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,create_date_time,TEXT_ELEMENT,-12.0,11.0,0.5,5.0,12.0,1 Jan 2016 / 12:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,timezone,TEXT_ELEMENT,-5.5,11.0,0.47,2.18,12.0,UTC+02:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,map_name_label,TEXT_ELEMENT,-18.0,10.0,0.47,3.13,12.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,map_name,TEXT_ELEMENT,-12.0,10.0,0.47,6.31,12.0,arcgis_10_6_thematic_landscape
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,mxd_name_label,TEXT_ELEMENT,-18.0,9.5,0.47,3.13,12.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,mxd_name,TEXT_ELEMENT,-12.0,9.5,0.47,6.31,12.0,arcgis_10_6_thematic_landscape
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,spatial_reference_label,TEXT_ELEMENT,-18.0,8.5,0.47,3.83,12.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,spatial_reference,TEXT_ELEMENT,-12.0,8.5,0.47,2.07,12.0,WGS 1984
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,scale_label,TEXT_ELEMENT,-18.0,7.5,0.47,1.25,12.0,Scale:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,scale,TEXT_ELEMENT,-12.0,7.5,0.47,3.77,12.0,1: 4,000,000 (At A3)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,map_producer_label,TEXT_ELEMENT,-18.0,5.5,0.47,2.96,12.0,Map Producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,map_producer,TEXT_ELEMENT,-12.0,4.9,1.1,10.0,12.0,Produced by MapAction https://mapaction.org
+mozambique@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,donor_credit_label,TEXT_ELEMENT,-18.0,4.0,0.47,2.66,12.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,donor_credit,TEXT_ELEMENT,-12.0,3.4,1.1,10.0,12.0,Supported by DFID and the Hans K Rausing Trust
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,glide_no_label,TEXT_ELEMENT,-18.0,2.5,0.47,2.87,12.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,glide_no,TEXT_ELEMENT,-12.0,2.5,0.5,4.8,12.6877000000004,TYP-2019-123456-MOZ
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,disclaimer,TEXT_ELEMENT,-18.0,1.0,1.0,16.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,source_production_info,TEXT_ELEMENT,1.0,1.0,0.5,23.39,10.0,<FNT style="Bold">Data Sources:</FNT> ACLED, OpenStreetMap,National Bureau of Statistics, Natural Earth Data. Map created by MapAction for GIMAC (15/06/2021)
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,legend,LEGEND_ELEMENT,1.0,8.5,6.5,2.83
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,scale_bar,MAPSURROUND_ELEMENT,27.38,7.97,1.11,3.24
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,north_arrow,MAPSURROUND_ELEMENT,28.71,9.36,1.17,0.58
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,Main map Map Frame,MAPFRAME_ELEMENT,1.0,7.74,19.16,28.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,unused_map_elements,TEXT_ELEMENT,-17.81,26.78,1.75,15.59,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,ma007-afghanistan-security,unused_elements,GRAPHIC_ELEMENT,-19.0,0.0,29.7,18.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,Marginalia,GRAPHIC_ELEMENT,-19.0,0.0,30.9,60.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,Text,TEXT_ELEMENT,1.0,7.5,0.78,17.44,11.0,Number of conflict related fatalities in Afghanistan between 1 January – 31 July
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,Picture,PICTURE_ELEMENT,1.0,7.92,6.03,29.3
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,Chart Frame 1,MAPSURROUND_ELEMENT,30.61,26.78,25.78,10.39
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,map_no,TEXT_ELEMENT,38.39,30.4,0.5,1.4,12.0,MA010 v1
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,map_version,TEXT_ELEMENT,40.09,30.4,0.5,0.75,12.0,v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,title,TEXT_ELEMENT,5.16,26.91,0.7,31.84,16.0,Number of conflict related fatalities in Afghanistan between 1 January – 31 July
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,mapaction_logo,PICTURE_ELEMENT,1.0,27.06,1.5,3.69
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,summary_label,TEXT_ELEMENT,-18.0,18.9,0.47,2.07,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,summary,TEXT_ELEMENT,-12.0,16.2,3.2,10.3,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012. Affected population figures are from Government of Vulgaria Ministry of Health reports. Planned rapid assessment routes by UNDAC teams for the coming two days are shown.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,data_sources_label,TEXT_ELEMENT,-18.0,12.5,0.47,2.85,12.0,Data Sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,data_sources,TEXT_ELEMENT,-12.0,11.6,1.4,10.0,12.0,These are my data sources
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,create_date_time_label,TEXT_ELEMENT,-18.0,11.0,0.5,2.5,12.0,Created
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,create_date_time,TEXT_ELEMENT,-12.0,11.0,0.5,5.0,12.0,1 Jan 2016 / 12:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,timezone,TEXT_ELEMENT,-5.5,11.0,0.47,2.18,12.0,UTC+02:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,map_name_label,TEXT_ELEMENT,-18.0,10.0,0.47,3.13,12.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,map_name,TEXT_ELEMENT,-12.0,10.0,0.47,6.31,12.0,arcgis_10_6_thematic_landscape
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,mxd_name_label,TEXT_ELEMENT,-18.0,9.5,0.47,3.13,12.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,mxd_name,TEXT_ELEMENT,-12.0,9.5,0.47,6.31,12.0,arcgis_10_6_thematic_landscape
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,spatial_reference_label,TEXT_ELEMENT,-18.0,8.5,0.47,3.83,12.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,spatial_reference,TEXT_ELEMENT,-12.0,8.5,0.47,2.07,12.0,WGS 1984
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,scale_label,TEXT_ELEMENT,-18.0,7.5,0.47,1.25,12.0,Scale:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,scale,TEXT_ELEMENT,-12.0,7.5,0.47,3.77,12.0,1: 4,000,000 (At A3)
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,map_producer_label,TEXT_ELEMENT,-18.0,5.5,0.47,2.96,12.0,Map Producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,map_producer,TEXT_ELEMENT,-12.0,4.9,1.1,10.0,12.0,Produced by MapAction https://mapaction.org
+mozambique@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,donor_credit_label,TEXT_ELEMENT,-18.0,4.0,0.47,2.66,12.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,donor_credit,TEXT_ELEMENT,-12.0,3.4,1.1,10.0,12.0,Supported by DFID and the Hans K Rausing Trust
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,glide_no_label,TEXT_ELEMENT,-18.0,2.5,0.47,2.87,12.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,glide_no,TEXT_ELEMENT,-12.0,2.5,0.5,4.8,12.6877000000004,TYP-2019-123456-MOZ
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,disclaimer,TEXT_ELEMENT,-18.0,1.0,1.0,16.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,source_production_info,TEXT_ELEMENT,1.0,1.0,0.5,23.39,10.0,<FNT style="Bold">Data Sources:</FNT> ACLED, OpenStreetMap,National Bureau of Statistics, Natural Earth Data. Map created by MapAction for ACAPS (23/08/2021).
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,legend,LEGEND_ELEMENT,1.0,8.5,6.54,2.93
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,scale_bar,MAPSURROUND_ELEMENT,26.54,8.99,1.11,3.24
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,north_arrow,MAPSURROUND_ELEMENT,27.88,10.38,1.17,0.58
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,unused_map_elements,TEXT_ELEMENT,-17.81,26.78,1.75,15.59,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,unused_elements,GRAPHIC_ELEMENT,-19.0,0.0,29.7,18.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,acaps001-afghanistan-security-displacement,Main map Map Frame,MAPFRAME_ELEMENT,1.0,7.74,19.16,28.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,Marginalia,GRAPHIC_ELEMENT,12.29,-23.19,436.43,274.71
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,Legend,LEGEND_ELEMENT,61.63,-23.19,74.17,99.83
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,data_sources_label,TEXT_ELEMENT,178.94,59.84,4.5,40.0,10.0,<bol>Data Sources</bol>
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,data_sources,TEXT_ELEMENT,178.94,49.03,8.69,39.94,10.0,OCHA, OSM
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,vertical_divide3 1,GRAPHIC_ELEMENT,221.0,10.0,55.0,0.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,vertical_divide2,GRAPHIC_ELEMENT,174.61,9.34,55.0,0.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,timezone,TEXT_ELEMENT,248.5,38.5,4.5,20.0,10.0,Element not present
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,glide_no,TEXT_ELEMENT,248.5,22.5,4.5,38.5,10.0,FL-2021-000066-GUY
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,glide_no_label,TEXT_ELEMENT,223.5,22.5,4.5,25.0,10.0,GLIDE Number
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,spatial_reference,TEXT_ELEMENT,248.5,28.0,9.0,30.0,10.0,WGS 1984
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,spatial_reference_label,TEXT_ELEMENT,223.5,28.0,9.0,25.0,10.0,Projection & Datum
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,create_date_time,TEXT_ELEMENT,248.5,42.5,4.5,38.5,10.0,24 Jun 2021 / 14:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,create_date_time_label,TEXT_ELEMENT,223.5,42.5,4.5,25.0,10.0,Created
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,donor_credit,TEXT_ELEMENT,179.27,33.31,14.0,40.56,9.0,Supported by Foreign, Commonwealth & Development Office
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,map_producer,TEXT_ELEMENT,223.5,10.0,12.0,50.0,9.0,Produced by MapAction https://mapaction.org
+suriname@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,disclaimer,TEXT_ELEMENT,179.27,10.0,22.07,40.23,9.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,horizontal_divide3 1,GRAPHIC_ELEMENT,223.5,49.0,0.0,63.5
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,vertical_divide3,GRAPHIC_ELEMENT,60.76,11.73,55.0,0.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,horizontal_divide3,GRAPHIC_ELEMENT,62.57,57.29,0.0,63.5
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,qr_text,TEXT_ELEMENT,287.0,395.0,10.0,25.0,12.0,Scan for latest maps
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,qr_code,PICTURE_ELEMENT,244.0,395.0,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,map_no,TEXT_ELEMENT,287.0,405.0,5.0,25.0,12.0,MA011 v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,mapaction_logo,PICTURE_ELEMENT,12.29,392.29,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,Text 3,TEXT_ELEMENT,194.63,400.49,6.35,3.18,18.0,<dyn type="page" property="attribute" field="state_affected$.Admin1Name" domainlookup="true"/>
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,Text 2,TEXT_ELEMENT,132.81,402.09,6.35,3.18,18.0,<dyn type="page" property="attribute" field="state_affected$.Group" domainlookup="true"/>
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,Text 1,TEXT_ELEMENT,57.89,398.91,7.72,76.21,18.0,EOC Coverage Group:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,Text,TEXT_ELEMENT,174.61,397.32,7.72,21.31,18.0,State:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,title,TEXT_ELEMENT,56.15,378.24,35.0,118.96,16.0,Guyana Floods
+3w Activity by Region (as of 25 Jun 2021)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,north_arrow,MAPSURROUND_ELEMENT,22.76,88.28,10.04,4.99
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,summary,TEXT_ELEMENT,64.75,52.68,13.86,123.36,10.0,Map shows 3w activity by Region broken down into Sectors
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,Location map Map Frame,MAPFRAME_ELEMENT,13.16,12.28,55.0,42.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w Map Template,Main map Map Frame,MAPFRAME_ELEMENT,10.0,75.0,310.63,277.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,Location map Map Frame,MAPFRAME_ELEMENT,-150.0,200.0,55.4,80.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,297.0,601.8
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,themes_label,TEXT_ELEMENT,-180.0,144.5,4.5,35.68,12.0,Themes:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,themes,TEXT_ELEMENT,-120.0,123.5,25.0,40.0,12.0,Orientation and Reference | Situation and Damage
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,status_label,TEXT_ELEMENT,-180.0,153.0,4.5,35.68,12.0,Status:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,status,TEXT_ELEMENT,-120.0,149.0,8.0,40.0,12.0,New
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,quality_control_label,TEXT_ELEMENT,-180.0,162.0,4.5,35.68,12.0,Quality Control:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,quality_control,TEXT_ELEMENT,-120.0,162.0,4.5,40.0,12.0,Local
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,access_label,TEXT_ELEMENT,-180.0,170.0,5.25,35.68,12.0,Access:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,access,TEXT_ELEMENT,-120.0,170.0,4.5,40.0,12.0,Public
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,Legend Group,GRAPHIC_ELEMENT,nan,nan,0.0,0.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,Text 2,TEXT_ELEMENT,409.0,271.5,12.63,71.54,10.0,Para registrar sus actividades escaneé este código QR para visitar  https://rolac345w.humanitarianresponse.info/
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,frame,PICTURE_ELEMENT,377.89,224.67,33.92,33.92
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,map_no,TEXT_ELEMENT,410.0,287.0,5.0,27.14,12.0,MA001 v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,timezone,TEXT_ELEMENT,-80.0,70.0,4.5,40.0,10.0,UTC-06:00
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,data_sources_label,TEXT_ELEMENT,10.0,20.0,4.5,30.0,10.0,Fuentes de Datos
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,language_label,TEXT_ELEMENT,-180.0,110.0,4.5,30.0,10.0,Spanish
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,map_document_label,TEXT_ELEMENT,-180.0,100.0,4.5,30.0,10.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,spatial_reference_label,TEXT_ELEMENT,-180.0,90.0,4.5,40.0,10.0,Proyección y Referencia
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,scale_label,TEXT_ELEMENT,-180.0,80.0,4.5,30.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,timezone_label,TEXT_ELEMENT,-180.0,70.0,4.5,30.0,10.0,Time zone:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,scale,TEXT_ELEMENT,-120.0,80.0,4.5,40.0,10.0,1: 217,923,854 (At A3)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,spatial_reference,TEXT_ELEMENT,-120.0,90.0,4.5,71.25,10.0,WGS_1984_UTM_Zone_16N
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,mxd_name,TEXT_ELEMENT,-120.0,95.0,4.5,60.0,10.0,pro-2.5_3w_thematic_landscape_vanilla_templates
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,map_name,TEXT_ELEMENT,-120.0,100.0,4.5,60.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,language,TEXT_ELEMENT,-120.0,110.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,data_sources,TEXT_ELEMENT,10.0,15.0,4.5,99.12,10.0,SINIT, GADM, OCHA ROLAC, INE, OpenStreetMap, WFP
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,source_production_info,TEXT_ELEMENT,10.0,10.0,4.5,70.0,10.0,Elaborado por MapAction (5 de Dic 2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,summary_label,TEXT_ELEMENT,-180.0,185.0,5.0,30.0,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,map_producer_label,TEXT_ELEMENT,-180.0,60.0,4.5,30.0,10.0,Map producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,donor_credit_label,TEXT_ELEMENT,-180.0,40.0,4.5,30.0,10.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,glide_no_label,TEXT_ELEMENT,-180.0,25.0,4.5,30.0,10.0,Número GLIDE
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,glide_no,TEXT_ELEMENT,-120.0,25.0,4.5,50.0,10.0,n/a
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,map_producer,TEXT_ELEMENT,-120.0,50.0,15.0,60.0,10.0,Produced by MapAction
+
+https://mapaction.org
+
+honduras@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,country,TEXT_ELEMENT,50.0,278.0,9.21,142.97,18.0,Honduras: Huracán Eta / Iota
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,title,TEXT_ELEMENT,50.0,272.5,7.05,275.15,16.0,Presencia Humanitaria por Departamento (a las 2300 el 4 de Dic 2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,summary,TEXT_ELEMENT,-120.0,190.0,25.0,103.0,12.0,Map shows the number of reported activities per Sector per Department in Honduras. Critical and High priority response areas are also shown.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,disclaimer,TEXT_ELEMENT,-180.0,10.0,15.0,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,donor_credit,TEXT_ELEMENT,-120.0,35.0,15.0,100.0,10.0,Supported by German Federal Foreign Office
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,north_arrow,MAPSURROUND_ELEMENT,12.84,40.81,11.66,5.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,scale_bar,MAPSURROUND_ELEMENT,10.0,25.0,11.18,46.03
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,MapAction Logo on white,PICTURE_ELEMENT,10.0,287.0,17.57,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,legend,LEGEND_ELEMENT,410.0,10.0,70.0,49.06
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Numbers,Main map Map Frame,MAPFRAME_ELEMENT,10.0,10.0,262.5,400.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,Location map Map Frame,MAPFRAME_ELEMENT,-150.0,200.0,55.4,80.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,297.0,600.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,themes_label,TEXT_ELEMENT,-180.0,144.5,4.5,35.68,12.0,Themes:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,themes,TEXT_ELEMENT,-120.0,123.5,25.0,40.0,12.0,Orientation and Reference | Situation and Damage
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,status_label,TEXT_ELEMENT,-180.0,153.0,4.5,35.68,12.0,Status:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,status,TEXT_ELEMENT,-120.0,149.0,8.0,40.0,12.0,New
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,quality_control_label,TEXT_ELEMENT,-180.0,162.0,4.5,35.68,12.0,Quality Control:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,quality_control,TEXT_ELEMENT,-120.0,162.0,4.5,40.0,12.0,Local
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,access_label,TEXT_ELEMENT,-180.0,170.0,5.25,35.68,12.0,Access:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,access,TEXT_ELEMENT,-120.0,170.0,4.5,40.0,12.0,Public
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,mapaction_logo,PICTURE_ELEMENT,10.0,272.0,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,country,TEXT_ELEMENT,50.0,278.0,9.0,90.0,18.0,Country: Emergency name
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,title,TEXT_ELEMENT,50.0,270.5,8.0,200.0,16.0,Title example: Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,map_no,TEXT_ELEMENT,410.0,287.0,5.0,30.0,12.0,MA010 v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,qr_text,TEXT_ELEMENT,387.0,272.0,10.0,22.5,12.0,Scan for latest maps
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,north_arrow,MAPSURROUND_ELEMENT,22.34,28.31,11.66,5.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,legend,LEGEND_ELEMENT,410.0,35.0,5.86,41.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,scale_bar,MAPSURROUND_ELEMENT,10.0,10.0,11.19,109.34
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,data_sources_label,TEXT_ELEMENT,380.0,20.0,4.5,30.0,10.0,<bol>Data Sources</bol>
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,data_sources,TEXT_ELEMENT,330.0,15.0,4.5,80.0,10.0,add data sources here (concise list)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,source_production_info,TEXT_ELEMENT,340.0,10.0,4.5,70.0,10.0,Map created by MapAction (dd/mm/2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,summary_label,TEXT_ELEMENT,-180.0,185.0,5.0,30.0,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,summary,TEXT_ELEMENT,-120.0,190.0,25.0,103.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,language_label,TEXT_ELEMENT,-180.0,110.0,4.5,30.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,language,TEXT_ELEMENT,-120.0,110.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,map_document_label,TEXT_ELEMENT,-180.0,100.0,4.5,30.0,10.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,map_name,TEXT_ELEMENT,-120.0,100.0,4.5,60.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,mxd_name,TEXT_ELEMENT,-120.0,95.0,4.5,60.0,10.0,pro-2.5_3w_vanilla_templates
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,spatial_reference_label,TEXT_ELEMENT,-180.0,90.0,4.5,40.0,10.0,Projection & Datum
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,spatial_reference,TEXT_ELEMENT,-120.0,90.0,4.5,20.0,10.0,WGS 1984
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,scale_label,TEXT_ELEMENT,-180.0,80.0,4.5,30.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,scale,TEXT_ELEMENT,-120.0,80.0,4.5,40.0,10.0,1: 2,898,379,289 (At A3)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,timezone_label,TEXT_ELEMENT,-180.0,70.0,4.5,30.0,10.0,Time zone:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,timezone,TEXT_ELEMENT,-120.0,70.0,4.5,40.0,10.0,UTC+00.00
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,map_producer_label,TEXT_ELEMENT,-180.0,60.0,4.5,30.0,10.0,Map producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,map_producer,TEXT_ELEMENT,-120.0,50.0,15.0,60.0,10.0,Produced by MapAction
+
+https://mapaction.org
+
+alpha@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,donor_credit_label,TEXT_ELEMENT,-180.0,43.0,4.5,30.0,10.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,donor_credit,TEXT_ELEMENT,-120.0,32.5,15.0,100.0,10.0,Supported by BHA
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,glide_no_label,TEXT_ELEMENT,-180.0,25.0,4.5,30.0,10.0,GLIDE Number
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,glide_no,TEXT_ELEMENT,-120.0,25.0,4.5,50.0,10.0,FL-2021-000123-OXA
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,disclaimer,TEXT_ELEMENT,-180.0,10.0,15.0,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Humanitarian_Agencies,Main map Map Frame,MAPFRAME_ELEMENT,10.0,10.0,277.0,400.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,Text,TEXT_ELEMENT,15.1,110.0,88.11,389.81,206.929133858268,Not working
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,Location map Map Frame,MAPFRAME_ELEMENT,-150.0,200.0,55.4,80.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,297.0,600.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,mapaction_logo,PICTURE_ELEMENT,10.0,272.0,15.0,36.9
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,country,TEXT_ELEMENT,50.0,278.0,9.0,90.0,18.0,Country: Emergency name
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,title,TEXT_ELEMENT,50.0,270.5,8.0,200.0,16.0,Title example: Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,map_no,TEXT_ELEMENT,410.0,287.0,5.0,30.0,12.0,MA010 v01
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,qr_text,TEXT_ELEMENT,387.0,272.0,10.0,22.5,12.0,Scan for latest maps
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,north_arrow,MAPSURROUND_ELEMENT,22.34,28.31,11.66,5.78
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,legend,LEGEND_ELEMENT,410.0,35.0,5.86,41.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,scale_bar,MAPSURROUND_ELEMENT,10.0,10.0,11.19,51.59
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,data_sources_label,TEXT_ELEMENT,380.0,20.0,4.5,30.0,10.0,Data sources:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,data_sources,TEXT_ELEMENT,330.0,15.0,4.5,80.0,10.0,<ITA>add data sources here (concise list)</ITA>
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,source_production_info,TEXT_ELEMENT,340.0,10.0,4.5,70.0,10.0,Map created by MapAction (dd/mm/2020)
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,summary_label,TEXT_ELEMENT,-180.0,185.0,5.0,30.0,12.0,Summary:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,summary,TEXT_ELEMENT,-120.0,190.0,25.0,103.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,language_label,TEXT_ELEMENT,-180.0,110.0,4.5,30.0,10.0,Language:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,language,TEXT_ELEMENT,-120.0,110.0,4.5,20.0,10.0,English
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,map_document_label,TEXT_ELEMENT,-180.0,100.0,4.5,30.0,10.0,Map document:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,map_name,TEXT_ELEMENT,-120.0,100.0,4.5,60.0,10.0,(mxd_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,mxd_name,TEXT_ELEMENT,-120.0,95.0,4.5,60.0,10.0,(map_name) without MA part
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,spatial_reference_label,TEXT_ELEMENT,-180.0,90.0,4.5,40.0,10.0,Projection / datum:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,spatial_reference,TEXT_ELEMENT,-120.0,90.0,4.5,20.0,10.0,WGS84
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,scale_label,TEXT_ELEMENT,-180.0,80.0,4.5,30.0,10.0,Scale (at A3):
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,scale,TEXT_ELEMENT,-120.0,80.0,4.5,40.0,10.0,1: 5,000,000
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,timezone_label,TEXT_ELEMENT,-180.0,70.0,4.5,30.0,10.0,Time zone:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,timezone,TEXT_ELEMENT,-120.0,70.0,4.5,40.0,10.0,UTC+00.00
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,map_producer_label,TEXT_ELEMENT,-180.0,60.0,4.5,30.0,10.0,Map producer:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,map_producer,TEXT_ELEMENT,-120.0,50.0,15.0,60.0,10.0,Produced by MapAction / www.mapaction.org  / country@mapaction.org
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,donor_credit_label,TEXT_ELEMENT,-180.0,43.0,4.5,30.0,10.0,Donor credit:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,donor_credit,TEXT_ELEMENT,-120.0,32.5,15.0,100.0,10.0,Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,glide_no_label,TEXT_ELEMENT,-180.0,25.0,4.5,30.0,10.0,Glide number:
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,glide_no,TEXT_ELEMENT,-120.0,25.0,4.5,50.0,10.0,XX_YYYY_XXXXXXX_CCC
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,disclaimer,TEXT_ELEMENT,-180.0,10.0,15.0,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+pro-2.8_thematic_landscape_3wtemplate.aprx,3w_Sector_Plus_Activity_Numbers,Main map Map Frame,MAPFRAME_ELEMENT,10.0,10.0,277.0,400.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,legend_jpg,PICTURE_ELEMENT,207.25,64.47,54.47,48.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,Marginalia,GRAPHIC_ELEMENT,-190.41,0.0,297.0,600.41
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,summary,TEXT_ELEMENT,127.59,65.0,55.0,64.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,access_note,TEXT_ELEMENT,-120.0,175.0,8.0,100.0,12.0,None
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,access,TEXT_ELEMENT,-120.0,185.0,8.0,100.0,12.0,Public
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,quality_control,TEXT_ELEMENT,-120.0,165.0,8.0,100.0,12.0,Local
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,status,TEXT_ELEMENT,-120.0,155.0,8.0,100.0,12.0,New
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,themes,TEXT_ELEMENT,-120.0,145.0,15.0,100.0,12.0,
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,language,TEXT_ELEMENT,-120.0,125.0,8.0,100.0,12.0,English
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,doc_name,TEXT_ELEMENT,-120.0,115.0,8.0,100.0,12.0,(mxd_name) without MA part
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,mxd_name,TEXT_ELEMENT,-120.0,105.0,8.0,100.0,12.0,(map_name) without MA part
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,scale,TEXT_ELEMENT,-120.0,95.0,8.0,100.0,12.0,<dyn type="mapFrame" name="Main map Map Frame" property="Scale" preStr="1:"/> (at A3)
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,north_arrow,MAPSURROUND_ELEMENT,402.54,80.0,10.04,4.99
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,mapaction_logo,PICTURE_ELEMENT,15.0,272.0,15.0,36.9
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,country,TEXT_ELEMENT,60.0,278.0,9.0,90.0,18.0,Country: Afghanistan
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,title,TEXT_ELEMENT,60.0,271.0,8.0,258.59,16.0,Title example - Reference map
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,qr_text,TEXT_ELEMENT,410.0,272.0,10.0,27.5,11.0,Scan for
+latest maps
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,map_no,TEXT_ELEMENT,410.0,287.0,5.0,30.0,12.0,MA010 v03
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,legend_text,TEXT_ELEMENT,-120.0,25.0,55.0,67.5,16.0,insert legend (jpg)                      located: 317_Legends                      currently off page
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,scale_bar,MAPSURROUND_ELEMENT,290.0,55.0,9.75,30.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,data_sources,TEXT_ELEMENT,270.0,31.0,12.0,65.0,10.0,GADM
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,disclaimer,TEXT_ELEMENT,270.0,10.0,15.0,65.0,9.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,create_date_time,TEXT_ELEMENT,365.0,60.5,4.5,45.0,10.0,1 Jan 2016 / 12:00
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,time_zone,TEXT_ELEMENT,365.0,56.5,4.5,20.0,10.0,UTC+05:00
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,spatial_reference,TEXT_ELEMENT,365.0,46.0,9.0,30.0,10.0,WGS 1984
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,glide_no,TEXT_ELEMENT,365.0,40.0,4.5,45.0,10.0,MI-2021-000177-AFG
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,map_producer,TEXT_ELEMENT,340.0,26.0,11.0,50.0,9.0,Produced by MapAction
+https://mapaction.org
+supportbase@mapaction.org
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,donor_credit,TEXT_ELEMENT,340.0,10.0,15.0,68.5,9.0,Supported by the UK Department for International Development, the German Federal Foreign Office and the Ministry of Foreign Affairs of the Netherlands
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,legend,LEGEND_ELEMENT,-97.46,6.45,54.4,67.5
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,Group label,GRAPHIC_ELEMENT,-180.0,40.0,247.53,545.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,data_sources_label,TEXT_ELEMENT,270.0,43.5,4.5,40.0,10.0,<bol>Data Sources</bol>
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,create_date_time_label,TEXT_ELEMENT,340.0,60.5,4.5,25.0,10.0,Created
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,spatial_reference_label,TEXT_ELEMENT,340.0,46.0,9.0,25.0,10.0,Projection & Datum
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,glide_no_label,TEXT_ELEMENT,340.0,40.0,4.5,25.0,10.0,GLIDE Number
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,language_label,TEXT_ELEMENT,-180.0,125.0,8.0,40.0,12.0,Language:
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,access_note_label,TEXT_ELEMENT,-180.0,175.0,8.0,40.0,12.0,Access note:
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,access_label,TEXT_ELEMENT,-180.0,185.0,7.0,40.0,12.0,Access:
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,quality_control_label,TEXT_ELEMENT,-180.0,165.0,8.0,40.0,12.0,Quality Control:
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,status_label,TEXT_ELEMENT,-180.0,155.0,9.0,40.0,12.0,Status:
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,themes_label,TEXT_ELEMENT,-180.0,145.0,8.0,40.0,12.0,Themes:
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,map_document_label,TEXT_ELEMENT,-180.0,115.0,8.0,40.0,12.0,Map document:
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,scale_label,TEXT_ELEMENT,-180.0,94.0,8.0,40.0,12.0,Scale (at A3):
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,unused_map_elements,TEXT_ELEMENT,-175.41,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,Group divide,GRAPHIC_ELEMENT,194.59,10.0,55.0,142.91
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,vertical_divide1,GRAPHIC_ELEMENT,194.59,10.0,55.0,0.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,vertical_divide2,GRAPHIC_ELEMENT,267.5,10.0,55.0,0.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,horizontal_divide1,GRAPHIC_ELEMENT,270.0,50.0,0.0,65.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,vertical_divide3,GRAPHIC_ELEMENT,337.5,10.0,55.0,0.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,unused_elements,GRAPHIC_ELEMENT,-190.41,0.0,297.0,180.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,Main map Map Frame,MAPFRAME_ELEMENT,15.0,70.0,200.0,395.0
+arcpro_2.8_reference_landscape_bottom.aprx,pro-2.8_reference_landscape_bottom,Location map Map Frame,MAPFRAME_ELEMENT,15.0,10.0,55.0,110.0
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,legend_jpg,PICTURE_ELEMENT,18.5,180.47,54.47,48.0
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,Group Element,GRAPHIC_ELEMENT,-190.0,0.0,297.0,600.0
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,access_note,TEXT_ELEMENT,-120.0,175.0,8.0,100.0,12.0,None
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,access,TEXT_ELEMENT,-120.0,185.0,8.0,100.0,12.0,Public
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,quality_control,TEXT_ELEMENT,-120.0,165.0,8.0,100.0,12.0,Local
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,status,TEXT_ELEMENT,-120.0,155.0,8.0,100.0,12.0,New
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,themes,TEXT_ELEMENT,-120.0,145.0,15.0,100.0,12.0,
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,language,TEXT_ELEMENT,-120.0,125.0,8.0,100.0,12.0,English
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,doc_name,TEXT_ELEMENT,-120.0,115.0,6.0,100.0,12.0,(mxd_name) without MA part
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,mxd_name,TEXT_ELEMENT,-120.0,105.0,6.0,100.0,12.0,(map_name) without MA part
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,scale,TEXT_ELEMENT,-120.0,95.0,8.0,100.0,12.0,<dyn type="mapFrame" name="Main map Map Frame" property="Scale" preStr="1:"/> (at A3)
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,north_arrow,MAPSURROUND_ELEMENT,402.54,25.0,10.04,4.99
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,mapaction_logo,PICTURE_ELEMENT,10.0,272.0,15.0,36.9
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,country,TEXT_ELEMENT,80.0,278.0,9.0,90.0,18.0,Country: Emergency name
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,title,TEXT_ELEMENT,80.0,270.0,8.0,275.0,16.0,Title example: Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,map_no,TEXT_ELEMENT,410.0,282.0,5.0,30.0,12.0,MA010 v05
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,qr_text,TEXT_ELEMENT,410.0,272.0,10.0,27.5,12.0,Scan for
+latest maps
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,summary,TEXT_ELEMENT,10.0,181.5,40.0,63.5,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2019.
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,legend_text,TEXT_ELEMENT,-101.75,186.5,35.0,63.5,16.0,insert legend (jpg)          located: 317_Legends    currently off page
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,scale_bar,MAPSURROUND_ELEMENT,26.75,112.0,6.81,30.0
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,data_sources,TEXT_ELEMENT,10.0,87.5,12.0,63.5,10.0,<ITA>add data sources here (concise list)</ITA>
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,create_date_time,TEXT_ELEMENT,35.0,78.0,4.5,40.0,10.0,1 Jan 2016 / 12:00
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,time_zone,TEXT_ELEMENT,35.0,74.0,4.5,20.0,10.0,UTC+01:00
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,spatial_reference,TEXT_ELEMENT,35.0,63.0,9.0,30.0,10.0,WGS 1984
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,glide_no,TEXT_ELEMENT,35.0,58.0,4.5,40.0,10.0,EP-2020-000012-LBY
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,map_producer,TEXT_ELEMENT,10.0,44.0,12.0,50.0,9.0,Produced by MapAction https://mapaction.org
+info@mapaction.org
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,donor_credit,TEXT_ELEMENT,10.0,29.0,15.0,65.0,9.0,Supported by DFID and the Hans K Rausing Trust
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,disclaimer,TEXT_ELEMENT,10.0,15.0,15.0,63.5,9.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,legend,LEGEND_ELEMENT,-114.45,144.45,51.0,63.5
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,Group label,GRAPHIC_ELEMENT,-190.0,0.0,297.0,240.0
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,scale_label,TEXT_ELEMENT,-180.0,95.0,8.0,40.0,12.0,Scale (at A3):
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,language_label,TEXT_ELEMENT,-180.0,126.0,8.0,40.0,12.0,Language:
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,access_note_label,TEXT_ELEMENT,-180.0,175.0,7.0,40.0,12.0,Access note:
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,access_label,TEXT_ELEMENT,-180.0,185.0,7.0,40.0,12.0,Access:
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,quality_control_label,TEXT_ELEMENT,-180.0,165.0,8.0,40.0,12.0,Quality Control:
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,status_label,TEXT_ELEMENT,-180.0,156.0,8.0,39.0,12.0,Status:
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,themes_label,TEXT_ELEMENT,-180.0,145.0,8.0,40.0,12.0,Themes:
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,map_document_label,TEXT_ELEMENT,-180.0,115.0,7.0,40.0,12.0,Map document:
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,data_sources_label,TEXT_ELEMENT,10.0,99.0,4.5,40.0,10.0,<bol>Data Sources</bol>
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,create_date_time_label,TEXT_ELEMENT,10.0,78.0,4.5,25.0,10.0,Created
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,spatial_reference_label,TEXT_ELEMENT,10.0,63.0,9.0,25.0,10.0,Projection & Datum
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,glide_no_label,TEXT_ELEMENT,10.0,58.0,4.5,25.0,10.0,GLIDE Number
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,Group divide,GRAPHIC_ELEMENT,10.0,85.0,94.5,63.5
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,horizontal_divide1,GRAPHIC_ELEMENT,10.0,179.5,0.0,63.5
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,horizontal_divide2,GRAPHIC_ELEMENT,10.0,125.0,0.0,63.5
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,horizontal_divide3,GRAPHIC_ELEMENT,10.0,106.0,0.0,63.5
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,horizontal_divide4,GRAPHIC_ELEMENT,10.0,85.0,0.0,63.5
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,Main map Map Frame,MAPFRAME_ELEMENT,80.0,15.0,255.0,330.0
+arcpro_2.8_reference_landscape_side.aprx,pro-2.8_reference_landscape_side,Location map Map Frame,MAPFRAME_ELEMENT,10.0,224.0,46.0,63.5
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,legend_jpg,PICTURE_ELEMENT,117.0,64.47,54.47,48.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,420.0,477.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,offpage_map_elements,TEXT_ELEMENT,-175.89,391.23,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,access,TEXT_ELEMENT,-140.0,264.0,8.0,110.0,12.0,Public
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,access_note,TEXT_ELEMENT,-140.0,254.0,8.0,110.0,12.0,Blah de blah
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,quality_control,TEXT_ELEMENT,-140.0,245.0,8.0,110.0,12.0,Local
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,status,TEXT_ELEMENT,-140.0,235.0,8.0,110.0,12.0,New
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,themes,TEXT_ELEMENT,-140.0,225.0,20.0,111.0,12.0,
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,mxd_name,TEXT_ELEMENT,-140.0,185.0,8.0,111.0,12.0,(map_name) without MA part
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,doc_name,TEXT_ELEMENT,-140.0,195.0,8.0,111.0,12.0,(mxd_name) without MA part
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,mapaction_logo,PICTURE_ELEMENT,15.0,395.0,15.0,36.9
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,country,TEXT_ELEMENT,60.0,401.0,9.0,90.0,18.0,Country: Emergency name
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,title,TEXT_ELEMENT,60.0,394.0,8.0,180.0,16.0,Title example: Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,qr_code,PICTURE_ELEMENT,244.0,395.0,15.0,15.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,map_no,TEXT_ELEMENT,287.0,410.0,5.0,30.0,12.0,MA010 v03
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,qr_text,TEXT_ELEMENT,287.0,405.0,10.0,27.5,12.0,Scan for
+latest maps
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,north_arrow,MAPSURROUND_ELEMENT,279.54,80.0,10.04,4.99
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,summary,TEXT_ELEMENT,63.5,10.0,55.0,50.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2019.
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,legend_text,TEXT_ELEMENT,-121.95,95.23,55.0,48.0,14.0,insert legend (jpg)    located: 317_Legends     currently off page
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,data_sources,TEXT_ELEMENT,170.0,50.0,10.0,50.0,10.0,<ITA>add data sources here (concise list)</ITA>
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,donor_credit,TEXT_ELEMENT,169.5,30.0,19.0,50.0,9.0,Supported by the Foreign, Commonwealth and Development Office (FCDO) and the Ministry of Foreign Affairs of the Netherlands
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,disclaimer,TEXT_ELEMENT,169.5,10.0,19.0,50.0,9.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,scale,TEXT_ELEMENT,-140.0,175.0,8.0,110.0,12.0,<dyn type="mapFrame" name="Main map Map Frame" property="Scale" preStr="1:"/>
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,language,TEXT_ELEMENT,-140.0,205.0,9.0,120.0,12.0,English
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,scale_bar,MAPSURROUND_ELEMENT,228.95,55.38,9.62,52.6
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,create_date_time,TEXT_ELEMENT,248.5,42.5,4.5,38.5,10.0,1 Jan 2016 / 12:00
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,time_zone,TEXT_ELEMENT,248.5,38.5,4.5,20.0,10.0,UTC +/- 0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,spatial_reference,TEXT_ELEMENT,248.5,28.0,9.0,30.0,10.0,UTM Zone 32N / WGS 1984
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,glide_no,TEXT_ELEMENT,248.5,22.5,4.5,38.5,10.0,XX_YYYY_XXXXXXX_CCC
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,map_producer,TEXT_ELEMENT,223.5,10.0,12.0,50.0,9.0,Produced by MapAction mapaction.org country@mapaction.org
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,legend,LEGEND_ELEMENT,-124.0,74.98,55.0,48.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,Group label,GRAPHIC_ELEMENT,-180.0,22.5,242.5,428.5
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,data_sources_label,TEXT_ELEMENT,169.5,59.97,4.5,40.0,10.0,Data sources:
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,create_date_time_label,TEXT_ELEMENT,223.5,42.5,4.5,25.0,10.0,Created
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,spatial_reference_label,TEXT_ELEMENT,223.5,28.0,9.0,25.0,10.0,Projection & Datum
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,glide_no_label,TEXT_ELEMENT,223.5,22.5,4.5,25.0,10.0,GLIDE Number
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,access_label,TEXT_ELEMENT,-180.0,265.0,7.0,39.0,12.0,Access:
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,access_note_label,TEXT_ELEMENT,-180.0,255.0,8.0,40.0,12.0,Access note:
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,quality_control_label,TEXT_ELEMENT,-180.0,245.0,8.0,40.0,12.0,Quality Control:
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,status_label,TEXT_ELEMENT,-180.0,235.0,8.0,40.0,12.0,Status:
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,themes_label,TEXT_ELEMENT,-180.0,225.0,7.0,40.0,12.0,Themes:
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,language_label,TEXT_ELEMENT,-180.0,205.0,8.0,40.0,12.0,Language:
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,map_document_label,TEXT_ELEMENT,-180.0,195.0,7.0,40.0,12.0,Map document:
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,scale_label,TEXT_ELEMENT,-180.0,175.0,8.0,40.0,12.0,Scale (at A3):
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,Group divide,GRAPHIC_ELEMENT,115.0,10.0,55.0,172.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,vertical_divide1,GRAPHIC_ELEMENT,115.0,10.0,55.0,0.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,vertical_divide2,GRAPHIC_ELEMENT,168.0,10.0,55.0,0.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,vertical_divide3,GRAPHIC_ELEMENT,221.0,10.0,55.0,0.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,horizontal_divide1,GRAPHIC_ELEMENT,223.5,49.0,0.0,63.5
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,420.0,180.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,Main map Map Frame,MAPFRAME_ELEMENT,15.0,70.0,323.0,272.0
+arcpro_2.8_reference_portrait_bottom.aprx,pro-2.8_reference_portrait_bottom,Location map Map Frame,MAPFRAME_ELEMENT,15.0,10.0,55.0,46.0
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,Location map Map Frame,MAPFRAME_ELEMENT,-137.05,214.6,55.4,80.0
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,297.0,600.0
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,summary,TEXT_ELEMENT,-120.0,205.0,20.0,100.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,access_note,TEXT_ELEMENT,-120.0,176.0,8.0,100.0,12.0,None
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,access,TEXT_ELEMENT,-120.0,185.0,9.0,100.0,12.0,Public
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,quality_control,TEXT_ELEMENT,-120.0,165.0,8.0,100.0,12.0,Local
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,status,TEXT_ELEMENT,-120.0,155.0,8.0,100.0,12.0,New
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,themes,TEXT_ELEMENT,-120.0,146.0,15.0,101.0,12.0,
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,language,TEXT_ELEMENT,-120.0,125.0,8.0,100.0,12.0,English
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,map_name,TEXT_ELEMENT,-120.0,115.0,8.0,100.0,12.0,(mxd_name) without MA part
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,mxd_name,TEXT_ELEMENT,-120.0,105.0,8.0,100.0,12.0,(map_name) without MA part
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,spatial_reference,TEXT_ELEMENT,-120.0,95.0,8.0,100.0,12.0,WGS84
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,scale_label,TEXT_ELEMENT,-180.0,85.0,8.0,40.0,12.0,Scale (at A3):
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,scale,TEXT_ELEMENT,-120.0,86.0,8.0,100.0,12.0,<dyn type="mapFrame" name="Main map Map Frame" property="Scale" preStr="1:"/> (at A3)
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,time_zone,TEXT_ELEMENT,-120.0,76.0,8.0,100.0,12.0,UTC+00.00
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,map_producer,TEXT_ELEMENT,-120.0,65.0,15.0,60.0,12.0,Produced by MapAction / www.mapaction.org  / country@mapaction.org
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,donor_credit,TEXT_ELEMENT,-120.0,45.0,15.0,100.0,12.0,Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,glide_no,TEXT_ELEMENT,-120.0,30.0,8.0,100.0,12.0,XX_YYYY_XXXXXXX_CCC
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,disclaimer,TEXT_ELEMENT,-180.0,10.0,10.0,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,mapaction_logo,PICTURE_ELEMENT,10.0,272.0,15.0,36.9
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,country,TEXT_ELEMENT,50.0,278.0,9.0,90.0,18.0,Country: Emergency name
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,title,TEXT_ELEMENT,50.0,270.5,8.0,200.0,16.0,Title example: Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,qr_code,PICTURE_ELEMENT,367.5,272.0,15.0,15.0
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,map_no,TEXT_ELEMENT,410.0,287.0,5.0,30.0,12.0,MA010 v01
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,qr_text,TEXT_ELEMENT,409.0,272.0,10.0,27.5,12.0,Scan for
+latest maps
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,north_arrow,MAPSURROUND_ELEMENT,22.34,28.31,11.66,5.78
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,scale_bar,MAPSURROUND_ELEMENT,10.0,10.0,11.19,20.0
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,legend,LEGEND_ELEMENT,410.0,35.0,5.86,41.0
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,data_sources,TEXT_ELEMENT,330.0,15.0,4.5,80.0,10.0,<ITA>add data sources here (concise list)</ITA>
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,source_production_info,TEXT_ELEMENT,340.0,10.0,4.5,70.0,10.0,Map created by MapAction (dd/mm/2020)
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,Group label,GRAPHIC_ELEMENT,-180.0,20.0,185.0,590.0
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,summary_label,TEXT_ELEMENT,-180.0,205.0,8.0,40.0,12.0,Summary:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,access_note_label,TEXT_ELEMENT,-180.0,175.0,7.0,39.0,12.0,Access note:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,access_label,TEXT_ELEMENT,-180.0,185.0,8.0,40.0,12.0,Access:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,quality_control_label,TEXT_ELEMENT,-180.0,165.0,8.0,40.0,12.0,Quality Control:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,status_label,TEXT_ELEMENT,-180.0,155.0,8.0,40.0,12.0,Status:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,themes_label,TEXT_ELEMENT,-180.0,145.0,8.0,40.0,12.0,Themes:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,language_label,TEXT_ELEMENT,-180.0,125.0,8.0,40.0,12.0,Language:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,map_document_label,TEXT_ELEMENT,-180.0,115.0,8.0,40.0,12.0,Map document:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,spatial_reference_label,TEXT_ELEMENT,-180.0,95.0,7.0,40.0,12.0,Projection / datum:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,time_zone_label,TEXT_ELEMENT,-180.0,75.0,8.0,40.0,12.0,Time zone:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,map_producer_label,TEXT_ELEMENT,-180.0,65.0,7.0,38.0,12.0,Map producer:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,donor_credit_label,TEXT_ELEMENT,-180.0,46.0,8.0,40.0,12.0,Donor credit:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,glide_no_label,TEXT_ELEMENT,-180.0,30.0,8.0,40.0,12.0,Glide number:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,data_sources_label,TEXT_ELEMENT,380.0,20.0,4.5,30.0,10.0,Data sources:
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,unused_map_elements,TEXT_ELEMENT,-175.0,270.0,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,297.0,180.0
+arcpro_2.8_thematic_landscape.aprx,pro-2.8_thematic_landscape,Main map Map Frame,MAPFRAME_ELEMENT,10.0,10.0,277.0,400.0
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,Location map Map Frame,MAPFRAME_ELEMENT,-125.65,303.31,80.0,55.4
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,Marginalia,GRAPHIC_ELEMENT,-190.0,0.0,420.0,477.0
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,summary,TEXT_ELEMENT,-140.0,290.0,25.0,120.0,12.0,Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,access,TEXT_ELEMENT,-140.0,265.0,8.0,120.0,12.0,Public
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,access_note,TEXT_ELEMENT,-140.0,255.0,8.0,120.0,12.0,Blah de blah
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,quality_control,TEXT_ELEMENT,-140.0,245.0,8.0,40.0,12.0,Local
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,status,TEXT_ELEMENT,-140.0,235.0,8.0,120.0,12.0,New
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,themes,TEXT_ELEMENT,-140.0,225.0,20.0,120.0,12.0,
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,language,TEXT_ELEMENT,-140.0,205.0,8.0,120.0,12.0,English
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,doc_name,TEXT_ELEMENT,-140.0,195.0,10.0,120.0,12.0,(mxd_name) without MA part
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,mxd_name,TEXT_ELEMENT,-140.0,184.0,8.0,120.0,12.0,(map_name) without MA part
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,spatial_reference,TEXT_ELEMENT,-140.0,175.0,8.0,120.0,12.0,WGS84
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,scale_label,TEXT_ELEMENT,-180.0,165.0,8.0,40.0,12.0,Scale (at A3):
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,scale,TEXT_ELEMENT,-140.0,165.0,8.0,120.0,12.0,<dyn type="mapFrame" name="Main map Map Frame" property="Scale" preStr="1:"/>
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,time_zone,TEXT_ELEMENT,-140.0,155.0,8.0,120.0,12.0,UTC+00.00
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,map_producer,TEXT_ELEMENT,-140.0,145.0,15.0,60.0,12.0,Produced by MapAction / www.mapaction.org  / country@mapaction.org
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,donor_credit,TEXT_ELEMENT,-140.0,130.0,15.0,120.0,12.0,Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,glide_no,TEXT_ELEMENT,-140.0,110.0,8.0,120.0,12.0,XX_YYYY_XXXXXXX_CCC
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,disclaimer,TEXT_ELEMENT,-180.0,15.0,15.8,160.0,12.0,The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,mapaction_logo,PICTURE_ELEMENT,10.0,395.0,15.0,36.9
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,country,TEXT_ELEMENT,55.0,401.0,9.0,90.0,18.0,Country: Emergency name
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,title,TEXT_ELEMENT,55.0,394.0,8.0,185.2,16.0,Example: Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,qr_code,PICTURE_ELEMENT,244.5,395.0,15.0,15.0
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,qr_text,TEXT_ELEMENT,257.0,395.0,10.0,30.0,12.0,Scan for
+latest maps
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,map_no,TEXT_ELEMENT,287.0,410.0,5.0,30.0,12.0,MA010 v1
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,north_arrow,MAPSURROUND_ELEMENT,17.04,26.64,8.32,4.14
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,scale_bar,MAPSURROUND_ELEMENT,10.0,10.0,9.46,9.17
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,legend,LEGEND_ELEMENT,217.08,35.0,10.0,69.92
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,data_sources,TEXT_ELEMENT,207.0,15.0,4.5,80.0,10.0,<ITA>add data sources here (concise list)</ITA>
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,source_production_info,TEXT_ELEMENT,287.0,10.0,4.5,70.0,10.0,Map created by MapAction (dd/mm/2020)
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,Group label,GRAPHIC_ELEMENT,-180.0,20.0,388.77,467.0
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,summary_label,TEXT_ELEMENT,-180.0,290.0,7.0,40.0,12.0,Summary:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,access_note_label,TEXT_ELEMENT,-180.0,255.0,8.0,40.0,12.0,Access note:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,access_label,TEXT_ELEMENT,-180.0,265.0,7.0,40.0,12.0,Access:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,quality_control_label,TEXT_ELEMENT,-180.0,245.0,8.0,39.0,12.0,Quality Control:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,status_label,TEXT_ELEMENT,-180.0,235.0,8.0,38.0,12.0,Status:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,themes_label,TEXT_ELEMENT,-180.0,215.0,8.0,40.0,12.0,Themes:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,language_label,TEXT_ELEMENT,-180.0,205.0,8.0,38.0,12.0,Language:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,map_document_label,TEXT_ELEMENT,-180.0,195.0,8.0,40.0,12.0,Map document:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,spatial_reference_label,TEXT_ELEMENT,-180.0,175.0,6.0,40.0,12.0,Projection / datum:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,time_zone_label,TEXT_ELEMENT,-180.0,155.0,6.0,39.0,12.0,Time zone:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,map_producer_label,TEXT_ELEMENT,-180.0,145.0,8.0,40.0,12.0,Map producer:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,donor_credit_label,TEXT_ELEMENT,-180.0,130.0,8.0,40.0,12.0,Donor credit:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,glide_no_label,TEXT_ELEMENT,-180.0,110.0,6.0,40.0,12.0,Glide number:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,data_sources_label,TEXT_ELEMENT,257.0,20.0,4.5,30.0,10.0,Data sources:
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,unused_map_elements,TEXT_ELEMENT,-175.89,391.23,17.53,155.89,16.0,These map elements are not used in this template but can be used as metadata in the map export tool.
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,unused_elements,GRAPHIC_ELEMENT,-190.0,0.0,420.0,180.0
+arcpro_2.8_thematic_portrait.aprx,pro-2.8_thematic_portrait,Main map Map Frame,MAPFRAME_ELEMENT,10.0,10.0,400.0,277.0

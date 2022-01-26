@@ -20,12 +20,12 @@ def getLayoutsInAPRXFile(aprxFile):
         lookForElements(layout, aprxFileName)
 
 def writeOutputFileHeadings():
-   elements = ['TemplateName', 'LayoutName', 'ElementName', 'Type', 'PositionX', 'PositionY', 'Height', 'Width', 'FontSize', 'TextValue']
-   with writeToOutputFile() as outputFile:
+    elements = ['TemplateName', 'LayoutName', 'ElementName', 'Type', 'PositionX', 'PositionY', 'Height', 'Width', 'FontSize', 'TextValue']
+    with writeToOutputFile() as outputFile:
         outputFile.write(','.join(elements))
         outputFile.write('\n')
         outputFile.close()
-
+        
 def wrapElementInQuotes(value):
     return '"{}"'.format(str(value))
 
@@ -50,7 +50,7 @@ def lookForElements(layout, aprxFileName):
             if element.type == 'TEXT_ELEMENT':
                 elementFragments.append(wrapElementInQuotes(element.textSize))
                 elementFragments.append(wrapElementInQuotes(element.text))
-
+        
             outputFile.write(','.join(elementFragments))
             outputFile.write('\n')
         
