@@ -36,6 +36,7 @@ ddp,Data driven pages index grid,carto
 ext,Feather extent,carto
 fea,Feather / vignette for shoreline,carto
 grd,Grid,carto
+lab,Labels / Annotation,carto
 lat,Lat/Long Grid,carto
 tim,Time Zone,carto
 utm,UTM,carto
@@ -165,7 +166,8 @@ air,Airport / Airstrip,tran
 brg,Bridge,tran
 bst,Bus station,tran
 can,Canal,tran
-fer,Ferry,tran
+fer,Ferry route,tran
+fte,Ferry terminal,tran
 frd,Fords / crossings,tran
 gat,Gates / barriers,tran
 hlz,Heliport,tran
@@ -175,6 +177,8 @@ rdi,Road distances,tran
 rds,Road,tran
 rrd,Railway / railroad,tran
 rst,Railway station,tran
+trf,"Transport features i.e. roundabouts, signals, crossings etc",tran
+trn,"Transport features i.e. bus / rail stations, ferry terminals etc",tran
 trx,Tracks,tran
 tun,Tunnel,tran
 com,Communication structure / radio / TV mast,util
