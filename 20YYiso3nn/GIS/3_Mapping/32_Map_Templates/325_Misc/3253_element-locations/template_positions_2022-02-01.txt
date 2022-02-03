@@ -1,0 +1,225 @@
+MapName	Type	ElementName	PositionX	PositionY	Height	Width	FontSize	TextValue		
+arcmap-10.6_reference_landscape_bottom.mxd	access	TEXT_ELEMENT	-130	177	8	110	12	Access		
+arcmap-10.6_reference_landscape_bottom.mxd	access_note_label	TEXT_ELEMENT	-180	167	8	40	12	Access note:		
+arcmap-10.6_reference_landscape_bottom.mxd	country	TEXT_ELEMENT	60	278	9	290	18	Country: Emergency name		
+arcmap-10.6_reference_landscape_bottom.mxd	create_date_time	TEXT_ELEMENT	365	60.5	4.5	45	10	1 Jan 2016 / 12:00		
+arcmap-10.6_reference_landscape_bottom.mxd	create_date_time_label	TEXT_ELEMENT	340	60.5	4.5	25	10	Created		
+arcmap-10.6_reference_landscape_bottom.mxd	data_sources	TEXT_ELEMENT	270	31	17	65	10	GADM		
+arcmap-10.6_reference_landscape_bottom.mxd	disclaimer	TEXT_ELEMENT	270	10	15	65	9	The depiction and use of boundaries	 names and associated data shown here do not imply endorsement or acceptance by MapAction.	
+arcmap-10.6_reference_landscape_bottom.mxd	doc_name	TEXT_ELEMENT	-130	110	8	110	12	(doc_name) without MA part		
+arcmap-10.6_reference_landscape_bottom.mxd	donor_credit	TEXT_ELEMENT	340	10	15	68.5	9	Supported by DFID and the Hans K Rausing Trust		
+arcmap-10.6_reference_landscape_bottom.mxd	glide_no	TEXT_ELEMENT	365	40	4.5	45	10	EP-2020-000012-LBY		
+arcmap-10.6_reference_landscape_bottom.mxd	glide_no_label	TEXT_ELEMENT	340	40	4.5	25	10	GLIDE Number		
+arcmap-10.6_reference_landscape_bottom.mxd	horizontal_divide1	GRAPHIC_ELEMENT	270	50	0	65				
+arcmap-10.6_reference_landscape_bottom.mxd	language	TEXT_ELEMENT	-130	120	8	110	12	English		
+arcmap-10.6_reference_landscape_bottom.mxd	language_label	TEXT_ELEMENT	-180	120	8	40	12	Language:		
+arcmap-10.6_reference_landscape_bottom.mxd	language_label	TEXT_ELEMENT	-180	177	8	40	12	Access:		
+arcmap-10.6_reference_landscape_bottom.mxd	legend	LEGEND_ELEMENT	198.8543	11.494	7.6309	53.3577				
+arcmap-10.6_reference_landscape_bottom.mxd	legend_text	TEXT_ELEMENT	197.5	10	55	67.5	16	insert legend (jpg)                      located: 317_Legends                      currently off page		
+arcmap-10.6_reference_landscape_bottom.mxd	Location map	DATAFRAME_ELEMENT	15	10	55	110				
+arcmap-10.6_reference_landscape_bottom.mxd	Main map	DATAFRAME_ELEMENT	15	70	200	395				
+arcmap-10.6_reference_landscape_bottom.mxd	map_document_label	TEXT_ELEMENT	-180	110	8	40	12	Map document:		
+arcmap-10.6_reference_landscape_bottom.mxd	map_no	TEXT_ELEMENT	387.5	282	5	25	12	MA010 v01		
+arcmap-10.6_reference_landscape_bottom.mxd	map_producer	TEXT_ELEMENT	340	26	11	50	9	Produced by MapAction https://mapaction.org		
+arcmap-10.6_reference_landscape_bottom.mxd	mapaction_logo	PICTURE_ELEMENT	15	272	15	36.9				
+arcmap-10.6_reference_landscape_bottom.mxd	north_arrow	MAPSURROUND_ELEMENT	400.1	75	10.0000216	4.9				
+arcmap-10.6_reference_landscape_bottom.mxd	qr_code	PICTURE_ELEMENT	365	272	15	15				
+arcmap-10.6_reference_landscape_bottom.mxd	qr_text	TEXT_ELEMENT	387.5	272	10	22.5	11	Scan for latest maps		
+arcmap-10.6_reference_landscape_bottom.mxd	quality_control	TEXT_ELEMENT	-130	157	8	110	12	Local		
+arcmap-10.6_reference_landscape_bottom.mxd	quality_control_label	TEXT_ELEMENT	-180	157	8	40	12	Quality control:		
+arcmap-10.6_reference_landscape_bottom.mxd	scale	TEXT_ELEMENT	-130	90	8	110	12	01:05	0	0
+arcmap-10.6_reference_landscape_bottom.mxd	scale_bar	MAPSURROUND_ELEMENT	290	55	9.7452	30				
+arcmap-10.6_reference_landscape_bottom.mxd	scale_label	TEXT_ELEMENT	-180	90	8	40	12	Scale (at A3):		
+arcmap-10.6_reference_landscape_bottom.mxd	spatial_reference	TEXT_ELEMENT	365	46	9	30	10	WGS 1984		
+arcmap-10.6_reference_landscape_bottom.mxd	spatial_reference_label	TEXT_ELEMENT	340	46	9	25	10	Projection & Datum		
+arcmap-10.6_reference_landscape_bottom.mxd	status	TEXT_ELEMENT	-130	147	8	110	12	New		
+arcmap-10.6_reference_landscape_bottom.mxd	status_label	TEXT_ELEMENT	-180	147	8	40	12	Status:		
+arcmap-10.6_reference_landscape_bottom.mxd	summary	TEXT_ELEMENT	127.5	10	55	65	12	Example: Map shows the extent of known flooding from satellite images on 1 Jan 2019.		
+arcmap-10.6_reference_landscape_bottom.mxd	themes	TEXT_ELEMENT	-130	130	15	110	12	themes		
+arcmap-10.6_reference_landscape_bottom.mxd	themes_label	TEXT_ELEMENT	-180	137	8	40	12	Themes:		
+arcmap-10.6_reference_landscape_bottom.mxd	time_zone	TEXT_ELEMENT	365	56.5	4.5	20	10	UTC+01:00		
+arcmap-10.6_reference_landscape_bottom.mxd	title	TEXT_ELEMENT	60	271	8	290	16	Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)		
+arcmap-10.6_reference_landscape_bottom.mxd	unused_elements	GRAPHIC_ELEMENT	-190	0	297	180				
+arcmap-10.6_reference_landscape_bottom.mxd	unused_map_elements	TEXT_ELEMENT	-175	270	17.533	155.893	16	These map elements are not used in this template but can be used as metadata in the map export tool.		
+arcmap-10.6_reference_landscape_bottom.mxd	vertical_divide1	GRAPHIC_ELEMENT	195	10	55	0				
+arcmap-10.6_reference_landscape_bottom.mxd	vertical_divide2	GRAPHIC_ELEMENT	267.5	10	55	0				
+arcmap-10.6_reference_landscape_bottom.mxd	vertical_divide3	GRAPHIC_ELEMENT	337.5	10	55	0				
+arcmap-10.6_reference_landscape_side.mxd	access	TEXT_ELEMENT	-130	177	8	110	12	Access		
+arcmap-10.6_reference_landscape_side.mxd	access_note_label	TEXT_ELEMENT	-180	167	8	40	12	Access note:		
+arcmap-10.6_reference_landscape_side.mxd	country	TEXT_ELEMENT	80	278	9	275	18	Country: Emergency name		
+arcmap-10.6_reference_landscape_side.mxd	create_date_time	TEXT_ELEMENT	35	78	4.5	40	10	1 Jan 2016 / 12:00		
+arcmap-10.6_reference_landscape_side.mxd	create_date_time_label	TEXT_ELEMENT	10	78	4.5	25	10	Created		
+arcmap-10.6_reference_landscape_side.mxd	data_sources	TEXT_ELEMENT	10	87.5	16	63.5	10	<ITA>add data sources here (concise list)</ITA>		
+arcmap-10.6_reference_landscape_side.mxd	disclaimer	TEXT_ELEMENT	10	15	15	63.5	9	The depiction and use of boundaries	 names and associated data shown here do not imply endorsement or acceptance by MapAction.	
+arcmap-10.6_reference_landscape_side.mxd	doc_name	TEXT_ELEMENT	-130	110	8	110	12	(doc_name) without MA part		
+arcmap-10.6_reference_landscape_side.mxd	donor_credit	TEXT_ELEMENT	10	29	15	65	9	Supported by DFID and the Hans K Rausing Trust		
+arcmap-10.6_reference_landscape_side.mxd	glide_no	TEXT_ELEMENT	35	58	4.5	40	10	EP-2020-000012-LBY		
+arcmap-10.6_reference_landscape_side.mxd	glide_no_label	TEXT_ELEMENT	10	58	4.5	25	10	GLIDE Number		
+arcmap-10.6_reference_landscape_side.mxd	horizontal_divide1	GRAPHIC_ELEMENT	10	179.5	0	63.5				
+arcmap-10.6_reference_landscape_side.mxd	horizontal_divide2	GRAPHIC_ELEMENT	10	125	0	63.5				
+arcmap-10.6_reference_landscape_side.mxd	horizontal_divide3	GRAPHIC_ELEMENT	10	106	0	63.5				
+arcmap-10.6_reference_landscape_side.mxd	horizontal_divide4	GRAPHIC_ELEMENT	10	85	0	63.5				
+arcmap-10.6_reference_landscape_side.mxd	language	TEXT_ELEMENT	-130	120	8	110	12	English		
+arcmap-10.6_reference_landscape_side.mxd	language_label	TEXT_ELEMENT	-180	120	8	40	12	Language:		
+arcmap-10.6_reference_landscape_side.mxd	language_label	TEXT_ELEMENT	-180	177	8	40	12	Access:		
+arcmap-10.6_reference_landscape_side.mxd	legend	LEGEND_ELEMENT	10.9503	131.1373	7.6309	53.3577				
+arcmap-10.6_reference_landscape_side.mxd	legend_text	TEXT_ELEMENT	10	134.7501	35	63.5	16	insert legend (jpg)          located: 317_Legends    currently off page		
+arcmap-10.6_reference_landscape_side.mxd	Location map	DATAFRAME_ELEMENT	10	224	46	63.5				
+arcmap-10.6_reference_landscape_side.mxd	Main map	DATAFRAME_ELEMENT	80	15	255	330				
+arcmap-10.6_reference_landscape_side.mxd	map_document_label	TEXT_ELEMENT	-180	110	8	40	12	Map document:		
+arcmap-10.6_reference_landscape_side.mxd	map_no	TEXT_ELEMENT	387.5	282	5	25	12	MA010 v01		
+arcmap-10.6_reference_landscape_side.mxd	map_producer	TEXT_ELEMENT	10	44	12	50	9	Produced by MapAction https://mapaction.org		
+arcmap-10.6_reference_landscape_side.mxd	mapaction_logo	PICTURE_ELEMENT	10	272	15	36.9				
+arcmap-10.6_reference_landscape_side.mxd	north_arrow	MAPSURROUND_ELEMENT	400.1	20	10.0000216	4.9				
+arcmap-10.6_reference_landscape_side.mxd	qr_code	PICTURE_ELEMENT	365	272	15	15				
+arcmap-10.6_reference_landscape_side.mxd	qr_text	TEXT_ELEMENT	387.5	272	10	22.5	12	Scan for latest maps		
+arcmap-10.6_reference_landscape_side.mxd	quality_control	TEXT_ELEMENT	-130	157	8	110	12	Local		
+arcmap-10.6_reference_landscape_side.mxd	quality_control_label	TEXT_ELEMENT	-180	157	8	40	12	Quality control:		
+arcmap-10.6_reference_landscape_side.mxd	scale	TEXT_ELEMENT	-130	90	8	110	12	01:05	0	0
+arcmap-10.6_reference_landscape_side.mxd	scale_bar	MAPSURROUND_ELEMENT	26.75	112	6.8137	30				
+arcmap-10.6_reference_landscape_side.mxd	scale_label	TEXT_ELEMENT	-180	90	8	40	12	Scale (at A3):		
+arcmap-10.6_reference_landscape_side.mxd	spatial_reference	TEXT_ELEMENT	35	63	9	30	10	WGS 1984		
+arcmap-10.6_reference_landscape_side.mxd	spatial_reference_label	TEXT_ELEMENT	10	63	9	25	10	Projection & Datum		
+arcmap-10.6_reference_landscape_side.mxd	status	TEXT_ELEMENT	-130	147	8	110	12	New		
+arcmap-10.6_reference_landscape_side.mxd	status_label	TEXT_ELEMENT	-180	147	8	40	12	Status:		
+arcmap-10.6_reference_landscape_side.mxd	summary	TEXT_ELEMENT	10	181.5	40	63.5	12	Example: Map shows the extent of known flooding from satellite images on 1 Jan 2019.		
+arcmap-10.6_reference_landscape_side.mxd	themes	TEXT_ELEMENT	-130	130	15	110	12	themes		
+arcmap-10.6_reference_landscape_side.mxd	themes_label	TEXT_ELEMENT	-180	137	8	40	12	Themes:		
+arcmap-10.6_reference_landscape_side.mxd	time_zone	TEXT_ELEMENT	35	74	4.5	20	10	UTC+01:00		
+arcmap-10.6_reference_landscape_side.mxd	title	TEXT_ELEMENT	80	271	8	275	16	Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)		
+arcmap-10.6_reference_landscape_side.mxd	unused_elements	GRAPHIC_ELEMENT	-190	0	297	180				
+arcmap-10.6_reference_landscape_side.mxd	unused_map_elements	TEXT_ELEMENT	-175	270	17.533	155.893	16	These map elements are not used in this template but can be used as metadata in the map export tool.		
+arcmap-10.6_reference_portrait_bottom.mxd	access	TEXT_ELEMENT	-140	260	8	110	12	Access		
+arcmap-10.6_reference_portrait_bottom.mxd	access_note_label	TEXT_ELEMENT	-180	245.8586	8	40	12	Access note:		
+arcmap-10.6_reference_portrait_bottom.mxd	country	TEXT_ELEMENT	60	401	9	180	18	Country: Emergency name		
+arcmap-10.6_reference_portrait_bottom.mxd	create_date_time	TEXT_ELEMENT	248.5	42.5	4.5	38.5	10	1 Jan 2016 / 12:00		
+arcmap-10.6_reference_portrait_bottom.mxd	create_date_time_label	TEXT_ELEMENT	223.5	42.5	4.5	25	10	Created		
+arcmap-10.6_reference_portrait_bottom.mxd	data_sources	TEXT_ELEMENT	169.5	42	24	50	10	<ITA>add data sources here (concise list)</ITA>		
+arcmap-10.6_reference_portrait_bottom.mxd	disclaimer	TEXT_ELEMENT	169.5	10	19	50	9	The depiction and use of boundaries	 names and associated data shown here do not imply endorsement or acceptance by MapAction.	
+arcmap-10.6_reference_portrait_bottom.mxd	doc_name	TEXT_ELEMENT	-140	165.2526	8	110	12	(doc_name) without MA part		
+arcmap-10.6_reference_portrait_bottom.mxd	donor_credit	TEXT_ELEMENT	169.5	30	19	50	9	Supported by the Foreign	 Commonwealth and Development Office (FCDO) and the Ministry of Foreign Affairs of the Netherlands	
+arcmap-10.6_reference_portrait_bottom.mxd	glide_no	TEXT_ELEMENT	248.5	22.5	4.5	38.5	10	XX_YYYY_XXXXXXX_CCC		
+arcmap-10.6_reference_portrait_bottom.mxd	glide_no_label	TEXT_ELEMENT	223.5	22.5	4.5	25	10	GLIDE Number		
+arcmap-10.6_reference_portrait_bottom.mxd	horizontal_divide3	GRAPHIC_ELEMENT	223.5	49	0	63.5				
+arcmap-10.6_reference_portrait_bottom.mxd	language	TEXT_ELEMENT	-140	179.394	8	110	12	English		
+arcmap-10.6_reference_portrait_bottom.mxd	language_label	TEXT_ELEMENT	-180	179.394	8	40	12	Language:		
+arcmap-10.6_reference_portrait_bottom.mxd	language_label	TEXT_ELEMENT	-180	260	8	40	12	Access:		
+arcmap-10.6_reference_portrait_bottom.mxd	legend	LEGEND_ELEMENT	116.4724	12.3097	7.6309	69.1914				
+arcmap-10.6_reference_portrait_bottom.mxd	legend_text	TEXT_ELEMENT	117.5	10	55	48	14	insert legend (jpg)    located: 317_Legends     currently off page		
+arcmap-10.6_reference_portrait_bottom.mxd	Location map	DATAFRAME_ELEMENT	15	10	55	46				
+arcmap-10.6_reference_portrait_bottom.mxd	Main map	DATAFRAME_ELEMENT	15	70	323	272				
+arcmap-10.6_reference_portrait_bottom.mxd	map_document_label	TEXT_ELEMENT	-180	165.2526	8	40	12	Map document:		
+arcmap-10.6_reference_portrait_bottom.mxd	map_no	TEXT_ELEMENT	264.5	405	5	25	12	MA010 v1		
+arcmap-10.6_reference_portrait_bottom.mxd	map_producer	TEXT_ELEMENT	223.5	10	12	50	9	Produced by MapAction mapaction.org country@mapaction.org		
+arcmap-10.6_reference_portrait_bottom.mxd	mapaction_logo	PICTURE_ELEMENT	15	395	15	36.9				
+arcmap-10.6_reference_portrait_bottom.mxd	north_arrow	MAPSURROUND_ELEMENT	277.1	75	10	4.9				
+arcmap-10.6_reference_portrait_bottom.mxd	qr_code	PICTURE_ELEMENT	242	395	15	15				
+arcmap-10.6_reference_portrait_bottom.mxd	qr_text	TEXT_ELEMENT	264.5	395	10	22.5	12	Scan for latest maps		
+arcmap-10.6_reference_portrait_bottom.mxd	quality_control	TEXT_ELEMENT	-140	231.7172	8	110	12	Local		
+arcmap-10.6_reference_portrait_bottom.mxd	quality_control_label	TEXT_ELEMENT	-180	231.7172	8	40	12	Quality control:		
+arcmap-10.6_reference_portrait_bottom.mxd	scale	TEXT_ELEMENT	-140	136.9697	8	110	12	01:05	0	0
+arcmap-10.6_reference_portrait_bottom.mxd	scale_bar	MAPSURROUND_ELEMENT	228.9518	55.3801	9.6199	52.5964				
+arcmap-10.6_reference_portrait_bottom.mxd	scale_label	TEXT_ELEMENT	-180	136.9697	8	40	12	Scale (at A3):		
+arcmap-10.6_reference_portrait_bottom.mxd	spatial_reference	TEXT_ELEMENT	248.5	28	9	30	10	UTM Zone 32N / WGS 1984		
+arcmap-10.6_reference_portrait_bottom.mxd	spatial_reference_label	TEXT_ELEMENT	223.5	28	9	25	10	Projection & Datum		
+arcmap-10.6_reference_portrait_bottom.mxd	status	TEXT_ELEMENT	-140	217.5758	8	110	12	New		
+arcmap-10.6_reference_portrait_bottom.mxd	status_label	TEXT_ELEMENT	-180	217.5758	8	40	12	Status:		
+arcmap-10.6_reference_portrait_bottom.mxd	summary	TEXT_ELEMENT	63.5	10	55	50	12	Example: Map shows the extent of known flooding from satellite images on 1 Jan 2019.		
+arcmap-10.6_reference_portrait_bottom.mxd	themes	TEXT_ELEMENT	-140	203.4344	15	110	12	themes		
+arcmap-10.6_reference_portrait_bottom.mxd	themes_label	TEXT_ELEMENT	-180	203.4344	8	40	12	Themes:		
+arcmap-10.6_reference_portrait_bottom.mxd	time_zone	TEXT_ELEMENT	248.5	38.5	4.5	20	10	UTC +/- 0		
+arcmap-10.6_reference_portrait_bottom.mxd	title	TEXT_ELEMENT	60	394	8	180	16	Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)		
+arcmap-10.6_reference_portrait_bottom.mxd	unused_elements	GRAPHIC_ELEMENT	-190	0	297	180				
+arcmap-10.6_reference_portrait_bottom.mxd	unused_map_elements	TEXT_ELEMENT	-175.7848	272.4569	17.533	155.893	16	These map elements are not used in this template but can be used as metadata in the map export tool.		
+arcmap-10.6_reference_portrait_bottom.mxd	vertical_divide1	GRAPHIC_ELEMENT	115	10	55	0				
+arcmap-10.6_reference_portrait_bottom.mxd	vertical_divide2	GRAPHIC_ELEMENT	168	10	55	0				
+arcmap-10.6_reference_portrait_bottom.mxd	vertical_divide3	GRAPHIC_ELEMENT	221	10	55	0				
+arcmap-10.6_thematic_landscape.mxd	access	TEXT_ELEMENT	-130	177	8	110	12	Access		
+arcmap-10.6_thematic_landscape.mxd	access_note_label	TEXT_ELEMENT	-180	167	8	40	12	Access note:		
+arcmap-10.6_thematic_landscape.mxd	country	TEXT_ELEMENT	50	278	9	300	18	Country: Emergency name		
+arcmap-10.6_thematic_landscape.mxd	data_sources	TEXT_ELEMENT	330	15	4.5	80	10	<ITA>add data sources here (concise list)</ITA>		
+arcmap-10.6_thematic_landscape.mxd	data_sources_label	TEXT_ELEMENT	380	20	4.5	30	10	Data sources:		
+arcmap-10.6_thematic_landscape.mxd	disclaimer	TEXT_ELEMENT	-180	10	15	160	12	The depiction and use of boundaries	 names and associated data shown here do not imply endorsement or acceptance by MapAction.	
+arcmap-10.6_thematic_landscape.mxd	doc_name	TEXT_ELEMENT	-130	110	8	110	12	(doc_name) without MA part		
+arcmap-10.6_thematic_landscape.mxd	donor_credit	TEXT_ELEMENT	-130	38	15	110	12	Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.		
+arcmap-10.6_thematic_landscape.mxd	donor_credit_label	TEXT_ELEMENT	-180	45	8	40	12	Donor credit:		
+arcmap-10.6_thematic_landscape.mxd	glide_no	TEXT_ELEMENT	-130	30	8	110	12	XX_YYYY_XXXXXXX_CCC		
+arcmap-10.6_thematic_landscape.mxd	glide_no_label	TEXT_ELEMENT	-180	30	8	40	12	Glide number:		
+arcmap-10.6_thematic_landscape.mxd	language	TEXT_ELEMENT	-130	120	8	110	12	English		
+arcmap-10.6_thematic_landscape.mxd	language_label	TEXT_ELEMENT	-180	120	8	40	12	Language:		
+arcmap-10.6_thematic_landscape.mxd	language_label	TEXT_ELEMENT	-180	177	8	40	12	Access:		
+arcmap-10.6_thematic_landscape.mxd	legend	LEGEND_ELEMENT	410	35	5.3416	37.3504				
+arcmap-10.6_thematic_landscape.mxd	Location map	DATAFRAME_ELEMENT	-140	215	55.4	80				
+arcmap-10.6_thematic_landscape.mxd	Main map	DATAFRAME_ELEMENT	10	10	277	400				
+arcmap-10.6_thematic_landscape.mxd	map_document_label	TEXT_ELEMENT	-180	110	8	40	12	Map document:		
+arcmap-10.6_thematic_landscape.mxd	map_no	TEXT_ELEMENT	387.5	282	5	25	12	MA010 v1		
+arcmap-10.6_thematic_landscape.mxd	map_producer	TEXT_ELEMENT	-130	55	15	60	12	Produced by MapAction / www.mapaction.org  / country@mapaction.org		
+arcmap-10.6_thematic_landscape.mxd	map_producer_label	TEXT_ELEMENT	-180	62	8	40	12	Map producer:		
+arcmap-10.6_thematic_landscape.mxd	mapaction_logo	PICTURE_ELEMENT	10	272	15	36.9				
+arcmap-10.6_thematic_landscape.mxd	north_arrow	MAPSURROUND_ELEMENT	19.5	22.5	11.616	5.725				
+arcmap-10.6_thematic_landscape.mxd	qr_code	PICTURE_ELEMENT	365	272	15	15				
+arcmap-10.6_thematic_landscape.mxd	qr_text	TEXT_ELEMENT	387.5	272	10	22.5	12	Scan for latest maps		
+arcmap-10.6_thematic_landscape.mxd	quality_control	TEXT_ELEMENT	-130	157	8	110	12	Local		
+arcmap-10.6_thematic_landscape.mxd	quality_control_label	TEXT_ELEMENT	-180	157	8	40	12	Quality control:		
+arcmap-10.6_thematic_landscape.mxd	scale	TEXT_ELEMENT	-130	90	8	110	12	01:05	0	0
+arcmap-10.6_thematic_landscape.mxd	scale_bar	MAPSURROUND_ELEMENT	10	10	11.2319	24.6909				
+arcmap-10.6_thematic_landscape.mxd	scale_label	TEXT_ELEMENT	-180	90	8	40	12	Scale (at A3):		
+arcmap-10.6_thematic_landscape.mxd	source_production_info	TEXT_ELEMENT	340	10	4.5	70	10	Map created by MapAction (dd/mm/2020)		
+arcmap-10.6_thematic_landscape.mxd	spatial_reference	TEXT_ELEMENT	-130	80	8	110	12	WGS84		
+arcmap-10.6_thematic_landscape.mxd	spatial_reference_label	TEXT_ELEMENT	-180	80	8	40	12	Projection / datum:		
+arcmap-10.6_thematic_landscape.mxd	status	TEXT_ELEMENT	-130	147	8	110	12	New		
+arcmap-10.6_thematic_landscape.mxd	status_label	TEXT_ELEMENT	-180	147	8	40	12	Status:		
+arcmap-10.6_thematic_landscape.mxd	summary	TEXT_ELEMENT	-130	183	25	110	12	Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.		
+arcmap-10.6_thematic_landscape.mxd	summary_label	TEXT_ELEMENT	-180	200	8	40	12	Summary:		
+arcmap-10.6_thematic_landscape.mxd	themes	TEXT_ELEMENT	-130	130	15	110	12	themes		
+arcmap-10.6_thematic_landscape.mxd	themes_label	TEXT_ELEMENT	-180	137	8	40	12	Themes:		
+arcmap-10.6_thematic_landscape.mxd	time_zone	TEXT_ELEMENT	-130	70	8	110	12	UTC+00.00		
+arcmap-10.6_thematic_landscape.mxd	time_zone_label	TEXT_ELEMENT	-180	70	8	40	12	Time zone:		
+arcmap-10.6_thematic_landscape.mxd	title	TEXT_ELEMENT	50	270.5	8	300	16	Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)		
+arcmap-10.6_thematic_landscape.mxd	unused_elements	GRAPHIC_ELEMENT	-190	0	297	180				
+arcmap-10.6_thematic_landscape.mxd	unused_map_elements	TEXT_ELEMENT	-175	270	17.533	155.893	16	These map elements are not used in this template but can be used as metadata in the map export tool.		
+arcmap-10.6_thematic_portrait.mxd	access	TEXT_ELEMENT	-140	265	8	120	12	Access		
+arcmap-10.6_thematic_portrait.mxd	access_note_label	TEXT_ELEMENT	-180	255	8	40	12	Access note:		
+arcmap-10.6_thematic_portrait.mxd	country	TEXT_ELEMENT	50	401	9	185	18	Country: Emergency name		
+arcmap-10.6_thematic_portrait.mxd	data_sources	TEXT_ELEMENT	207	15	4.5	80	10	<ITA>add data sources here (concise list)</ITA>		
+arcmap-10.6_thematic_portrait.mxd	data_sources_label	TEXT_ELEMENT	257	20	4.5	30	10	Data sources:		
+arcmap-10.6_thematic_portrait.mxd	disclaimer	TEXT_ELEMENT	-180	15	15	160	12	The depiction and use of boundaries	 names and associated data shown here do not imply endorsement or acceptance by MapAction.	
+arcmap-10.6_thematic_portrait.mxd	doc_name	TEXT_ELEMENT	-140	195	8	120	12	(doc_name) without MA part		
+arcmap-10.6_thematic_portrait.mxd	donor_credit	TEXT_ELEMENT	-140	125	15	120	12	Supported by DFID and the Ministry of Foreign Affairs of the Netherlands.		
+arcmap-10.6_thematic_portrait.mxd	donor_credit_label	TEXT_ELEMENT	-180	125	8	40	12	Donor credit:		
+arcmap-10.6_thematic_portrait.mxd	glide_no	TEXT_ELEMENT	-140	115	8	120	12	XX_YYYY_XXXXXXX_CCC		
+arcmap-10.6_thematic_portrait.mxd	glide_no_label	TEXT_ELEMENT	-180	115	8	40	12	Glide number:		
+arcmap-10.6_thematic_portrait.mxd	language	TEXT_ELEMENT	-140	205	8	120	12	English		
+arcmap-10.6_thematic_portrait.mxd	language_label	TEXT_ELEMENT	-180	205	8	40	12	Language:		
+arcmap-10.6_thematic_portrait.mxd	language_label	TEXT_ELEMENT	-180	265	8	40	12	Access:		
+arcmap-10.6_thematic_portrait.mxd	legend	LEGEND_ELEMENT	249.6496	35	5.3416	37.3504				
+arcmap-10.6_thematic_portrait.mxd	Location map	DATAFRAME_ELEMENT	-130	310	80	55.4				
+arcmap-10.6_thematic_portrait.mxd	Main map	DATAFRAME_ELEMENT	10	10	400	277				
+arcmap-10.6_thematic_portrait.mxd	map_document_label	TEXT_ELEMENT	-180	195	8	40	12	Map document:		
+arcmap-10.6_thematic_portrait.mxd	map_document_label	TEXT_ELEMENT	-213.8656	247.1779	4.5	30	12	Map document:		
+arcmap-10.6_thematic_portrait.mxd	map_no	TEXT_ELEMENT	264.5	405	5	25	12	MA010 v1		
+arcmap-10.6_thematic_portrait.mxd	map_producer	TEXT_ELEMENT	-140	145	15	60	12	Produced by MapAction / www.mapaction.org  / country@mapaction.org		
+arcmap-10.6_thematic_portrait.mxd	map_producer_label	TEXT_ELEMENT	-180	145	8	40	12	Map producer:		
+arcmap-10.6_thematic_portrait.mxd	mapaction_logo	PICTURE_ELEMENT	10	395	15	36.9				
+arcmap-10.6_thematic_portrait.mxd	north_arrow	MAPSURROUND_ELEMENT	15	22.5	8.2777	4.056				
+arcmap-10.6_thematic_portrait.mxd	qr_code	PICTURE_ELEMENT	243	395	15	15				
+arcmap-10.6_thematic_portrait.mxd	qr_text	TEXT_ELEMENT	264.5	395	10	22.5	12	Scan for latest maps		
+arcmap-10.6_thematic_portrait.mxd	quality_control	TEXT_ELEMENT	-140	245	8	120	12	Local		
+arcmap-10.6_thematic_portrait.mxd	quality_control_label	TEXT_ELEMENT	-180	245	8	40	12	Quality control:		
+arcmap-10.6_thematic_portrait.mxd	scale	TEXT_ELEMENT	-140	165	8	120	12	01:05	0	0
+arcmap-10.6_thematic_portrait.mxd	scale_bar	MAPSURROUND_ELEMENT	10	10	9.4656	20				
+arcmap-10.6_thematic_portrait.mxd	scale_label	TEXT_ELEMENT	-180	165	8	40	12	Scale (at A3):		
+arcmap-10.6_thematic_portrait.mxd	source_production_info	TEXT_ELEMENT	287	10	4.5	70	10	Map created by MapAction (dd/mm/2020)		
+arcmap-10.6_thematic_portrait.mxd	spatial_reference	TEXT_ELEMENT	-140	175	8	120	12	WGS84		
+arcmap-10.6_thematic_portrait.mxd	spatial_reference_label	TEXT_ELEMENT	-180	175	8	40	12	Projection / datum:		
+arcmap-10.6_thematic_portrait.mxd	status	TEXT_ELEMENT	-140	235	8	120	12	New		
+arcmap-10.6_thematic_portrait.mxd	status_label	TEXT_ELEMENT	-180	235	8	40	12	Status:		
+arcmap-10.6_thematic_portrait.mxd	summary	TEXT_ELEMENT	-140	290	25	120	12	Example: Map shows the extent of known flooding from satellite images on 1 Jan 2012.		
+arcmap-10.6_thematic_portrait.mxd	summary_label	TEXT_ELEMENT	-180	290	8	40	12	Summary:		
+arcmap-10.6_thematic_portrait.mxd	themes	TEXT_ELEMENT	-140	225	15	120	12	(map_name) without MA part		
+arcmap-10.6_thematic_portrait.mxd	themes_label	TEXT_ELEMENT	-180	225	8	40	12	Themes:		
+arcmap-10.6_thematic_portrait.mxd	time_zone	TEXT_ELEMENT	-140	155	8	120	12	UTC+00.00		
+arcmap-10.6_thematic_portrait.mxd	time_zone_label	TEXT_ELEMENT	-180	155	8	40	12	Time zone:		
+arcmap-10.6_thematic_portrait.mxd	title	TEXT_ELEMENT	50	394	8	185	16	Who What Where (3w): Displayed by Regions (as of 1 Jan 2019)		
+arcmap-10.6_thematic_portrait.mxd	unused_elements	GRAPHIC_ELEMENT	-190	420	420	180				
+arcmap-10.6_thematic_portrait.mxd	unused_map_elements	TEXT_ELEMENT	-175	410	20	160	16	These map elements are not used in this template but can be used as metadata in the map export tool.		

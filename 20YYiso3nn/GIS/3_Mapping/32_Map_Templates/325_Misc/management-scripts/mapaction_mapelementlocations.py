@@ -21,10 +21,12 @@ sep = os.path.sep
 
 # gets location of this python script which is at root of github
 rootauto = os.getcwd()
-mapfile = rootauto + sep + "template_positions_" + today[0:10] + ".txt"
+mapfile = os.path.join(rootauto[:-27], '325_Misc', '3253_element-locations')
+mapfile = mapfile + 'template_positions_' + today[0:10] + ".txt"
 
 # setting up are workspace
-arcpy.env.workspace = rootauto[:-19]
+arcpy.env.workspace = rootauto[:-27] + "322_arcmap"
+mxdLocation = rootauto[:-27] + "322_arcmap"
 # lists all the mxd's in the relevant folder
 mxdList = arcpy.ListFiles("*.mxd")
 # final 'element' variable
@@ -34,7 +36,7 @@ element_final = ''
 header = "MapName,Type,ElementName,PositionX,PositionY,Height,Width,FontSize,TextValue"
 
 for mxdfile in mxdList:
-    mxd = arcpy.mapping.MapDocument(rootauto[:-19] + sep + mxdfile)
+    mxd = arcpy.mapping.MapDocument(mxdLocation + sep + mxdfile)
     elemmxd = mxdfile
     element = ""
     df = arcpy.mapping.ListDataFrames(mxd, "*")
@@ -68,7 +70,7 @@ for mxdfile in mxdList:
     element_final = element_final + element_alphabetic + "\n"
 
     # Saving 10.1, 10.0 and 9.3 copies of mxd's in correct location and name
-    mxd_alt_root = rootauto[:-19] + sep + "previous_versions" + sep
+    mxd_alt_root = rootauto[:-27] + "325_Misc" + sep + "3251_previous-versions" + sep
     mxd10_1 = mxd_alt_root + "arcmap_10_1" + sep + mxdfile[:7] + "10_1" + mxdfile[11:]
     mxd.saveACopy(mxd10_1, "10.1")
     mxd10_0 = mxd_alt_root + "arcmap_10_0" + sep + mxdfile[:7] + "10_0" + mxdfile[11:]
@@ -76,7 +78,7 @@ for mxdfile in mxdList:
     mxd9_3 = mxd_alt_root + "arcmap_9_3" + sep + mxdfile[:7] + "9_3" + mxdfile[11:]
     mxd.saveACopy(mxd9_3, "9.3")
 
-    finaljpg = rootauto[:-19] + sep + "example-outputs" + sep + mxdfile[:-4] + ".jpg"
+    finaljpg = rootauto[:-27] + sep + "325_Misc" + sep + "3252_example-outputs" + sep + mxdfile[:-4] + ".jpg"
     if os.path.isfile(finaljpg) == True:
         os.remove(finaljpg)
     else:
