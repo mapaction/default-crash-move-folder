@@ -1,1 +1,1 @@
-Goto 31_Resources/311_Symbolset/socha-humanitarian-icons-for-gishumanitarian-icons-v2-1-font for the OCHA font.
+Goto 31_Resources/311_Symbolset/ocha-humanitarian-icons-for-gishumanitarian-icons-v2-1-font for the OCHA font.

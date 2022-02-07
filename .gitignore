@@ -6,3 +6,4 @@ deploy-to-fileserver.log
 deploy-to-integration-test.log
 deploy-to-fileserver.log
 *.pyc
+*.horizon
