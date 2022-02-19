@@ -1,5 +1,6 @@
 import os
 import arcpy
+import re
 from datetime import date
 
 delimiter = '|';
@@ -28,45 +29,39 @@ def writeOutputFileHeadings():
         outputFile.write('\n')
         outputFile.close()
         
-def wrapElementInQuotes(value):
-    return '"{}"'.format(str(value))
-
 def removeAPRXVersionNumber(aprxFileName):
     nameParts = aprxFileName.split('_')
     return '-'.join(nameParts[2:])
 
-def removeDelimiterFromElement(element):
-    if isString(element):
-        return element.replace(delimiter, ' ')
-    else:
-        return element
-
 def isString(element):
     return isinstance(element, str)
 
-def removeCarriageReturns(element): 
+def formatString(element): 
+    markupRegex = re.compile('<.*?>') 
     if isString(element):
-        return element.strip('/n')
+        strippedMarkup = re.sub(markupRegex, '', element)
+        return strippedMarkup.replace(delimiter, ' ').replace('\n',' ').encode('ascii', errors='ignore').decode()
     else:
         return element
+
 
 def lookForElements(layout, aprxFileName):
     with writeToOutputFile() as outputFile:
         print(removeAPRXVersionNumber(aprxFileName[:-5]))
         for element in layout.listElements(wildcard='*'):
             elementFragments = []
-            elementFragments.append(wrapElementInQuotes(removeAPRXVersionNumber(aprxFileName[:-5])))
-            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(layout.name)))) 
-            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.name)))) 
-            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.type)))) 
-            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.elementPositionX))))
-            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.elementPositionY))))
-            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.elementHeight))))
-            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.elementWidth))))
+            elementFragments.append(str(removeAPRXVersionNumber(aprxFileName[:-5])))
+            elementFragments.append(str(formatString(layout.name))) 
+            elementFragments.append(str(formatString(element.name))) 
+            elementFragments.append(str(formatString(element.type)))
+            elementFragments.append(str(formatString(element.elementPositionX)))
+            elementFragments.append(str(formatString(element.elementPositionY)))
+            elementFragments.append(str(formatString(element.elementHeight)))
+            elementFragments.append(str(formatString(element.elementWidth)))
 
             if element.type == 'TEXT_ELEMENT':
-                elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.textSize))))
-                elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.text))))
+                elementFragments.append(str(formatString(element.textSize)))
+                elementFragments.append(str(formatString(element.text)))
         
             outputFile.write(delimiter.join(elementFragments))
             outputFile.write('\n')
