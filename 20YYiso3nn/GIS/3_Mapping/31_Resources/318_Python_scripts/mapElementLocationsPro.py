@@ -72,12 +72,12 @@ def writeToOutputFile():
     return open(file, 'a+')
 
 def createMapTemplateLocations():
-    crashMoveDirectory = os.getcwd()
-    arcpy.env.workspace = crashMoveDirectory
+    proTemplateDirectory = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS', '3_Mapping', '32_Map_Templates', '321_arcpro')
+    arcpy.env.workspace = proTemplateDirectory
 
     writeOutputFileHeadings()
 
-    for aprxFile in getAprxFiles(crashMoveDirectory):     
+    for aprxFile in getAprxFiles(proTemplateDirectory):     
         getLayoutsInAPRXFile(aprxFile)
     
 createMapTemplateLocations()
