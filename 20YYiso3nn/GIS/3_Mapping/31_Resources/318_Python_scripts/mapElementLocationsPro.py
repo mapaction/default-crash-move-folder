@@ -1,6 +1,9 @@
 import os
 import arcpy
+import re
 from datetime import date
+
+delimiter = '|';
 
 def getAprxFiles(directory):
     aprxFiles = [];
@@ -22,36 +25,45 @@ def getLayoutsInAPRXFile(aprxFile):
 def writeOutputFileHeadings():
     elements = ['TemplateName', 'LayoutName', 'ElementName', 'Type', 'PositionX', 'PositionY', 'Height', 'Width', 'FontSize', 'TextValue']
     with writeToOutputFile() as outputFile:
-        outputFile.write(','.join(elements))
+        outputFile.write(delimiter.join(elements))
         outputFile.write('\n')
         outputFile.close()
         
-def wrapElementInQuotes(value):
-    return '"{}"'.format(str(value))
-
 def removeAPRXVersionNumber(aprxFileName):
     nameParts = aprxFileName.split('_')
     return '-'.join(nameParts[2:])
+
+def isString(element):
+    return isinstance(element, str)
+
+def formatString(element): 
+    markupRegex = re.compile('<.*?>') 
+    if isString(element):
+        strippedMarkup = re.sub(markupRegex, '', element)
+        return strippedMarkup.replace(delimiter, ' ').replace('\n',' ').encode('ascii', errors='ignore').decode()
+    else:
+        return element
+
 
 def lookForElements(layout, aprxFileName):
     with writeToOutputFile() as outputFile:
         print(removeAPRXVersionNumber(aprxFileName[:-5]))
         for element in layout.listElements(wildcard='*'):
             elementFragments = []
-            elementFragments.append(wrapElementInQuotes(removeAPRXVersionNumber(aprxFileName[:-5])))
-            elementFragments.append(wrapElementInQuotes(layout.name)) 
-            elementFragments.append(wrapElementInQuotes(element.name)) 
-            elementFragments.append(wrapElementInQuotes(element.type)) 
-            elementFragments.append(wrapElementInQuotes(element.elementPositionX))
-            elementFragments.append(wrapElementInQuotes(element.elementPositionY)) 
-            elementFragments.append(wrapElementInQuotes(element.elementHeight))
-            elementFragments.append(wrapElementInQuotes(element.elementWidth))
+            elementFragments.append(str(removeAPRXVersionNumber(aprxFileName[:-5])))
+            elementFragments.append(str(formatString(layout.name))) 
+            elementFragments.append(str(formatString(element.name))) 
+            elementFragments.append(str(formatString(element.type)))
+            elementFragments.append(str(formatString(element.elementPositionX)))
+            elementFragments.append(str(formatString(element.elementPositionY)))
+            elementFragments.append(str(formatString(element.elementHeight)))
+            elementFragments.append(str(formatString(element.elementWidth)))
 
             if element.type == 'TEXT_ELEMENT':
-                elementFragments.append(wrapElementInQuotes(element.textSize))
-                elementFragments.append(wrapElementInQuotes(element.text))
+                elementFragments.append(str(formatString(element.textSize)))
+                elementFragments.append(str(formatString(element.text)))
         
-            outputFile.write(','.join(elementFragments))
+            outputFile.write(delimiter.join(elementFragments))
             outputFile.write('\n')
         
 def writeToOutputFile():
@@ -60,13 +72,12 @@ def writeToOutputFile():
     return open(file, 'a+')
 
 def createMapTemplateLocations():
-    crashMoveDirectory = os.getcwd()
-    arcpy.env.workspace = crashMoveDirectory
+    proTemplateDirectory = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS', '3_Mapping', '32_Map_Templates', '321_arcpro')
+    arcpy.env.workspace = proTemplateDirectory
 
     writeOutputFileHeadings()
 
-    for aprxFile in getAprxFiles(crashMoveDirectory):     
+    for aprxFile in getAprxFiles(proTemplateDirectory):     
         getLayoutsInAPRXFile(aprxFile)
     
 createMapTemplateLocations()
- 
