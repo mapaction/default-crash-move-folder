@@ -2,6 +2,8 @@ import os
 import arcpy
 from datetime import date
 
+delimiter = '|';
+
 def getAprxFiles(directory):
     aprxFiles = [];
     for root, dirs, files, in os.walk(directory):
@@ -22,7 +24,7 @@ def getLayoutsInAPRXFile(aprxFile):
 def writeOutputFileHeadings():
     elements = ['TemplateName', 'LayoutName', 'ElementName', 'Type', 'PositionX', 'PositionY', 'Height', 'Width', 'FontSize', 'TextValue']
     with writeToOutputFile() as outputFile:
-        outputFile.write(','.join(elements))
+        outputFile.write(delimiter.join(elements))
         outputFile.write('\n')
         outputFile.close()
         
@@ -33,25 +35,40 @@ def removeAPRXVersionNumber(aprxFileName):
     nameParts = aprxFileName.split('_')
     return '-'.join(nameParts[2:])
 
+def removeDelimiterFromElement(element):
+    if isString(element):
+        return element.replace(delimiter, ' ')
+    else:
+        return element
+
+def isString(element):
+    return isinstance(element, str)
+
+def removeCarriageReturns(element): 
+    if isString(element):
+        return element.strip('/n')
+    else:
+        return element
+
 def lookForElements(layout, aprxFileName):
     with writeToOutputFile() as outputFile:
         print(removeAPRXVersionNumber(aprxFileName[:-5]))
         for element in layout.listElements(wildcard='*'):
             elementFragments = []
             elementFragments.append(wrapElementInQuotes(removeAPRXVersionNumber(aprxFileName[:-5])))
-            elementFragments.append(wrapElementInQuotes(layout.name)) 
-            elementFragments.append(wrapElementInQuotes(element.name)) 
-            elementFragments.append(wrapElementInQuotes(element.type)) 
-            elementFragments.append(wrapElementInQuotes(element.elementPositionX))
-            elementFragments.append(wrapElementInQuotes(element.elementPositionY)) 
-            elementFragments.append(wrapElementInQuotes(element.elementHeight))
-            elementFragments.append(wrapElementInQuotes(element.elementWidth))
+            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(layout.name)))) 
+            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.name)))) 
+            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.type)))) 
+            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.elementPositionX))))
+            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.elementPositionY))))
+            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.elementHeight))))
+            elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.elementWidth))))
 
             if element.type == 'TEXT_ELEMENT':
-                elementFragments.append(wrapElementInQuotes(element.textSize))
-                elementFragments.append(wrapElementInQuotes(element.text))
+                elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.textSize))))
+                elementFragments.append(wrapElementInQuotes(removeDelimiterFromElement(removeCarriageReturns(element.text))))
         
-            outputFile.write(','.join(elementFragments))
+            outputFile.write(delimiter.join(elementFragments))
             outputFile.write('\n')
         
 def writeToOutputFile():
@@ -69,4 +86,3 @@ def createMapTemplateLocations():
         getLayoutsInAPRXFile(aprxFile)
     
 createMapTemplateLocations()
- 
