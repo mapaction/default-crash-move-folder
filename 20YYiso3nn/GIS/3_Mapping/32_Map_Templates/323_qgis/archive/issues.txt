@@ -1,0 +1,54 @@
+Test scripts
+1. Populate metadata for map and export
+Open project
+Open MapAction layout
+Change values in MD editor
+Save to project
+- ARe values saved in variables?
+- are values visible in template
+Export map
+- are values on map?
+- are metadata values in XML correct
+Upload to MDR
+- is upload correct?
+- are metadata values correct?
+
+2. Repeat for second layout
+Open new template
+- Are values updated from template? no
+Update values
+Save to project
+- are values saved in variables?
+- have other templates been affected?
+Export
+
+3. 
+Create new layout from mapaction template
+Open plugin and select layout
+- are metatdata values populated from layout?
+Populate metadata values
+Save to project
+-are metadata values populated?
+
+4. Create new layout from scratch
+Create new layout
+Open plugin and selelct layout
+- are metadata values populated from layout (default values)
+- are variables populated in layout?
+Update metadata values and save to project
+
+
+
+
+
+
+
+Issues
+Created not showing in template
+Prompt to save values before export
+On change template in map editor, update metadata values from template
+- what if template has no values? check
+Option to copy values from other template?
+Dropdowns added to every time plugin is loaded
+Update messages
+Move themes to main tab

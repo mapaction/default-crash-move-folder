@@ -1,4 +1,5 @@
-mapaction_code_directory="~/Documents/code"
+# location above the crash move folder
+mapaction_code_directory="/D/MapAction/GitHub"
 
 # alias for ArcGIS propy python script location
 alias propy='/c/Program\ Files/ArcGIS/Pro/bin/Python/Scripts/propy.bat'
