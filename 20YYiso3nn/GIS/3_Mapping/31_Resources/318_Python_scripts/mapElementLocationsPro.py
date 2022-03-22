@@ -18,6 +18,7 @@ def getLayoutsInAPRXFile(aprxFile):
 
     aprxFileName = aprxFile.split(os.path.sep)[-1]
     layouts = aprx.listLayouts()
+    print('layouts: ', layouts)
 
     for layout in layouts:
         lookForElements(layout, aprxFileName)
@@ -67,24 +68,28 @@ def lookForElements(layout, aprxFileName):
             outputFile.write('\n')
         
 def writeToOutputFile():
-##    today = str(date.today())
-    file = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS','3_Mapping', '32_Map_Templates', '325_misc', '3253_element-locations', "template_positions.txt")
+    # file = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS','3_Mapping', '32_Map_Templates', '325_misc', '3253_element-locations', "template_positions.txt") 
+    file = r'C:\Users\hughl\Documents\code\default-crash-move-folder\20YYiso3nn\GIS\3_Mapping\32_Map_Templates\325_Misc\3253_element-locations\template_positions.txt'
     return open(file, 'a+')
 
 def createMapTemplateLocations():
-    proTemplateDirectory = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS', '3_Mapping', '32_Map_Templates', '321_arcpro')
+    # proTemplateDirectory = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS', '3_Mapping', '32_Map_Templates', '321_arcpro')
+    proTemplateDirectory = r'C:\Users\hughl\Documents\code\default-crash-move-folder\20YYiso3nn\GIS\3_Mapping\32_Map_Templates\321_arcpro'
     arcpy.env.workspace = proTemplateDirectory
+    print('proTemplateDirectory: ', proTemplateDirectory)
 
+    deleteExistingExport()
     writeOutputFileHeadings()
 
     for aprxFile in getAprxFiles(proTemplateDirectory):     
         getLayoutsInAPRXFile(aprxFile)
 
-##today = str(date.today())
-file = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS','3_Mapping', '32_Map_Templates', '325_Misc', '3253_element-locations', "template_positions.txt")
-try:
-    os.remove(file)
-except OSError:
-    pass
+def deleteExistingExport():
+    # file = os.path.join(os.getcwd(), '20YYiso3nn', 'GIS','3_Mapping', '32_Map_Templates', '325_Misc', '3253_element-locations', "template_positions.txt")
+    file = r'C:\Users\hughl\Documents\code\default-crash-move-folder\20YYiso3nn\GIS\3_Mapping\32_Map_Templates\325_Misc\3253_element-locations\template_positions.txt'
+    try:
+        os.remove(file)
+    except OSError:
+        pass
    
 createMapTemplateLocations()
