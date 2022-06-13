@@ -1,26 +1,26 @@
 {
   "type" : "CIMLayerDocument",
-  "version" : "2.8.0",
-  "build" : 29751,
+  "version" : "2.9.0",
+  "build" : 32739,
   "layers" : [
-    "CIMPATH=main_map/mainmap_tran_air_pt_s0_allmaps.xml"
+    "CIMPATH=map2/gis_osm_transport_free_1.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "mainmap-tran-air-pt-s0-allmaps",
-      "uRI" : "CIMPATH=main_map/mainmap_tran_air_pt_s0_allmaps.xml",
+      "name" : "gis_osm_transport_free_1",
+      "uRI" : "CIMPATH=map2/gis_osm_transport_free_1.xml",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
-      "metadataURI" : "CIMPATH=Metadata/27ee7036ba6813666b7649a466304850.xml",
-      "useSourceMetadata" : false,
+      "useSourceMetadata" : true,
+      "description" : "gis_osm_transport_free_1",
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce"
+        "mapElevationID" : "{9C24F417-3D25-4060-893A-9AB418C582DC}"
       },
       "expanded" : true,
-      "layerType" : "Operational",
+      "layerType" : "BasemapBackground",
       "showLegends" : true,
       "visibility" : true,
       "displayCacheType" : "Permanent",
@@ -35,27 +35,72 @@
       "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "definitionExpression" : "type IN ('medium_airport', 'large_airport')",
         "displayField" : "name",
         "editable" : true,
-        "timeFields" : {
-          "type" : "CIMTimeTableDefinition"
-        },
-        "timeDefinition" : {
-          "type" : "CIMTimeDataDefinition",
-          "hasLiveData" : true
-        },
-        "timeDisplayDefinition" : {
-          "type" : "CIMTimeDisplayDefinition",
-          "timeInterval" : 0,
-          "timeIntervalUnits" : "esriTimeUnitsHours",
-          "timeOffsetUnits" : "esriTimeUnitsYears"
-        },
+        "fieldDescriptions" : [
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "OBJECTID",
+            "fieldName" : "OBJECTID",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 0,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "readOnly" : true,
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Shape",
+            "fieldName" : "Shape",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "osm_id",
+            "fieldName" : "osm_id",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "code",
+            "fieldName" : "code",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 0,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "fclass",
+            "fieldName" : "fclass",
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "name",
+            "fieldName" : "name",
+            "visible" : true,
+            "searchMode" : "Exact"
+          }
+        ],
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\prepared-country-data\\bangladesh\\GIS\\2_Active_Data\\232_tran",
-          "workspaceFactory" : "Shapefile",
-          "dataset" : "bgd_tran_air_pt_s0_ourairports_pp",
+          "workspaceConnectionString" : "DATABASE=..\\..\\ArcGIS\\operational-readiness-course\\operational-readiness-course.gdb",
+          "workspaceFactory" : "FileGDB",
+          "dataset" : "gis_osm_transport_free_1",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -64,107 +109,54 @@
       "featureTemplates" : [
         {
           "type" : "CIMFeatureTemplate",
-          "name" : "Airport",
+          "name" : "Bus station",
           "tags" : "Point",
           "toolProgID" : "2a8b3331-5238-4025-972e-452a69535b06",
           "defaultValues" : {
             "type" : "PropertySet",
             "propertySetItems" : [
-              "type",
-              "large_airport"
+              "fclass",
+              "bus_station"
+            ]
+          }
+        },
+        {
+          "type" : "CIMFeatureTemplate",
+          "name" : "Ferry terminal",
+          "tags" : "Point",
+          "toolProgID" : "2a8b3331-5238-4025-972e-452a69535b06",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "fclass",
+              "ferry_terminal"
+            ]
+          }
+        },
+        {
+          "type" : "CIMFeatureTemplate",
+          "name" : "Railway station",
+          "tags" : "Point",
+          "toolProgID" : "2a8b3331-5238-4025-972e-452a69535b06",
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "fclass",
+              "railway_station"
             ]
           }
         }
       ],
       "htmlPopupEnabled" : true,
-      "htmlPopupFormat" : {
-        "type" : "CIMHtmlPopupFormat",
-        "htmlUseCodedDomainValues" : true,
-        "htmlPresentationStyle" : "TwoColumnTable"
-      },
-      "isFlattened" : true,
       "selectable" : true,
-      "selectionSymbol" : {
-        "type" : "CIMSymbolReference",
-        "symbol" : {
-          "type" : "CIMPointSymbol",
-          "symbolLayers" : [
-            {
-              "type" : "CIMVectorMarker",
-              "enable" : true,
-              "anchorPointUnits" : "Relative",
-              "dominantSizeAxis3D" : "Z",
-              "size" : 8,
-              "billboardMode3D" : "FaceNearPlane",
-              "frame" : {
-                "xmin" : -2,
-                "ymin" : -2,
-                "xmax" : 2,
-                "ymax" : 2
-              },
-              "markerGraphics" : [
-                {
-                  "type" : "CIMMarkerGraphic",
-                  "geometry" : {
-                    "curveRings" : [
-                      [
-                        [
-                          1.2246467991473532e-16,
-                          2
-                        ],
-                        {
-                          "a" : [
-                            [
-                              1.2246467991473532e-16,
-                              2
-                            ],
-                            [
-                              0,
-                              0
-                            ],
-                            0,
-                            1
-                          ]
-                        }
-                      ]
-                    ]
-                  },
-                  "symbol" : {
-                    "type" : "CIMPolygonSymbol",
-                    "symbolLayers" : [
-                      {
-                        "type" : "CIMSolidFill",
-                        "enable" : true,
-                        "color" : {
-                          "type" : "CIMRGBColor",
-                          "values" : [
-                            0,
-                            255,
-                            255,
-                            100
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                }
-              ],
-              "respectFrame" : true
-            }
-          ],
-          "haloSize" : 1,
-          "scaleX" : 1,
-          "angleAlignment" : "Map"
-        }
-      },
-      "featureCacheType" : "None",
+      "featureCacheType" : "Session",
       "displayFiltersType" : "ByScale",
       "featureBlendingMode" : "Alpha",
       "labelClasses" : [
         {
           "type" : "CIMLabelClass",
-          "expression" : "[name]",
-          "expressionEngine" : "VBScript",
+          "expression" : "$feature.name",
+          "expressionEngine" : "Arcade",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
             "type" : "CIMMaplexLabelPlacementProperties",
@@ -233,7 +225,7 @@
               "centerRight" : 3,
               "belowRight" : 5,
               "belowCenter" : 7,
-              "belowLeft" : 0,
+              "belowLeft" : 8,
               "centerLeft" : 6
             },
             "pointPlacementMethod" : "AroundPoint",
@@ -280,8 +272,8 @@
             "truncationPreferredCharacters" : "aeiou",
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
-          "name" : "Default",
-          "priority" : 11,
+          "name" : "Class 1",
+          "priority" : 40,
           "standardLabelPlacementProperties" : {
             "type" : "CIMStandardLabelPlacementProperties",
             "featureType" : "Line",
@@ -326,33 +318,21 @@
             "symbol" : {
               "type" : "CIMTextSymbol",
               "blockProgression" : "TTB",
-              "compatibilityMode" : true,
               "depth3D" : 1,
-              "drawSoftHyphen" : true,
               "extrapolateBaselines" : true,
-              "flipAngle" : 90,
               "fontEffects" : "Normal",
               "fontEncoding" : "Unicode",
-              "fontFamilyName" : "Arial",
+              "fontFamilyName" : "Tahoma",
               "fontStyleName" : "Regular",
               "fontType" : "Unspecified",
               "haloSize" : 1,
-              "height" : 8,
+              "height" : 10,
               "hinting" : "Default",
               "horizontalAlignment" : "Left",
               "kerning" : true,
               "letterWidth" : 100,
               "ligatures" : true,
               "lineGapType" : "ExtraLeading",
-              "shadowColor" : {
-                "type" : "CIMRGBColor",
-                "values" : [
-                  0,
-                  0,
-                  0,
-                  100
-                ]
-              },
               "symbol" : {
                 "type" : "CIMPolygonSymbol",
                 "symbolLayers" : [
@@ -363,8 +343,8 @@
                       "type" : "CIMRGBColor",
                       "values" : [
                         0,
-                        92,
-                        230,
+                        0,
+                        0,
                         100
                       ]
                     }
@@ -373,7 +353,7 @@
               },
               "textCase" : "Normal",
               "textDirection" : "LTR",
-              "verticalAlignment" : "Baseline",
+              "verticalAlignment" : "Bottom",
               "verticalGlyphOrientation" : "Right",
               "wordSpacing" : 100,
               "billboardMode3D" : "FaceNearPlane"
@@ -387,67 +367,18 @@
       "renderer" : {
         "type" : "CIMUniqueValueRenderer",
         "colorRamp" : {
-          "type" : "CIMMultipartColorRamp",
-          "colorRamps" : [
-            {
-              "type" : "CIMPolarContinuousColorRamp",
-              "colorSpace" : {
-                "type" : "CIMICCColorSpace",
-                "url" : "Default RGB"
-              },
-              "fromColor" : {
-                "type" : "CIMHSVColor",
-                "values" : [
-                  100,
-                  100,
-                  66,
-                  100
-                ]
-              },
-              "toColor" : {
-                "type" : "CIMHSVColor",
-                "values" : [
-                  60,
-                  100,
-                  100,
-                  100
-                ]
-              },
-              "interpolationSpace" : "HSV",
-              "polarDirection" : "Auto"
-            },
-            {
-              "type" : "CIMPolarContinuousColorRamp",
-              "colorSpace" : {
-                "type" : "CIMICCColorSpace",
-                "url" : "Default RGB"
-              },
-              "fromColor" : {
-                "type" : "CIMHSVColor",
-                "values" : [
-                  60,
-                  100,
-                  100,
-                  100
-                ]
-              },
-              "toColor" : {
-                "type" : "CIMHSVColor",
-                "values" : [
-                  0,
-                  100,
-                  100,
-                  100
-                ]
-              },
-              "interpolationSpace" : "HSV",
-              "polarDirection" : "Auto"
-            }
-          ],
-          "weights" : [
-            1,
-            1
-          ]
+          "type" : "CIMRandomHSVColorRamp",
+          "colorSpace" : {
+            "type" : "CIMICCColorSpace",
+            "url" : "Default RGB"
+          },
+          "maxH" : 360,
+          "minS" : 15,
+          "maxS" : 30,
+          "minV" : 99,
+          "maxV" : 100,
+          "minAlpha" : 100,
+          "maxAlpha" : 100
         },
         "defaultLabel" : "<all other values>",
         "defaultSymbol" : {
@@ -485,7 +416,7 @@
                                 2
                               ],
                               [
-                                1.8369701987210297e-16,
+                                1.9639843619522576e-15,
                                 0
                               ],
                               0,
@@ -505,7 +436,7 @@
                           "joinStyle" : "Round",
                           "lineStyle3D" : "Strip",
                           "miterLimit" : 10,
-                          "width" : 1,
+                          "width" : 0.69999999999999996,
                           "color" : {
                             "type" : "CIMRGBColor",
                             "values" : [
@@ -522,9 +453,9 @@
                           "color" : {
                             "type" : "CIMRGBColor",
                             "values" : [
-                              52,
-                              156,
-                              0,
+                              130,
+                              130,
+                              130,
                               100
                             ]
                           }
@@ -538,12 +469,12 @@
             ],
             "haloSize" : 1,
             "scaleX" : 1,
-            "angleAlignment" : "Map"
+            "angleAlignment" : "Display"
           }
         },
         "defaultSymbolPatch" : "Default",
         "fields" : [
-          "type"
+          "fclass"
         ],
         "groups" : [
           {
@@ -551,7 +482,54 @@
             "classes" : [
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "Airport",
+                "label" : "Bus station",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPointSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMPictureMarker",
+                        "enable" : true,
+                        "anchorPointUnits" : "Relative",
+                        "dominantSizeAxis3D" : "Z",
+                        "size" : 10,
+                        "billboardMode3D" : "FaceNearPlane",
+                        "invertBackfaceTexture" : true,
+                        "scaleX" : 1,
+                        "textureFilter" : "Draft",
+                        "tintColor" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            255,
+                            255,
+                            255,
+                            100
+                          ]
+                        },
+                        "url" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADwSURBVDiNzZM/CsIwFMa/p44lAbFewaHgFHR1yegB7Cm6CB7Bsaeou46l4FpHoUMXD2BBKLiJ1KUtEhJrRcFvCt97/PL+JFQUBb6hnsEfABCG+B1ADODyCtQHMAZgeZ7nJkmyUCmO42x83+8CuAI4VkBSWpu5rrvOsmza1Ipt23EQBCsAe11FVgUJw3Bugkgpd2WeVXmdppvf1f+BTOuHlHLXBvT71jjnKRHdnj0iunHO01YgIcSWMXZ69hhjJyHEVpdvnFEURUvVy/N8pPNfVtRW6heZABhWG9O9biV2BnDQgWpYea4Tm2I60Ef62owe2LdQCE5t/koAAAAASUVORK5CYII="
+                      }
+                    ],
+                    "haloSize" : 1,
+                    "scaleX" : 1,
+                    "angleAlignment" : "Map"
+                  },
+                  "minScale" : 10000
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "bus_station"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Ferry terminal",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -563,9 +541,9 @@
                         "enable" : true,
                         "anchorPointUnits" : "Relative",
                         "dominantSizeAxis3D" : "Y",
-                        "size" : 15,
+                        "size" : 10,
                         "billboardMode3D" : "FaceNearPlane",
-                        "characterIndex" : 59656,
+                        "characterIndex" : 59751,
                         "fontFamilyName" : "Humanitarian-Icons",
                         "fontStyleName" : "Regular",
                         "fontType" : "Unspecified",
@@ -574,14 +552,32 @@
                           "type" : "CIMPolygonSymbol",
                           "symbolLayers" : [
                             {
+                              "type" : "CIMSolidStroke",
+                              "enable" : true,
+                              "capStyle" : "Round",
+                              "joinStyle" : "Round",
+                              "lineStyle3D" : "Strip",
+                              "miterLimit" : 4,
+                              "width" : 0,
+                              "color" : {
+                                "type" : "CIMRGBColor",
+                                "values" : [
+                                  68,
+                                  68,
+                                  68,
+                                  100
+                                ]
+                              }
+                            },
+                            {
                               "type" : "CIMSolidFill",
                               "enable" : true,
                               "color" : {
                                 "type" : "CIMRGBColor",
                                 "values" : [
-                                  2,
-                                  108,
-                                  182,
+                                  68,
+                                  68,
+                                  68,
                                   100
                                 ]
                               }
@@ -592,7 +588,7 @@
                         "respectFrame" : true
                       }
                     ],
-                    "haloSize" : 1,
+                    "haloSize" : 0.5,
                     "haloSymbol" : {
                       "type" : "CIMPolygonSymbol",
                       "symbolLayers" : [
@@ -613,67 +609,136 @@
                     },
                     "scaleX" : 1,
                     "angleAlignment" : "Map"
-                  }
+                  },
+                  "minScale" : 100000
                 },
                 "values" : [
                   {
                     "type" : "CIMUniqueValue",
                     "fieldValues" : [
-                      "large_airport"
+                      "ferry_terminal"
                     ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Railway station",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPointSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMVectorMarker",
+                        "enable" : true,
+                        "anchorPointUnits" : "Relative",
+                        "dominantSizeAxis3D" : "Z",
+                        "size" : 4,
+                        "billboardMode3D" : "FaceNearPlane",
+                        "frame" : {
+                          "xmin" : -2,
+                          "ymin" : -2,
+                          "xmax" : 2,
+                          "ymax" : 2
+                        },
+                        "markerGraphics" : [
+                          {
+                            "type" : "CIMMarkerGraphic",
+                            "geometry" : {
+                              "curveRings" : [
+                                [
+                                  [
+                                    1.2246467991473532e-16,
+                                    2
+                                  ],
+                                  {
+                                    "a" : [
+                                      [
+                                        1.2246467991473532e-16,
+                                        2
+                                      ],
+                                      [
+                                        1.1044549435724839e-15,
+                                        0
+                                      ],
+                                      0,
+                                      1
+                                    ]
+                                  }
+                                ]
+                              ]
+                            },
+                            "symbol" : {
+                              "type" : "CIMPolygonSymbol",
+                              "symbolLayers" : [
+                                {
+                                  "type" : "CIMSolidStroke",
+                                  "enable" : true,
+                                  "capStyle" : "Round",
+                                  "joinStyle" : "Round",
+                                  "lineStyle3D" : "Strip",
+                                  "miterLimit" : 10,
+                                  "width" : 0.69999999999999996,
+                                  "color" : {
+                                    "type" : "CIMRGBColor",
+                                    "values" : [
+                                      0,
+                                      0,
+                                      0,
+                                      100
+                                    ]
+                                  }
+                                },
+                                {
+                                  "type" : "CIMSolidFill",
+                                  "enable" : true,
+                                  "color" : {
+                                    "type" : "CIMCMYKColor",
+                                    "values" : [
+                                      4,
+                                      91,
+                                      91,
+                                      0,
+                                      100
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "respectFrame" : true
+                      }
+                    ],
+                    "haloSize" : 1,
+                    "scaleX" : 1,
+                    "angleAlignment" : "Display"
                   },
+                  "minScale" : 50000
+                },
+                "values" : [
                   {
                     "type" : "CIMUniqueValue",
                     "fieldValues" : [
-                      "medium_airport"
-                    ]
-                  },
-                  {
-                    "type" : "CIMUniqueValue",
-                    "fieldValues" : [
-                      "small_airport"
+                      "railway_station"
                     ]
                   }
                 ],
                 "visible" : true
               }
-            ]
+            ],
+            "heading" : "Transport"
           }
         ],
         "polygonSymbolColorTarget" : "Fill"
       },
-      "scaleSymbols" : false,
+      "scaleSymbols" : true,
       "snappable" : true
     }
   ],
-  "binaryReferences" : [
-    {
-      "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/27ee7036ba6813666b7649a466304850.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>14453100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-tran-air-pt-s0-allmaps</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
-    }
-  ],
-  "elevationSurfaces" : [
-    {
-      "type" : "CIMMapElevationSurface",
-      "elevationMode" : "BaseGlobeSurface",
-      "name" : "Ground",
-      "verticalExaggeration" : 1,
-      "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce",
-      "color" : {
-        "type" : "CIMRGBColor",
-        "values" : [
-          255,
-          255,
-          255,
-          0
-        ]
-      },
-      "surfaceTINShadingMode" : "Smooth",
-      "visibility" : true,
-      "expanded" : true
-    }
-  ],
-  "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
   "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
 }

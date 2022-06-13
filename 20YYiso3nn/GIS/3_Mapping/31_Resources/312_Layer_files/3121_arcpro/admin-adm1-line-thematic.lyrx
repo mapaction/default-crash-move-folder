@@ -3,46 +3,26 @@
   "version" : "2.8.0",
   "build" : 29751,
   "layers" : [
-    "CIMPATH=map1/locationmap_admn_dis_ln_s0_allmaps.xml"
+    "CIMPATH=main_map/mainmap_admn_ad1_ln_s0_reference.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "mainmap-admn-dis-ln-s0-allmaps",
-      "uRI" : "CIMPATH=map1/locationmap_admn_dis_ln_s0_allmaps.xml",
+      "name" : "Boundaries",
+      "uRI" : "CIMPATH=main_map/mainmap_admn_ad1_ln_s0_reference.xml",
       "sourceModifiedTime" : {
-        "type" : "TimeInstant",
-        "start" : 978307200000
+        "type" : "TimeInstant"
       },
-      "metadataURI" : "CIMPATH=Metadata/f3889d6fec563f980384da3beebb04d7.xml",
+      "metadataURI" : "CIMPATH=Metadata/f29c7d91cb9837846aa9a30af07e2b34.xml",
       "useSourceMetadata" : false,
       "layerElevation" : {
-        "type" : "CIMLayerElevationSurface"
+        "type" : "CIMLayerElevationSurface",
+        "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce"
       },
       "expanded" : true,
-      "layer3DProperties" : {
-        "type" : "CIM3DLayerProperties",
-        "castShadows" : true,
-        "isLayerLit" : true,
-        "layerFaceCulling" : "None",
-        "maxDistance" : -1,
-        "minDistance" : -1,
-        "preloadTextureCutoffHigh" : 0,
-        "preloadTextureCutoffLow" : 0.25,
-        "textureCutoffHigh" : 0.25,
-        "textureCutoffLow" : 1,
-        "useCompressedTextures" : true,
-        "verticalExaggeration" : 1,
-        "exaggerationMode" : "ScaleZ",
-        "verticalUnit" : {
-          "uwkid" : 9001
-        },
-        "lighting" : "OneSideDataNormal",
-        "optimizeMarkerTransparency" : true
-      },
       "layerType" : "Operational",
       "showLegends" : true,
-      "visibility" : false,
+      "visibility" : true,
       "displayCacheType" : "Permanent",
       "maxDisplayCacheAge" : 5,
       "showPopups" : true,
@@ -51,58 +31,11 @@
       "refreshRateUnit" : "esriTimeUnitsSeconds",
       "blendingMode" : "Alpha",
       "allowDrapingOnIntegratedMesh" : true,
-      "featureElevationExpression" : "Shape.Z",
+      "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "definitionExpression" : "adminLevel = 0",
-        "definitionExpressionName" : "Query 1",
-        "definitionFilterChoices" : [
-          {
-            "type" : "CIMDefinitionFilter",
-            "name" : "Query 1",
-            "definitionExpression" : "adminLevel = 0"
-          }
-        ],
-        "displayField" : "FID",
+        "displayField" : "LEFT_FID",
         "editable" : true,
-        "fieldDescriptions" : [
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "FID",
-            "fieldName" : "FID",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 0
-            },
-            "readOnly" : true,
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "Shape",
-            "fieldName" : "Shape",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "Shape_Leng",
-            "fieldName" : "Shape_Leng",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 12,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          }
-        ],
         "timeFields" : {
           "type" : "CIMTimeTableDefinition"
         },
@@ -116,12 +49,11 @@
           "timeIntervalUnits" : "esriTimeUnitsHours",
           "timeOffsetUnits" : "esriTimeUnitsYears"
         },
-        "selectionSetURI" : "CIMPATH=SelectionSet/f0fc8050685da19f20f1e9e5afe8d36d.dat",
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\country-responses\\2021\\2021-afg-acaps-001\\GIS\\2_Active_Data\\202_admn",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\prepared-country-data\\bangladesh\\GIS\\2_Active_Data\\202_admn",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "afg_admn_adx_ln_s1_agcho_hh.shp",
+          "dataset" : "bgd_admn_ad1_ln_s0_bbs_pp",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -152,6 +84,7 @@
         "htmlUseCodedDomainValues" : true,
         "htmlPresentationStyle" : "TwoColumnTable"
       },
+      "isFlattened" : true,
       "selectable" : true,
       "selectionSymbol" : {
         "type" : "CIMSymbolReference",
@@ -302,7 +235,7 @@
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
           "name" : "Default",
-          "priority" : 9,
+          "priority" : 13,
           "standardLabelPlacementProperties" : {
             "type" : "CIMStandardLabelPlacementProperties",
             "featureType" : "Line",
@@ -407,44 +340,46 @@
       ],
       "renderer" : {
         "type" : "CIMSimpleRenderer",
-        "label" : "Disputed boundary",
-        "patch" : "Default",
+        "label" : "Admin 1",
+        "patch" : "LineHorizontal",
         "symbol" : {
           "type" : "CIMSymbolReference",
           "symbol" : {
             "type" : "CIMLineSymbol",
-            "effects" : [
-              {
-                "type" : "CIMGeometricEffectAddControlPoints",
-                "angleTolerance" : 120
-              }
-            ],
             "symbolLayers" : [
               {
                 "type" : "CIMSolidStroke",
-                "effects" : [
-                  {
-                    "type" : "CIMGeometricEffectDashes",
-                    "dashTemplate" : [
-                      2,
-                      2
-                    ],
-                    "lineDashEnding" : "HalfPattern",
-                    "controlPointEnding" : "HalfPattern"
-                  }
-                ],
                 "enable" : true,
                 "capStyle" : "Butt",
                 "joinStyle" : "Round",
                 "lineStyle3D" : "Strip",
                 "miterLimit" : 10,
-                "width" : 0.40000000000000002,
+                "width" : 3,
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    0,
-                    0,
-                    0,
+                    104,
+                    104,
+                    104,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "colorLocked" : true,
+                "capStyle" : "Butt",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 4,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    255,
                     100
                   ]
                 }
@@ -453,20 +388,36 @@
           }
         }
       },
-      "scaleSymbols" : true,
+      "scaleSymbols" : false,
       "snappable" : true
     }
   ],
   "binaryReferences" : [
     {
       "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/f3889d6fec563f980384da3beebb04d7.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211013</CreaDate><CreaTime>15035000</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>locationmap-admn-dis-ln-s0-allmaps</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
-    },
+      "uRI" : "CIMPATH=Metadata/f29c7d91cb9837846aa9a30af07e2b34.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>14453100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-admn-ad1-ln-s0-reference</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "elevationSurfaces" : [
     {
-      "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=SelectionSet/f0fc8050685da19f20f1e9e5afe8d36d.dat",
-      "data" : "CgMxLjAQARoDCgE4"
+      "type" : "CIMMapElevationSurface",
+      "elevationMode" : "BaseGlobeSurface",
+      "name" : "Ground",
+      "verticalExaggeration" : 1,
+      "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce",
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth",
+      "visibility" : true,
+      "expanded" : true
     }
   ],
   "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",

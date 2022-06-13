@@ -1,26 +1,27 @@
 {
   "type" : "CIMLayerDocument",
-  "version" : "2.8.0",
-  "build" : 29751,
+  "version" : "2.9.0",
+  "build" : 32739,
   "layers" : [
-    "CIMPATH=main_map/mainmap_tran_rrd_ln_s0_allmaps.xml"
+    "CIMPATH=map2/gis_osm_traffic_a_free_1.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "mainmap-tran-rrd-ln-s0-allmaps",
-      "uRI" : "CIMPATH=main_map/mainmap_tran_rrd_ln_s0_allmaps.xml",
+      "name" : "gis_osm_traffic_a_free_1",
+      "uRI" : "CIMPATH=map2/gis_osm_traffic_a_free_1.xml",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
-      "metadataURI" : "CIMPATH=Metadata/86b749014132258c96af1ce0ade53248.xml",
-      "useSourceMetadata" : false,
+      "useSourceMetadata" : true,
+      "description" : "gis_osm_traffic_a_free_1",
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce"
+        "mapElevationID" : "{C563BF0F-C01A-423A-8297-631951D41AE8}"
       },
       "expanded" : true,
-      "layerType" : "Operational",
+      "layerType" : "BasemapBackground",
+      "minScale" : 50000,
       "showLegends" : true,
       "visibility" : true,
       "displayCacheType" : "Permanent",
@@ -37,24 +38,11 @@
         "type" : "CIMFeatureTable",
         "displayField" : "name",
         "editable" : true,
-        "timeFields" : {
-          "type" : "CIMTimeTableDefinition"
-        },
-        "timeDefinition" : {
-          "type" : "CIMTimeDataDefinition",
-          "hasLiveData" : true
-        },
-        "timeDisplayDefinition" : {
-          "type" : "CIMTimeDisplayDefinition",
-          "timeInterval" : 0,
-          "timeIntervalUnits" : "esriTimeUnitsHours",
-          "timeOffsetUnits" : "esriTimeUnitsYears"
-        },
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\prepared-country-data\\bangladesh\\GIS\\2_Active_Data\\232_tran",
-          "workspaceFactory" : "Shapefile",
-          "dataset" : "bgd_tran_rrd_ln_s0_osm_pp.shp",
+          "workspaceConnectionString" : "DATABASE=..\\..\\ArcGIS\\operational-readiness-course\\operational-readiness-course.gdb",
+          "workspaceFactory" : "FileGDB",
+          "dataset" : "gis_osm_traffic_a_free_1",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -63,83 +51,103 @@
       "featureTemplates" : [
         {
           "type" : "CIMFeatureTemplate",
-          "name" : "Rail",
-          "tags" : "Line",
-          "toolProgID" : "af2dbf8f-280e-44db-8860-e399d0b30cf1",
+          "name" : "Water feature",
+          "tags" : "Polygon",
+          "toolProgID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
           "toolFilter" : [
-            "09c6f589-a3ce-48ab-81bc-46965c58f264",
-            "28c04532-3daf-4d3d-b7be-a589c9c9a03e",
-            "5664cae4-c7de-432a-9933-9586bc15ed39",
-            "6f0ed2cc-c099-4895-bd7e-beec2f78adbf",
-            "e00209dd-05c5-4424-be62-51581f9f811d"
+            "6c6970a7-5ca9-448c-9c7d-0d716cd2ac64",
+            "a281e635-0f22-47d4-a438-e4d29b920e22",
+            "d304243a-5c3a-4ccc-b98b-93684b15fd83"
           ],
           "defaultValues" : {
             "type" : "PropertySet",
             "propertySetItems" : [
               "fclass",
-              "narrow_gauge"
+              "dam"
+            ]
+          }
+        },
+        {
+          "type" : "CIMFeatureTemplate",
+          "name" : "Transport",
+          "tags" : "Polygon",
+          "toolProgID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
+          "toolFilter" : [
+            "6c6970a7-5ca9-448c-9c7d-0d716cd2ac64",
+            "a281e635-0f22-47d4-a438-e4d29b920e22",
+            "d304243a-5c3a-4ccc-b98b-93684b15fd83"
+          ],
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "fclass",
+              "fuel"
+            ]
+          }
+        },
+        {
+          "type" : "CIMFeatureTemplate",
+          "name" : "Marina",
+          "tags" : "Polygon",
+          "toolProgID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
+          "toolFilter" : [
+            "6c6970a7-5ca9-448c-9c7d-0d716cd2ac64",
+            "a281e635-0f22-47d4-a438-e4d29b920e22",
+            "d304243a-5c3a-4ccc-b98b-93684b15fd83"
+          ],
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "fclass",
+              "marina"
+            ]
+          }
+        },
+        {
+          "type" : "CIMFeatureTemplate",
+          "name" : "Parking",
+          "tags" : "Polygon",
+          "toolProgID" : "8f79967b-66a0-4a1c-b884-f44bc7e26921",
+          "toolFilter" : [
+            "6c6970a7-5ca9-448c-9c7d-0d716cd2ac64",
+            "a281e635-0f22-47d4-a438-e4d29b920e22",
+            "d304243a-5c3a-4ccc-b98b-93684b15fd83"
+          ],
+          "defaultValues" : {
+            "type" : "PropertySet",
+            "propertySetItems" : [
+              "fclass",
+              "parking_underground"
             ]
           }
         }
       ],
       "htmlPopupEnabled" : true,
-      "htmlPopupFormat" : {
-        "type" : "CIMHtmlPopupFormat",
-        "htmlUseCodedDomainValues" : true,
-        "htmlPresentationStyle" : "TwoColumnTable"
-      },
-      "isFlattened" : true,
       "selectable" : true,
-      "selectionSymbol" : {
-        "type" : "CIMSymbolReference",
-        "symbol" : {
-          "type" : "CIMLineSymbol",
-          "symbolLayers" : [
-            {
-              "type" : "CIMSolidStroke",
-              "enable" : true,
-              "name" : "Level_0",
-              "capStyle" : "Round",
-              "joinStyle" : "Round",
-              "lineStyle3D" : "Strip",
-              "miterLimit" : 10,
-              "width" : 2,
-              "color" : {
-                "type" : "CIMRGBColor",
-                "values" : [
-                  0,
-                  255,
-                  255,
-                  100
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "featureCacheType" : "None",
+      "featureCacheType" : "Session",
       "displayFiltersType" : "ByScale",
       "featureBlendingMode" : "Alpha",
       "labelClasses" : [
         {
           "type" : "CIMLabelClass",
-          "expression" : "[disp_scale]",
-          "expressionEngine" : "VBScript",
+          "expressionTitle" : "Custom",
+          "expression" : "$feature.name",
+          "expressionEngine" : "Arcade",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
             "type" : "CIMMaplexLabelPlacementProperties",
-            "featureType" : "Line",
+            "featureType" : "Polygon",
             "avoidPolygonHoles" : true,
             "canOverrunFeature" : true,
             "canPlaceLabelOutsidePolygon" : true,
             "canRemoveOverlappingLabel" : true,
             "canStackLabel" : true,
             "connectionType" : "Unambiguous",
-            "constrainOffset" : "AboveLine",
+            "constrainOffset" : "NoConstraint",
             "contourAlignmentType" : "Page",
             "contourLadderType" : "Straight",
             "contourMaximumAngle" : 90,
-            "enableConnection" : false,
+            "enableConnection" : true,
             "featureWeight" : 0,
             "fontHeightReductionLimit" : 4,
             "fontHeightReductionStep" : 0.5,
@@ -172,17 +180,17 @@
               "trimStackingSeparators" : true
             },
             "lineFeatureType" : "General",
-            "linePlacementMethod" : "OffsetStraightFromLine",
-            "maximumLabelOverrun" : 20,
+            "linePlacementMethod" : "OffsetCurvedFromLine",
+            "maximumLabelOverrun" : 80,
             "maximumLabelOverrunUnit" : "Point",
             "minimumFeatureSizeUnit" : "Map",
-            "multiPartOption" : "OneLabelPerFeature",
+            "multiPartOption" : "OneLabelPerPart",
             "offsetAlongLineProperties" : {
               "type" : "CIMMaplexOffsetAlongLineProperties",
               "placementMethod" : "BestPositionAlongLine",
               "labelAnchorPoint" : "CenterOfLabel",
-              "distanceUnit" : "Map",
-              "useLineDirection" : false
+              "distanceUnit" : "Percentage",
+              "useLineDirection" : true
             },
             "pointExternalZonePriorities" : {
               "type" : "CIMMaplexExternalZonePriorities",
@@ -214,11 +222,11 @@
               "type" : "CIMMaplexInternalZonePriorities",
               "center" : 1
             },
-            "polygonPlacementMethod" : "CurvedInPolygon",
+            "polygonPlacementMethod" : "HorizontalInPolygon",
             "primaryOffset" : 1,
             "primaryOffsetUnit" : "Point",
             "removeExtraWhiteSpace" : true,
-            "repetitionIntervalUnit" : "Map",
+            "repetitionIntervalUnit" : "Point",
             "rotationProperties" : {
               "type" : "CIMMaplexRotationProperties",
               "rotationType" : "Arithmetic",
@@ -237,10 +245,11 @@
             "truncationMarkerCharacter" : ".",
             "truncationMinimumLength" : 1,
             "truncationPreferredCharacters" : "aeiou",
+            "truncationExcludedCharacters" : "0123456789",
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
-          "name" : "Default",
-          "priority" : 14,
+          "name" : "Class 1",
+          "priority" : 29,
           "standardLabelPlacementProperties" : {
             "type" : "CIMStandardLabelPlacementProperties",
             "featureType" : "Line",
@@ -285,33 +294,21 @@
             "symbol" : {
               "type" : "CIMTextSymbol",
               "blockProgression" : "TTB",
-              "compatibilityMode" : true,
               "depth3D" : 1,
-              "drawSoftHyphen" : true,
               "extrapolateBaselines" : true,
-              "flipAngle" : 90,
               "fontEffects" : "Normal",
               "fontEncoding" : "Unicode",
-              "fontFamilyName" : "Arial",
+              "fontFamilyName" : "Tahoma",
               "fontStyleName" : "Regular",
               "fontType" : "Unspecified",
               "haloSize" : 1,
-              "height" : 8,
+              "height" : 10,
               "hinting" : "Default",
-              "horizontalAlignment" : "Center",
+              "horizontalAlignment" : "Left",
               "kerning" : true,
               "letterWidth" : 100,
               "ligatures" : true,
               "lineGapType" : "ExtraLeading",
-              "shadowColor" : {
-                "type" : "CIMRGBColor",
-                "values" : [
-                  0,
-                  0,
-                  0,
-                  100
-                ]
-              },
               "symbol" : {
                 "type" : "CIMPolygonSymbol",
                 "symbolLayers" : [
@@ -346,88 +343,51 @@
       "renderer" : {
         "type" : "CIMUniqueValueRenderer",
         "colorRamp" : {
-          "type" : "CIMMultipartColorRamp",
-          "colorRamps" : [
-            {
-              "type" : "CIMPolarContinuousColorRamp",
-              "colorSpace" : {
-                "type" : "CIMICCColorSpace",
-                "url" : "Default RGB"
-              },
-              "fromColor" : {
-                "type" : "CIMHSVColor",
-                "values" : [
-                  100,
-                  100,
-                  66,
-                  100
-                ]
-              },
-              "toColor" : {
-                "type" : "CIMHSVColor",
-                "values" : [
-                  60,
-                  100,
-                  100,
-                  100
-                ]
-              },
-              "interpolationSpace" : "HSV",
-              "polarDirection" : "Auto"
-            },
-            {
-              "type" : "CIMPolarContinuousColorRamp",
-              "colorSpace" : {
-                "type" : "CIMICCColorSpace",
-                "url" : "Default RGB"
-              },
-              "fromColor" : {
-                "type" : "CIMHSVColor",
-                "values" : [
-                  60,
-                  100,
-                  100,
-                  100
-                ]
-              },
-              "toColor" : {
-                "type" : "CIMHSVColor",
-                "values" : [
-                  0,
-                  100,
-                  100,
-                  100
-                ]
-              },
-              "interpolationSpace" : "HSV",
-              "polarDirection" : "Auto"
-            }
-          ],
-          "weights" : [
-            1,
-            1
-          ]
+          "type" : "CIMRandomHSVColorRamp",
+          "colorSpace" : {
+            "type" : "CIMICCColorSpace",
+            "url" : "Default RGB"
+          },
+          "maxH" : 360,
+          "minS" : 15,
+          "maxS" : 30,
+          "minV" : 99,
+          "maxV" : 100,
+          "minAlpha" : 100,
+          "maxAlpha" : 100
         },
         "defaultLabel" : "<all other values>",
         "defaultSymbol" : {
           "type" : "CIMSymbolReference",
           "symbol" : {
-            "type" : "CIMLineSymbol",
+            "type" : "CIMPolygonSymbol",
             "symbolLayers" : [
               {
                 "type" : "CIMSolidStroke",
                 "enable" : true,
-                "name" : "Level_0",
                 "capStyle" : "Round",
                 "joinStyle" : "Round",
                 "lineStyle3D" : "Strip",
                 "miterLimit" : 10,
-                "width" : 1,
+                "width" : 0.69999999999999996,
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    0,
-                    102,
+                    110,
+                    110,
+                    110,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMSolidFill",
+                "enable" : true,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    130,
+                    130,
                     130,
                     100
                   ]
@@ -446,59 +406,23 @@
             "classes" : [
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "Rail",
+                "editable" : true,
+                "label" : "Water feature",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
                   "symbol" : {
-                    "type" : "CIMLineSymbol",
+                    "type" : "CIMPolygonSymbol",
                     "symbolLayers" : [
                       {
-                        "type" : "CIMSolidStroke",
-                        "effects" : [
-                          {
-                            "type" : "CIMGeometricEffectDashes",
-                            "dashTemplate" : [
-                              3,
-                              3
-                            ],
-                            "lineDashEnding" : "NoConstraint",
-                            "controlPointEnding" : "NoConstraint"
-                          }
-                        ],
+                        "type" : "CIMSolidFill",
                         "enable" : true,
-                        "name" : "Level_1",
-                        "capStyle" : "Butt",
-                        "joinStyle" : "Round",
-                        "lineStyle3D" : "Strip",
-                        "miterLimit" : 10,
-                        "width" : 0.40000000000000002,
                         "color" : {
                           "type" : "CIMRGBColor",
                           "values" : [
-                            255,
-                            255,
-                            255,
-                            100
-                          ]
-                        }
-                      },
-                      {
-                        "type" : "CIMSolidStroke",
-                        "enable" : true,
-                        "name" : "Level_0",
-                        "colorLocked" : true,
-                        "capStyle" : "Butt",
-                        "joinStyle" : "Miter",
-                        "lineStyle3D" : "Strip",
-                        "miterLimit" : 10,
-                        "width" : 1.5,
-                        "color" : {
-                          "type" : "CIMRGBColor",
-                          "values" : [
-                            52,
-                            52,
-                            52,
+                            247,
+                            246,
+                            241,
                             100
                           ]
                         }
@@ -510,46 +434,203 @@
                   {
                     "type" : "CIMUniqueValue",
                     "fieldValues" : [
-                      "narrow_gauge"
+                      "dam"
                     ]
                   },
                   {
                     "type" : "CIMUniqueValue",
                     "fieldValues" : [
-                      "rail"
+                      "pier"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "lock_gate"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Transport",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.5,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            178,
+                            80,
+                            71,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            220,
+                            215,
+                            215,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "fuel"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "service"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "label" : "Marina",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidStroke",
+                        "enable" : true,
+                        "capStyle" : "Round",
+                        "joinStyle" : "Round",
+                        "lineStyle3D" : "Strip",
+                        "miterLimit" : 10,
+                        "width" : 0.5,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      },
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMCMYKColor",
+                          "values" : [
+                            20,
+                            0,
+                            0,
+                            0,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "marina"
+                    ]
+                  }
+                ],
+                "visible" : true
+              },
+              {
+                "type" : "CIMUniqueValueClass",
+                "editable" : true,
+                "label" : "Parking",
+                "patch" : "Default",
+                "symbol" : {
+                  "type" : "CIMSymbolReference",
+                  "symbol" : {
+                    "type" : "CIMPolygonSymbol",
+                    "symbolLayers" : [
+                      {
+                        "type" : "CIMSolidFill",
+                        "enable" : true,
+                        "color" : {
+                          "type" : "CIMRGBColor",
+                          "values" : [
+                            215,
+                            200,
+                            203,
+                            100
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "values" : [
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "parking_underground"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "parking"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "parking_bicycle"
+                    ]
+                  },
+                  {
+                    "type" : "CIMUniqueValue",
+                    "fieldValues" : [
+                      "parking_multistorey"
                     ]
                   }
                 ],
                 "visible" : true
               }
-            ]
+            ],
+            "heading" : "Landuse - Traffic"
           }
         ],
         "polygonSymbolColorTarget" : "Fill"
       },
-      "scaleSymbols" : false,
+      "scaleSymbols" : true,
       "snappable" : true,
       "symbolLayerDrawing" : {
-        "type" : "CIMSymbolLayerDrawing",
-        "symbolLayers" : [
-          {
-            "type" : "CIMSymbolLayerIdentifier",
-            "symbolLayerName" : "Level_1"
-          },
-          {
-            "type" : "CIMSymbolLayerIdentifier",
-            "symbolLayerName" : "Level_0"
-          }
-        ],
-        "useSymbolLayerDrawing" : true
+        "type" : "CIMSymbolLayerDrawing"
       }
-    }
-  ],
-  "binaryReferences" : [
-    {
-      "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/86b749014132258c96af1ce0ade53248.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>15330800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-tran-rrd-ln-s0-allmaps</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
     }
   ],
   "elevationSurfaces" : [
@@ -558,14 +639,14 @@
       "elevationMode" : "BaseGlobeSurface",
       "name" : "Ground",
       "verticalExaggeration" : 1,
-      "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce",
+      "mapElevationID" : "{C563BF0F-C01A-423A-8297-631951D41AE8}",
       "color" : {
         "type" : "CIMRGBColor",
         "values" : [
           255,
           255,
           255,
-          0
+          100
         ]
       },
       "surfaceTINShadingMode" : "Smooth",
@@ -573,6 +654,6 @@
       "expanded" : true
     }
   ],
-  "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
   "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
 }
