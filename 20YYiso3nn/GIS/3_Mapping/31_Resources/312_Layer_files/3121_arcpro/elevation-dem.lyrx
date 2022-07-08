@@ -1,0 +1,596 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "2.8.0",
+  "build" : 29751,
+  "layers" : [
+    "CIMPATH=main_map/mainmap_elev_dem_ras_s0_reference.xml"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "mainmap-elev-dem-ras-s0-reference",
+      "uRI" : "CIMPATH=main_map/mainmap_elev_dem_ras_s0_reference.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "metadataURI" : "CIMPATH=Metadata/fa0d90bf8fdde7a2b6e7670dc0dfca80.xml",
+      "useSourceMetadata" : false,
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "transparency" : 30,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\prepared-country-data\\bangladesh\\GIS\\2_Active_Data\\211_elev",
+        "workspaceFactory" : "Raster",
+        "dataset" : "bgd_elev_dem_ras_s1_srtm_pp_90m.tif",
+        "datasetType" : "esriDTRasterDataset"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterStretchColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "backgroundColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "colorRamp" : {
+          "type" : "CIMMultipartColorRamp",
+          "colorRamps" : [
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMHSVColor",
+                "values" : [
+                  98,
+                  42,
+                  60,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMHSVColor",
+                "values" : [
+                  83,
+                  34,
+                  93,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Auto"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMHSVColor",
+                "values" : [
+                  83,
+                  34,
+                  93,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMHSVColor",
+                "values" : [
+                  40,
+                  45,
+                  95,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Auto"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMHSVColor",
+                "values" : [
+                  40,
+                  45,
+                  95,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMHSVColor",
+                "values" : [
+                  14,
+                  36,
+                  76,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Auto"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "CIELAB"
+              },
+              "fromColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  69.564124278992665,
+                  15.832491710812413,
+                  15.163046738206965,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMLABColor",
+                "values" : [
+                  93.484509498355564,
+                  1.4478214674203405,
+                  13.077756447699219,
+                  100
+                ]
+              },
+              "interpolationSpace" : "LAB",
+              "polarDirection" : "Auto"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMHSVColor",
+                "values" : [
+                  37,
+                  19,
+                  97,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMHSVColor",
+                "values" : [
+                  -1,
+                  0,
+                  100,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Auto"
+            }
+          ],
+          "weights" : [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "colorScheme" : "Continent_Europe 2",
+        "customStretchMax" : 1,
+        "gammaValue" : 1,
+        "hillshadeZFactor" : 1,
+        "maxPercent" : 0.5,
+        "minPercent" : 0.5,
+        "standardDeviationParam" : 2,
+        "statsType" : "Dataset",
+        "stretchClasses" : [
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "-20",
+            "value" : -20
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "value" : 2507.5
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "5035",
+            "value" : 5035
+          }
+        ],
+        "stretchStats" : {
+          "type" : "StatsHistogram",
+          "min" : -20,
+          "max" : 5035,
+          "mean" : 784.65667893803004,
+          "stddev" : 634.64486808386005,
+          "limitMin" : -20,
+          "limitMax" : 5035,
+          "histogram" : [
+            254772,
+            930109,
+            826426,
+            1083215,
+            1182391,
+            1229843,
+            1164599,
+            1220384,
+            1242540,
+            1283164,
+            1161110,
+            2363463,
+            1345791,
+            1115249,
+            1205607,
+            1603213,
+            950512,
+            935604,
+            1187708,
+            1946848,
+            924811,
+            1319831,
+            1752387,
+            998504,
+            2513805,
+            2095228,
+            676543,
+            817597,
+            1848268,
+            577124,
+            606954,
+            936975,
+            532012,
+            1926816,
+            641090,
+            430176,
+            645147,
+            815650,
+            921823,
+            384077,
+            397399,
+            423777,
+            318795,
+            317629,
+            658481,
+            402665,
+            311338,
+            304709,
+            299274,
+            560493,
+            273135,
+            283542,
+            362708,
+            260683,
+            336398,
+            408709,
+            691019,
+            589054,
+            430590,
+            520334,
+            382340,
+            390568,
+            510865,
+            315076,
+            363764,
+            291401,
+            470523,
+            249147,
+            241960,
+            254029,
+            208649,
+            211634,
+            255098,
+            205028,
+            268160,
+            330481,
+            233461,
+            313919,
+            267388,
+            239308,
+            220424,
+            248308,
+            267805,
+            235946,
+            227806,
+            215237,
+            220441,
+            281412,
+            364420,
+            271107,
+            280931,
+            288517,
+            285360,
+            291985,
+            298687,
+            303542,
+            274570,
+            248053,
+            248667,
+            441157,
+            196556,
+            177708,
+            160069,
+            152280,
+            144741,
+            140349,
+            129188,
+            128565,
+            118461,
+            99601,
+            166059,
+            97578,
+            122301,
+            87779,
+            81656,
+            78066,
+            80845,
+            97684,
+            85436,
+            75621,
+            73329,
+            117848,
+            68412,
+            67402,
+            63959,
+            85733,
+            56667,
+            52608,
+            62255,
+            54498,
+            49314,
+            51073,
+            72791,
+            38232,
+            40256,
+            37797,
+            32192,
+            39380,
+            29155,
+            27318,
+            23474,
+            24355,
+            22171,
+            33742,
+            17789,
+            20485,
+            17659,
+            16902,
+            12228,
+            15160,
+            14812,
+            12067,
+            13198,
+            12045,
+            9536,
+            15432,
+            6633,
+            8165,
+            6622,
+            7179,
+            6193,
+            6717,
+            5656,
+            7260,
+            6859,
+            4148,
+            8220,
+            3654,
+            3594,
+            3371,
+            4022,
+            2822,
+            3624,
+            3191,
+            2659,
+            3163,
+            3208,
+            4646,
+            3594,
+            2415,
+            2296,
+            3324,
+            2289,
+            2211,
+            2489,
+            2291,
+            1743,
+            2259,
+            4004,
+            1554,
+            2068,
+            1784,
+            1574,
+            2064,
+            1288,
+            1154,
+            1587,
+            972,
+            1143,
+            1731,
+            1214,
+            1281,
+            846,
+            788,
+            918,
+            1160,
+            741,
+            824,
+            852,
+            706,
+            913,
+            782,
+            428,
+            583,
+            634,
+            374,
+            368,
+            556,
+            323,
+            396,
+            428,
+            281,
+            343,
+            189,
+            256,
+            300,
+            170,
+            230,
+            206,
+            119,
+            145,
+            135,
+            73,
+            73,
+            85,
+            45,
+            35,
+            75,
+            28,
+            22,
+            40,
+            15,
+            21,
+            24,
+            11,
+            12,
+            17,
+            9,
+            4,
+            7,
+            3,
+            3,
+            3,
+            2,
+            2,
+            1
+          ],
+          "nsamples" : 69262628,
+          "resolution" : 19.823529411764707
+        },
+        "stretchType" : "PercentMinimumMaximum",
+        "heading" : "Elevation (m)"
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true,
+        "fieldDescriptions" : [
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "OID",
+            "fieldName" : "OID",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Value",
+            "fieldName" : "Value",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 0
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          },
+          {
+            "type" : "CIMFieldDescription",
+            "alias" : "Count",
+            "fieldName" : "Count",
+            "numberFormat" : {
+              "type" : "CIMNumericFormat",
+              "alignmentOption" : "esriAlignRight",
+              "alignmentWidth" : 12,
+              "roundingOption" : "esriRoundNumberOfDecimals",
+              "roundingValue" : 6
+            },
+            "visible" : true,
+            "searchMode" : "Exact"
+          }
+        ]
+      },
+      "timeDisplayDefinition" : {
+        "type" : "CIMTimeDisplayDefinition",
+        "timeInterval" : 0,
+        "timeIntervalUnits" : "esriTimeUnitsHours",
+        "timeOffsetUnits" : "esriTimeUnitsYears"
+      },
+      "timeDefinition" : {
+        "type" : "CIMTimeDataDefinition"
+      }
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/fa0d90bf8fdde7a2b6e7670dc0dfca80.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>14453100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-elev-dem-ras-s0-reference</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "elevationSurfaces" : [
+    {
+      "type" : "CIMMapElevationSurface",
+      "elevationMode" : "BaseGlobeSurface",
+      "name" : "Ground",
+      "verticalExaggeration" : 1,
+      "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce",
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          0
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth",
+      "visibility" : true,
+      "expanded" : true
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+}
