@@ -123,11 +123,13 @@ vol,Volcano location,phys
 wad,Wadi,phys
 wat,Watershed,phys
 wea,Weather,phys
+bor,Border crossing,pois
 cus,Customs,pois
 gov,Government buildings,pois
 his,Historical sites,pois
 lod,Lodgings / hotels / guest houses,pois
 mon,Monument,pois
+mkt,Market,pois
 nav,Navigational markers,pois
 off,Offices,pois
 poi,General points of interest,pois

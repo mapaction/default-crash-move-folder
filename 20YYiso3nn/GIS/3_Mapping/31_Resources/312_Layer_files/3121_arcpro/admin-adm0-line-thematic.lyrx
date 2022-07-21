@@ -3,17 +3,17 @@
   "version" : "2.8.0",
   "build" : 29751,
   "layers" : [
-    "CIMPATH=main_map/mainmap_admn_ad2_ln_s0_reference.xml"
+    "CIMPATH=main_map/mainmap_admn_ad0_ln_s0_reference.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "mainmap-admn-ad2-ln-s0-reference",
-      "uRI" : "CIMPATH=main_map/mainmap_admn_ad2_ln_s0_reference.xml",
+      "name" : "mainmap-admn-ad0-ln-s0-reference",
+      "uRI" : "CIMPATH=main_map/mainmap_admn_ad0_ln_s0_reference.xml",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
-      "metadataURI" : "CIMPATH=Metadata/590f026448ff4f89f7dada4cf2aa0e63.xml",
+      "metadataURI" : "CIMPATH=Metadata/c79b713567e66d15b22dee94f8dcafb4.xml",
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
@@ -53,7 +53,7 @@
           "type" : "CIMStandardDataConnection",
           "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\prepared-country-data\\bangladesh\\GIS\\2_Active_Data\\202_admn",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "bgd_admn_ad2_ln_s0_bbs_pp.shp",
+          "dataset" : "bgd_admn_ad0_ln_s0_bbs_pp.shp",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -62,20 +62,9 @@
       "featureTemplates" : [
         {
           "type" : "CIMFeatureTemplate",
-          "name" : "lka_admn_ad2_ln_s0_wfpocha_pp",
+          "name" : "<ACP><CLR black = \"65\"><fnt size = \"10\">International</fnt></CLR></ACP>",
           "tags" : "Line",
-          "toolProgID" : "{AF2DBF8F-280E-44DB-8860-E399D0B30CF1}",
-          "defaultValues" : {
-            "type" : "PropertySet",
-            "propertySetItems" : [
-              "ET_ID",
-              0,
-              "ET_Left",
-              "",
-              "ET_Right",
-              ""
-            ]
-          }
+          "toolProgID" : "af2dbf8f-280e-44db-8860-e399d0b30cf1"
         }
       ],
       "htmlPopupEnabled" : true,
@@ -119,7 +108,7 @@
       "labelClasses" : [
         {
           "type" : "CIMLabelClass",
-          "expression" : "[ET_Left]",
+          "expression" : "[Type]",
           "expressionEngine" : "VBScript",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
@@ -130,12 +119,12 @@
             "canPlaceLabelOutsidePolygon" : true,
             "canRemoveOverlappingLabel" : true,
             "canStackLabel" : true,
-            "connectionType" : "Unambiguous",
+            "connectionType" : "MinimizeLabels",
             "constrainOffset" : "AboveLine",
             "contourAlignmentType" : "Page",
             "contourLadderType" : "Straight",
             "contourMaximumAngle" : 90,
-            "enableConnection" : false,
+            "enableConnection" : true,
             "featureWeight" : 0,
             "fontHeightReductionLimit" : 4,
             "fontHeightReductionStep" : 0.5,
@@ -169,7 +158,7 @@
             },
             "lineFeatureType" : "General",
             "linePlacementMethod" : "OffsetStraightFromLine",
-            "maximumLabelOverrun" : 20,
+            "maximumLabelOverrun" : 16,
             "maximumLabelOverrunUnit" : "Point",
             "minimumFeatureSizeUnit" : "Map",
             "multiPartOption" : "OneLabelPerFeature",
@@ -178,7 +167,7 @@
               "placementMethod" : "BestPositionAlongLine",
               "labelAnchorPoint" : "CenterOfLabel",
               "distanceUnit" : "Map",
-              "useLineDirection" : false
+              "useLineDirection" : true
             },
             "pointExternalZonePriorities" : {
               "type" : "CIMMaplexExternalZonePriorities",
@@ -236,7 +225,7 @@
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
           "name" : "Default",
-          "priority" : 12,
+          "priority" : 11,
           "standardLabelPlacementProperties" : {
             "type" : "CIMStandardLabelPlacementProperties",
             "featureType" : "Line",
@@ -341,7 +330,6 @@
       ],
       "renderer" : {
         "type" : "CIMSimpleRenderer",
-        "label" : "Admin 2",
         "patch" : "Default",
         "symbol" : {
           "type" : "CIMSymbolReference",
@@ -351,19 +339,38 @@
               {
                 "type" : "CIMSolidStroke",
                 "enable" : true,
-                "name" : "Level_0",
+                "name" : "Group 1",
                 "capStyle" : "Butt",
                 "joinStyle" : "Round",
                 "lineStyle3D" : "Strip",
                 "miterLimit" : 10,
-                "width" : 2,
+                "width" : 3.5,
                 "color" : {
-                  "type" : "CIMCMYKColor",
+                  "type" : "CIMRGBColor",
                   "values" : [
-                    40,
-                    60,
-                    0,
-                    0,
+                    52,
+                    52,
+                    52,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "name" : "Group 2",
+                "colorLocked" : true,
+                "capStyle" : "Butt",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 5,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    255,
                     100
                   ]
                 }
@@ -379,7 +386,11 @@
         "symbolLayers" : [
           {
             "type" : "CIMSymbolLayerIdentifier",
-            "symbolLayerName" : "Level_0"
+            "symbolLayerName" : "Group 1"
+          },
+          {
+            "type" : "CIMSymbolLayerIdentifier",
+            "symbolLayerName" : "Group 2"
           }
         ],
         "useSymbolLayerDrawing" : true
@@ -389,8 +400,8 @@
   "binaryReferences" : [
     {
       "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/590f026448ff4f89f7dada4cf2aa0e63.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>15493600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-admn-ad2-ln-s0-reference</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
+      "uRI" : "CIMPATH=Metadata/c79b713567e66d15b22dee94f8dcafb4.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>15475900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-admn-ad0-ln-s0-reference</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
     }
   ],
   "elevationSurfaces" : [
