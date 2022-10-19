@@ -1,0 +1,292 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "2.8.0",
+  "build" : 29751,
+  "layers" : [
+    "CIMPATH=map/esa_worldcover_10m_2020_v100_s06e036_map_tif.xml"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "ESA_WorldCover_10m_2020_v100_S06E036_Map.tif",
+      "uRI" : "CIMPATH=map/esa_worldcover_10m_2020_v100_s06e036_map_tif.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "metadataURI" : "CIMPATH=Metadata/da701fbdebe252b1aaf28f3c4fe324c6.xml",
+      "useSourceMetadata" : true,
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "mapElevationID" : "{22348968-3EAC-434F-BDC2-5F01C6586B29}"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=C:\\Users\\vdkerchr\\Downloads\\WORLDCOVER\\ESA_WORLDCOVER_10M_2020_V100\\MAP\\ESA_WorldCover_10m_2020_v100_S06E036_Map\\",
+        "workspaceFactory" : "Raster",
+        "dataset" : "ESA_WorldCover_10m_2020_v100_S06E036_Map.tif",
+        "datasetType" : "esriDTRasterDataset"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "defaultColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            240,
+            240,
+            240,
+            0
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10"
+                ],
+                "label" : "Tree cover",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    160,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20"
+                ],
+                "label" : "Shrubland",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    150,
+                    100,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30"
+                ],
+                "label" : "Grassland",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    180,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "40"
+                ],
+                "label" : "Cropland",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    100,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "50"
+                ],
+                "label" : "Built-up",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    195,
+                    20,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "60"
+                ],
+                "label" : "Bare / sparse vegetation",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    245,
+                    215,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "70"
+                ],
+                "label" : "Snow and ice",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    255,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "80"
+                ],
+                "label" : "Permanent water bodies",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    70,
+                    200,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "90"
+                ],
+                "label" : "Herbaceous wetland",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    220,
+                    130,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "95"
+                ],
+                "label" : "Mangroves",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    150,
+                    120,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "100"
+                ],
+                "label" : "Moss and lichen",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    250,
+                    235,
+                    175,
+                    100
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "editable" : true
+      },
+      "timeDisplayDefinition" : {
+        "type" : "CIMTimeDisplayDefinition",
+        "timeInterval" : 0,
+        "timeIntervalUnits" : "esriTimeUnitsHours",
+        "timeOffsetUnits" : "esriTimeUnitsYears"
+      },
+      "timeDefinition" : {
+        "type" : "CIMTimeDataDefinition"
+      }
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/da701fbdebe252b1aaf28f3c4fe324c6.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20220818</CreaDate><CreaTime>20154200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>ESA_WorldCover_10m_2020_v100_S06E036_Map.tif</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
+    }
+  ],
+  "elevationSurfaces" : [
+    {
+      "type" : "CIMMapElevationSurface",
+      "elevationMode" : "BaseGlobeSurface",
+      "name" : "Ground",
+      "verticalExaggeration" : 1,
+      "mapElevationID" : "{22348968-3EAC-434F-BDC2-5F01C6586B29}",
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth",
+      "visibility" : true,
+      "expanded" : true
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+}

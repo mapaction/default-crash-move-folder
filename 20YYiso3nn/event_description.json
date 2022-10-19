@@ -1,24 +1,21 @@
 {
-	"cmf_descriptor_path": "cmf_description.json",
-	"operation_name": "Replace-me-with-Operation-Name",
-	"country_name": "A country name is only required for fictional countries",
-	"glide_number": "n/a",
-	"glide_number": "Replace-me-with-GLIDE-Number",
-	"affected_country_iso3": "AAA",
-	"time_zone": "UTC+00:00",
-	"language_iso2": "en",
-	"operation_id": "",
-	"default_source_organisation": "MapAction",
-	"default_source_organisation_url": "https://mapaction.org",
-	"default_publishing_base_url": "https://maps.mapaction.org/dataset/",
-	"deployment_primary_email": "info@mapaction.org",
-	"default_disclaimer_text": "The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.",
-	"default_donor_credits": "Supported by DONOR-NAME1 and DONOR-NAME2",
-	"default_jpeg_res_dpi": "300",
-	"default_pdf_res_dpi": "300",
-	"default_emf_res_dpi": "200",
-	"donors": [
-		"DONOR-NAME1",
-		"DONOR-NAME2"
-	]
+  "cmf_descriptor_path": "cmf_description.json",
+  "operation_name": "Replace-with-operation-name",
+  "glide_number": "Replace-with-glide-number",
+  "affected_country_iso3": "ISO",
+  "time_zone": "UTC+05:00",
+  "language_iso2": "en",
+  "operation_id": "year-iso-nnn",
+  "default_source_organisation": "MapAction",
+  "default_source_organisation_url": "https://mapaction.org",
+  "default_publishing_base_url": "https://maps.mapaction.org/dataset/",
+  "deployment_primary_email": "info@mapaction.org",
+  "default_disclaimer_text": "The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.",
+  "default_donor_credits": "Supported by  .",
+  "default_jpeg_res_dpi": "300",
+  "default_pdf_res_dpi": "300",
+  "default_emf_res_dpi": "200",
+  "donors": [
+    " "
+  ]
 }
