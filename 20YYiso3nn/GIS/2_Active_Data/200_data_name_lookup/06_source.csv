@@ -1,112 +1,106 @@
 Value,Description
-aster,Advanced Spaceborne Thermal Emission and Reflection Radiometer
 alertnet,Alertnet
 amb,Ambulance Service
-cccm,Camp Coordination and Camp Management Cluster
-ciesin,Center for International Earth Science Information Network
-cnigs,Centre National de l'Information Géo-Spatiale
+aster,Advanced Spaceborne Thermal Emission and Reflection Radiometer
 bart,Collins Bartholomew
+ciesin,Center for International Earth Science Information Network
+civdef,National civil defence source
+clusteragriculture,Agriculture Cluster
+clustercccm,CCCM Cluster
+clusterearlyrecovery,Early Recovery Cluster
+clusteremergcomms,Emergency Communications Cluster
+clusteremergshelter,Emergency Shelter Cluster
+clusterhealth,Health Cluster
+clusterlogistics,Logs Cluster
+clusternutrition,Nutrition Cluster
+clusterprotection,Protection Cluster
+clusterwash,WASH Cluster
 conred,Coordinadora Nacional Para La ReducciÃ³n De Desastres
-copernicus,Copernicus
 dominode,Dominode
-etc,Emergency Communications Cluster
 esri,ESRI
-europatech,Europa Technology
 eudasm,European Digital Archive of Soil Maps
+europatech,Europa Technology
 fact,Field Assessment and Coordination Team
-fieldmaps,Fieldmaps
-fire,Fire Service
-feat,Flash Environmental Assessment Tool
 fao,Food and Agriculture Organization
-fscluster,Food Security Cluster
+fbos,Fiji Bureau of Statistics
+feat,Flash Environmental Assessment Tool
+fire,Fire Service
 gadm,GADM Global Administrative Areas
-geoboundaries,geoBoundaries
+gaul,Global Administrative Unit Layers
 geoeye,GeoEye
 gist,Geographic Information Support Team
 gaul,Global Administrative Unit Layers
-gcer,Global Cluster for Early Recovery
-gmted,Global Multi-resolution Terrain Elevation Data
-gnc,Global Nutrition Cluster
-gpc,Global Protection Cluster
-grump,Global Rural-Urban Mapping Project
-gsc,Global Shelter Cluster
-gwc,Global WASH Cluster
+grump,GlobalÂ Rural-Urban Mapping Project
+ge,Google Earth
+geobnd,geoboundaries.org
 googleearth,Google Earth
+govd,Government - regional
 govl,Government - local
 govn,Government - national
-govd,Government - regional
 gps,GPS
 gpw,Gridded Population of the World
+grump,Global Rural-Urban Mapping Project
 hit,Hazard Identification Tool
-healthcluster,Health Cluster
 hydrosheds,HydroSHEDS
-insarag,INSARAG
 igad,Intergovernmental Authority on Develpoment
-iom,International Organization for Migration
+insarag,INSARAG
 iscgm,ISCGM Global Mapping
 jdf,J. de Ferranti DEMs (north of SRTM)
-jtwc,Joint Typhoon Warning Center
 landsat,Landsat Geocover
 landscan,LandScan
-logcluster,Logistics Cluster
-mapaction,MapAction
-msf,Medicins Sans Frontieres
-merlin,Merlin
 mag,Mines Advisory Group
-mix,Mix of data sources
-modis,Moderate Resolution Imaging Spectroradiometer
-nasa,National Aeronautics and Space Administration
-civdef,National civil defence source
-nga,National Geospatial Intelligence Agency
+mapaction,MapAction
+mapstor,Topo scans: Russian (MapStor)
+merlin,Merlin
 met,National meteorological service
 mil,National military source
-noaa,National Oceanic and Atmospheric Administration
+mimu,Myanmar Information Mananagement Unit
+mix,Mix of data sources
+modis,Moderate Resolution Imaging Spectroradiometer
+msf,Medicins Sans Frontieres
 navteq,Navteq
+nga,National Geospatial Intelligence Agency
 ngagn,NGA Geonames gazetteer
 ngashore,NGA shorelines
+noaa,National Oceanic and Atmospheric Administration
 npa,Norwegion Peoples Aid
-rolac,OCHA Latin America and the Caribbean (ROLAC)
-romena,OCHA Middle East and North Africa (ROMENA)
-rocca,"OCHA Regional Office for the Caucasus, Central Asia and Ukraine "
-unfpa,OCHA West and Central Africa
+ocha3w,UN-OCHA 3W Database
 osm,OpenStreetMap
 ourairports,Our Airports
 oxfam,Oxfam
+phc,Tongan Population and Housing Census
 police,Police Service
 salb,Second Administrative Level Boundaries
 spcsdd,"Secretariat of the Pacific Community, Statistics for Development Division"
 srtm,Shuttle Radar Topography Mission
 statoid,Statoid: data on admin units
-tsf,Telecom Sans Frontier
-mapstor,Topo scans: Russian (MapStor)
+tdos,Tonga Department of Statistics
 trmm,Tropical Rainfall Measuring Mission
+tsf,Telecom Sans Frontier
 uncs,UN Cartographic Section
-undp,UN Development Program
 undac,UN Disaster Assessment Coordination
+undp,UN Development Program
+unfis,UN-OCHA Field Information Services
+ungiwg,UNGIWG Core Geodatabase
 unhic,UN Humanitarian Information Centre
+unicef,UNICEF
 unifad,UN International Fund for Agricultural Development
 uniom,UN International Organization for Migration
-unma,UN MineAction
-unrw,UN ReliefWeb
-ungiwg,UNGIWG Core Geodatabase
-utpcl,Uni of Texas Perry-Castaneda Library Map Collection
-unicef,United Nations Children's Fund
-unhcr,United Nations High Commissioner for Refugees
-unfpa,United Nations Population Fund 
-unrwa,United Nations Relief and Works Agency for Palestine Refugees
 unknown,Unknown
+unma,UN MineAction
 unocha,UNOCHA
-ocha3w,UN-OCHA 3W Database
-unfis,UN-OCHA Field Information Services
 unosat,UNOSAT
+unrw,UN ReliefWeb
 unsdit,UN-SDI-T
+unwfp,UN World Food Programme
+unwho,UN World Health Organisation
 usams,US Army Map Service
-usnhc,US National Hurricane Center
 usgs,USGS
+usnhc,US National Hurricane Center
+utpcl,Uni of Texas Perry-Castaneda Library Map Collection
 vmap,Vmap
-wiki,Wikipedia
 wdpa,Word Database of Protected Areas
 wfp,World Food Program
-who,World Health Organisation
+wiki,Wikipedia
 worldpop,World Pop
-wpi,World Port Index
+worldports,World Port Index

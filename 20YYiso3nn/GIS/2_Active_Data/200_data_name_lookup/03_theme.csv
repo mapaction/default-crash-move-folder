@@ -1,4 +1,8 @@
 Value,Description,Category
+hub,UN Centres,3www
+ngo,NGO offices,3www
+www,Who / What / Where location,3www
+ad,Administrative boundary (various levels),admn
 ad0,Administrative boundary (level 0 national),admn
 ad1,Administrative boundary (level 1),admn
 ad2,Administrative boundary (level 2),admn
@@ -6,200 +10,188 @@ ad3,Administrative boundary (level 3),admn
 ad4,Administrative boundary (level 4),admn
 ad5,Administrative boundary (level 5),admn
 ad6,Administrative boundary (level 6),admn
-ad,Administrative boundary (various levels),admn
-aer,Aerial photography,imgy
+adx,Surrounding countries,admn
+cnt,Continent boundary,admn
+dis,Disputed Border,admn
+pco,Pcode list,admn
+reg,Region,admn
 aff,Affected area,affd
+cas,Casualties,affd
+idp,IDP numbers,affd
+mov,Movements of population,affd
 agr,Agriculture,agri
-del,Aid delivery points,logs
-air,Airport / Airstrip,tran
+irr,Irrigation,agri
+gps,GPS survey,assm
+pho,Photo location,assm
+pnt,Point visited,assm
+trk,Track / route (planned or taken),assm
+bdg,Building,bldg
+dmg,Damaged building,bldg
+dst,Destroyed building,bldg
+nrs,Non-residential building,bldg
+res,Residential building,bldg
 aoi,Area of interest,carto
+cli,Clipping polygon,carto
+ddp,Data driven pages index grid,carto
+ext,Feather extent,carto
+fea,Feather / vignette for shoreline,carto
+grd,Grid,carto
+lab,Labels / Annotation,carto
+lat,Lat/Long Grid,carto
+tim,Time Zone,carto
+utm,UTM,carto
 atm,Automated teller machine,cash
 bnk,Bank,cash
-bat,Battle / Conflict point,scty
-bay,Bay,phys
-bor,Border crossing,pois
-brg,Bridge,tran
-bdg,Building,bldg
-bld,Building,bldg
-bst,Bus station,tran
-cmp,Camp,stle
-can,Canal,tran
-cas,Casualties,affd
-cav,Cave,phys
-cem,Cemetery,rcvy
-chn,Channels,tran
-cli,Clipping polygon,carto
-cst,Coastline,elev
-com,Communication structure / radio / TV mast,util
-cfl,Conflict,scty
-cnt,Continent boundary,admn
+ref,Refugee location,cccm
+edu,School,educ
+nur,Nursery School,educ
+uni,University,educ
 con,Contour,elev
-cul,Cultural region,popu
-cus,Customs,pois
-dam,Dam,phys
-dmg,Damaged building,bldg
-ddp,Data driven pages index grid,carto
-des,Desert,phys
-dst,Destroyed building,bldg
+cst,Coastline,elev
 dem,Digital Elevation Model,elev
 dtm,Digital Terrain Model,elev
-dis,Displaced population,popu
-dis,Disputed Border,admn
-drn,Drainage,phys
+hsh,Hill Shade,elev
+hts,Height Spots,elev
+unc,Undersea features,elev
+env,Environmental,envi
 ebu,Earthquake buffer,evnt
 epi,Earthquake epicentre,evnt
-shk,Earthquake shake intensity,evnt
-ecl,Emergency clinic,heal
-env,Environmental,envi
-epd,Epidemic,heal
-esc,Escapment,phys
-eth,Ethnic group,popu
-evc,Evacuation shelter,shel
-erw,Explosive Remnants of War,scty
-fea,Feather / vignette for shoreline,carto
-ext,Feather extent,carto
-fer,Ferry route,tran
-fte,Ferry terminal,tran
 fir,Fire location,evnt
-flt,Flat ground,phys
 flo,Flood extent,evnt
-frd,Fords / crossings,tran
-fue,Fuel depot,util
-fst,Fuel station,util
-gat,Gates / barriers,tran
-poi,General points of interest,pois
-sat,Generic satellite imagery,imgy
-geo,Geology,phys
-geol,Geology,phys
-gph,Geophysical,phys
-geophys,Geophysical,phys
-gey,Geyser,phys
-gov,Government buildings,pois
-gps,GPS survey,assm
-grd,Grid,carto
-gul,Gulf,phys
-haz,Hazards,scty
-hed,Headland / promontory / point,phys
+ppt,Precipitation,evnt
+shk,Earthquake shake intensity,evnt
+win,Wind speed cones,evnt
+str,Storm track,evnt
+sta,"Status (loose term, needs more detail)",fsec
+ecl,Emergency clinic,heal
+epd,Epidemic,heal
 hea,Health facility (generic),heal
-hts,Height Spots,elev
-hlz,Heliport,tran
-hwy,Highway,tran
-hil,Hill features,phys
-hsh,Hill Shade,elev
-his,Historical sites,pois
 hos,Hospital,heal
-ice,Ice & Glaciers,phys
-idp,IDP numbers,affd
+med,Medical facility,heal
+pha,Pharmacy / Chemist,heal
+aer,Aerial photography,imgy
 iko,Ikonos,imgy
+lsa,Landsat,imgy
+qbd,QuickBird,imgy
+sat,Generic satellite imagery,imgy
+spo,Spot,imgy
 ind,Industrial,land
-irr,Irrigation,agri
+lea,Lease,land
+lnd,Landcover,land
+npk,National Park / Protected Area,land
+urb,Urban,land
+veg,Vegetation,land
+wal,Wall,land
+wwf,WWF,land
+del,Aid delivery points,logs
+log,Logistics,logs
+war,Warehouses / Distribution Centres,logs
+bas,River Basin,phys
+bay,Bay,phys
+cav,Cave,phys
+dam,Dam,phys
+des,Desert,phys
+drn,Drainage,phys
+esc,Escapment,phys
+flt,Flat ground,phys
+geo,Geology,phys
+gey,Geyser,phys
+gph,Geophysical,phys
+gul,Gulf,phys
+hed,Headland / promontory / point,phys
+hil,Hill features,phys
+ice,Ice & Glaciers,phys
 isl,Islands / islets,phys
-lab,Labels / Annotation,carto
 lag,Lagoon,phys
 lak,Lakes and waterbodies,phys
-lnd,Landcover,land
-lsa,Landsat,imgy
-sli,Landslide,phys
-lan,Language distribution,popu
 lav,Lava flow,phys
-lea,Lease,land
-lod,Lodgings / hotels / guest houses,pois
-log,Logistics,logs
-sca,Map scan,scan
-mkt,Market,pois
 mar,Marsh / swamp,phys
-med,Medical facility,heal
-mil,Military installations,util
-min,Mine fields,scty
-mts,Mine threat status (roads),scty
-tel,Mobile Telephone Coverage,telc
-mon,Monument,pois
-mor,Morgue and location for storage of dead,util
-mov,Movements of population,affd
-npk,National Park / Protected Area,land
 nat,Natural,phys
-nav,Navigational markers,pois
-ngo,NGO offices,3www
-nrs,Non-residential building,bldg
 nun,Nunatak,phys
-nur,Nursery School,educ
 oas,Oasis,phys
 ocn,Ocean / sea,phys
-off,Offices,pois
-pco,Pcode list,admn
-pha,Pharmacy / Chemist,heal
-pho,Photo location,assm
-ppl,Pipeline,util
-pow,Place of Worship,pois
 pla,Plains / open expanses,phys
-pnt,Point visited,assm
-law,Police / prisons / law inforcement,util
-pop,Population distribution,popu
-pwl,Power Line,util
-pst,Power Station,util
-ppt,Precipitation,evnt
-qbd,QuickBird,imgy
-rrd,Railway / railroad,tran
-rst,Railway station,tran
 ree,Reef,phys
-ref,Refugee location,cccm
-reg,Region,admn
-rel,Religious buildings,pois
-rsq,Rescue services / coast guards,util
-res,Residential building,bldg
 rid,Ridge,phys
 riv,River,phys
-bas,River Basin,phys
-rds,Road,tran
-rdi,Road distances,tran
-san,Sanitation / waste facilities / landfill,util
-edu,School,educ
-por,Seaport,tran
-sbu,Security buffer,scty
-sec,Security status,scty
-ser,Services / post offices,pois
-stl,Settlement (city / town / populated place),stle
-shl,Shelter,shel
-sit,Sites of interest,pois
+sli,Landslide,phys
 slp,Slope,phys
-spt,Sport facilities,pois
-spo,Spot,imgy
 spr,Spring,phys
-sta,"Status (loose term, needs more detail)",fsec
-str,Storm track,evnt
 sur,Surface,phys
-adx,Surrounding countries,admn
-tim,Time Zone,carto
-twr,Towers,pois
-trk,Track / route (planned or taken),assm
-trx,Tracks,tran
-trn,"Transport features i.e. bus / rail stations, ferry terminals etc",tran
-trf,"Transport features i.e. roundabouts, signals, crossings etc",tran
-tun,Tunnel,tran
-hub,UN Centres,3www
-unc,Undersea features,elev
-uxo,Unexploded Ordnance,scty
-uni,University,educ
-urb,Urban,land
-utm,UTM,carto
 val,Valley,phys
-veg,Vegetation,land
-vet,Veterinary Facilities,pois
-vhf,VHF radio mast,telc
 vol,Volcano location,phys
-vul,Vulnerable group,popu
 wad,Wadi,phys
-wal,Wall,land
-war,Warehouses / Distribution Centres,logs
-was,Water and sanitation,wash
 wat,Watershed,phys
 wea,Weather,phys
+bor,Border crossing,pois
+cus,Customs,pois
+gov,Government buildings,pois
+his,Historical sites,pois
+lod,Lodgings / hotels / guest houses,pois
+mon,Monument,pois
+mkt,Market,pois
+nav,Navigational markers,pois
+off,Offices,pois
+poi,General points of interest,pois
+rel,Religious buildings,pois
+ser,Services / post offices,pois
+sit,Sites of interest,pois
+spt,Sport facilities,pois
+twr,Towers,pois
+vet,Veterinary Facilities,pois
 wei,Weir,pois
 wel,Well,pois
-www,Who / What / Where location,3www
-win,Wind speed cones,evnt
-wwf,WWF,land
 zoo,Zoo,pois
-toi,Toilet,wash
-wts,Water source ,wash
-eaa,Emergency assembly areas,
+cul,Cultural region,popu
+eth,Ethnic group,popu
+lan,Language distribution,popu
+dis,Displaced population,popu
+pop,Population distribution,popu
+cem,Cemetery,rcvy
+sca,Map scan,scan
+bat,Battle / Conflict point,scty
+cfl,Conflict,scty
+erw,Explosive Remnants of War,scty
+haz,Hazards,scty
+min,Mine fields,scty
+mts,Mine threat status (roads),scty
+sbu,Security buffer,scty
+sec,Security status,scty
+uxo,Unexploded Ordnance,scty
+evc,Evacuation shelter,shel
+shl,Shelter,shel
+cmp,Camp,stle
+stl,Settlement (city / town / populated place),stle
+tel,Mobile Telephone Coverage,telc
+vhf,VHF radio mast,telc
+air,Airport / Airstrip,tran
+brg,Bridge,tran
+bst,Bus station,tran
+can,Canal,tran
+fer,Ferry route,tran
+fte,Ferry terminal,tran
+frd,Fords / crossings,tran
+gat,Gates / barriers,tran
+hlz,Heliport,tran
+hwy,Highway,tran
+por,Seaport,tran
+rdi,Road distances,tran
+rds,Road,tran
+rrd,Railway / railroad,tran
+rst,Railway station,tran
+trf,"Transport features i.e. roundabouts, signals, crossings etc",tran
+trn,"Transport features i.e. bus / rail stations, ferry terminals etc",tran
+trx,Tracks,tran
+tun,Tunnel,tran
+com,Communication structure / radio / TV mast,util
+fst,Fuel station,util
+fue,Fuel depot,util
+law,Police / prisons / law inforcement,util
+mil,Military installations,util
+mor,Morgue and location for storage of dead,util
+ppl,Pipeline,util
+pst,Power Station,util
+pwl,Power Line,util
+rsq,Rescue services / coast guards,util
+san,Sanitation / waste facilities / landfill,util
+was,Water and sanitation,wash

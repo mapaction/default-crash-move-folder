@@ -10,7 +10,7 @@
   "default_source_organisation_url": "https://mapaction.org",
   "default_publishing_base_url": "https://maps.mapaction.org/dataset/",
   "deployment_primary_email": "info@mapaction.org",
-  "default_disclaimer_text": "The depiction and use of boundaries, names and associated data shown here do not imply endorsement or acceptance by MapAction.",
+  "default_disclaimer_text": "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations or MapAction.",
   "default_donor_credits": "Supported by  .",
   "default_jpeg_res_dpi": "300",
   "default_pdf_res_dpi": "300",
