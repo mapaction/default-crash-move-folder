@@ -1,6 +1,6 @@
 {
 	"active_data": "GIS/2_Active_Data",
-	"arcgis_version": "arcmap-10.6",
+	"arcgis_version": "arcgis-pro-3",
 	"data_nc_definition": "GIS/2_Active_Data/200_data_name_lookup/data_naming_convention.json",
 	"data_schemas": "GIS/5_Data_schemas",
 	"export_dir": "GIS/3_Mapping/34_Map_Products_MapAction",
