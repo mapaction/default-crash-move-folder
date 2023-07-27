@@ -8,6 +8,13 @@ bldg,Building
 carto,Cartographic
 cash,Cash transfers
 cccm,Camp Coordination and Management
+outcamp,Outside camps
+fidp,Formal IDP sites
+pocs,PoC sites
+tsts,Transit sites
+rcpc,Reception centres
+islf,Self settled site
+cctr,Collective centres
 educ,Education
 elev,Elevation
 envi,Environmental aspects
