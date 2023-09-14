@@ -1,0 +1,6 @@
+﻿python -v
+-v
+--version
+python --version
+import sys
+print(sys.version)
