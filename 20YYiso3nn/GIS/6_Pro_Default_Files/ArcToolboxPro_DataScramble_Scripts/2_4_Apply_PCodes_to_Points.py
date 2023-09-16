@@ -54,14 +54,20 @@ try:
 
     # Ask for inputs inside ArcPro
     # This need setting insidde the toolbox script properties
+    # Ask for the admn polygon to be used
     inFeatures  = arcpy.GetParameterAsText(0)
+    
+    # Ask for the type of process needed
+    method  = arcpy.GetParameterAsText(1)
     
     # Set the folder with point data
     admnPos     = inFeatures.find("202_admn")
     foldArray = ["215_heal", "229_stle", "232_tran"]
-    foldNames   = {'*_heal_*': '215_heal',
-                '*_stle_*': '229_stle',
-                '*_tran_*': '232_tran'}
+    # foldNames   = {'*_heal_*': '215_heal',
+    #             '*_stle_*': '229_stle',
+    #             '*_tran_*': '232_tran'}
+    
+    foldNames   = {'*_stle_*': '229_stle'}
 
     # loop through the folders with point data
     for key, value in foldNames.items():
@@ -105,13 +111,23 @@ try:
                             arcpy.AddMessage(' Cannot delete {}'.format(delField))
                             arcpy.AddMessage(' ')
                             
-                    # intersecting with lowest level admin
-                    arcpy.Intersect_analysis([pointFC, inFeatures],
-                                            intersectOut, "", "", "POINT")
-                    
-                    arcpy.AddMessage(' Intersecting {}\{}'.format(gdbName,
-                                                                pointFC.split('.')[0]))
-                    arcpy.AddMessage(' ')
+                    ## INTERSECT PROCESS ##
+                    if method.lower() == 'spatial':
+                        arcpy.analysis.SpatialJoin(pointFC, inFeatures, 
+                                                   intersectOut, "#", 
+                                                   "KEEP_ALL", "#", "INTERSECT")
+                        arcpy.AddMessage(' Intersecting {}\{}'.format(gdbName,
+                                                                    pointFC.split('.')[0]))
+                        arcpy.AddMessage(' ')
+                        
+                    else:
+                        # intersecting with lowest level admin
+                        arcpy.Intersect_analysis([pointFC, inFeatures],
+                                                intersectOut, "", "", "POINT")
+                        arcpy.AddMessage(' Intersecting {}\{}'.format(gdbName,
+                                                                    pointFC.split('.')[0]))
+                        arcpy.AddMessage(' ')
+                        
                     # delete unnecesary fields i.e. ADM0_EN; ADM1_EN
                     fields = arcpy.ListFields(pointFC, "ADM*")
                     for field in fields:
