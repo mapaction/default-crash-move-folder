@@ -20,6 +20,7 @@ elev,Elevation
 envi,Environmental aspects
 evnt,Event characteristics
 fsec,Food Security
+hazd,Hazard
 heal,Health and medical
 imgy,Imagery
 land,Land use
@@ -38,4 +39,5 @@ telc,Emergency Telecommunications
 tran,Transport
 sar,Search and rescue
 util,Utilities
+uxo,Unexploded ordnance and remenants of war
 wash,Water Sanitation and Hygiene

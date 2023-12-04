@@ -51,12 +51,22 @@ arcpy.env.outputZFlag = "Disabled"
 # Ask for inputs inside ArcPro
 # This need setting insidde the toolbox script properties
 inFeatures = arcpy.GetParameterAsText(0)
+
+# Pcode 
 ad1Mapping = arcpy.GetParameterAsText(1)
 ad2Mapping = arcpy.GetParameterAsText(2)
+
+# Admin names
+ad3Mapping = arcpy.GetParameterAsText(3)
+ad4Mapping = arcpy.GetParameterAsText(4)
+language = arcpy.GetParameterAsText(5)
 
 # Set the field and geodatabase names
 ADM1_PCODE = "ADM1_PCODE"
 ADM2_PCODE = "ADM2_PCODE"
+ADM1_LNG = f"ADM1_{language}"
+ADM2_LNG = f"ADM2_{language}"
+
 gdbName = "tempGDB.gdb"
 
 
@@ -85,6 +95,9 @@ arcpy.CopyFeatures_management(inFeatures, featureGDB)
 # Alfter field name including alias inside the geodatabase
 arcpy.AlterField_management(featureGDB, ad1Mapping, ADM1_PCODE, ADM1_PCODE)
 arcpy.AlterField_management(featureGDB, ad2Mapping, ADM2_PCODE, ADM2_PCODE)
+
+arcpy.AlterField_management(featureGDB, ad3Mapping, ADM1_LNG, ADM1_LNG)
+arcpy.AlterField_management(featureGDB, ad4Mapping, ADM2_LNG, ADM2_LNG)
 
 # Delete original shapefile
 arcpy.Delete_management(inFeatures)

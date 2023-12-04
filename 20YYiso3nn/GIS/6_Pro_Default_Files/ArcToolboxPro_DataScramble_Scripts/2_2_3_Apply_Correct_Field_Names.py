@@ -56,10 +56,23 @@ ad1Mapping = arcpy.GetParameterAsText(1)
 ad2Mapping = arcpy.GetParameterAsText(2)
 ad3Mapping = arcpy.GetParameterAsText(3)
 
+# Admin names
+ad4Mapping = arcpy.GetParameterAsText(4)
+ad5Mapping = arcpy.GetParameterAsText(5)
+ad6Mapping = arcpy.GetParameterAsText(6)
+
+language = arcpy.GetParameterAsText(7)
+
 # Set the field and geodatabase names
 ADM1_PCODE = "ADM1_PCODE"
 ADM2_PCODE = "ADM2_PCODE"
 ADM3_PCODE = "ADM3_PCODE"
+
+ADM1_LNG = f"ADM1_{language}"
+ADM2_LNG = f"ADM2_{language}"
+ADM3_LNG = f"ADM3_{language}"
+
+
 gdbName = "tempGDB.gdb"
 
 # Defining the right path were the files need to be at the end
@@ -89,6 +102,10 @@ arcpy.CopyFeatures_management(inFeatures, featureGDB)
 arcpy.AlterField_management(featureGDB, ad1Mapping, ADM1_PCODE, ADM1_PCODE)
 arcpy.AlterField_management(featureGDB, ad2Mapping, ADM2_PCODE, ADM2_PCODE)
 arcpy.AlterField_management(featureGDB, ad3Mapping, ADM3_PCODE, ADM3_PCODE)
+
+arcpy.AlterField_management(featureGDB, ad4Mapping, ADM1_LNG, ADM1_LNG)
+arcpy.AlterField_management(featureGDB, ad5Mapping, ADM2_LNG, ADM2_LNG)
+arcpy.AlterField_management(featureGDB, ad6Mapping, ADM3_LNG, ADM3_LNG)
 
 # Delete original shapefile
 arcpy.Delete_management(inFeatures)

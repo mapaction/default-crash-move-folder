@@ -1,9 +1,9 @@
 {
   "cmf_descriptor_path": "cmf_description.json",
-  "operation_name": "Replace-with-operation-name",
+  "operation_name": "Replace-with-operation-name ",
   "glide_number": "Replace-with-glide-number",
   "affected_country_iso3": "ISO",
-  "time_zone": "UTC+05:00",
+  "time_zone": "UTC-04:00",
   "language_iso2": "en",
   "operation_id": "year-iso-nnn",
   "default_source_organisation": "MapAction",
