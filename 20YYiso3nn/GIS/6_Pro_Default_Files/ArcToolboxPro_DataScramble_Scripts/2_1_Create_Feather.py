@@ -3,7 +3,7 @@
   
 Title          :2_1_Create_Feather.py
 Description    :Creates polygon use for feathering
-Author         :Tom H, Darren C and LF Velasquez
+Author         :Darren C and LF Velasquez
 Date           :2023-09-14
 Version        :1.0
 Usage          :Inside ArcPro as part of the MapAction_Data_Scramble_2023.atbx

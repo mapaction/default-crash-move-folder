@@ -72,6 +72,13 @@ try:
     # Move shp to gdb
     arcpy.env.workspace = str(Path(cmf / "202_admn"))
     fcList = arcpy.ListFeatureClasses("*py*")
+    
+    # Remove the wrl layer
+    for index, lyr_name in enumerate(fcList):
+        if 'wrl' in lyr_name:
+            fcList.pop(index)
+    
+    # Conver py to ln for each element in list
     for polyAdmin in fcList:
         polyAdmin_loc = str(Path(cmf / f'202_admn\{polyAdmin}'))
         
