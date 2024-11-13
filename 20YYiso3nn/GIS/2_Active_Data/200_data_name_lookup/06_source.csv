@@ -27,17 +27,21 @@ feat,Flash Environmental Assessment Tool
 fire,Fire Service
 gadm,GADM Global Administrative Areas
 gaul,Global Administrative Unit Layers
+ghsl,Global Human Settlement Layer
+geodar,Geodar
 geoeye,GeoEye
 gist,Geographic Information Support Team
 gaul,Global Administrative Unit Layers
 grump,Global Rural-Urban Mapping Project
 ge,Google Earth
+gmted,Global Multi-resolution Terrain Elevation Data 
 geobnd,geoboundaries.org
 googleearth,Google Earth
 govd,Government - regional
 govl,Government - local
 govn,Government - national
 gps,GPS
+gppd,Global power plant database
 gpw,Gridded Population of the World
 grump,Global Rural-Urban Mapping Project
 hit,Hazard Identification Tool
@@ -78,6 +82,7 @@ tdos,Tonga Department of Statistics
 trmm,Tropical Rainfall Measuring Mission
 tsf,Telecom Sans Frontier
 uncs,UN Cartographic Section
+un,United Nations
 undac,UN Disaster Assessment Coordination
 undp,UN Development Program
 unfis,UN-OCHA Field Information Services
