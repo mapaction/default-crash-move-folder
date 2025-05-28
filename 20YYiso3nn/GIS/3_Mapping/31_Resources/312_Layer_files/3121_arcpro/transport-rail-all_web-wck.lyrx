@@ -3,21 +3,22 @@
   "version" : "3.1.0",
   "build" : 41833,
   "layers" : [
-    "CIMPATH=main_map/mainmap_admn_ad3_py_s2_reference_en.json"
+    "CIMPATH=webmap_setup/railway.json"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "mainmap-admn-ad3-py-s2-reference",
-      "uRI" : "CIMPATH=main_map/mainmap_admn_ad3_py_s2_reference_en.json",
+      "name" : "Railway",
+      "uRI" : "CIMPATH=webmap_setup/railway.json",
       "sourceModifiedTime" : {
-        "type" : "TimeInstant"
+        "type" : "TimeInstant",
+        "start" : 978307200000
       },
-      "metadataURI" : "CIMPATH=Metadata/ae7e566056e4303bcd3c6caa6f77c946.xml",
+      "metadataURI" : "CIMPATH=Metadata/7190df58b83fd493666638cf830125b2.xml",
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "elevationSurfaceLayerURI" : "CIMPATH=main_map21/ground.json"
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/59ba8e66e2c74fc18bbce298c3999970.json"
       },
       "expanded" : true,
       "layerType" : "Operational",
@@ -31,55 +32,12 @@
       "refreshRateUnit" : "esriTimeUnitsSeconds",
       "blendingMode" : "Alpha",
       "allowDrapingOnIntegratedMesh" : true,
+      "autoGenerateFeatureTemplates" : true,
       "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "displayField" : "ADM1_EN",
-        "editable" : true,
-        "fieldDescriptions" : [
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "OBJECTID",
-            "fieldName" : "OBJECTID",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 0,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "SELF_ADMIN",
-            "fieldName" : "SELF_ADMIN",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "ST_RG",
-            "fieldName" : "ST_RG",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "TS_MMR4",
-            "fieldName" : "TS_MMR4",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "PCode_V",
-            "fieldName" : "PCode_V",
-            "visible" : true,
-            "searchMode" : "Exact"
-          }
-        ],
+        "displayField" : "name",
+        "editable" : false,
         "timeFields" : {
           "type" : "CIMTimeTableDefinition"
         },
@@ -95,9 +53,9 @@
         },
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\2_Active_Data\\202_admn",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\prepared_chl_wck\\GIS\\2_Active_Data\\232_tran",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "mmr_admn_ad3_py_s0_mimu_pp_mrui.shp",
+          "dataset" : "chl_tran_rrd_ln_s0_osm_pp_railways.shp",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -106,14 +64,16 @@
       "featureTemplates" : [
         {
           "type" : "CIMRowTemplate",
-          "name" : "lka_admn_ad2_py_s0_wfpocha_pp",
-          "tags" : "Polygon",
-          "defaultToolGUID" : "{8F79967B-66A0-4A1C-B884-F44BC7E26921}",
-          "defaultValues" : {
-            "type" : "PropertySet",
-            "propertySetItems" : [
-            ]
-          }
+          "name" : "Railway",
+          "tags" : "Line",
+          "defaultToolGUID" : "af2dbf8f-280e-44db-8860-e399d0b30cf1",
+          "excludedToolGUIDs" : [
+            "09c6f589-a3ce-48ab-81bc-46965c58f264",
+            "28c04532-3daf-4d3d-b7be-a589c9c9a03e",
+            "5664cae4-c7de-432a-9933-9586bc15ed39",
+            "6f0ed2cc-c099-4895-bd7e-beec2f78adbf",
+            "e00209dd-05c5-4424-be62-51581f9f811d"
+          ]
         }
       ],
       "htmlPopupEnabled" : true,
@@ -123,15 +83,16 @@
         "htmlPresentationStyle" : "TwoColumnTable"
       },
       "isFlattened" : true,
-      "selectable" : true,
+      "selectable" : false,
       "selectionSymbol" : {
         "type" : "CIMSymbolReference",
         "symbol" : {
-          "type" : "CIMPolygonSymbol",
+          "type" : "CIMLineSymbol",
           "symbolLayers" : [
             {
               "type" : "CIMSolidStroke",
               "enable" : true,
+              "name" : "Level_0",
               "capStyle" : "Round",
               "joinStyle" : "Round",
               "lineStyle3D" : "Strip",
@@ -147,8 +108,7 @@
                 ]
               }
             }
-          ],
-          "angleAlignment" : "Map"
+          ]
         }
       },
       "featureCacheType" : "None",
@@ -157,33 +117,30 @@
       "labelClasses" : [
         {
           "type" : "CIMLabelClass",
-          "expression" : "[ADM3_EN] &vbNewLine & [ADM3_PCODE] ",
+          "expression" : "[disp_scale]",
           "expressionEngine" : "VBScript",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
             "type" : "CIMMaplexLabelPlacementProperties",
-            "featureType" : "Polygon",
+            "featureType" : "Line",
             "avoidPolygonHoles" : true,
-            "canKeyNumberLabel" : true,
             "canOverrunFeature" : true,
-            "canPlaceLabelOutsidePolygon" : false,
-            "canReduceFontSize" : true,
+            "canPlaceLabelOutsidePolygon" : true,
             "canRemoveOverlappingLabel" : true,
             "canStackLabel" : true,
             "centerLabelAnchorType" : "Symbol",
             "connectionType" : "Unambiguous",
-            "constrainOffset" : "NoConstraint",
+            "constrainOffset" : "AboveLine",
             "contourAlignmentType" : "Page",
             "contourLadderType" : "Straight",
             "contourMaximumAngle" : 90,
-            "enableConnection" : true,
-            "featureWeight" : 100,
-            "fontHeightReductionLimit" : 6,
+            "enableConnection" : false,
+            "featureWeight" : 0,
+            "fontHeightReductionLimit" : 4,
             "fontHeightReductionStep" : 0.5,
             "fontWidthReductionLimit" : 90,
             "fontWidthReductionStep" : 5,
             "graticuleAlignmentType" : "Straight",
-            "isMinimumSizeBasedOnArea" : true,
             "keyNumberGroupName" : "Default",
             "labelBuffer" : 15,
             "labelLargestPolygon" : true,
@@ -210,17 +167,17 @@
               "trimStackingSeparators" : true
             },
             "lineFeatureType" : "General",
-            "linePlacementMethod" : "OffsetCurvedFromLine",
-            "maximumLabelOverrun" : 120,
+            "linePlacementMethod" : "OffsetStraightFromLine",
+            "maximumLabelOverrun" : 20,
             "maximumLabelOverrunUnit" : "Point",
             "minimumFeatureSizeUnit" : "Map",
-            "multiPartOption" : "OneLabelPerPart",
+            "multiPartOption" : "OneLabelPerFeature",
             "offsetAlongLineProperties" : {
               "type" : "CIMMaplexOffsetAlongLineProperties",
               "placementMethod" : "BestPositionAlongLine",
               "labelAnchorPoint" : "CenterOfLabel",
-              "distanceUnit" : "Percentage",
-              "useLineDirection" : true
+              "distanceUnit" : "Map",
+              "useLineDirection" : false
             },
             "pointExternalZonePriorities" : {
               "type" : "CIMMaplexExternalZonePriorities",
@@ -252,7 +209,7 @@
               "type" : "CIMMaplexInternalZonePriorities",
               "center" : 1
             },
-            "polygonPlacementMethod" : "HorizontalInPolygon",
+            "polygonPlacementMethod" : "CurvedInPolygon",
             "primaryOffset" : 1,
             "primaryOffsetUnit" : "Point",
             "removeAmbiguousLabels" : "All",
@@ -273,7 +230,6 @@
               "fontReduction" : 4,
               "abbreviation" : 5
             },
-            "thinDuplicateLabels" : true,
             "thinningDistanceUnit" : "Point",
             "truncationMarkerCharacter" : ".",
             "truncationMinimumLength" : 1,
@@ -281,7 +237,7 @@
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
           "name" : "Default",
-          "priority" : 6,
+          "priority" : 14,
           "standardLabelPlacementProperties" : {
             "type" : "CIMStandardLabelPlacementProperties",
             "featureType" : "Line",
@@ -334,33 +290,13 @@
               "fontEffects" : "Normal",
               "fontEncoding" : "Unicode",
               "fontFamilyName" : "Arial",
-              "fontStyleName" : "Bold",
+              "fontStyleName" : "Regular",
               "fontType" : "Unspecified",
               "haloSize" : 1,
-              "haloSymbol" : {
-                "type" : "CIMPolygonSymbol",
-                "symbolLayers" : [
-                  {
-                    "type" : "CIMSolidFill",
-                    "enable" : true,
-                    "color" : {
-                      "type" : "CIMRGBColor",
-                      "values" : [
-                        255,
-                        255,
-                        255,
-                        100
-                      ]
-                    }
-                  }
-                ],
-                "angleAlignment" : "Map"
-              },
-              "height" : 9,
+              "height" : 8,
               "hinting" : "Default",
-              "horizontalAlignment" : "Left",
+              "horizontalAlignment" : "Center",
               "kerning" : true,
-              "letterSpacing" : 25,
               "letterWidth" : 100,
               "ligatures" : true,
               "lineGapType" : "ExtraLeading",
@@ -382,9 +318,9 @@
                     "color" : {
                       "type" : "CIMRGBColor",
                       "values" : [
-                        132,
                         0,
-                        168,
+                        0,
+                        0,
                         100
                       ]
                     }
@@ -392,9 +328,9 @@
                 ],
                 "angleAlignment" : "Map"
               },
-              "textCase" : "Allcaps",
+              "textCase" : "Normal",
               "textDirection" : "LTR",
-              "verticalAlignment" : "Baseline",
+              "verticalAlignment" : "Bottom",
               "verticalGlyphOrientation" : "Right",
               "wordSpacing" : 100,
               "billboardMode3D" : "FaceNearPlane"
@@ -405,20 +341,35 @@
           "iD" : -1
         }
       ],
-      "labelVisibility" : true,
       "renderer" : {
         "type" : "CIMSimpleRenderer",
         "sampleSize" : 10000,
-        "label" : "admin 3",
+        "label" : "Railway",
         "patch" : "Default",
         "symbol" : {
           "type" : "CIMSymbolReference",
           "symbol" : {
-            "type" : "CIMPolygonSymbol",
+            "type" : "CIMLineSymbol",
             "symbolLayers" : [
               {
-                "type" : "CIMSolidFill",
+                "type" : "CIMSolidStroke",
+                "effects" : [
+                  {
+                    "type" : "CIMGeometricEffectDashes",
+                    "dashTemplate" : [
+                      3,
+                      3
+                    ],
+                    "lineDashEnding" : "NoConstraint",
+                    "controlPointEnding" : "NoConstraint"
+                  }
+                ],
                 "enable" : true,
+                "capStyle" : "Butt",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 0.40000000000000002,
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
@@ -428,33 +379,51 @@
                     100
                   ]
                 }
+              },
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "colorLocked" : true,
+                "capStyle" : "Butt",
+                "joinStyle" : "Miter",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 1.5,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    52,
+                    52,
+                    52,
+                    100
+                  ]
+                }
               }
-            ],
-            "angleAlignment" : "Map"
+            ]
           }
         }
       },
       "scaleSymbols" : false,
-      "snappable" : true
+      "snappable" : true,
+      "symbolLayerDrawing" : {
+        "type" : "CIMSymbolLayerDrawing"
+      }
     }
   ],
   "binaryReferences" : [
     {
       "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/ae7e566056e4303bcd3c6caa6f77c946.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>15493000</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-admn-ad3-py-s2-reference_en</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
+      "uRI" : "CIMPATH=Metadata/7190df58b83fd493666638cf830125b2.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>15330800</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>CHILE: Railways</resTitle></idCitation><idAbs>&lt;DIV STYLE=\"text-align:Left;font-size:12pt\"&gt;&lt;P&gt;&lt;SPAN&gt;The dataset represents the railways of Chile&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;</idAbs><idCredit>OpenStreetMap® is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF). </idCredit><idPurp>Railways of Chile</idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst><searchKeys><keyword>Railway</keyword></searchKeys></dataIdInfo></metadata>\r\n"
     }
   ],
-  "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
   "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
   "elevationSurfaceLayerDefinitions" : [
     {
       "type" : "CIMElevationSurfaceLayer",
       "name" : "Ground",
-      "uRI" : "CIMPATH=main_map21/ground.json",
-      "sourceModifiedTime" : {
-        "type" : "TimeInstant"
-      },
+      "uRI" : "CIMPATH=Map/59ba8e66e2c74fc18bbce298c3999970.json",
       "useSourceMetadata" : true,
       "description" : "Ground",
       "expanded" : true,
@@ -477,7 +446,7 @@
           255,
           255,
           255,
-          0
+          100
         ]
       },
       "surfaceTINShadingMode" : "Smooth"

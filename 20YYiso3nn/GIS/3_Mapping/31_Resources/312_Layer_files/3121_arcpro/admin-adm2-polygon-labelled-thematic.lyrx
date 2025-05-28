@@ -3,17 +3,18 @@
   "version" : "3.1.0",
   "build" : 41833,
   "layers" : [
-    "CIMPATH=main_map/mainmap_admn_ad3_py_s2_reference_en.json"
+    "CIMPATH=main_map/mainmap_admn_ad2_py_s1_reference_en.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "mainmap-admn-ad3-py-s2-reference",
-      "uRI" : "CIMPATH=main_map/mainmap_admn_ad3_py_s2_reference_en.json",
+      "name" : "mainmap-admn-ad2-py-s1-thematic",
+      "uRI" : "CIMPATH=main_map/mainmap_admn_ad2_py_s1_reference_en.xml",
       "sourceModifiedTime" : {
-        "type" : "TimeInstant"
+        "type" : "TimeInstant",
+        "start" : 978307200000
       },
-      "metadataURI" : "CIMPATH=Metadata/ae7e566056e4303bcd3c6caa6f77c946.xml",
+      "metadataURI" : "CIMPATH=Metadata/eee09f40141430c96deb03f745881a41.xml",
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
@@ -34,52 +35,8 @@
       "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "displayField" : "ADM1_EN",
+        "displayField" : "DT_MMR4",
         "editable" : true,
-        "fieldDescriptions" : [
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "OBJECTID",
-            "fieldName" : "OBJECTID",
-            "numberFormat" : {
-              "type" : "CIMNumericFormat",
-              "alignmentOption" : "esriAlignRight",
-              "alignmentWidth" : 0,
-              "roundingOption" : "esriRoundNumberOfDecimals",
-              "roundingValue" : 6
-            },
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "SELF_ADMIN",
-            "fieldName" : "SELF_ADMIN",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "ST_RG",
-            "fieldName" : "ST_RG",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "TS_MMR4",
-            "fieldName" : "TS_MMR4",
-            "visible" : true,
-            "searchMode" : "Exact"
-          },
-          {
-            "type" : "CIMFieldDescription",
-            "alias" : "PCode_V",
-            "fieldName" : "PCode_V",
-            "visible" : true,
-            "searchMode" : "Exact"
-          }
-        ],
         "timeFields" : {
           "type" : "CIMTimeTableDefinition"
         },
@@ -97,7 +54,7 @@
           "type" : "CIMStandardDataConnection",
           "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\2_Active_Data\\202_admn",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "mmr_admn_ad3_py_s0_mimu_pp_mrui.shp",
+          "dataset" : "mmr_admn_ad2_py_s0_mimu_pp_khayaing.shp",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -157,7 +114,7 @@
       "labelClasses" : [
         {
           "type" : "CIMLabelClass",
-          "expression" : "[ADM3_EN] &vbNewLine & [ADM3_PCODE] ",
+          "expression" : "[ADM2_EN] &vbNewLine & [ADM2_PCODE] ",
           "expressionEngine" : "VBScript",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
@@ -178,7 +135,7 @@
             "contourMaximumAngle" : 90,
             "enableConnection" : true,
             "featureWeight" : 100,
-            "fontHeightReductionLimit" : 6,
+            "fontHeightReductionLimit" : 7,
             "fontHeightReductionStep" : 0.5,
             "fontWidthReductionLimit" : 90,
             "fontWidthReductionStep" : 5,
@@ -186,7 +143,7 @@
             "isMinimumSizeBasedOnArea" : true,
             "keyNumberGroupName" : "Default",
             "labelBuffer" : 15,
-            "labelLargestPolygon" : true,
+            "labelLargestPolygon" : false,
             "labelPriority" : -1,
             "labelStackingProperties" : {
               "type" : "CIMMaplexLabelStackingProperties",
@@ -281,7 +238,7 @@
             "polygonAnchorPointPerimeterInsetUnit" : "Point"
           },
           "name" : "Default",
-          "priority" : 6,
+          "priority" : 14,
           "standardLabelPlacementProperties" : {
             "type" : "CIMStandardLabelPlacementProperties",
             "featureType" : "Line",
@@ -356,7 +313,7 @@
                 ],
                 "angleAlignment" : "Map"
               },
-              "height" : 9,
+              "height" : 10,
               "hinting" : "Default",
               "horizontalAlignment" : "Left",
               "kerning" : true,
@@ -382,15 +339,22 @@
                     "color" : {
                       "type" : "CIMRGBColor",
                       "values" : [
-                        132,
-                        0,
-                        168,
+                        78,
+                        78,
+                        78,
                         100
                       ]
                     }
                   }
                 ],
                 "angleAlignment" : "Map"
+              },
+              "symbol3DProperties" : {
+                "type" : "CIM3DSymbolProperties",
+                "dominantSizeAxis3D" : "Z",
+                "rotationOrder3D" : "YXZ",
+                "scaleZ" : 1,
+                "scaleY" : 1
               },
               "textCase" : "Allcaps",
               "textDirection" : "LTR",
@@ -409,7 +373,7 @@
       "renderer" : {
         "type" : "CIMSimpleRenderer",
         "sampleSize" : 10000,
-        "label" : "admin 3",
+        "label" : "Admin 2",
         "patch" : "Default",
         "symbol" : {
           "type" : "CIMSymbolReference",
@@ -441,8 +405,8 @@
   "binaryReferences" : [
     {
       "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/ae7e566056e4303bcd3c6caa6f77c946.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>15493000</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-admn-ad3-py-s2-reference_en</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit><idPurp></idPurp><resConst><Consts><useLimit></useLimit></Consts></resConst></dataIdInfo></metadata>\r\n"
+      "uRI" : "CIMPATH=Metadata/eee09f40141430c96deb03f745881a41.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\">\r\n\t<Esri>\r\n\t\t<CreaDate>20211007</CreaDate>\r\n\t\t<CreaTime>15494400</CreaTime>\r\n\t\t<ArcGISFormat>1.0</ArcGISFormat>\r\n\t\t<SyncOnce>TRUE</SyncOnce>\r\n\t</Esri>\r\n\t<dataIdInfo>\r\n\t\t<idCitation>\r\n\t\t\t<resTitle>mainmap-admn-ad2-py-s1-reference_en</resTitle>\r\n\t\t</idCitation>\r\n\t\t<idAbs>\r\n\t\t</idAbs>\r\n\t\t<idCredit>\r\n\t\t</idCredit>\r\n\t\t<idPurp>\r\n\t\t</idPurp>\r\n\t\t<resConst>\r\n\t\t\t<Consts>\r\n\t\t\t\t<useLimit>\r\n\t\t\t\t</useLimit>\r\n\t\t\t</Consts>\r\n\t\t</resConst>\r\n\t</dataIdInfo>\r\n</metadata>\r\n"
     }
   ],
   "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",

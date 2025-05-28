@@ -1,21 +1,21 @@
 {
   "cmf_descriptor_path": "cmf_description.json",
-  "operation_name": "Replace-with-operation-name ",
-  "glide_number": "Replace-with-glide-number",
-  "affected_country_iso3": "ISO",
+  "operation_name": "2024-usa-001",
+  "glide_number": "TC-2024-000176-USA",
+  "affected_country_iso3": "USA",
   "time_zone": "UTC-04:00",
   "language_iso2": "en",
-  "operation_id": "year-iso-nnn",
+  "operation_id": "2024-usa-001",
   "default_source_organisation": "MapAction",
   "default_source_organisation_url": "https://mapaction.org",
   "default_publishing_base_url": "https://maps.mapaction.org/dataset/",
   "deployment_primary_email": "info@mapaction.org",
-  "default_disclaimer_text": "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations or MapAction.",
-  "default_donor_credits": "Supported by German Federal Foreign Office",
+  "default_disclaimer_text": "The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by World Central Kitchen or MapAction.",
+  "default_donor_credits": "Supported by the German Federal Foreign Office.",
   "default_jpeg_res_dpi": "300",
   "default_pdf_res_dpi": "300",
   "default_emf_res_dpi": "200",
   "donors": [
-    "German Federal Foreign Office "
+    "the German Federal Foreign Office"
   ]
 }

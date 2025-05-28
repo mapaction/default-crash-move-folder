@@ -195,3 +195,8 @@ pwl,Power Line,util
 rsq,Rescue services / coast guards,util
 san,Sanitation / waste facilities / landfill,util
 was,Water and sanitation,wash
+eqr,Earthquake risk,hazd
+flr,Flood risk,hazd
+lsr,Landslide risk,hazd
+dgr,Drought risk,hazd
+hcr,Hurricane\Cylone risk,hazd
