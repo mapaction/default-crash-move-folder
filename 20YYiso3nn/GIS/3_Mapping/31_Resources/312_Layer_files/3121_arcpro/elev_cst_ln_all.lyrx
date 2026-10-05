@@ -1,25 +1,25 @@
 {
   "type" : "CIMLayerDocument",
-  "version" : "2.8.0",
-  "build" : 29751,
+  "version" : "3.4.0",
+  "build" : 55405,
   "layers" : [
     "CIMPATH=main_map/mainmap_elev_cst_ln_s0_allmaps.xml"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "Coastline",
+      "name" : "elev_cst_ln_all",
       "uRI" : "CIMPATH=main_map/mainmap_elev_cst_ln_s0_allmaps.xml",
       "sourceModifiedTime" : {
-        "type" : "TimeInstant"
+        "type" : "TimeInstant",
+        "start" : -62135596800000
       },
-      "metadataURI" : "CIMPATH=Metadata/f33eab8ac0fc179d1c31016b4f6c14ad.xml",
+      "metadataURI" : "CIMPATH=Metadata/a34668064f4ca2feb5858d82ec5d9b64.xml",
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce"
+        "elevationSurfaceLayerURI" : "CIMPATH=main_map21/ground.json"
       },
-      "expanded" : true,
       "layerType" : "Operational",
       "showLegends" : true,
       "visibility" : true,
@@ -34,7 +34,7 @@
       "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "displayField" : "LEFT_FID",
+        "displayField" : "Shape_Leng",
         "editable" : true,
         "timeFields" : {
           "type" : "CIMTimeTableDefinition"
@@ -51,9 +51,9 @@
         },
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\prepared-country-data\\bangladesh\\GIS\\2_Active_Data\\211_elev",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\2026-ven-001\\GIS\\2_Active_Data\\211_elev",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "bgd_elev_cst_ln_s0_gadm_pp_coastline",
+          "dataset" : "ven_elev_cst_ln_s0_ine_pp_coastline.shp",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -61,10 +61,10 @@
       },
       "featureTemplates" : [
         {
-          "type" : "CIMFeatureTemplate",
+          "type" : "CIMRowTemplate",
           "name" : "aoi_elev_cst_ln_s0_mapaction_pp_coastline",
           "tags" : "Line",
-          "toolProgID" : "af2dbf8f-280e-44db-8860-e399d0b30cf1",
+          "defaultToolGUID" : "af2dbf8f-280e-44db-8860-e399d0b30cf1",
           "defaultValues" : {
             "type" : "PropertySet",
             "propertySetItems" : [
@@ -99,6 +99,8 @@
               "lineStyle3D" : "Strip",
               "miterLimit" : 10,
               "width" : 2,
+              "height3D" : 1,
+              "anchor3D" : "Center",
               "color" : {
                 "type" : "CIMRGBColor",
                 "values" : [
@@ -115,6 +117,7 @@
       "featureCacheType" : "None",
       "displayFiltersType" : "ByScale",
       "featureBlendingMode" : "Alpha",
+      "layerEffectsMode" : "Layer",
       "labelClasses" : [
         {
           "type" : "CIMLabelClass",
@@ -129,6 +132,7 @@
             "canPlaceLabelOutsidePolygon" : true,
             "canRemoveOverlappingLabel" : true,
             "canStackLabel" : true,
+            "centerLabelAnchorType" : "Symbol",
             "connectionType" : "MinimizeLabels",
             "constrainOffset" : "AboveLine",
             "contourAlignmentType" : "Page",
@@ -170,6 +174,7 @@
             "linePlacementMethod" : "OffsetStraightFromLine",
             "maximumLabelOverrun" : 16,
             "maximumLabelOverrunUnit" : "Point",
+            "measureFromClippedFeatureGeometry" : true,
             "minimumFeatureSizeUnit" : "Map",
             "multiPartOption" : "OneLabelPerFeature",
             "offsetAlongLineProperties" : {
@@ -212,6 +217,7 @@
             "polygonPlacementMethod" : "CurvedInPolygon",
             "primaryOffset" : 1,
             "primaryOffsetUnit" : "Point",
+            "removeAmbiguousLabels" : "All",
             "removeExtraWhiteSpace" : true,
             "repetitionIntervalUnit" : "Map",
             "rotationProperties" : {
@@ -220,6 +226,7 @@
               "alignmentType" : "Straight"
             },
             "secondaryOffset" : 100,
+            "secondaryOffsetUnit" : "Percentage",
             "strategyPriorities" : {
               "type" : "CIMMaplexStrategyPriorities",
               "stacking" : 1,
@@ -323,7 +330,8 @@
                       ]
                     }
                   }
-                ]
+                ],
+                "angleAlignment" : "Map"
               },
               "textCase" : "Normal",
               "textDirection" : "LTR",
@@ -340,6 +348,7 @@
       ],
       "renderer" : {
         "type" : "CIMSimpleRenderer",
+        "sampleSize" : 10000,
         "label" : "Coastline",
         "patch" : "Default",
         "symbol" : {
@@ -354,7 +363,9 @@
                 "joinStyle" : "Round",
                 "lineStyle3D" : "Strip",
                 "miterLimit" : 10,
-                "width" : 0.5,
+                "width" : 1,
+                "height3D" : 1,
+                "anchor3D" : "Center",
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
@@ -376,17 +387,51 @@
   "binaryReferences" : [
     {
       "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/f33eab8ac0fc179d1c31016b4f6c14ad.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>14453100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-elev-cst-ln-s0-allmaps</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+      "uRI" : "CIMPATH=Metadata/a34668064f4ca2feb5858d82ec5d9b64.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\">\r\n\t<Esri>\r\n\t\t<CreaDate>20211007</CreaDate>\r\n\t\t<CreaTime>14453100</CreaTime>\r\n\t\t<ArcGISFormat>1.0</ArcGISFormat>\r\n\t\t<SyncOnce>TRUE</SyncOnce>\r\n\t</Esri>\r\n\t<dataIdInfo>\r\n\t\t<idCitation>\r\n\t\t\t<resTitle>mainmap-elev-cst-ln-s0-allmaps</resTitle>\r\n\t\t</idCitation>\r\n\t\t<idAbs>\r\n\t\t</idAbs>\r\n\t\t<idCredit>\r\n\t\t</idCredit>\r\n\t</dataIdInfo>\r\n</metadata>\r\n"
     }
   ],
-  "elevationSurfaces" : [
+  "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
     {
-      "type" : "CIMMapElevationSurface",
-      "elevationMode" : "BaseGlobeSurface",
+      "type" : "CIMElevationSurfaceLayer",
       "name" : "Ground",
+      "uRI" : "CIMPATH=main_map21/ground.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layer3DProperties" : {
+        "type" : "CIM3DLayerProperties",
+        "castShadows" : true,
+        "isLayerLit" : true,
+        "layerFaceCulling" : "None",
+        "preloadTextureCutoffHigh" : 0.29999999999999999,
+        "preloadTextureCutoffLow" : 0.59999999999999998,
+        "textureCutoffHigh" : 0.29999999999999999,
+        "textureCutoffLow" : 0.59999999999999998,
+        "useCompressedTextures" : true,
+        "verticalExaggeration" : 1,
+        "exaggerationMode" : "ScaleZ",
+        "lighting" : "OneSideDataNormal",
+        "optimizeMarkerTransparency" : true
+      },
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
       "verticalExaggeration" : 1,
-      "mapElevationID" : "bf43c0de88ff4f52b2aff979f431ecce",
       "color" : {
         "type" : "CIMRGBColor",
         "values" : [
@@ -396,11 +441,7 @@
           0
         ]
       },
-      "surfaceTINShadingMode" : "Smooth",
-      "visibility" : true,
-      "expanded" : true
+      "surfaceTINShadingMode" : "Smooth"
     }
-  ],
-  "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
-  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+  ]
 }

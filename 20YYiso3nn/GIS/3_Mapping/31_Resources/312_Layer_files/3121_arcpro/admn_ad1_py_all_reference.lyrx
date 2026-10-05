@@ -1,14 +1,14 @@
 {
   "type" : "CIMLayerDocument",
-  "version" : "3.1.0",
-  "build" : 41833,
+  "version" : "3.4.0",
+  "build" : 55405,
   "layers" : [
     "CIMPATH=main_map/mainmap_admn_ad1_py_s0_reference.json"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "Admin 1",
+      "name" : "admn_ad1_py_all_reference",
       "uRI" : "CIMPATH=main_map/mainmap_admn_ad1_py_s0_reference.json",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
@@ -53,7 +53,7 @@
           "type" : "CIMStandardDataConnection",
           "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\2_Active_Data\\202_admn",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "mmr_admn_ad1_py_s0_mimu_pp_subdivisions.shp",
+          "dataset" : "ven_admn_ad1_py_s1_ine_pp_state_fixGeom",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -88,6 +88,8 @@
               "lineStyle3D" : "Strip",
               "miterLimit" : 10,
               "width" : 2,
+              "height3D" : 1,
+              "anchor3D" : "Center",
               "color" : {
                 "type" : "CIMRGBColor",
                 "values" : [
@@ -105,10 +107,11 @@
       "featureCacheType" : "None",
       "displayFiltersType" : "ByScale",
       "featureBlendingMode" : "Alpha",
+      "layerEffectsMode" : "Layer",
       "labelClasses" : [
         {
           "type" : "CIMLabelClass",
-          "expression" : "[ADM1_EN] &vbNewLine & [ADM1_PCODE]",
+          "expression" : "[ADM1_PCODE]",
           "expressionEngine" : "VBScript",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
@@ -162,7 +165,7 @@
             },
             "lineFeatureType" : "General",
             "linePlacementMethod" : "OffsetCurvedFromLine",
-            "maximumLabelOverrun" : 110,
+            "maximumLabelOverrun" : 0,
             "maximumLabelOverrunUnit" : "Point",
             "minimumFeatureSizeUnit" : "Map",
             "multiPartOption" : "OneLabelPerPart",
@@ -408,6 +411,21 @@
       "useSourceMetadata" : true,
       "description" : "Ground",
       "expanded" : true,
+      "layer3DProperties" : {
+        "type" : "CIM3DLayerProperties",
+        "castShadows" : true,
+        "isLayerLit" : true,
+        "layerFaceCulling" : "None",
+        "preloadTextureCutoffHigh" : 0.29999999999999999,
+        "preloadTextureCutoffLow" : 0.59999999999999998,
+        "textureCutoffHigh" : 0.29999999999999999,
+        "textureCutoffLow" : 0.59999999999999998,
+        "useCompressedTextures" : true,
+        "verticalExaggeration" : 1,
+        "exaggerationMode" : "ScaleZ",
+        "lighting" : "OneSideDataNormal",
+        "optimizeMarkerTransparency" : true
+      },
       "layerType" : "Operational",
       "showLegends" : false,
       "visibility" : true,

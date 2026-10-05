@@ -8,16 +8,17 @@
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
-      "name" : "Surrounding Countries",
+      "name" : "admn_adx_py_all_reference",
       "uRI" : "CIMPATH=main_map/mainmap_admn_ad0_py_s0_surroundingcountries.xml",
       "sourceModifiedTime" : {
-        "type" : "TimeInstant"
+        "type" : "TimeInstant",
+        "start" : -62135596800000
       },
-      "metadataURI" : "CIMPATH=Metadata/44ffd6d82591750d303b8da1739c451e.xml",
+      "metadataURI" : "CIMPATH=Metadata/1f9ae441e1ee6b828025dec414a475e4.xml",
       "useSourceMetadata" : false,
       "layerElevation" : {
         "type" : "CIMLayerElevationSurface",
-        "elevationSurfaceLayerURI" : "CIMPATH=location_map21/ground.json"
+        "elevationSurfaceLayerURI" : "CIMPATH=main_map21/ground.json"
       },
       "expanded" : true,
       "layerType" : "Operational",
@@ -34,7 +35,6 @@
       "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "definitionExpression" : "\"ADM0_EN\" <> 'Libya'",
         "displayField" : "ISO3CD",
         "editable" : true,
         "timeFields" : {
@@ -52,9 +52,9 @@
         },
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\2026\\2026-fsm-001\\GIS\\2_Active_Data\\202_admn",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\2_Active_Data\\202_admn",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "wrl_admn_ad0_py_s0_un_pp_worldcountries.shp",
+          "dataset" : "wrl_admn_adx_py_s0_un_pp_worldcountries",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -399,8 +399,8 @@
   "binaryReferences" : [
     {
       "type" : "CIMBinaryReference",
-      "uRI" : "CIMPATH=Metadata/44ffd6d82591750d303b8da1739c451e.xml",
-      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20211007</CreaDate><CreaTime>14453100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri><dataIdInfo><idCitation><resTitle>mainmap-admn-ad0-py-s0-surroundingcountries</resTitle></idCitation><idAbs></idAbs><idCredit></idCredit></dataIdInfo></metadata>\r\n"
+      "uRI" : "CIMPATH=Metadata/1f9ae441e1ee6b828025dec414a475e4.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\">\r\n\t<Esri>\r\n\t\t<CreaDate>20211007</CreaDate>\r\n\t\t<CreaTime>14453100</CreaTime>\r\n\t\t<ArcGISFormat>1.0</ArcGISFormat>\r\n\t\t<SyncOnce>TRUE</SyncOnce>\r\n\t</Esri>\r\n\t<dataIdInfo>\r\n\t\t<idCitation>\r\n\t\t\t<resTitle>mainmap-admn-ad0-py-s0-surroundingcountries</resTitle>\r\n\t\t</idCitation>\r\n\t\t<idAbs>\r\n\t\t</idAbs>\r\n\t\t<idCredit>\r\n\t\t</idCredit>\r\n\t</dataIdInfo>\r\n</metadata>\r\n"
     }
   ],
   "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
@@ -409,13 +409,28 @@
     {
       "type" : "CIMElevationSurfaceLayer",
       "name" : "Ground",
-      "uRI" : "CIMPATH=location_map21/ground.json",
+      "uRI" : "CIMPATH=main_map21/ground.json",
       "sourceModifiedTime" : {
         "type" : "TimeInstant"
       },
       "useSourceMetadata" : true,
       "description" : "Ground",
       "expanded" : true,
+      "layer3DProperties" : {
+        "type" : "CIM3DLayerProperties",
+        "castShadows" : true,
+        "isLayerLit" : true,
+        "layerFaceCulling" : "None",
+        "preloadTextureCutoffHigh" : 0.29999999999999999,
+        "preloadTextureCutoffLow" : 0.59999999999999998,
+        "textureCutoffHigh" : 0.29999999999999999,
+        "textureCutoffLow" : 0.59999999999999998,
+        "useCompressedTextures" : true,
+        "verticalExaggeration" : 1,
+        "exaggerationMode" : "ScaleZ",
+        "lighting" : "OneSideDataNormal",
+        "optimizeMarkerTransparency" : true
+      },
       "layerType" : "Operational",
       "showLegends" : false,
       "visibility" : true,

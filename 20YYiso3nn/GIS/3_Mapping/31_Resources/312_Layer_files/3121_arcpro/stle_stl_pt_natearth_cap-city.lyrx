@@ -1,15 +1,15 @@
 {
   "type" : "CIMLayerDocument",
-  "version" : "3.4.0",
-  "build" : 55405,
+  "version" : "3.6.0",
+  "build" : 59527,
   "layers" : [
-    "CIMPATH=main_map/pak_stle_stl_pt_s0_naturalearth_pp_maincities.xml"
+    "CIMPATH=Main_map/Settlements__Natural_Earth_2.json"
   ],
   "layerDefinitions" : [
     {
       "type" : "CIMFeatureLayer",
       "name" : "Settlements (Natural Earth)",
-      "uRI" : "CIMPATH=main_map/pak_stle_stl_pt_s0_naturalearth_pp_maincities.xml",
+      "uRI" : "CIMPATH=Main_map/Settlements__Natural_Earth_2.json",
       "sourceModifiedTime" : {
         "type" : "TimeInstant",
         "start" : 978307200000
@@ -37,22 +37,13 @@
       "featureElevationExpression" : "0",
       "featureTable" : {
         "type" : "CIMFeatureTable",
-        "definitionExpression" : "NAME <> 'Gilgit'",
-        "definitionExpressionName" : "Query 1",
-        "definitionFilterChoices" : [
-          {
-            "type" : "CIMDefinitionFilter",
-            "name" : "Query 1",
-            "definitionExpression" : "NAME <> 'Gilgit'"
-          }
-        ],
         "displayField" : "NAME",
         "editable" : false,
         "dataConnection" : {
           "type" : "CIMStandardDataConnection",
-          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\2026\\2026-moz-001\\GIS\\2_Active_Data\\229_stle",
+          "workspaceConnectionString" : "DATABASE=..\\..\\..\\..\\..\\..\\2026\\2026-mdg-001\\GIS\\2_Active_Data\\229_stle",
           "workspaceFactory" : "Shapefile",
-          "dataset" : "reg_stle_ste_py_s0_naturalearthdata_pp.shp",
+          "dataset" : "mdg_stle_stl_pt_s0_naturalearth_pp_maincities.shp",
           "datasetType" : "esriDTFeatureClass"
         },
         "studyAreaSpatialRel" : "esriSpatialRelUndefined",
@@ -96,8 +87,8 @@
         {
           "type" : "CIMLabelClass",
           "expressionTitle" : "Custom",
-          "expression" : "$feature.NAME",
-          "expressionEngine" : "Arcade",
+          "expression" : "[NAME]",
+          "expressionEngine" : "VBScript",
           "featuresToLabel" : "AllVisibleFeatures",
           "maplexLabelPlacementProperties" : {
             "type" : "CIMMaplexLabelPlacementProperties",
@@ -144,7 +135,8 @@
                   "splitAfter" : true
                 }
               ],
-              "trimStackingSeparators" : true
+              "trimStackingSeparators" : true,
+              "preferToStackLongLabels" : true
             },
             "lineFeatureType" : "General",
             "linePlacementMethod" : "OffsetCurvedFromLine",
@@ -359,7 +351,8 @@
                   "splitAfter" : true
                 }
               ],
-              "trimStackingSeparators" : true
+              "trimStackingSeparators" : true,
+              "preferToStackLongLabels" : true
             },
             "lineFeatureType" : "General",
             "linePlacementMethod" : "OffsetCurvedFromLine",
@@ -602,7 +595,8 @@
                   "splitAfter" : true
                 }
               ],
-              "trimStackingSeparators" : true
+              "trimStackingSeparators" : true,
+              "preferToStackLongLabels" : true
             },
             "lineFeatureType" : "General",
             "linePlacementMethod" : "OffsetCurvedFromLine",
@@ -849,7 +843,7 @@
                                 2
                               ],
                               [
-                                1.0758021076153718e-15,
+                                1.1044549435724839e-15,
                                 0
                               ],
                               0,
@@ -2130,7 +2124,7 @@
                                         2
                                       ],
                                       [
-                                        9.9631668163630439e-16,
+                                        1.2255244955506137e-15,
                                         0
                                       ],
                                       0,
@@ -2193,7 +2187,7 @@
                                         2
                                       ],
                                       [
-                                        9.9631668163630439e-16,
+                                        1.2255244955506137e-15,
                                         0
                                       ],
                                       0,
@@ -2302,6 +2296,21 @@
       "useSourceMetadata" : true,
       "description" : "Ground",
       "expanded" : true,
+      "layer3DProperties" : {
+        "type" : "CIM3DLayerProperties",
+        "castShadows" : true,
+        "isLayerLit" : true,
+        "layerFaceCulling" : "None",
+        "preloadTextureCutoffHigh" : 0.29999999999999999,
+        "preloadTextureCutoffLow" : 0.59999999999999998,
+        "textureCutoffHigh" : 0.29999999999999999,
+        "textureCutoffLow" : 0.59999999999999998,
+        "useCompressedTextures" : true,
+        "verticalExaggeration" : 1,
+        "exaggerationMode" : "ScaleZ",
+        "lighting" : "OneSideDataNormal",
+        "optimizeMarkerTransparency" : true
+      },
       "layerType" : "Operational",
       "showLegends" : false,
       "visibility" : true,
